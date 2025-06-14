@@ -12,7 +12,7 @@ import frame8 from "../../../public/assets/images/Frame 44.png";
 import frame9 from "../../../public/assets/images/Frame1.png";
 import frame10 from "../../../public/assets/images/Frame 48.png";
 import frame11 from "../../../public/assets/images/Frame 50.png";
-import frame12 from "../../../public/assets/images/Frame 32.png";
+import frame52 from "../../../public/assets/images/Frame 52.png";
 import Image from "next/image";
 import Link from "next/link";
 import { useRouter } from "next/navigation";
@@ -265,16 +265,30 @@ const KilimanjaroTours = () => {
       </section>
 
       {/* Call to Action Section */}
-      <section className="bg-gray-900 py-20">
-        <div className="max-w-4xl mx-auto px-4 text-center">
-          <h2 className="text-4xl font-bold text-white mb-6">
+      <section className="relative mb-6  md:h-[85vh] h-[50vh] overflow-hidden">
+        {/* Background Image */}
+        <div className="absolute inset-0">
+          <Image
+            src={frame52}
+            alt="Kilimanjaro background"
+            className="object-cover"
+            fill
+            priority
+          />
+          {/* Dark overlay for better text readability */}
+          <div className="absolute inset-0 bg-black/60"></div>
+        </div>
+
+        {/* Content */}
+        <div className="absolute w-full z-10  left-1/2 -translate-x-1/2 px-4 bottom-3 text-center">
+          <h2 className="text-xl font-bold text-white mb-1">
             Ready to Conquer Kilimanjaro?
           </h2>
-          <p className="text-xl text-gray-300 mb-8">
+          <p className="text-lg text-gray-300 mb-2">
             Choose your route and start your journey to the roof of Africa
             today.
           </p>
-          <button className="inline-flex items-center px-10 py-4 bg-[#68AC33] text-white rounded-full text-lg font-semibold hover:bg-[#68AC33]  transition-colors">
+          <button className="inline-flex items-center px-6 py-2 bg-[#68AC33] text-white rounded-full text-sm font-semibold hover:bg-[#68AC33] transition-colors">
             Start Planning Your Adventure
             <ArrowRight className="ml-3 w-6 h-6" />
           </button>

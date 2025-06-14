@@ -9,7 +9,7 @@ const Footer = () => {
       style={{
         background: "linear-gradient(135deg, #F8FFF3 0%, #D9EDD9 100%)",
       }}
-      className="pt-16"
+      className="pt-16 relative z-10"
     >
       <div className="max-w-7xl mx-auto">
         {/* Main Footer Content */}
