@@ -86,14 +86,14 @@ const KilimanjaroTours = () => {
 
   return (
     <div className="min-h-screen bg-gray-50">
-      <section className="bg-white py-16">
+      <section className="bg-white pt-16 pb-0 md:pb-16">
         <div className=" mx-auto px-4">
           <h1 className="text-2xl md:text-3xl font-md text-gray-900 mb-12">
             Mount Kilimanjaro Tours, Routes & Packages
           </h1>
 
           {/* Image Grid */}
-          <div className="grid md:grid-cols-4 grid-cols-3 gap-4 mb-12 h-[80vh]">
+          <div className="grid md:grid-cols-4 grid-cols-3 gap-4 md:mb-12 h-[75vh]">
             {/* Left - Large Giraffe image (spans 2 columns and full height) */}
             <div className="col-span-2 rounded-3xl overflow-hidden shadow-xl relative">
               <Image
@@ -141,7 +141,7 @@ const KilimanjaroTours = () => {
 
               {/* Button below the image */}
               <div className="flex justify-center mt-4 ">
-                <button className="text-black shadow-lg px-8 py-4 w-full md:w-auto rounded-xl flex items-center justify-center md:justify-normal gap-2 transition-all duration-200 text-sm">
+                <button className="text-white bg-[#68AC33]  px-6 py-3 w-full md:w-auto rounded-2xl flex items-center justify-center md:justify-normal gap-2 transition-all duration-200 text-sm">
                   <CiGrid41 size={22} />
                   <span className="whitespace-nowrap text-xl">
                     View the experience
