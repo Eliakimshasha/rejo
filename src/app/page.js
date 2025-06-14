@@ -85,7 +85,7 @@ const Home = () => {
                 {experience.description}
               </p>
 
-              <button className="inline-flex items-center gap-3 bg-[#68AC33] hover:bg-green-600 text-white font-semibold px-8 py-2 rounded-full transition-colors duration-200 ">
+              <button className="inline-flex items-center gap-3 bg-[#68AC33] hover:bg-[#559426] text-white font-semibold px-8 py-2 rounded-full transition-colors duration-200 ">
                 Book Now
                 <svg
                   width="20"
@@ -110,18 +110,18 @@ const Home = () => {
         <div className="flex flex-col lg:flex-row items-center gap-12">
           {/* Left Content */}
           <div className="flex-1 space-y-8 z-10 relative flex flex-col items-center lg:items-start">
-            <div className="md:space-y-6 space-y-3">
+            <div className="md:space-y-1 space-y-3">
               <h2 className="md:text-[54px] text-[40px] text-center md:text-start  text-gray-900 leading-tight">
                 Let's Plan Your trip
               </h2>
 
-              <p className="md:text-[30px] text-center md:text-start  text-gray-700 leading-relaxed ">
+              <p className="md:text-[17px] text-center md:text-start  text-gray-700 leading-relaxed ">
                 Tell us a bit about your dream getaway, and we'll handle the
                 rest.
               </p>
             </div>
 
-            <button className="inline-flex items-center gap-3  bg-[#68AC33] hover:bg-green-600 text-white font-semibold px-8 py-4 rounded-full transition-all duration-300 hover:shadow-lg hover:scale-105">
+            <button className="inline-flex items-center gap-3  bg-[#68AC33]  hover:bg-[#559426] text-white font-semibold px-8 py-4 rounded-full transition-all duration-300 hover:shadow-sm hover:scale-105">
               Customize My Trip
               <svg
                 width="20"

@@ -87,7 +87,7 @@ const Header = () => {
                   transitionDelay: isMenuOpen ? "300ms" : "0ms",
                 }}
               >
-                <button className="bg-[#68AC33] hover:bg-green-600 text-white px-6 py-2 rounded-full transition-colors duration-200 font-medium text-sm">
+                <button className="bg-[#68AC33] hover:bg-[#559426] text-white px-6 py-2 rounded-full transition-colors duration-200 font-medium text-sm">
                   Host with us
                 </button>
               </div>
@@ -175,7 +175,7 @@ const Header = () => {
                 transitionDelay: isMenuOpen ? "600ms" : "0ms",
               }}
             >
-              <button className="w-full bg-[#68AC33] hover:bg-green-600 text-white px-6 py-3 rounded-full transition-colors duration-200 font-medium">
+              <button className="w-full bg-[#68AC33] hover:bg-[#559426] text-white px-6 py-3 rounded-full transition-colors duration-200 font-medium">
                 Host with us
               </button>
             </div>
