@@ -65,7 +65,7 @@ const Header = () => {
             <div className="flex items-center space-x-4">
               {/* Desktop CTA and Profile - Toggle with menu */}
               <div
-                className="hidden md:flex items-center space-x-6 transition-all duration-300  opacity-100 transform translate-x-0 "
+                className=" md:flex items-center space-x-6 transition-all duration-300  opacity-100 transform translate-x-0 "
                 style={{
                   transitionDelay: isMenuOpen ? "300ms" : "0ms",
                 }}
