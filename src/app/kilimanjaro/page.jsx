@@ -1,4 +1,4 @@
-'use client';
+"use client";
 import React from "react";
 import { ArrowRight } from "lucide-react";
 import frame1 from "../../../public/assets/images/Frame 31.png";
@@ -128,7 +128,7 @@ const KilimanjaroTours = () => {
             </div>
 
             {/* Right - Large Summit success image with button overlay */}
-            <div className="flex flex-col  h-full">
+            <div className="flex flex-col h-[70%] md:h-full md:col-span-1 col-span-3">
               {/* Image container */}
               <div className="rounded-3xl overflow-hidden shadow-xl relative flex-1">
                 <Image
@@ -140,10 +140,10 @@ const KilimanjaroTours = () => {
               </div>
 
               {/* Button below the image */}
-              <div className="flex justify-center mt-4">
-                <button className="text-black shadow-lg px-8 py-4 rounded-xl flex items-center gap-2 transition-all duration-200 text-sm">
+              <div className="flex justify-center mt-4 ">
+                <button className="text-black shadow-lg px-8 py-4 w-full md:w-auto rounded-xl flex items-center justify-center md:justify-normal gap-2 transition-all duration-200 text-sm">
                   <CiGrid41 size={22} />
-                  <span className=" whitespace-nowrap text-xl">
+                  <span className="whitespace-nowrap text-xl">
                     View the experience
                   </span>
                   <svg
@@ -250,7 +250,7 @@ const KilimanjaroTours = () => {
                     {route.description}
                   </p>
 
-                  <button 
+                  <button
                     onClick={() => handleBookNow(route.id)}
                     className="inline-flex items-center px-8 py-3 bg-[#68AC33] text-white rounded-full font-semibold hover:bg-[#68AC33] transition-colors cursor-pointer"
                   >
