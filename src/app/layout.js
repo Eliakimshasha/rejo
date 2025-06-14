@@ -4,12 +4,12 @@ import Header from "../../components/Header";
 import Footer from "../../components/Footer";
 
 const geistSans = Geist({
-  variable: "--font-geist-sans",
+  variable: "Anaheim",
   subsets: ["latin"],
 });
 
 const geistMono = Geist_Mono({
-  variable: "--font-geist-mono",
+  variable: "Anaheim",
   subsets: ["latin"],
 });
 
