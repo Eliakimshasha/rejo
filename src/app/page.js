@@ -37,6 +37,19 @@ const Home = () => {
 
   return (
     <div className="max-w-7xl mx-auto px-4 py-12 space-y-16">
+      <div className="max-w-7xl mx-auto px-4 py-20">
+        <div className="text-center space-y-8">
+          <h1 className="text-[40px] text-gray-900 leading-tight">
+            Memorable Experiences, One Day at a Time 🌍✨
+          </h1>
+
+          <p className="text-[20px] text-gray-700 leading-relaxed max-w-5xl mx-auto">
+            Explore Enriching Experiences That Go Beyond Just A Day. Whether
+            It's A Weekend Escape, A Cultural Journey, Or A Wellness Retreat,
+            Each Trip Is Designed To Leave A Lasting Impression.
+          </p>
+        </div>
+      </div>
       {experiences.map((experience, index) => (
         <div
           key={experience.id}
@@ -93,7 +106,7 @@ const Home = () => {
       ))}
 
       {/* Trip Planning Section */}
-      <div className="bg-gradient-to-br from-green-50 to-blue-50 rounded-3xl p-8 lg:p-12 relative overflow-hidden">
+      <div className="bg-[#F8FFF3] rounded-3xl p-8 lg:p-12 relative overflow-hidden">
         <div className="flex flex-col lg:flex-row items-center gap-12">
           {/* Left Content */}
           <div className="flex-1 space-y-8 z-10 relative flex flex-col items-center lg:items-start">
