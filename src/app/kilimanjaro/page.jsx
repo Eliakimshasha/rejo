@@ -265,7 +265,7 @@ const KilimanjaroTours = () => {
       </section>
 
       {/* Call to Action Section */}
-      <section className="relative mb-6  md:h-[85vh] h-[50vh] overflow-hidden">
+      <section className="relative  md:h-[85vh] h-[50vh] overflow-hidden">
         {/* Background Image */}
         <div className="absolute inset-0">
           <Image
