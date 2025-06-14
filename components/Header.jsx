@@ -16,12 +16,12 @@ const Header = () => {
   };
 
   const menuItems = [
-    "Travel Style",
-    "Destination",
-    "Mt.Kilimanjaro",
-    "DayTrips",
-    "Experiences",
-    "Escape DSM",
+    { name: "Travel Style", link: "/travelStyle" },
+    { name: "Destinations", link: "/destinations" },
+    { name: "Mt.Kilimanjaro", link: "/kilimanjaro" },
+    { name: "DayTrips", link: "/daytrip" },
+    { name: "Experiences", link: "/experience" },
+    { name: "Escape DSM", link: "/escapeDsm" },
   ];
 
   return (
@@ -63,7 +63,7 @@ const Header = () => {
               {menuItems.map((item, index) => (
                 <a
                   key={index}
-                  href="#"
+                  href={item.link}
                   className={`text-gray-700 hover:text-gray-900 transition-all duration-200 font-normal text-base transform ${
                     isMenuOpen
                       ? "translate-x-0 opacity-100"
@@ -73,7 +73,7 @@ const Header = () => {
                     transitionDelay: isMenuOpen ? `${index * 50}ms` : "0ms",
                   }}
                 >
-                  {item}
+                  {item.name}
                 </a>
               ))}
             </nav>
@@ -147,7 +147,7 @@ const Header = () => {
                 {menuItems.map((item, index) => (
                   <a
                     key={index}
-                    href="#"
+                    href={item.link}
                     className={`block text-gray-700 hover:text-gray-900 hover:bg-gray-50 transition-all duration-200 font-normal py-4 px-4 rounded-lg transform ${
                       isMenuOpen
                         ? "translate-x-0 opacity-100"
@@ -158,7 +158,7 @@ const Header = () => {
                     }}
                     onClick={toggleMenu}
                   >
-                    {item}
+                    {item.name}
                   </a>
                 ))}
               </div>
