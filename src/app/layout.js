@@ -3,15 +3,7 @@ import "./globals.css";
 import Header from "../../components/Header";
 import Footer from "../../components/Footer";
 
-const geistSans = Geist({
-  variable: "Anaheim",
-  subsets: ["latin"],
-});
 
-const geistMono = Geist_Mono({
-  variable: "Anaheim",
-  subsets: ["latin"],
-});
 
 export const metadata = {
   title: "Create Next App",
@@ -23,7 +15,7 @@ export default function RootLayout({ children }) {
     <html lang="en">
       <Header/>
       <body
-        className={`${geistSans.variable} ${geistMono.variable} antialiased`}
+     
       >
         {children}
       </body>
