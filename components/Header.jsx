@@ -26,9 +26,7 @@ const Header = () => {
 
   return (
     <>
-      <header
-        className="bg-[#F8FFF3] shadow-sm  z-50 fixed top-0 left-0 w-full"
-      >
+      <header className="bg-[#F8FFF3] shadow-sm  z-50 fixed top-0 left-0 w-full">
         <div className="max-w-7xl mx-auto px-5">
           <div className="flex justify-between items-center h-20">
             {/* Logo */}
@@ -89,7 +87,7 @@ const Header = () => {
                   transitionDelay: isMenuOpen ? "300ms" : "0ms",
                 }}
               >
-                <button className="bg-green-500 hover:bg-green-600 text-white px-6 py-2 rounded-full transition-colors duration-200 font-medium text-sm">
+                <button className="bg-[#68AC33] hover:bg-green-600 text-white px-6 py-2 rounded-full transition-colors duration-200 font-medium text-sm">
                   Host with us
                 </button>
               </div>
@@ -177,7 +175,7 @@ const Header = () => {
                 transitionDelay: isMenuOpen ? "600ms" : "0ms",
               }}
             >
-              <button className="w-full bg-green-500 hover:bg-green-600 text-white px-6 py-3 rounded-full transition-colors duration-200 font-medium">
+              <button className="w-full bg-[#68AC33] hover:bg-green-600 text-white px-6 py-3 rounded-full transition-colors duration-200 font-medium">
                 Host with us
               </button>
             </div>

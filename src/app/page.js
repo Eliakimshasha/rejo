@@ -16,7 +16,6 @@ const Home = () => {
         "You will experience a unique rush when the hot-air balloon safari pilot inflates the enormous balloon for the final time, causing you to start floating upward into the clear early morning. Usually intended for a small group of intrepid travelers, your hot-air balloon expedition surpasses all expectations. The gentle breezes allow for a leisurely, almost sleepy, balloon safari, giving you time to take in the scenery and fauna below.",
       image: frame1,
       bgColor: "#F1F9FF",
-
     },
     {
       id: 2,
@@ -25,7 +24,6 @@ const Home = () => {
         "Embark on an extraordinary desert balloon journey that takes you soaring above golden dunes and ancient landscapes. As the sun rises, casting warm hues across the endless sand, you'll witness the desert come alive with subtle movements and hidden wildlife. This serene flight offers unparalleled views of oasis settlements, nomadic camps, and the breathtaking contrast between civilization and wilderness.",
       image: frame2,
       bgColor: "#F3FFF2",
-
     },
     {
       id: 3,
@@ -34,8 +32,6 @@ const Home = () => {
         "Drift peacefully above majestic mountain ranges in this unforgettable alpine balloon experience. Watch as morning mist clings to valley floors while snow-capped peaks pierce through clouds below. The crisp mountain air and panoramic vistas create a sense of wonder as you glide silently over pristine forests, crystal-clear lakes, and rugged terrain that few have seen from this perspective.",
       image: frame3,
       bgColor: " #FEF6FF",
-     
-
     },
   ];
 
@@ -76,7 +72,7 @@ const Home = () => {
                 {experience.description}
               </p>
 
-              <button className="inline-flex items-center gap-3 bg-green-500 hover:bg-green-600 text-white font-semibold px-8 py-2 rounded-full transition-colors duration-200 ">
+              <button className="inline-flex items-center gap-3 bg-[#68AC33] hover:bg-green-600 text-white font-semibold px-8 py-2 rounded-full transition-colors duration-200 ">
                 Book Now
                 <svg
                   width="20"
@@ -105,13 +101,14 @@ const Home = () => {
               <h2 className="md:text-[54px] text-[40px] text-center md:text-start  text-gray-900 leading-tight">
                 Let's Plan Your trip
               </h2>
-              
+
               <p className="md:text-[30px] text-center md:text-start  text-gray-700 leading-relaxed ">
-                Tell us a bit about your dream getaway, and we'll handle the rest.
+                Tell us a bit about your dream getaway, and we'll handle the
+                rest.
               </p>
             </div>
 
-            <button className="inline-flex items-center gap-3  bg-green-500 hover:bg-green-600 text-white font-semibold px-8 py-4 rounded-full transition-all duration-300 hover:shadow-lg hover:scale-105">
+            <button className="inline-flex items-center gap-3  bg-[#68AC33] hover:bg-green-600 text-white font-semibold px-8 py-4 rounded-full transition-all duration-300 hover:shadow-lg hover:scale-105">
               Customize My Trip
               <svg
                 width="20"
@@ -167,11 +164,8 @@ const Home = () => {
                 </div>
               </div>
             </div>
-
           </div>
         </div>
-
-     
       </div>
     </div>
   );
