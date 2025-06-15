@@ -15,7 +15,7 @@ export default function RootLayout({ children }) {
     <html lang="en">
       <body>
         <Header />
-        <div className="mt-14 bg-white md:px-20 ">
+        <div className="mt-14 bg-white ">
           {children}
         </div>
         <Footer />

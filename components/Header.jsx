@@ -4,13 +4,13 @@ import { Menu, X } from "lucide-react";
 import { IoIosClose } from "react-icons/io";
 import { CgProfile } from "react-icons/cg";
 import { IoPersonCircleOutline } from "react-icons/io5";
-
 import { CiMenuFries } from "react-icons/ci";
-import { usePathname } from "next/navigation";
+import { usePathname, useRouter } from "next/navigation";
 
 const Header = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
   const path = usePathname();
+  const route = useRouter();
 
   const toggleMenu = () => {
     setIsMenuOpen(!isMenuOpen);
@@ -24,14 +24,17 @@ const Header = () => {
     { name: "Experiences", link: "/experience" },
     { name: "Escape DSM", link: "/escapeDsm" },
   ];
-
+  
+const handleNavigation = ()=>{
+  route.push('/')
+}
   return (
     <>
-      <header className="bg-[#F8FFF3]   z-50 fixed top-0 left-0 w-full">
+      <header className={`${path.startsWith('/routes')? 'bg-gray-50': 'bg-[#F8FFF3]'}  z-50 fixed top-0 left-0 w-full }`}>
         <div className="max-w-7xl mx-auto px-5">
           <div className="flex justify-between items-center h-20">
             {/* Logo */}
-            <div className="">
+            <div className=" cursor-pointer" onClick={()=>handleNavigation()}>
               {path === "/" ? (
                 <svg
                 width="90"
