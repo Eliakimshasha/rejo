@@ -833,7 +833,7 @@ export default function RouteDetail() {
                     </button>
 
 
-                    <button className="flex-1 bg-[#F4A460] text-white py-3 px-4 rounded-full text-sm font-medium hover:bg-orange-500 transition-colors">
+                    <button className="flex-1 bg-[#F4A460] text-white py-3 px-4 rounded-full text-sm font-medium hover:bg-[#f4b660] transition-colors">
                       Pay in Installments
                     </button>
                   </>
