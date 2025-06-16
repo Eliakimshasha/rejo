@@ -778,16 +778,16 @@ export default function RouteDetail() {
                       {/* Description */}
                       <div className="flex-1 flex items-start lg:items-center overflow-hidden">
                         <div className="space-y-2 sm:space-y-3 lg:space-y-4">
-                          <p className="text-[#2E492E] text-xs sm:text-sm lg:text-base xl:text-lg leading-relaxed font-medium line-clamp-3 sm:line-clamp-4 lg:line-clamp-none">
+                          <p className="text-[#2E492E]  lg:text-base xl:text-lg leading-relaxed font-medium line-clamp-3 sm:line-clamp-4 lg:line-clamp-none">
                             {day.description}
                           </p>
-                          <p className="text-[#2E492E] text-xs sm:text-sm lg:text-base xl:text-lg leading-relaxed font-medium line-clamp-3 sm:line-clamp-4 lg:line-clamp-none">
+                          <p className="text-[#2E492E]  lg:text-base xl:text-lg leading-relaxed font-medium line-clamp-3 sm:line-clamp-4 lg:line-clamp-none">
                             {day.description}
                           </p>
-                          <p className="text-[#2E492E] text-xs sm:text-sm lg:text-base xl:text-lg leading-relaxed font-medium line-clamp-3 sm:line-clamp-4 lg:line-clamp-none">
+                          <p className="text-[#2E492E]  lg:text-base xl:text-lg leading-relaxed font-medium line-clamp-3 sm:line-clamp-4 lg:line-clamp-none">
                             {day.description}
                           </p>
-                          <p className="text-[#2E492E] text-xs sm:text-sm lg:text-base xl:text-lg leading-relaxed font-medium line-clamp-3 sm:line-clamp-4 lg:line-clamp-none">
+                          <p className="text-[#2E492E]  lg:text-base xl:text-lg leading-relaxed font-medium line-clamp-3 sm:line-clamp-4 lg:line-clamp-none">
                             {day.description}
                           </p>
                         </div>
