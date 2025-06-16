@@ -621,7 +621,7 @@ export default function RouteDetail() {
                 </span>
               </div>
 
-              <p className="text-black -600 text-lg leading-relaxed mb-8 max-w-4xl">
+              <p className="text-black -600  leading-relaxed mb-8 max-w-4xl">
                 {route.description}
               </p>
             </div>
