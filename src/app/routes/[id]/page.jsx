@@ -798,7 +798,7 @@ export default function RouteDetail() {
                     <div className="w-full  lg:w-[45%] xl:w-[50%] flex-shrink-0 ">
                       <div className="h-full  flex flex-col justify-center lg:justify-end">
                         {/* Image Container - Takes full available height */}
-                        <div className="h-[320px]  sm:h-[320px] z-20 md:h-[400px] lg:h-[400px] xl:h-[400px] relative ">
+                        <div className="h-[350px]  sm:h-[350px] z-20 md:h-[400px] lg:h-[400px] xl:h-[400px] relative ">
                           <Image
                             src={day.image || "/placeholder.svg"}
                             alt={`Day ${day.day} illustration`}
