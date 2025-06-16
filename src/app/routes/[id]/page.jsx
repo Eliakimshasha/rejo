@@ -747,7 +747,7 @@ export default function RouteDetail() {
               return (
                 <div
                   key={index}
-                  className="relative min-h-[700px]  md:min-h-[70vh] lg:min-h-[75vh] xl:min-h-[80vh] max-h-[90vh] overflow-hidden rounded-2xl sm:rounded-3xl mb-4 sm:mb-6 p-4 sm:p-6 lg:p-8 xl:p-10"
+                  className="relative min-h-[700px]  md:min-h-[70vh] lg:min-h-[75vh] xl:min-h-[80vh]  overflow-hidden rounded-2xl sm:rounded-3xl mb-4 sm:mb-6 p-4 sm:p-6 lg:p-8 xl:p-10"
                   style={{
                     backgroundColor: bgColor,
                   }}
@@ -798,7 +798,7 @@ export default function RouteDetail() {
                     <div className="w-full  lg:w-[45%] xl:w-[50%] flex-shrink-0 ">
                       <div className="h-full  flex flex-col justify-center lg:justify-end">
                         {/* Image Container - Takes full available height */}
-                        <div className="h-[350px]  sm:h-[350px] z-20 md:h-[400px] lg:h-[400px] xl:h-[400px] relative ">
+                        <div className="h-[320px]  sm:h-[320px] z-20 md:h-[400px] lg:h-[400px] xl:h-[400px] relative ">
                           <Image
                             src={day.image || "/placeholder.svg"}
                             alt={`Day ${day.day} illustration`}
