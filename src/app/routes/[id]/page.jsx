@@ -32,7 +32,7 @@ const routeData = {
         distance: "11 Km",
         time: "5-7 hours",
         habitat: "Rain Forest",
-        image: "/assets/images/Frame 60.png",
+        image: "/assets/images/Frame 61.png",
         description:
           "The drive from Moshi to the Machame Gate takes about 45 minutes. The journey passes through the village of Machame which is located on the lower slopes of the mountain.",
       },
@@ -43,7 +43,7 @@ const routeData = {
         distance: "5 Km",
         time: "4-6 hours",
         habitat: "Moorland",
-        image: "/assets/images/Frame 60.png",
+        image: "/assets/images/Frame 61 (1).png",
         description:
           "After breakfast, we leave the glades of the rain forest and continue on an ascending path, crossing the little valley walking along a steep rocky ridge.",
       },
@@ -54,7 +54,7 @@ const routeData = {
         distance: "10 Km",
         time: "6-8 hours",
         habitat: "Semi Desert",
-        image: "/assets/images/Frame 60.png",
+        image: "/assets/images/Frame 61 (2).png",
         description:
           "From the Shira Plateau, we continue to the east up a ridge, passing the junction towards the peak of Kibo. As we continue, our direction changes to the South East towards the Lava Tower, called the 'Shark's Tooth'.",
       },
@@ -65,7 +65,7 @@ const routeData = {
         distance: "5 Km",
         time: "4-5 hours",
         habitat: "Alpine Desert",
-        image: "/assets/images/Frame 60.png",
+        image: "/assets/images/Frame 61 (3).png",
         description:
           "After breakfast, we leave Barranco and continue on a steep ridge passing the Barranco Wall, to the Karanga Valley campsite. This is a short day meant for acclimatization.",
       },
@@ -76,7 +76,7 @@ const routeData = {
         distance: "4 Km",
         time: "4-5 hours",
         habitat: "Alpine Desert",
-        image: "/assets/images/Frame 60.png",
+        image: "/assets/images/Frame 61 (4).png",
         description:
           "After breakfast, we leave Karanga and hit the junction which connects with the Mweka Trail. We continue up to the Barafu Hut. At this point, you have completed the South Circuit, which offers views of the summit from many different angles.",
       },
@@ -87,7 +87,7 @@ const routeData = {
         distance: "17 Km",
         time: "12-16 hours",
         habitat: "Arctic",
-        image: "/assets/images/Frame 60.png",
+        image: "/assets/images/Frame 61 (1).png",
         description:
           "Very early in the morning (midnight to 2am), we continue our way to the summit between the Rebmann and Ratzel glaciers. You head in a northwesterly direction and ascend through heavy scree towards Stella Point on the crater rim.",
       },
@@ -140,7 +140,7 @@ const routeData = {
         distance: "6 Km",
         time: "3-4 hours",
         habitat: "Rain Forest",
-        image: "/assets/images/Frame 60.png",
+        image: "/assets/images/Frame 61.png",
         description:
           "Drive to Londorossi Gate for registration and permits. Begin hiking through pristine forest with chances to see wildlife.",
       },
@@ -151,7 +151,7 @@ const routeData = {
         distance: "8 Km",
         time: "5-6 hours",
         habitat: "Heath",
-        image: "/assets/images/Frame 60.png",
+        image: "/assets/images/Frame 61 (1).png",
         description:
           "We continue on the trail leading out of the forest and into a savannah of tall grasses, heather, and volcanic rock draped with lichen beards.",
       },
@@ -162,7 +162,7 @@ const routeData = {
         distance: "14 Km",
         time: "5-7 hours",
         habitat: "Alpine Desert",
-        image: "/assets/images/Frame 60.png",
+        image: "/assets/images/Frame 61 (2).png",
         description:
           "We explore the Shira plateau for a full day. It is a gentle walk east toward Kibo's glaciered peak, across the plateau which leads to Shira 2 camp.",
       },
@@ -173,7 +173,7 @@ const routeData = {
         distance: "7 Km",
         time: "4-6 hours",
         habitat: "Alpine Desert",
-        image: "/assets/images/Frame 60.png",
+        image: "/assets/images/Frame 61 (2).png",
         description:
           "From the Shira Plateau, we continue to the east up a ridge, passing the junction towards the peak of Kibo.",
       },
@@ -184,7 +184,7 @@ const routeData = {
         distance: "5 Km",
         time: "4-5 hours",
         habitat: "Alpine Desert",
-        image: "/assets/images/Frame 60.png",
+        image: "/assets/images/Frame 61 (3).png",
         description:
           "After breakfast, we leave Barranco and continue on a steep ridge passing the Barranco Wall, to the Karanga Valley campsite.",
       },
@@ -195,7 +195,7 @@ const routeData = {
         distance: "4 Km",
         time: "4-5 hours",
         habitat: "Alpine Desert",
-        image: "/assets/images/Frame 60.png",
+        image: "/assets/images/Frame 61 (4).png",
         description:
           "After breakfast, we leave Karanga and hit the junction which connects with the Mweka Trail.",
       },
@@ -206,7 +206,7 @@ const routeData = {
         distance: "17 Km",
         time: "12-16 hours",
         habitat: "Arctic",
-        image: "/assets/images/Frame 60.png",
+        image: "/assets/images/Frame 61 (5).png",
         description:
           "Very early in the morning (midnight to 2am), we continue our way to the summit between the Rebmann and Ratzel glaciers.",
       },
@@ -217,7 +217,7 @@ const routeData = {
         distance: "10 Km",
         time: "3-4 hours",
         habitat: "Rain Forest",
-        image: "/assets/images/Frame 60.png",
+        image: "/assets/images/Frame 61 (6).png",
         description:
           "After breakfast, we continue the descent down to the Mweka Park Gate to receive your summit certificates.",
       },
