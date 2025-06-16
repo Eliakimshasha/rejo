@@ -233,101 +233,101 @@ export default function RouteDetail() {
   return (
     <div className="bg-gray-50 min-h-screen md:px-4">
       {/* Header */}
-      <div className="bg-gray-50 pt-8 pb-4 ">
-        <div className=" text-black mx-auto px-4">
-          <div className="flex justify-between items-center mb-8">
-            <div className="flex-1">
-              <h1 className="text-4xl md:text-5xl font-bold mb-4">{route.name}</h1>
+     <div className="bg-gray-50 pt-8 pb-4">
+      <div className="text-black mx-auto px-4">
+        <div className="flex flex-col lg:flex-row lg:justify-between lg:items-center mb-8 gap-6">
+          <div className="flex-1">
+            <h1 className="text-4xl md:text-5xl font-bold mb-4">{route.name}</h1>
 
-              <div className="flex gap-4 mb-6">
-                <span className="bg-gray-800 text-white px-6 py-2 rounded-full text-sm">8 Days route</span>
-                <span className="border border-gray-300 px-6 py-2 rounded-full text-sm">7 Days route</span>
-              </div>
-
-              <p className="text-gray-600 text-lg leading-relaxed mb-8 max-w-4xl">{route.description}</p>
+            <div className="flex flex-wrap gap-4 mb-6">
+              <span className="bg-gray-800 text-white px-6 py-2 rounded-full text-sm">8 Days route</span>
+              <span className="border border-gray-300 px-6 py-2 rounded-full text-sm">7 Days route</span>
             </div>
 
-            {/* Booking Card */}
-            <div className="ml-8 w-[400px] bg-white rounded-xl shadow-lg p-6">
-              <div className="text-2xl font-bold mb-6">${getCurrentPrice().toLocaleString()} / person</div>
-
-              <div className="mb-4">
-                <div className="flex items-center justify-between p-3 border border-gray-200 rounded-lg cursor-pointer hover:border-gray-300">
-                  <div className="flex items-center">
-                    <Users className="w-5 h-5 text-gray-500 mr-3" />
-                    <span>{selectedPeople}</span>
-                  </div>
-                  <ChevronDown className="w-5 h-5 text-gray-500" />
-                </div>
-              </div>
-
-              <div className="mb-6">
-                <div className="flex items-center justify-between p-3 border border-gray-200 rounded-lg cursor-pointer hover:border-gray-300">
-                  <div className="flex items-center">
-                    <Calendar className="w-5 h-5 text-gray-500 mr-3" />
-                    <span>{selectedDate}</span>
-                  </div>
-                  <ChevronDown className="w-5 h-5 text-gray-500" />
-                </div>
-              </div>
-
-              <div className="mb-6">
-                <div className="flex justify-between items-center mb-2">
-                  <span className="text-gray-900">$1,000</span>
-                  <span className="text-gray-500">1 Adults</span>
-                  <span className="text-gray-900">$1,000</span>
-                </div>
-
-                <div className="flex justify-between items-center mb-4">
-                  <span className="text-gray-900">$500</span>
-                  <span className="text-gray-500">1 Child</span>
-                  <span className="text-gray-900">$500</span>
-                </div>
-
-                <hr className="border-gray-200 mb-4" />
-
-                <div className="flex justify-between items-center font-semibold">
-                  <span>Totals before tax</span>
-                  <span>$1,500</span>
-                </div>
-              </div>
-
-              <div className="flex gap-2">
-                <button className="flex-1 border border-pink-500 text-pink-500 py-3 px-4 rounded-full text-sm font-medium hover:bg-pink-50 transition-colors">
-                  Pay Full Amount
-                </button>
-                <button className="flex-1 bg-pink-500 text-white py-3 px-4 rounded-full text-sm font-medium hover:bg-pink-600 transition-colors">
-                  Pay in Installments
-                </button>
-              </div>
-            </div>
+            <p className="text-black -600 text-lg leading-relaxed mb-8 max-w-4xl">{route.description}</p>
           </div>
 
-          {/* Tabs */}
-          <div className="border-b border-gray-200 pb-4">
-            <div className="flex space-x-2">
-              {tabs.map((tab, index) => (
-                <button
-                  key={index}
-                  onClick={() => handleTabChange(index)}
-                  className={`px-6 py-2 text-base font-medium rounded-full transition-colors ${
-                    tabValue === index ? "bg-gray-800 text-white" : "text-gray-500 hover:text-gray-700"
-                  }`}
-                >
-                  {tab}
-                </button>
-              ))}
+          {/* Booking Card */}
+          <div className="w-full lg:ml-8 lg:w-[400px] bg-white rounded-xl shadow-lg p-6">
+            <div className="text-2xl font-bold mb-6">${getCurrentPrice().toLocaleString()} / person</div>
+
+            <div className="mb-4">
+              <div className="flex items-center justify-between p-3 border border-gray-200 rounded-lg cursor-pointer hover:border-gray-300">
+                <div className="flex items-center">
+                  <Users className="w-5 h-5 text-black -500 mr-3" />
+                  <span>{selectedPeople}</span>
+                </div>
+                <ChevronDown className="w-5 h-5 text-black -500" />
+              </div>
+            </div>
+
+            <div className="mb-6">
+              <div className="flex items-center justify-between p-3 border border-gray-200 rounded-lg cursor-pointer hover:border-gray-300">
+                <div className="flex items-center">
+                  <Calendar className="w-5 h-5 text-black -500 mr-3" />
+                  <span>{selectedDate}</span>
+                </div>
+                <ChevronDown className="w-5 h-5 text-black -500" />
+              </div>
+            </div>
+
+            <div className="mb-6">
+              <div className="flex justify-between items-center mb-2">
+                <span className="text-black -900">$1,000</span>
+                <span className="text-black -500">1 Adults</span>
+                <span className="text-black -900">$1,000</span>
+              </div>
+
+              <div className="flex justify-between items-center mb-4">
+                <span className="text-black -900">$500</span>
+                <span className="text-black -500">1 Child</span>
+                <span className="text-black -900">$500</span>
+              </div>
+
+              <hr className="border-gray-200 mb-4" />
+
+              <div className="flex justify-between items-center font-semibold">
+                <span>Totals before tax</span>
+                <span>$1,500</span>
+              </div>
+            </div>
+
+            <div className="flex flex-col sm:flex-row gap-2">
+              <button className="flex-1 border border-pink-500 text-pink-500 py-3 px-4 rounded-full text-sm font-medium hover:bg-pink-50 transition-colors">
+                Pay Full Amount
+              </button>
+              <button className="flex-1 bg-pink-500 text-white py-3 px-4 rounded-full text-sm font-medium hover:bg-pink-600 transition-colors">
+                Pay in Installments
+              </button>
             </div>
           </div>
         </div>
+
+        {/* Tabs */}
+        <div className="border-b border-gray-200 pb-4">
+          <div className="flex flex-wrap gap-2">
+            {tabs.map((tab, index) => (
+              <button
+                key={index}
+                onClick={() => handleTabChange(index)}
+                className={`px-6 py-2 text-base font-medium rounded-full transition-colors ${
+                  tabValue === index ? "bg-gray-800 text-white" : "text-black -500 hover:text-black -700"
+                }`}
+              >
+                {tab}
+              </button>
+            ))}
+          </div>
+        </div>
       </div>
+    </div>
 
       {/* Tab Content */}
       <div className="max-w-7xl mx-auto px-4">
         {/* Description Tab */}
         {tabValue === 0 && (
           <div className="py-6">
-            <p className="text-lg leading-relaxed text-gray-700">{route.description}</p>
+            <p className="text-lg leading-relaxed text-black -700">{route.description}</p>
           </div>
         )}
 
@@ -342,10 +342,10 @@ export default function RouteDetail() {
                   </span>
                   <div className="flex-1">
                     <div className="flex items-center mb-4">
-                      <MapPin className="w-5 h-5 text-gray-500 mr-2" />
+                      <MapPin className="w-5 h-5 text-black -500 mr-2" />
                       <h3 className="text-xl font-bold">{day.title}</h3>
                     </div>
-                    <p className="text-gray-700 leading-relaxed mb-6">{day.description}</p>
+                    <p className="text-black -700 leading-relaxed mb-6">{day.description}</p>
                   </div>
                   <div className="bg-green-50 rounded-lg p-4 min-w-64">
                     <h4 className="text-lg font-bold mb-4">Altitude: {day.altitude}</h4>
@@ -369,7 +369,7 @@ export default function RouteDetail() {
         {tabValue === 2 && (
           <div className="py-6 text-center">
             <h2 className="text-4xl font-bold mb-4">The more you climb together, the more rewarding it becomes</h2>
-            <p className="text-xl text-gray-600 mb-8">Our pricing is designed to encourage shared adventure.</p>
+            <p className="text-xl text-black -600 mb-8">Our pricing is designed to encourage shared adventure.</p>
 
             <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-5 gap-4 justify-center mb-8">
               {route.pricing.map((pricing, index) => (
@@ -389,14 +389,14 @@ export default function RouteDetail() {
                 >
                   <div className="flex items-center justify-center mb-4">
                     <Users className="w-5 h-5 mr-2" />
-                    <span className="text-gray-600 text-sm">{pricing.group}</span>
+                    <span className="text-black -600 text-sm">{pricing.group}</span>
                   </div>
                   <div className="text-3xl font-bold">${pricing.price.toLocaleString()}</div>
                 </div>
               ))}
             </div>
 
-            <p className="text-gray-600 max-w-4xl mx-auto">
+            <p className="text-black -600 max-w-4xl mx-auto">
               All prices quoted are per person in USD (US Dollars) and are negotiable according to the period of the
               year, includes and excludes and change of government policies. Please contact us for more information.
             </p>
