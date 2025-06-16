@@ -747,7 +747,7 @@ export default function RouteDetail() {
               return (
                 <div
                   key={index}
-                  className="relative min-h-[500px] sm:min-h-[600px] md:min-h-[70vh] lg:min-h-[75vh] xl:min-h-[80vh] max-h-[90vh] overflow-hidden rounded-2xl sm:rounded-3xl mb-4 sm:mb-6 p-4 sm:p-6 lg:p-8 xl:p-10"
+                  className="relative min-h-[700px]  md:min-h-[70vh] lg:min-h-[75vh] xl:min-h-[80vh] max-h-[90vh] overflow-hidden rounded-2xl sm:rounded-3xl mb-4 sm:mb-6 p-4 sm:p-6 lg:p-8 xl:p-10"
                   style={{
                     backgroundColor: bgColor,
                   }}
