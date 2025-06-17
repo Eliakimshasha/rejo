@@ -71,6 +71,9 @@ function page() {
             {/* Main large image - lake with boats */}
             <div className="w-[85%] h-full mx-auto">
               <div className="relative w-full z-20 h-full">
+                 <h1 className="absolute z-30 inset-0 flex items-center text-4xl justify-center text-black/30 font-bold">
+                  VISIT TANZANIA
+                </h1>
                 <Image
                   src={curve2}
                   alt="Lake with wooden boats"
@@ -148,6 +151,9 @@ function page() {
             {/* Main image */}
             <div className="w-full h-[300px] sm:h-[280px]  md:h-[320px] mx-auto">
               <div className="relative w-full h-full overflow-hidden">
+                <h1 className="absolute z-30 inset-0 flex items-center text-4xl justify-center text-black/30 font-bold">
+                  VISIT TANZANIA
+                </h1>
                 <Image
                   src={curve2}
                   alt="Lake with wooden boats"
