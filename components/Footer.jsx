@@ -21,7 +21,7 @@ const Footer = () => {
             <ul className="space-y-4">
               <li>
                 <a
-                  href="#"
+                  href="about"
                   className="text-gray-600 hover:text-gray-900 transition-colors"
                 >
                   About us
@@ -29,7 +29,7 @@ const Footer = () => {
               </li>
               <li>
                 <a
-                  href="#"
+                  href="contact"
                   className="text-gray-600 hover:text-gray-900 transition-colors"
                 >
                   Contact
@@ -37,7 +37,7 @@ const Footer = () => {
               </li>
               <li>
                 <a
-                  href="#"
+                  href="payments"
                   className="text-gray-600 hover:text-gray-900 transition-colors"
                 >
                   Payment options
@@ -62,7 +62,7 @@ const Footer = () => {
               </li>
               <li>
                 <a
-                  href="#"
+                  href="destinations"
                   className="text-gray-600 hover:text-gray-900 transition-colors"
                 >
                   Explore destinations
@@ -70,7 +70,7 @@ const Footer = () => {
               </li>
               <li>
                 <a
-                  href="#"
+                  href="kilimanjaro"
                   className="text-gray-600 hover:text-gray-900 transition-colors"
                 >
                   Hike Mt.Kilimanjaro
@@ -86,7 +86,7 @@ const Footer = () => {
               </li>
               <li>
                 <a
-                  href="#"
+                  href="escapeDsm"
                   className="text-gray-600 hover:text-gray-900 transition-colors"
                 >
                   Escape DSM
