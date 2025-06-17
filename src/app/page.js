@@ -159,8 +159,8 @@ function page() {
             </div>
 
             {/* Top left overlay - smaller and repositioned */}
-            <div className="absolute -top-16 -left-4 w-30 h-30 sm:w-24 sm:h-24 z-20">
-              <div className="relative w-full h-full overflow-hidden rounded-lg shadow-lg">
+            <div className="absolute -top-11 -left-4 w-30 h-30 sm:w-24 sm:h-24 z-20">
+              <div className="relative w-full h-full overflow-hidden rounded-lg ">
                 <Image
                   src={curve1}
                   alt="Historical building"
@@ -171,7 +171,7 @@ function page() {
             </div>
 
             {/* Bottom right overlay - smaller and repositioned */}
-            <div className="absolute -bottom-16 -right-4 w-30 h-30 sm:w-24 sm:h-24 z-20">
+            <div className="absolute -bottom-16 -right-4 w-36 h-36 sm:w-24 sm:h-24 z-20">
               <div className="relative w-full h-full overflow-hidden rounded-lg shadow-lg">
                 <Image
                   src={curve3}
