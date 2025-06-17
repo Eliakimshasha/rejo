@@ -869,7 +869,7 @@ export default function RouteDetail() {
                       className={`px-6 md:px-14 py-1 text-base font-medium rounded-full transition-all duration-200 whitespace-nowrap flex-shrink-0 ${
                         tabValue === index
                           ? "bg-gray-800 text-white shadow-lg transform scale-105"
-                          : "text-gray-600 hover:text-gray-900 hover:bg-gray-100"
+                          : "text-gray-400 hover:text-gray-900 hover:bg-gray-100"
                       }`}
                     >
                       {tab}
