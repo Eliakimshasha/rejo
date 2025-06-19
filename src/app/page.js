@@ -51,7 +51,7 @@ function page() {
 
             <button
               className="bg-[#68AC33] hover:bg-[#559426] text-white px-8 py-4 rounded-full text-lg flex items-center gap-3 transition-colors duration-300"
-              onClick={() => navigateToDestinations()}
+              onClick={() => navigateToDestinations}
             >
               View all destinations
               <svg
@@ -134,7 +134,7 @@ function page() {
 
             <button
               className="bg-[#68AC33] hover:bg-[#559426] text-white px-6 py-3 sm:px-8 sm:py-4 rounded-full text-base sm:text-lg flex items-center gap-3 transition-colors duration-300 mx-auto"
-              onClick={() => navigateToDestinations()}
+              onClick={() => navigateToDestinations}
             >
               View all destinations
               <svg
@@ -294,7 +294,7 @@ function page() {
           <div className=" w-full flex justify-center mt-3 md:py-16 items-center">
             <button
               className="bg-[#68AC33] cursor-pointer hover:bg-[#559426] text-white px-8 py-4 rounded-full text-lg flex items-center gap-3 transition-colors duration-300"
-              onClick={() => navigateToDestinations()}
+              onClick={() => navigateToDestinations}
             >
               Explore More Popular Destinations
               <svg
@@ -346,7 +346,7 @@ function page() {
             {/* CTA Button */}
             <button
               className="bg-[#68AC33] hover:bg-[#559426] text-white px-6 sm:px-8 py-3 sm:py-4 rounded-full text-base sm:text-lg font-medium flex items-center gap-3 transition-colors mb-8 sm:mb-12 md:mb-16 group w-full sm:w-auto justify-center sm:justify-start"
-              onClick={()=>navigateToContact()}
+              onClick={()=>navigateToContact}
             >
               Get the team to experience the best
               <ArrowRight className="w-5 h-5 group-hover:translate-x-1 transition-transform" />
@@ -382,7 +382,7 @@ function page() {
 
             <button
               className="inline-flex items-center gap-3  bg-[#68AC33]  hover:bg-[#559426] text-white font-semibold px-8 py-4 rounded-full transition-all duration-300 hover:shadow-sm hover:scale-105"
-                            onClick={()=>navigateToContact()}
+                            onClick={()=>navigateToContact}
 
             >
               Customize My Trip
