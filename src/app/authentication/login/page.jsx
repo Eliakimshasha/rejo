@@ -11,10 +11,10 @@ export default function LoginPage() {
     <div className="min-h-screen bg-gray-50 flex justify-center items-center p-4">
       <div className="flex flex-col-reverse  lg:flex-row w-full max-w-6xl lg:w-[84%] bg-white shadow-sm rounded-xl relative overflow-hidden">
         {/* Left side - Form */}
-        <div className="flex-1 flex items-center justify-center p-4 md:p-8">
+        <div className="flex-1 flex items-center justify-center p-4 md:p-8 md:pt-3">
           <div className="w-full max-w-md">
             {/* Logo */}
-          <div className="md:mb-16 md:relative z-20 absolute top-3 left-1">
+            <div className="md:mb-16 md:flex md:justify-center md:relative z-20 absolute top-3 left-1">
               <div className="">
                 <svg
                   width="90"
@@ -41,10 +41,10 @@ export default function LoginPage() {
             {/* Form Content */}
             <div className="space-y-8 md:pl-1">
               <div className="space-y-2">
-                <h1 className="text-2xl text-center md:text-start font-semibold text-gray-900">
+                <h1 className="md:text-2xl text-lg text-center font-semibold text-gray-900">
                   Login or Signup in a few clicks
                 </h1>
-                <p className="text-gray-600 text-center">
+                <p className="text-gray-600 text-center text-sm md:text-lg">
                   Create or login to your existing account to view your previous
                   data
                 </p>

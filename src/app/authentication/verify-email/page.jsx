@@ -31,10 +31,10 @@ export default function VerifyEmailPage() {
     <div className="min-h-screen bg-gray-50 flex justify-center items-center p-4">
       <div className="flex flex-col-reverse lg:flex-row   w-full max-w-6xl lg:w-[84%] bg-white shadow-sm rounded-xl relative overflow-hidden">
         {/* Left side - Form */}
-        <div className="flex-1 flex items-center justify-center p-4 md:p-8">
+        <div className="flex-1 flex items-center justify-center p-4 md:p-8 md:pt-3">
           <div className="w-full max-w-md">
             {/* Logo */}
-            <div className="md:mb-16 md:relative z-20 absolute top-3 left-1">
+            <div className="md:mb-16  md:relative z-20 absolute top-3 left-1">
               <div className="">
                 <svg
                   width="90"
@@ -66,7 +66,7 @@ export default function VerifyEmailPage() {
               </div>
 
               <div className="space-y-4 md:space-y-6">
-                <p className="text-sm md:text-base text-gray-600">Enter the 4-digit code sent to oyarzabal@gmail.com</p>
+                <p className="text-sm md:text-base text-gray-600 md:text-center">Enter the 4-digit code sent to oyarzabal@gmail.com</p>
 
                 <div className="space-y-2">
                   <Label htmlFor="code" className="text-gray-900 font-medium">
