@@ -32,6 +32,7 @@ function page() {
   const navigateToDestinations = () => {
     router.push("/destinations");
   };
+ 
 
   return (
     <>
@@ -49,7 +50,7 @@ function page() {
               Discover The Beauty Of Tanzania - Safaris, Beaches & Adventures
             </p>
 
-            <button className="bg-[#68AC33] hover:bg-[#559426] text-white px-8 py-4 rounded-full text-lg flex items-center gap-3 transition-colors duration-300">
+            <button className="bg-[#68AC33] hover:bg-[#559426] text-white px-8 py-4 rounded-full text-lg flex items-center gap-3 transition-colors duration-300" onClick={navigateToDestinations}>
               View all destinations
               <svg
                 width="20"
@@ -129,7 +130,7 @@ function page() {
               Discover The Beauty Of Tanzania - Safaris, Beaches & Adventures
             </p>
 
-            <button className="bg-[#68AC33] hover:bg-[#559426] text-white px-6 py-3 sm:px-8 sm:py-4 rounded-full text-base sm:text-lg flex items-center gap-3 transition-colors duration-300 mx-auto">
+            <button className="bg-[#68AC33] hover:bg-[#559426] text-white px-6 py-3 sm:px-8 sm:py-4 rounded-full text-base sm:text-lg flex items-center gap-3 transition-colors duration-300 mx-auto" onClick={navigateToDestinations}>
               View all destinations
               <svg
                 width="20"
