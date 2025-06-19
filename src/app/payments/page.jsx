@@ -27,8 +27,8 @@ const BookingFlow = () => {
 
   // Adventure Details State
   const [adventureDetails, setAdventureDetails] = useState({
-    adults: 2,
-    children: 1,
+    adults: 1,
+    children: 0,
     startDate: "12 March 2025",
     endDate: "13 June 2025",
   });
@@ -102,7 +102,7 @@ const BookingFlow = () => {
                 adults: Number.parseInt(e.target.value) || 1,
               }))
             }
-            className="w-full p-3 border border-gray-300 rounded-lg focus:outline-none text-black focus:ring-2 focus:ring-blue-500"
+            className="w-full p-3 border border-gray-300 rounded-lg focus:outline-none text-black focus:r"
           />
         </div>
 
@@ -121,7 +121,7 @@ const BookingFlow = () => {
                 children: Number.parseInt(e.target.value) || 0,
               }))
             }
-            className="w-full p-3 border border-gray-300 rounded-lg focus:outline-none text-black focus:ring-2 focus:ring-blue-500"
+            className="w-full p-3 border border-gray-300 rounded-lg focus:outline-none text-black focus:r"
           />
         </div>
 
@@ -139,7 +139,7 @@ const BookingFlow = () => {
                   startDate: e.target.value,
                 }))
               }
-              className="w-full p-3 border border-gray-300 rounded-lg focus:outline-none text-black focus:ring-2 focus:ring-blue-500 pr-10"
+              className="w-full p-3 border border-gray-300 rounded-lg focus:outline-none text-black focus:r pr-10"
               placeholder="12 March 2025"
             />
             <Calendar className="absolute right-3 top-3 w-5 h-5 text-gray-400" />
@@ -160,7 +160,7 @@ const BookingFlow = () => {
                   endDate: e.target.value,
                 }))
               }
-              className="w-full p-3 border border-gray-300 rounded-lg focus:outline-none text-black focus:ring-2 focus:ring-blue-500 pr-10"
+              className="w-full p-3 border border-gray-300 rounded-lg focus:outline-none text-black focus:r pr-10"
               placeholder="13 June 2025"
             />
             <Calendar className="absolute right-3 top-3 w-5 h-5 text-gray-400" />
@@ -216,7 +216,7 @@ const BookingFlow = () => {
                   onChange={(e) =>
                     updateTraveler(traveler.id, "fullName", e.target.value)
                   }
-                  className="w-full p-3 border border-gray-300 rounded-lg focus:outline-none text-black focus:ring-2 focus:ring-blue-500"
+                  className="w-full p-3 border border-gray-300 rounded-lg focus:outline-none text-black focus:r"
                   placeholder="John Doe"
                 />
               </div>
@@ -231,7 +231,7 @@ const BookingFlow = () => {
                   onChange={(e) =>
                     updateTraveler(traveler.id, "email", e.target.value)
                   }
-                  className="w-full p-3  text-black border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500"
+                  className="w-full p-3  text-black border border-gray-300 rounded-lg focus:outline-none focus:r"
                   placeholder="email address"
                 />
               </div>
@@ -248,7 +248,7 @@ const BookingFlow = () => {
                     onChange={(e) =>
                       updateTraveler(traveler.id, "dateOfBirth", e.target.value)
                     }
-                    className="w-full p-3 border border-gray-300 rounded-lg focus:outline-none text-black focus:ring-2 focus:ring-blue-500 pr-10
+                    className="w-full p-3 border border-gray-300 rounded-lg focus:outline-none text-black focus:r pr-10
                      [&::-webkit-calendar-picker-indicator]:opacity-0 
         [&::-webkit-calendar-picker-indicator]:absolute 
         [&::-webkit-calendar-picker-indicator]:w-full 
@@ -274,7 +274,7 @@ const BookingFlow = () => {
                     onChange={(e) =>
                       updateTraveler(traveler.id, "gender", e.target.value)
                     }
-                    className="w-full p-3 border border-gray-300 rounded-lg focus:outline-none text-black focus:ring-2 focus:ring-blue-500 appearance-none"
+                    className="w-full p-3 border border-gray-300 rounded-lg focus:outline-none text-black focus:r appearance-none"
                   >
                     <option value="">Select Gender</option>
                     <option value="male">Male</option>
@@ -295,7 +295,7 @@ const BookingFlow = () => {
                     onChange={(e) =>
                       updateTraveler(traveler.id, "nationality", e.target.value)
                     }
-                    className="w-full p-3 border border-gray-300 rounded-lg focus:outline-none text-black focus:ring-2 focus:ring-blue-500 appearance-none"
+                    className="w-full p-3 border border-gray-300 rounded-lg focus:outline-none text-black focus:r appearance-none"
                   >
                     <option value="">Select Country</option>
                     <option value="us">United States</option>
@@ -320,7 +320,7 @@ const BookingFlow = () => {
                   onChange={(e) =>
                     updateTraveler(traveler.id, "phone", e.target.value)
                   }
-                  className="w-full p-3 border border-gray-300 rounded-lg focus:outline-none text-black focus:ring-2 focus:ring-blue-500"
+                  className="w-full p-3 border border-gray-300 rounded-lg focus:outline-none text-black focus:r"
                   placeholder="E.g +255 745 456 789"
                 />
               </div>
@@ -422,7 +422,7 @@ const BookingFlow = () => {
                   type="text"
                   value={phoneNumber}
                   onChange={(e) => setPhoneNumber(e.target.value)}
-                  className="w-full p-3 border border-gray-300 rounded-lg focus:outline-none text-black focus:ring-2 focus:ring-blue-500 text-sm lg:text-base"
+                  className="w-full p-3 border border-gray-300 rounded-lg focus:outline-none text-black focus:r text-sm lg:text-base"
                   placeholder="0XXXXXXXXX"
                 />
               </div>
@@ -438,7 +438,7 @@ const BookingFlow = () => {
                   type="text"
                   value={cardOwner}
                   onChange={(e) => setCardOwner(e.target.value)}
-                  className="w-full p-3 border border-gray-300 rounded-lg focus:outline-none text-black focus:ring-2 focus:ring-blue-500 text-sm lg:text-base"
+                  className="w-full p-3 border border-gray-300 rounded-lg focus:outline-none text-black focus:r text-sm lg:text-base"
                   placeholder="First Name & Last Name"
                 />
               </div>
@@ -453,7 +453,7 @@ const BookingFlow = () => {
                     type="text"
                     value={cardNumber}
                     onChange={(e) => setCardNumber(e.target.value)}
-                    className="w-full p-3 border border-gray-300 rounded-lg focus:outline-none text-black focus:ring-2 focus:ring-blue-500 pr-12 text-sm lg:text-base"
+                    className="w-full p-3 border border-gray-300 rounded-lg focus:outline-none text-black focus:r pr-12 text-sm lg:text-base"
                     placeholder="0000 0000 0000 0000"
                   />
                   <div className="absolute right-3 top-3 flex space-x-1">
@@ -473,7 +473,7 @@ const BookingFlow = () => {
                     type="text"
                     value={expiryDate}
                     onChange={(e) => setExpiryDate(e.target.value)}
-                    className="w-full p-3 border border-gray-300 rounded-lg focus:outline-none text-black focus:ring-2 focus:ring-blue-500 text-sm lg:text-base"
+                    className="w-full p-3 border border-gray-300 rounded-lg focus:outline-none text-black focus:r text-sm lg:text-base"
                     placeholder="MM/YYYY"
                   />
                 </div>
@@ -486,7 +486,7 @@ const BookingFlow = () => {
                       type="text"
                       value={cvv}
                       onChange={(e) => setCvv(e.target.value)}
-                      className="w-full p-3 border border-gray-300 rounded-lg focus:outline-none text-black focus:ring-2 focus:ring-blue-500 pr-12 text-sm lg:text-base"
+                      className="w-full p-3 border border-gray-300 rounded-lg focus:outline-none text-black focus:r pr-12 text-sm lg:text-base"
                       placeholder="XXX"
                     />
                     <div className="absolute right-3 top-3">

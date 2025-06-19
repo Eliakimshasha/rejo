@@ -1,3 +1,4 @@
+// 'rejo header'
 "use client";
 import React, { useState } from "react";
 import { Menu, X } from "lucide-react";
@@ -218,7 +219,7 @@ const Header = () => {
 
         {/* Mobile Menu Overlay - Only for small screens */}
         <div
-          className={`md:hidden fixed inset-0 bg-black bg-opacity-50 transition-opacity duration-300 z-40 ${
+          className={`md:hidden fixed inset-0 bg-[#F8FFF3] bg-opacity-50 transition-opacity duration-300 z-40 ${
             isMenuOpen ? "opacity-100" : "opacity-0 pointer-events-none"
           }`}
           onClick={toggleMenu}
