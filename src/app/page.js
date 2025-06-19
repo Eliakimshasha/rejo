@@ -18,6 +18,9 @@ function page() {
   const [activeSlides, setActiveSlides] = useState({});
 
   const router = useRouter();
+  const navigateToContact = ()=>{
+    router.push('/contact')
+  }
 
   const goToSlide = (destinationId, slideIndex) => {
     setActiveSlides((prev) => ({
@@ -335,7 +338,7 @@ function page() {
             </p>
 
             {/* CTA Button */}
-            <button className="bg-[#68AC33] hover:bg-[#559426] text-white px-6 sm:px-8 py-3 sm:py-4 rounded-full text-base sm:text-lg font-medium flex items-center gap-3 transition-colors mb-8 sm:mb-12 md:mb-16 group w-full sm:w-auto justify-center sm:justify-start">
+            <button className="bg-[#68AC33] hover:bg-[#559426] text-white px-6 sm:px-8 py-3 sm:py-4 rounded-full text-base sm:text-lg font-medium flex items-center gap-3 transition-colors mb-8 sm:mb-12 md:mb-16 group w-full sm:w-auto justify-center sm:justify-start" onClick={navigateToContact}>
               Get the team to experience the best
               <ArrowRight className="w-5 h-5 group-hover:translate-x-1 transition-transform" />
             </button>
@@ -368,7 +371,7 @@ function page() {
               </p>
             </div>
 
-            <button className="inline-flex items-center gap-3  bg-[#68AC33]  hover:bg-[#559426] text-white font-semibold px-8 py-4 rounded-full transition-all duration-300 hover:shadow-sm hover:scale-105">
+            <button className="inline-flex items-center gap-3  bg-[#68AC33]  hover:bg-[#559426] text-white font-semibold px-8 py-4 rounded-full transition-all duration-300 hover:shadow-sm hover:scale-105" onClick={navigateToContact}>
               Customize My Trip
               <svg
                 width="20"

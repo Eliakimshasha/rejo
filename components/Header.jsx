@@ -19,13 +19,17 @@ const Header = () => {
     setIsMenuOpen(!isMenuOpen);
   };
 
+  const navigateToContact = ()=>{
+    route.push('/contact')
+  }
+
   const menuItems = [
-    { name: "Travel Style", link: "/travelStyle" },
+    { name: "Travel Style", link: "/travel-style" },
     { name: "Destinations", link: "/destinations" },
     { name: "Mt.Kilimanjaro", link: "/kilimanjaro" },
     { name: "DayTrips", link: "/daytrip" },
     { name: "Experiences", link: "/experience" },
-    { name: "Escape DSM", link: "/escapeDsm" },
+    { name: "Escape DSM", link: "/escape-dsm" },
   ];
 
   const handleNavigation = () => {
@@ -187,6 +191,7 @@ const Header = () => {
                       ? "bg-[#F4A460] hover:bg-[#a27d5c]"
                       : "bg-[#68AC33] hover:bg-[#559426]"
                   } text-white px-3 md:px-6 py-2 rounded-full transition-colors duration-200 font-medium text-sm`}
+                  onClick={navigateToContact}
                 >
                   Host with us
                 </button>
@@ -290,6 +295,8 @@ const Header = () => {
               style={{
                 transitionDelay: isMenuOpen ? "600ms" : "0ms",
               }}
+                  onClick={navigateToContact}
+
             >
               <button className="w-full bg-[#68AC33] hover:bg-[#559426] text-white px-6 py-3 rounded-full transition-colors duration-200 font-medium">
                 Host with us
