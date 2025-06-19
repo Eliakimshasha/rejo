@@ -7,6 +7,24 @@ import { CgProfile } from "react-icons/cg";
 import { IoPersonCircleOutline } from "react-icons/io5";
 import { CiMenuFries } from "react-icons/ci";
 import { useParams, usePathname, useRouter } from "next/navigation";
+import { styled } from "@mui/material/styles";
+import Button from "@mui/material/Button";
+import Tooltip, { tooltipClasses } from "@mui/material/Tooltip";
+import Typography from "@mui/material/Typography";
+
+const HtmlTooltip = styled(({ className, ...props }) => (
+  <Tooltip {...props} classes={{ popper: className }} />
+))(({ theme }) => ({
+  [`& .${tooltipClasses.tooltip}`]: {
+    backgroundColor: "#D9EDD9",
+    color: "rgba(0, 0, 0, 0.87)",
+    right: 0,
+    minWidth: 100,
+    maxWidth: 320,
+    fontSize: theme.typography.pxToRem(12),
+    border: "1px solid #dadde9",
+  },
+}));
 
 const Header = () => {
   const param = useParams();
@@ -34,6 +52,9 @@ const Header = () => {
 
   const handleNavigation = () => {
     route.push("/");
+  };
+   const navigateToLogin = () => {
+    route.push("/authentication/login");
   };
   // Check if this is the Lemosho route for special styling
   const isLemoshoRoute = id === "lemosho-route";
@@ -206,9 +227,32 @@ const Header = () => {
                     : isLemoshoRoute
                     ? "bg-transparent"
                     : "bg-[#D9EDD9] "
-                } space-x-4 px-4 py-2 border border-gray-400 rounded-full`}
+                } space-x-4 px-4 py-2  border border-gray-400 rounded-full`}
               >
-                <IoPersonCircleOutline color="black" className="text-lg" />
+                <HtmlTooltip
+                  title={
+                    <React.Fragment>
+                      <button  className="py-[2px] mx-center w-full" onClick={navigateToLogin}>
+                       { `Login ->`}
+                      </button>
+                    </React.Fragment>
+                  }
+                  PopperProps={{
+                    modifiers: [
+                      {
+                        name: "offset",
+                        options: {
+                          offset: [25, 0], // [x, y] = [horizontal offset, vertical offset]
+                        },
+                      },
+                    ],
+                  }}
+                >
+                  <IoPersonCircleOutline
+                    color="black"
+                    className="text-2xl cursor-pointer"
+                  />
+                </HtmlTooltip>
                 <div className="w-[1px] h-4 bg-gray-500"></div>
                 <button
                   onClick={toggleMenu}
