@@ -18,9 +18,9 @@ function page() {
   const [activeSlides, setActiveSlides] = useState({});
 
   const router = useRouter();
-  const navigateToContact = ()=>{
-    router.push('/contact')
-  }
+  const navigateToContact = () => {
+    router.push("/contact");
+  };
 
   const goToSlide = (destinationId, slideIndex) => {
     setActiveSlides((prev) => ({
@@ -32,7 +32,6 @@ function page() {
   const navigateToDestinations = () => {
     router.push("/destinations");
   };
- 
 
   return (
     <>
@@ -50,7 +49,10 @@ function page() {
               Discover The Beauty Of Tanzania - Safaris, Beaches & Adventures
             </p>
 
-            <button className="bg-[#68AC33] hover:bg-[#559426] text-white px-8 py-4 rounded-full text-lg flex items-center gap-3 transition-colors duration-300" onClick={navigateToDestinations}>
+            <button
+              className="bg-[#68AC33] hover:bg-[#559426] text-white px-8 py-4 rounded-full text-lg flex items-center gap-3 transition-colors duration-300"
+              onClick={() => navigateToDestinations()}
+            >
               View all destinations
               <svg
                 width="20"
@@ -75,7 +77,7 @@ function page() {
             {/* Main large image - lake with boats */}
             <div className="w-[85%] h-full mx-auto">
               <div className="relative w-full z-20 h-full">
-                 <h1 className="absolute z-30 inset-0 flex items-center text-4xl justify-center text-black/30 font-bold">
+                <h1 className="absolute z-30 inset-0 flex items-center text-4xl justify-center text-black/30 font-bold">
                   VISIT TANZANIA
                 </h1>
                 <Image
@@ -130,7 +132,10 @@ function page() {
               Discover The Beauty Of Tanzania - Safaris, Beaches & Adventures
             </p>
 
-            <button className="bg-[#68AC33] hover:bg-[#559426] text-white px-6 py-3 sm:px-8 sm:py-4 rounded-full text-base sm:text-lg flex items-center gap-3 transition-colors duration-300 mx-auto" onClick={navigateToDestinations}>
+            <button
+              className="bg-[#68AC33] hover:bg-[#559426] text-white px-6 py-3 sm:px-8 sm:py-4 rounded-full text-base sm:text-lg flex items-center gap-3 transition-colors duration-300 mx-auto"
+              onClick={() => navigateToDestinations()}
+            >
               View all destinations
               <svg
                 width="20"
@@ -339,7 +344,10 @@ function page() {
             </p>
 
             {/* CTA Button */}
-            <button className="bg-[#68AC33] hover:bg-[#559426] text-white px-6 sm:px-8 py-3 sm:py-4 rounded-full text-base sm:text-lg font-medium flex items-center gap-3 transition-colors mb-8 sm:mb-12 md:mb-16 group w-full sm:w-auto justify-center sm:justify-start" onClick={navigateToContact}>
+            <button
+              className="bg-[#68AC33] hover:bg-[#559426] text-white px-6 sm:px-8 py-3 sm:py-4 rounded-full text-base sm:text-lg font-medium flex items-center gap-3 transition-colors mb-8 sm:mb-12 md:mb-16 group w-full sm:w-auto justify-center sm:justify-start"
+              onClick={()=>navigateToContact()}
+            >
               Get the team to experience the best
               <ArrowRight className="w-5 h-5 group-hover:translate-x-1 transition-transform" />
             </button>
@@ -372,7 +380,11 @@ function page() {
               </p>
             </div>
 
-            <button className="inline-flex items-center gap-3  bg-[#68AC33]  hover:bg-[#559426] text-white font-semibold px-8 py-4 rounded-full transition-all duration-300 hover:shadow-sm hover:scale-105" onClick={navigateToContact}>
+            <button
+              className="inline-flex items-center gap-3  bg-[#68AC33]  hover:bg-[#559426] text-white font-semibold px-8 py-4 rounded-full transition-all duration-300 hover:shadow-sm hover:scale-105"
+                            onClick={()=>navigateToContact()}
+
+            >
               Customize My Trip
               <svg
                 width="20"

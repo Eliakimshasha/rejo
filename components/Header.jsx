@@ -19,9 +19,9 @@ const Header = () => {
     setIsMenuOpen(!isMenuOpen);
   };
 
-  const navigateToContact = ()=>{
-    route.push('/contact')
-  }
+  const navigateToContact = () => {
+    route.push("/contact");
+  };
 
   const menuItems = [
     { name: "Travel Style", link: "/travel-style" },
@@ -191,7 +191,7 @@ const Header = () => {
                       ? "bg-[#F4A460] hover:bg-[#a27d5c]"
                       : "bg-[#68AC33] hover:bg-[#559426]"
                   } text-white px-3 md:px-6 py-2 rounded-full transition-colors duration-200 font-medium text-sm`}
-                  onClick={navigateToContact}
+                  onClick={() => navigateToContact()}
                 >
                   Host with us
                 </button>
@@ -200,9 +200,12 @@ const Header = () => {
               {/* Hamburger menu button - Always visible */}
 
               <div
-                className={`flex items-center ${  path.startsWith("/escapeDsm")
-                      ? "bg-twhite":
-                  isLemoshoRoute ? "bg-transparent" : "bg-[#D9EDD9] "
+                className={`flex items-center ${
+                  path.startsWith("/escapeDsm")
+                    ? "bg-twhite"
+                    : isLemoshoRoute
+                    ? "bg-transparent"
+                    : "bg-[#D9EDD9] "
                 } space-x-4 px-4 py-2 border border-gray-400 rounded-full`}
               >
                 <IoPersonCircleOutline color="black" className="text-lg" />
@@ -240,7 +243,7 @@ const Header = () => {
             {/* Mobile Menu Header */}
             <div className="flex justify-between items-center p-6 border-b">
               <div className="flex items-center">
-               <svg
+                <svg
                   width="70"
                   height="50"
                   viewBox="0 0 113 68"
@@ -295,8 +298,7 @@ const Header = () => {
               style={{
                 transitionDelay: isMenuOpen ? "600ms" : "0ms",
               }}
-                  onClick={navigateToContact}
-
+              onClick={() => navigateToContact()}
             >
               <button className="w-full bg-[#68AC33] hover:bg-[#559426] text-white px-6 py-3 rounded-full transition-colors duration-200 font-medium">
                 Host with us
