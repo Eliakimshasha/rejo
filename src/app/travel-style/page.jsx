@@ -35,7 +35,7 @@ export default function TravelStyle() {
   const currentPackages = getAllPackagesByCategory(activeTab);
 
   return (
-    <div className="w-full max-w-7xl mx-auto p-6 bg-[#F8FFF3]">
+    <div className="w-full max-w-7xl relative mx-auto p-6 bg-[#F8FFF3]">
       {/* Header */}
       <div className="text-center mb-8">
         <h1 className="md:text-5xl text-2xl mt-9 font-light mb-2 text-gray-800 md:py-9">
@@ -48,7 +48,7 @@ export default function TravelStyle() {
       </div>
 
       {/* Tab Navigation */}
-      <div className="border-b border-gray-200 md:border-none  md:pt-2  md:shadow-xl md:rounded-full md:my-9 md:mt-16 pb-3 md:pb-2 mb-6 md:px-5 w-full">
+      <div className="border-b bg-[#F8FFF3] border-gray-200 sticky md:top-[72px] top-20 z-10 md:border-none  pt-2   md:shadow-xl md:rounded-full md:my-9 md:mt-16 pb-3 md:pb-2 mb-6 md:px-5 w-full">
         <div className="relative ">
           {/* Gradient overlays for scroll indication */}
           <div className="absolute left-0 top-0 md:hidden bottom-0 w-8 bg-gradient-to-r from-white to-transparent z-10 pointer-events-none" />
@@ -64,10 +64,10 @@ export default function TravelStyle() {
                   <button
                     key={category}
                     onClick={() => setActiveTab(category)}
-                    className={`flex items-center gap-2 md:px-6 px-3 md:py-3 py-1 rounded-full font-medium transition-all duration-200 ${
+                    className={`flex items-center gap-2 md:px-6 px-3 md:py-1 py-1 rounded-full font-medium transition-all duration-200 ${
                       activeTab === category
                         ? "bg-slate-900 text-white shadow-md"
-                        : "text-gray-600 hover:text-gray-900 "
+                        : "text-gray-600 hover:text-gray-900 hover:bg-black/5"
                     }`}
                   >
                     <IconComponent className="w-4 h-4" />
@@ -81,7 +81,7 @@ export default function TravelStyle() {
       </div>
 
       {/* Packages Grid */}
-      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+      <div className="grid md:px-7 px-0 relative z-0 grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
         {currentPackages.map((packageItem) => (
           <Link
             key={`${packageItem.destinationId}-${activeTab}`}
@@ -119,7 +119,7 @@ export default function TravelStyle() {
       </div>
 
       {/* Category Description */}
-      <div className="mt-12 text-center bg-[#68AC33] md:w-[80%] md:mx-auto p-8 rounded-2xl">
+      <div className="mt-12 relative z-0 text-center bg-[#68AC33] md:w-[80%] md:mx-auto p-8 rounded-2xl">
         <div className="max-w-3xl mx-auto">
           {activeTab === "individual" && (
             <>
