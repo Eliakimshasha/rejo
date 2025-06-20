@@ -38,7 +38,7 @@ export default function TravelStyle() {
     <div className="w-full max-w-7xl mx-auto p-6 bg-[#F8FFF3]">
       {/* Header */}
       <div className="text-center mb-8">
-        <h1 className="md:text-5xl text-3xl font-light mb-2 text-gray-800 md:py-9">
+        <h1 className="md:text-5xl text-2xl mt-9 font-light mb-2 text-gray-800 md:py-9">
           Family fun Starts With Us 🌍✨
         </h1>
         {/* <p className="md:text-lg text-gray-600 max-w-2xl mx-auto  md:mb-4">
@@ -57,14 +57,14 @@ export default function TravelStyle() {
           {/* Scrollable container */}
           <div className="overflow-x-auto scrollbar-hide">
             <div className="flex gap-2 md:justify-between  min-w-max px-2  py-1 md:items-center">
-              {" "}
+             
               {categories.map((category) => {
                 const IconComponent = categoryIcons[category];
                 return (
                   <button
                     key={category}
                     onClick={() => setActiveTab(category)}
-                    className={`flex items-center gap-2 px-6 py-3 rounded-full font-medium transition-all duration-200 ${
+                    className={`flex items-center gap-2 md:px-6 px-3 md:py-3 py-1 rounded-full font-medium transition-all duration-200 ${
                       activeTab === category
                         ? "bg-slate-900 text-white shadow-md"
                         : "text-gray-600 hover:text-gray-900 "

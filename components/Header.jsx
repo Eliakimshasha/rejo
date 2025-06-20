@@ -39,6 +39,7 @@ const Header = () => {
 
   const navigateToContact = () => {
     route.push("/contact");
+    setIsMenuOpen(!isMenuOpen);
   };
 
   const menuItems = [
