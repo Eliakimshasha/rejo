@@ -56,7 +56,7 @@ const Footer = () => {
             <ul className="space-y-4">
               <li>
                 <a
-                  href="#"
+                  href="travel-style"
                   className="text-gray-600 hover:text-gray-900 transition-colors"
                 >
                   Unlock travel styles
@@ -88,7 +88,7 @@ const Footer = () => {
               </li>
               <li>
                 <a
-                  href="escapeDsm"
+                  href="escape-dsm"
                   className="text-gray-600 hover:text-gray-900 transition-colors"
                 >
                   Escape DSM

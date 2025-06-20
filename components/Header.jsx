@@ -137,7 +137,7 @@ const Header = () => {
                     : isLemoshoRoute
                     ? "bg-transparent"
                     : "bg-[#D9EDD9] "
-                } space-x-4 px-4 py-2  border border-gray-400 rounded-full`}
+                } space-x-4 px-4 py-[6px]  border border-gray-400 rounded-full`}
               >
                 <HtmlTooltip
                   title={
