@@ -1,3 +1,4 @@
+'use client'
 import React from "react";
 import Image from "next/image";
 import frame1 from "../../../public/assets/images/Frame 40.png";
@@ -6,8 +7,10 @@ import frame3 from "../../../public/assets/images/Frame 39.png";
 import curve1 from "../../../public/assets/images/Frame 46.png";
 import curve2 from "../../../public/assets/images/Frame 45.png";
 import curve3 from "../../../public/assets/images/Frame 43.png";
+import { useRouter } from "next/navigation";
 
 const Experience = () => {
+  const router = useRouter()
   const experiences = [
     {
       id: 1,
@@ -34,6 +37,9 @@ const Experience = () => {
       bgColor: " #FEF6FF",
     },
   ];
+  const navigateToContact = ()=>{
+router.push('/contact')
+  }
 
   return (
     <div className="max-w-7xl mx-auto px-4 py-12 space-y-16">
@@ -121,7 +127,7 @@ const Experience = () => {
               </p>
             </div>
 
-            <button className="inline-flex items-center gap-3  bg-[#68AC33]  hover:bg-[#559426] text-white font-semibold px-8 py-4 rounded-full transition-all duration-300 hover:shadow-sm hover:scale-105">
+            <button className="inline-flex items-center gap-3  bg-[#68AC33]  hover:bg-[#559426] text-white font-semibold px-8 py-4 rounded-full transition-all duration-300 hover:shadow-sm hover:scale-105" onClick={navigateToContact}>
               Customize My Trip
               <svg
                 width="20"
