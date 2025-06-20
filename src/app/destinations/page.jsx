@@ -1,11 +1,10 @@
 "use client";
 import React, { useState } from "react";
 import { destinations } from "../../../components/Destinations";
+import Link from "next/link";
 
 const DestinationsPage = () => {
   const [activeSlides, setActiveSlides] = useState({});
-
-
 
   const goToSlide = (destinationId, slideIndex) => {
     setActiveSlides((prev) => ({
@@ -34,9 +33,10 @@ const DestinationsPage = () => {
             const currentSlide = activeSlides[destination.id] || 0;
 
             return (
-              <div
+              <Link
+              href="#"
                 key={destination.id}
-                className="overflow-hidden   transition-shadow"
+                className="overflow-hidden  transition-shadow"
               >
                 {/* Image Carousel */}
                 <div className="relative h-80 overflow-hidden">
@@ -98,7 +98,7 @@ const DestinationsPage = () => {
                     {destination.name}
                   </h3>
                 </div>
-              </div>
+              </Link>
             );
           })}
         </div>
