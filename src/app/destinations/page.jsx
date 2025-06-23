@@ -14,7 +14,7 @@ const DestinationsPage = () => {
   };
 
   return (
-    <div className="min-h-screen">
+    <div className="min-h-screen bg-[#F8FFF3]">
       {/* Header Section */}
       <div className="text-center py-16 px-6">
         <h1 className="md:text-5xl text-3xl font-light text-gray-800 mb-8">
@@ -33,8 +33,7 @@ const DestinationsPage = () => {
             const currentSlide = activeSlides[destination.id] || 0;
 
             return (
-              <Link
-              href="#"
+              <div
                 key={destination.id}
                 className="overflow-hidden  transition-shadow"
               >
@@ -45,13 +44,13 @@ const DestinationsPage = () => {
                     style={{ transform: `translateX(-${currentSlide * 100}%)` }}
                   >
                     {destination.images.map((image, index) => (
-                      <div key={index} className="w-full h-full flex-shrink-0">
+                      <Link key={index} href="#" className="w-full h-full flex-shrink-0">
                         <img
                           src={image}
                           alt={`${destination.name} - Image ${index + 1}`}
                           className="w-full h-full object-cover rounded-3xl"
                         />
-                      </div>
+                      </Link>
                     ))}
                   </div>
 
@@ -98,7 +97,7 @@ const DestinationsPage = () => {
                     {destination.name}
                   </h3>
                 </div>
-              </Link>
+              </div>
             );
           })}
         </div>

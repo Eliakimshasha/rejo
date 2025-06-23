@@ -1,15 +1,25 @@
-"use client"
+"use client";
 
-import { useState } from "react"
-import { useParams, useRouter } from "next/navigation"
-import { ChevronDown, Users, Calendar, Plane, Home, FileText, DollarSign, Navigation } from "lucide-react"
-import Image from "next/image"
+import { useState } from "react";
+import { useParams, useRouter } from "next/navigation";
+import {
+  ChevronDown,
+  Users,
+  Calendar,
+  Plane,
+  Home,
+  FileText,
+  DollarSign,
+  Navigation,
+} from "lucide-react";
+import Image from "next/image";
 
 const routeData = {
   "machame-route": {
     name: "Machame Route",
     nickname: "Whiskey Route",
-    description2:"The trail begins on the western side of Mount Kilimanjaro, with a scenic drive from Moshi to Londorossi Gate. The initial two days involve trekking through lush rainforests to reach Shira Ridge. The route then extends across the entire Shira Plateau from west to east, providing a relatively gentle and enjoyable hike. While the trail remains uncrowded at first, it merges with the Machame route near Lava Tower. From there, climbers follow the Southern Circuit beneath Kilimanjaro’s Southern Ice Field before making the final ascent from Barafu. The descent follows the Mweka route",
+    description2:
+      "The trail begins on the western side of Mount Kilimanjaro, with a scenic drive from Moshi to Londorossi Gate. The initial two days involve trekking through lush rainforests to reach Shira Ridge. The route then extends across the entire Shira Plateau from west to east, providing a relatively gentle and enjoyable hike. While the trail remains uncrowded at first, it merges with the Machame route near Lava Tower. From there, climbers follow the Southern Circuit beneath Kilimanjaro’s Southern Ice Field before making the final ascent from Barafu. The descent follows the Mweka route",
 
     description:
       'The Machame route, often referred to as the "Whiskey" route, is the most popular trail on Kilimanjaro, renowned for its breathtaking scenic beauty. This route offers diverse landscapes, from lush rainforest to alpine desert, providing climbers with an unforgettable experience as they ascend to Uhuru Peak.',
@@ -109,7 +119,12 @@ const routeData = {
       "All park fees collected by the Kilimanjaro National Park (conservation fees, camping fees, crew fees, vehicle fee, rescue fee and all other fees collected by the Tanzania National Parks Authority)",
       "Tented accommodation on Mount Kilimanjaro (modern, comfortable 4-Season tents, North Face VE-25)",
     ],
-    exclusions: ["Airline tickets", "Accommodation before and after trekking", "Visa fees", "Personal gear rentals"],
+    exclusions: [
+      "Airline tickets",
+      "Accommodation before and after trekking",
+      "Visa fees",
+      "Personal gear rentals",
+    ],
   },
   "lemosho-route": {
     name: "Lemosho Route",
@@ -120,7 +135,8 @@ const routeData = {
     duration: "8 Days",
     difficulty: "Moderate",
     success_rate: "90%",
-    description2:"The trail begins on the western side of Mount Kilimanjaro, with a scenic drive from Moshi to Londorossi Gate. The initial two days involve trekking through lush rainforests to reach Shira Ridge. The route then extends across the entire Shira Plateau from west to east, providing a relatively gentle and enjoyable hike. While the trail remains uncrowded at first, it merges with the Machame route near Lava Tower. From there, climbers follow the Southern Circuit beneath Kilimanjaro’s Southern Ice Field before making the final ascent from Barafu. The descent follows the Mweka route",
+    description2:
+      "The trail begins on the western side of Mount Kilimanjaro, with a scenic drive from Moshi to Londorossi Gate. The initial two days involve trekking through lush rainforests to reach Shira Ridge. The route then extends across the entire Shira Plateau from west to east, providing a relatively gentle and enjoyable hike. While the trail remains uncrowded at first, it merges with the Machame route near Lava Tower. From there, climbers follow the Southern Circuit beneath Kilimanjaro’s Southern Ice Field before making the final ascent from Barafu. The descent follows the Mweka route",
     itinerary: [
       {
         day: 1,
@@ -185,7 +201,8 @@ const routeData = {
         time: "4-5 hours",
         habitat: "Alpine Desert",
         image: "/assets/images/Frame 61 (4).png",
-        description: "After breakfast, we leave Karanga and hit the junction which connects with the Mweka Trail.",
+        description:
+          "After breakfast, we leave Karanga and hit the junction which connects with the Mweka Trail.",
       },
       {
         day: 7,
@@ -223,12 +240,18 @@ const routeData = {
       "All park fees collected by the Kilimanjaro National Park",
       "Tented accommodation on Mount Kilimanjaro",
     ],
-    exclusions: ["Airline tickets", "Accommodation before and after trekking", "Visa fees", "Personal gear rentals"],
+    exclusions: [
+      "Airline tickets",
+      "Accommodation before and after trekking",
+      "Visa fees",
+      "Personal gear rentals",
+    ],
   },
   "rongai-route": {
     name: "Rongai Route",
     nickname: "Northern Circuit",
-    description2:"The trail begins on the western side of Mount Kilimanjaro, with a scenic drive from Moshi to Londorossi Gate. The initial two days involve trekking through lush rainforests to reach Shira Ridge. The route then extends across the entire Shira Plateau from west to east, providing a relatively gentle and enjoyable hike. While the trail remains uncrowded at first, it merges with the Machame route near Lava Tower. From there, climbers follow the Southern Circuit beneath Kilimanjaro’s Southern Ice Field before making the final ascent from Barafu. The descent follows the Mweka route",
+    description2:
+      "The trail begins on the western side of Mount Kilimanjaro, with a scenic drive from Moshi to Londorossi Gate. The initial two days involve trekking through lush rainforests to reach Shira Ridge. The route then extends across the entire Shira Plateau from west to east, providing a relatively gentle and enjoyable hike. While the trail remains uncrowded at first, it merges with the Machame route near Lava Tower. From there, climbers follow the Southern Circuit beneath Kilimanjaro’s Southern Ice Field before making the final ascent from Barafu. The descent follows the Mweka route",
 
     description:
       "The Rongai Route begins with a scenic drive from Moshi to the Rongai Gate near the Kenyan border, covering approximately 70 to 80 kilometers and taking about 4-5 hours. It's the only route that approaches Kilimanjaro from the north, offering a quieter and less crowded experience.",
@@ -328,12 +351,18 @@ const routeData = {
       "All park fees collected by the Kilimanjaro National Park (conservation fees, camping fees, crew fees, vehicle fee, rescue fee and all other fees collected by the Tanzania National Parks Authority)",
       "Tented accommodation on Mount Kilimanjaro (modern, comfortable 4-Season tents, North Face VE-25)",
     ],
-    exclusions: ["Airline tickets", "Accommodation before and after trekking", "Visa fees", "Personal gear rentals"],
+    exclusions: [
+      "Airline tickets",
+      "Accommodation before and after trekking",
+      "Visa fees",
+      "Personal gear rentals",
+    ],
   },
   "shira-route": {
     name: "Shira Route",
     nickname: "Plateau Route",
-    description2:"The trail begins on the western side of Mount Kilimanjaro, with a scenic drive from Moshi to Londorossi Gate. The initial two days involve trekking through lush rainforests to reach Shira Ridge. The route then extends across the entire Shira Plateau from west to east, providing a relatively gentle and enjoyable hike. While the trail remains uncrowded at first, it merges with the Machame route near Lava Tower. From there, climbers follow the Southern Circuit beneath Kilimanjaro’s Southern Ice Field before making the final ascent from Barafu. The descent follows the Mweka route",
+    description2:
+      "The trail begins on the western side of Mount Kilimanjaro, with a scenic drive from Moshi to Londorossi Gate. The initial two days involve trekking through lush rainforests to reach Shira Ridge. The route then extends across the entire Shira Plateau from west to east, providing a relatively gentle and enjoyable hike. While the trail remains uncrowded at first, it merges with the Machame route near Lava Tower. From there, climbers follow the Southern Circuit beneath Kilimanjaro’s Southern Ice Field before making the final ascent from Barafu. The descent follows the Mweka route",
 
     description:
       "The Shira Route is a lesser-used trail that starts near Shira Ridge and closely resembles the Lemosho Route. In fact, Shira was the original path, with Lemosho later developed as an improved version.",
@@ -394,7 +423,8 @@ const routeData = {
         time: "4-5 hours",
         habitat: "Alpine Desert",
         image: "/assets/images/Frame 60.png",
-        description: "Final approach to base camp. Rest and prepare for the summit attempt.",
+        description:
+          "Final approach to base camp. Rest and prepare for the summit attempt.",
       },
       {
         day: 6,
@@ -404,7 +434,8 @@ const routeData = {
         time: "12-16 hours",
         habitat: "Arctic",
         image: "/assets/images/Frame 60.png",
-        description: "Summit day! Early morning start for the final push to Uhuru Peak, then descend to Mweka Camp.",
+        description:
+          "Summit day! Early morning start for the final push to Uhuru Peak, then descend to Mweka Camp.",
       },
       {
         day: 7,
@@ -425,7 +456,8 @@ const routeData = {
         time: "Transfer",
         habitat: "Moshi Town",
         image: "/assets/images/Frame 60.png",
-        description: "Transfer back to your hotel in Moshi or to Kilimanjaro International Airport for your departure.",
+        description:
+          "Transfer back to your hotel in Moshi or to Kilimanjaro International Airport for your departure.",
       },
     ],
     pricing: [
@@ -441,11 +473,17 @@ const routeData = {
       "All park fees collected by the Kilimanjaro National Park",
       "Tented accommodation on Mount Kilimanjaro",
     ],
-    exclusions: ["Airline tickets", "Accommodation before and after trekking", "Visa fees", "Personal gear rentals"],
+    exclusions: [
+      "Airline tickets",
+      "Accommodation before and after trekking",
+      "Visa fees",
+      "Personal gear rentals",
+    ],
   },
   "umbwe-route": {
     name: "Umbwe Route",
-    description2:"The trail begins on the western side of Mount Kilimanjaro, with a scenic drive from Moshi to Londorossi Gate. The initial two days involve trekking through lush rainforests to reach Shira Ridge. The route then extends across the entire Shira Plateau from west to east, providing a relatively gentle and enjoyable hike. While the trail remains uncrowded at first, it merges with the Machame route near Lava Tower. From there, climbers follow the Southern Circuit beneath Kilimanjaro’s Southern Ice Field before making the final ascent from Barafu. The descent follows the Mweka route",
+    description2:
+      "The trail begins on the western side of Mount Kilimanjaro, with a scenic drive from Moshi to Londorossi Gate. The initial two days involve trekking through lush rainforests to reach Shira Ridge. The route then extends across the entire Shira Plateau from west to east, providing a relatively gentle and enjoyable hike. While the trail remains uncrowded at first, it merges with the Machame route near Lava Tower. From there, climbers follow the Southern Circuit beneath Kilimanjaro’s Southern Ice Field before making the final ascent from Barafu. The descent follows the Mweka route",
 
     nickname: "Steep & Direct Route",
     description:
@@ -474,7 +512,8 @@ const routeData = {
         time: "4-6 hours",
         habitat: "Heath/Moorland",
         image: "/assets/images/Frame 60.png",
-        description: "Continue the steep ascent, leaving the forest behind and entering the heath and moorland zones.",
+        description:
+          "Continue the steep ascent, leaving the forest behind and entering the heath and moorland zones.",
       },
       {
         day: 3,
@@ -484,7 +523,8 @@ const routeData = {
         time: "4-5 hours",
         habitat: "Alpine Desert",
         image: "/assets/images/Frame 60.png",
-        description: "Navigate the famous Barranco Wall and continue to Karanga Camp for acclimatization.",
+        description:
+          "Navigate the famous Barranco Wall and continue to Karanga Camp for acclimatization.",
       },
       {
         day: 4,
@@ -494,7 +534,8 @@ const routeData = {
         time: "4-5 hours",
         habitat: "Alpine Desert",
         image: "/assets/images/Frame 60.png",
-        description: "Final approach to base camp. Rest and prepare for the summit attempt.",
+        description:
+          "Final approach to base camp. Rest and prepare for the summit attempt.",
       },
       {
         day: 5,
@@ -504,7 +545,8 @@ const routeData = {
         time: "12-16 hours",
         habitat: "Arctic",
         image: "/assets/images/Frame 60.png",
-        description: "Summit day! Early morning start for the final push to Uhuru Peak, then descend to Mweka Camp.",
+        description:
+          "Summit day! Early morning start for the final push to Uhuru Peak, then descend to Mweka Camp.",
       },
       {
         day: 6,
@@ -531,11 +573,17 @@ const routeData = {
       "All park fees collected by the Kilimanjaro National Park",
       "Tented accommodation on Mount Kilimanjaro",
     ],
-    exclusions: ["Airline tickets", "Accommodation before and after trekking", "Visa fees", "Personal gear rentals"],
+    exclusions: [
+      "Airline tickets",
+      "Accommodation before and after trekking",
+      "Visa fees",
+      "Personal gear rentals",
+    ],
   },
-   "marangu-route": {
+  "marangu-route": {
     name: "Umbwe Route",
-    description2:"The trail begins on the western side of Mount Kilimanjaro, with a scenic drive from Moshi to Londorossi Gate. The initial two days involve trekking through lush rainforests to reach Shira Ridge. The route then extends across the entire Shira Plateau from west to east, providing a relatively gentle and enjoyable hike. While the trail remains uncrowded at first, it merges with the Machame route near Lava Tower. From there, climbers follow the Southern Circuit beneath Kilimanjaro’s Southern Ice Field before making the final ascent from Barafu. The descent follows the Mweka route",
+    description2:
+      "The trail begins on the western side of Mount Kilimanjaro, with a scenic drive from Moshi to Londorossi Gate. The initial two days involve trekking through lush rainforests to reach Shira Ridge. The route then extends across the entire Shira Plateau from west to east, providing a relatively gentle and enjoyable hike. While the trail remains uncrowded at first, it merges with the Machame route near Lava Tower. From there, climbers follow the Southern Circuit beneath Kilimanjaro’s Southern Ice Field before making the final ascent from Barafu. The descent follows the Mweka route",
 
     nickname: "Steep & Direct Route",
     description:
@@ -564,7 +612,8 @@ const routeData = {
         time: "4-6 hours",
         habitat: "Heath/Moorland",
         image: "/assets/images/Frame 60.png",
-        description: "Continue the steep ascent, leaving the forest behind and entering the heath and moorland zones.",
+        description:
+          "Continue the steep ascent, leaving the forest behind and entering the heath and moorland zones.",
       },
       {
         day: 3,
@@ -574,7 +623,8 @@ const routeData = {
         time: "4-5 hours",
         habitat: "Alpine Desert",
         image: "/assets/images/Frame 60.png",
-        description: "Navigate the famous Barranco Wall and continue to Karanga Camp for acclimatization.",
+        description:
+          "Navigate the famous Barranco Wall and continue to Karanga Camp for acclimatization.",
       },
       {
         day: 4,
@@ -584,7 +634,8 @@ const routeData = {
         time: "4-5 hours",
         habitat: "Alpine Desert",
         image: "/assets/images/Frame 60.png",
-        description: "Final approach to base camp. Rest and prepare for the summit attempt.",
+        description:
+          "Final approach to base camp. Rest and prepare for the summit attempt.",
       },
       {
         day: 5,
@@ -594,7 +645,8 @@ const routeData = {
         time: "12-16 hours",
         habitat: "Arctic",
         image: "/assets/images/Frame 60.png",
-        description: "Summit day! Early morning start for the final push to Uhuru Peak, then descend to Mweka Camp.",
+        description:
+          "Summit day! Early morning start for the final push to Uhuru Peak, then descend to Mweka Camp.",
       },
       {
         day: 6,
@@ -621,11 +673,17 @@ const routeData = {
       "All park fees collected by the Kilimanjaro National Park",
       "Tented accommodation on Mount Kilimanjaro",
     ],
-    exclusions: ["Airline tickets", "Accommodation before and after trekking", "Visa fees", "Personal gear rentals"],
+    exclusions: [
+      "Airline tickets",
+      "Accommodation before and after trekking",
+      "Visa fees",
+      "Personal gear rentals",
+    ],
   },
-   "northern-circuit": {
+  "northern-circuit": {
     name: "Umbwe Route",
-    description2:"The trail begins on the western side of Mount Kilimanjaro, with a scenic drive from Moshi to Londorossi Gate. The initial two days involve trekking through lush rainforests to reach Shira Ridge. The route then extends across the entire Shira Plateau from west to east, providing a relatively gentle and enjoyable hike. While the trail remains uncrowded at first, it merges with the Machame route near Lava Tower. From there, climbers follow the Southern Circuit beneath Kilimanjaro’s Southern Ice Field before making the final ascent from Barafu. The descent follows the Mweka route",
+    description2:
+      "The trail begins on the western side of Mount Kilimanjaro, with a scenic drive from Moshi to Londorossi Gate. The initial two days involve trekking through lush rainforests to reach Shira Ridge. The route then extends across the entire Shira Plateau from west to east, providing a relatively gentle and enjoyable hike. While the trail remains uncrowded at first, it merges with the Machame route near Lava Tower. From there, climbers follow the Southern Circuit beneath Kilimanjaro’s Southern Ice Field before making the final ascent from Barafu. The descent follows the Mweka route",
 
     nickname: "Steep & Direct Route",
     description:
@@ -654,7 +712,8 @@ const routeData = {
         time: "4-6 hours",
         habitat: "Heath/Moorland",
         image: "/assets/images/Frame 60.png",
-        description: "Continue the steep ascent, leaving the forest behind and entering the heath and moorland zones.",
+        description:
+          "Continue the steep ascent, leaving the forest behind and entering the heath and moorland zones.",
       },
       {
         day: 3,
@@ -664,7 +723,8 @@ const routeData = {
         time: "4-5 hours",
         habitat: "Alpine Desert",
         image: "/assets/images/Frame 60.png",
-        description: "Navigate the famous Barranco Wall and continue to Karanga Camp for acclimatization.",
+        description:
+          "Navigate the famous Barranco Wall and continue to Karanga Camp for acclimatization.",
       },
       {
         day: 4,
@@ -674,7 +734,8 @@ const routeData = {
         time: "4-5 hours",
         habitat: "Alpine Desert",
         image: "/assets/images/Frame 60.png",
-        description: "Final approach to base camp. Rest and prepare for the summit attempt.",
+        description:
+          "Final approach to base camp. Rest and prepare for the summit attempt.",
       },
       {
         day: 5,
@@ -684,7 +745,8 @@ const routeData = {
         time: "12-16 hours",
         habitat: "Arctic",
         image: "/assets/images/Frame 60.png",
-        description: "Summit day! Early morning start for the final push to Uhuru Peak, then descend to Mweka Camp.",
+        description:
+          "Summit day! Early morning start for the final push to Uhuru Peak, then descend to Mweka Camp.",
       },
       {
         day: 6,
@@ -711,44 +773,464 @@ const routeData = {
       "All park fees collected by the Kilimanjaro National Park",
       "Tented accommodation on Mount Kilimanjaro",
     ],
-    exclusions: ["Airline tickets", "Accommodation before and after trekking", "Visa fees", "Personal gear rentals"],
+    exclusions: [
+      "Airline tickets",
+      "Accommodation before and after trekking",
+      "Visa fees",
+      "Personal gear rentals",
+    ],
   },
-}
+  "mikumi-national-park": {
+    name: "Umbwe Route",
+    description2:
+      "The trail begins on the western side of Mount Kilimanjaro, with a scenic drive from Moshi to Londorossi Gate. The initial two days involve trekking through lush rainforests to reach Shira Ridge. The route then extends across the entire Shira Plateau from west to east, providing a relatively gentle and enjoyable hike. While the trail remains uncrowded at first, it merges with the Machame route near Lava Tower. From there, climbers follow the Southern Circuit beneath Kilimanjaro’s Southern Ice Field before making the final ascent from Barafu. The descent follows the Mweka route",
+
+    nickname: "Steep & Direct Route",
+    description:
+      "The Umbwe route is known for its steep, direct ascent and is considered one of the most challenging routes on Kilimanjaro. It's recommended for experienced hikers who are confident in their ability to acclimatize quickly.",
+    image: "/placeholder.svg?height=400&width=800",
+    duration: "6 Days",
+    difficulty: "Very Challenging",
+    success_rate: "70%",
+    itinerary: [
+      {
+        day: 1,
+        title: "Umbwe Gate to Umbwe Camp",
+        altitude: "1640m - 2940m",
+        distance: "11 Km",
+        time: "5-7 hours",
+        habitat: "Rain Forest",
+        image: "/assets/images/Frame 60.png",
+        description:
+          "The Umbwe route is known for its steep, direct ascent. Begin the challenging climb through dense rainforest.",
+      },
+  
+    ],
+    pricing: [
+      { group: "1 person", price: 1900 },
+      { group: "2-4 people", price: 1750 },
+      { group: "5-7 people", price: 1700 },
+      { group: "8-10 people", price: 1600 },
+      { group: "11+ people", price: 1550 },
+    ],
+    inclusions: [
+      "Pick-up and drop-off at Kilimanjaro International Airport",
+      "Transfer to and pick-up from the gate of Kilimanjaro National Park",
+      "All park fees collected by the Kilimanjaro National Park",
+      "Tented accommodation on Mount Kilimanjaro",
+    ],
+    exclusions: [
+      "Airline tickets",
+      "Accommodation before and after trekking",
+      "Visa fees",
+      "Personal gear rentals",
+    ],
+  },
+  "arusha-national-park": {
+    name: "Umbwe Route",
+    description2:
+      "The trail begins on the western side of Mount Kilimanjaro, with a scenic drive from Moshi to Londorossi Gate. The initial two days involve trekking through lush rainforests to reach Shira Ridge. The route then extends across the entire Shira Plateau from west to east, providing a relatively gentle and enjoyable hike. While the trail remains uncrowded at first, it merges with the Machame route near Lava Tower. From there, climbers follow the Southern Circuit beneath Kilimanjaro’s Southern Ice Field before making the final ascent from Barafu. The descent follows the Mweka route",
+
+    nickname: "Steep & Direct Route",
+    description:
+      "The Umbwe route is known for its steep, direct ascent and is considered one of the most challenging routes on Kilimanjaro. It's recommended for experienced hikers who are confident in their ability to acclimatize quickly.",
+    image: "/placeholder.svg?height=400&width=800",
+    duration: "6 Days",
+    difficulty: "Very Challenging",
+    success_rate: "70%",
+    itinerary: [
+      {
+        day: 1,
+        title: "Umbwe Gate to Umbwe Camp",
+        altitude: "1640m - 2940m",
+        distance: "11 Km",
+        time: "5-7 hours",
+        habitat: "Rain Forest",
+        image: "/assets/images/Frame 60.png",
+        description:
+          "The Umbwe route is known for its steep, direct ascent. Begin the challenging climb through dense rainforest.",
+      },
+  
+    ],
+    pricing: [
+      { group: "1 person", price: 1900 },
+      { group: "2-4 people", price: 1750 },
+      { group: "5-7 people", price: 1700 },
+      { group: "8-10 people", price: 1600 },
+      { group: "11+ people", price: 1550 },
+    ],
+    inclusions: [
+      "Pick-up and drop-off at Kilimanjaro International Airport",
+      "Transfer to and pick-up from the gate of Kilimanjaro National Park",
+      "All park fees collected by the Kilimanjaro National Park",
+      "Tented accommodation on Mount Kilimanjaro",
+    ],
+    exclusions: [
+      "Airline tickets",
+      "Accommodation before and after trekking",
+      "Visa fees",
+      "Personal gear rentals",
+    ],
+  },
+  "tarangire-national-park": {
+    name: "Umbwe Route",
+    description2:
+      "The trail begins on the western side of Mount Kilimanjaro, with a scenic drive from Moshi to Londorossi Gate. The initial two days involve trekking through lush rainforests to reach Shira Ridge. The route then extends across the entire Shira Plateau from west to east, providing a relatively gentle and enjoyable hike. While the trail remains uncrowded at first, it merges with the Machame route near Lava Tower. From there, climbers follow the Southern Circuit beneath Kilimanjaro’s Southern Ice Field before making the final ascent from Barafu. The descent follows the Mweka route",
+
+    nickname: "Steep & Direct Route",
+    description:
+      "The Umbwe route is known for its steep, direct ascent and is considered one of the most challenging routes on Kilimanjaro. It's recommended for experienced hikers who are confident in their ability to acclimatize quickly.",
+    image: "/placeholder.svg?height=400&width=800",
+    duration: "6 Days",
+    difficulty: "Very Challenging",
+    success_rate: "70%",
+    itinerary: [
+      {
+        day: 1,
+        title: "Umbwe Gate to Umbwe Camp",
+        altitude: "1640m - 2940m",
+        distance: "11 Km",
+        time: "5-7 hours",
+        habitat: "Rain Forest",
+        image: "/assets/images/Frame 60.png",
+        description:
+          "The Umbwe route is known for its steep, direct ascent. Begin the challenging climb through dense rainforest.",
+      },
+  
+    ],
+    pricing: [
+      { group: "1 person", price: 1900 },
+      { group: "2-4 people", price: 1750 },
+      { group: "5-7 people", price: 1700 },
+      { group: "8-10 people", price: 1600 },
+      { group: "11+ people", price: 1550 },
+    ],
+    inclusions: [
+      "Pick-up and drop-off at Kilimanjaro International Airport",
+      "Transfer to and pick-up from the gate of Kilimanjaro National Park",
+      "All park fees collected by the Kilimanjaro National Park",
+      "Tented accommodation on Mount Kilimanjaro",
+    ],
+    exclusions: [
+      "Airline tickets",
+      "Accommodation before and after trekking",
+      "Visa fees",
+      "Personal gear rentals",
+    ],
+  },
+  "lake-manyara-national-park": {
+    name: "Umbwe Route",
+    description2:
+      "The trail begins on the western side of Mount Kilimanjaro, with a scenic drive from Moshi to Londorossi Gate. The initial two days involve trekking through lush rainforests to reach Shira Ridge. The route then extends across the entire Shira Plateau from west to east, providing a relatively gentle and enjoyable hike. While the trail remains uncrowded at first, it merges with the Machame route near Lava Tower. From there, climbers follow the Southern Circuit beneath Kilimanjaro’s Southern Ice Field before making the final ascent from Barafu. The descent follows the Mweka route",
+
+    nickname: "Steep & Direct Route",
+    description:
+      "The Umbwe route is known for its steep, direct ascent and is considered one of the most challenging routes on Kilimanjaro. It's recommended for experienced hikers who are confident in their ability to acclimatize quickly.",
+    image: "/placeholder.svg?height=400&width=800",
+    duration: "6 Days",
+    difficulty: "Very Challenging",
+    success_rate: "70%",
+    itinerary: [
+      {
+        day: 1,
+        title: "Umbwe Gate to Umbwe Camp",
+        altitude: "1640m - 2940m",
+        distance: "11 Km",
+        time: "5-7 hours",
+        habitat: "Rain Forest",
+        image: "/assets/images/Frame 60.png",
+        description:
+          "The Umbwe route is known for its steep, direct ascent. Begin the challenging climb through dense rainforest.",
+      },
+  
+    ],
+    pricing: [
+      { group: "1 person", price: 1900 },
+      { group: "2-4 people", price: 1750 },
+      { group: "5-7 people", price: 1700 },
+      { group: "8-10 people", price: 1600 },
+      { group: "11+ people", price: 1550 },
+    ],
+    inclusions: [
+      "Pick-up and drop-off at Kilimanjaro International Airport",
+      "Transfer to and pick-up from the gate of Kilimanjaro National Park",
+      "All park fees collected by the Kilimanjaro National Park",
+      "Tented accommodation on Mount Kilimanjaro",
+    ],
+    exclusions: [
+      "Airline tickets",
+      "Accommodation before and after trekking",
+      "Visa fees",
+      "Personal gear rentals",
+    ],
+  },
+  "ngorongoro-national-park": {
+    name: "Umbwe Route",
+    description2:
+      "The trail begins on the western side of Mount Kilimanjaro, with a scenic drive from Moshi to Londorossi Gate. The initial two days involve trekking through lush rainforests to reach Shira Ridge. The route then extends across the entire Shira Plateau from west to east, providing a relatively gentle and enjoyable hike. While the trail remains uncrowded at first, it merges with the Machame route near Lava Tower. From there, climbers follow the Southern Circuit beneath Kilimanjaro’s Southern Ice Field before making the final ascent from Barafu. The descent follows the Mweka route",
+
+    nickname: "Steep & Direct Route",
+    description:
+      "The Umbwe route is known for its steep, direct ascent and is considered one of the most challenging routes on Kilimanjaro. It's recommended for experienced hikers who are confident in their ability to acclimatize quickly.",
+    image: "/placeholder.svg?height=400&width=800",
+    duration: "6 Days",
+    difficulty: "Very Challenging",
+    success_rate: "70%",
+    itinerary: [
+      {
+        day: 1,
+        title: "Umbwe Gate to Umbwe Camp",
+        altitude: "1640m - 2940m",
+        distance: "11 Km",
+        time: "5-7 hours",
+        habitat: "Rain Forest",
+        image: "/assets/images/Frame 60.png",
+        description:
+          "The Umbwe route is known for its steep, direct ascent. Begin the challenging climb through dense rainforest.",
+      },
+  
+    ],
+    pricing: [
+      { group: "1 person", price: 1900 },
+      { group: "2-4 people", price: 1750 },
+      { group: "5-7 people", price: 1700 },
+      { group: "8-10 people", price: 1600 },
+      { group: "11+ people", price: 1550 },
+    ],
+    inclusions: [
+      "Pick-up and drop-off at Kilimanjaro International Airport",
+      "Transfer to and pick-up from the gate of Kilimanjaro National Park",
+      "All park fees collected by the Kilimanjaro National Park",
+      "Tented accommodation on Mount Kilimanjaro",
+    ],
+    exclusions: [
+      "Airline tickets",
+      "Accommodation before and after trekking",
+      "Visa fees",
+      "Personal gear rentals",
+    ],
+  },
+  "mkomazi-national-park": {
+    name: "Umbwe Route",
+    description2:
+      "The trail begins on the western side of Mount Kilimanjaro, with a scenic drive from Moshi to Londorossi Gate. The initial two days involve trekking through lush rainforests to reach Shira Ridge. The route then extends across the entire Shira Plateau from west to east, providing a relatively gentle and enjoyable hike. While the trail remains uncrowded at first, it merges with the Machame route near Lava Tower. From there, climbers follow the Southern Circuit beneath Kilimanjaro’s Southern Ice Field before making the final ascent from Barafu. The descent follows the Mweka route",
+
+    nickname: "Steep & Direct Route",
+    description:
+      "The Umbwe route is known for its steep, direct ascent and is considered one of the most challenging routes on Kilimanjaro. It's recommended for experienced hikers who are confident in their ability to acclimatize quickly.",
+    image: "/placeholder.svg?height=400&width=800",
+    duration: "6 Days",
+    difficulty: "Very Challenging",
+    success_rate: "70%",
+    itinerary: [
+      {
+        day: 1,
+        title: "Umbwe Gate to Umbwe Camp",
+        altitude: "1640m - 2940m",
+        distance: "11 Km",
+        time: "5-7 hours",
+        habitat: "Rain Forest",
+        image: "/assets/images/Frame 60.png",
+        description:
+          "The Umbwe route is known for its steep, direct ascent. Begin the challenging climb through dense rainforest.",
+      },
+  
+    ],
+    pricing: [
+      { group: "1 person", price: 1900 },
+      { group: "2-4 people", price: 1750 },
+      { group: "5-7 people", price: 1700 },
+      { group: "8-10 people", price: 1600 },
+      { group: "11+ people", price: 1550 },
+    ],
+    inclusions: [
+      "Pick-up and drop-off at Kilimanjaro International Airport",
+      "Transfer to and pick-up from the gate of Kilimanjaro National Park",
+      "All park fees collected by the Kilimanjaro National Park",
+      "Tented accommodation on Mount Kilimanjaro",
+    ],
+    exclusions: [
+      "Airline tickets",
+      "Accommodation before and after trekking",
+      "Visa fees",
+      "Personal gear rentals",
+    ],
+  },
+  "saadani-national-park": {
+    name: "Umbwe Route",
+    description2:
+      "The trail begins on the western side of Mount Kilimanjaro, with a scenic drive from Moshi to Londorossi Gate. The initial two days involve trekking through lush rainforests to reach Shira Ridge. The route then extends across the entire Shira Plateau from west to east, providing a relatively gentle and enjoyable hike. While the trail remains uncrowded at first, it merges with the Machame route near Lava Tower. From there, climbers follow the Southern Circuit beneath Kilimanjaro’s Southern Ice Field before making the final ascent from Barafu. The descent follows the Mweka route",
+
+    nickname: "Steep & Direct Route",
+    description:
+      "The Umbwe route is known for its steep, direct ascent and is considered one of the most challenging routes on Kilimanjaro. It's recommended for experienced hikers who are confident in their ability to acclimatize quickly.",
+    image: "/placeholder.svg?height=400&width=800",
+    duration: "6 Days",
+    difficulty: "Very Challenging",
+    success_rate: "70%",
+    itinerary: [
+      {
+        day: 1,
+        title: "Umbwe Gate to Umbwe Camp",
+        altitude: "1640m - 2940m",
+        distance: "11 Km",
+        time: "5-7 hours",
+        habitat: "Rain Forest",
+        image: "/assets/images/Frame 60.png",
+        description:
+          "The Umbwe route is known for its steep, direct ascent. Begin the challenging climb through dense rainforest.",
+      },
+  
+    ],
+    pricing: [
+      { group: "1 person", price: 1900 },
+      { group: "2-4 people", price: 1750 },
+      { group: "5-7 people", price: 1700 },
+      { group: "8-10 people", price: 1600 },
+      { group: "11+ people", price: 1550 },
+    ],
+    inclusions: [
+      "Pick-up and drop-off at Kilimanjaro International Airport",
+      "Transfer to and pick-up from the gate of Kilimanjaro National Park",
+      "All park fees collected by the Kilimanjaro National Park",
+      "Tented accommodation on Mount Kilimanjaro",
+    ],
+    exclusions: [
+      "Airline tickets",
+      "Accommodation before and after trekking",
+      "Visa fees",
+      "Personal gear rentals",
+    ],
+  },
+  "nyerere-national-park": {
+    name: "Umbwe Route",
+    description2:
+      "The trail begins on the western side of Mount Kilimanjaro, with a scenic drive from Moshi to Londorossi Gate. The initial two days involve trekking through lush rainforests to reach Shira Ridge. The route then extends across the entire Shira Plateau from west to east, providing a relatively gentle and enjoyable hike. While the trail remains uncrowded at first, it merges with the Machame route near Lava Tower. From there, climbers follow the Southern Circuit beneath Kilimanjaro’s Southern Ice Field before making the final ascent from Barafu. The descent follows the Mweka route",
+
+    nickname: "Steep & Direct Route",
+    description:
+      "The Umbwe route is known for its steep, direct ascent and is considered one of the most challenging routes on Kilimanjaro. It's recommended for experienced hikers who are confident in their ability to acclimatize quickly.",
+    image: "/placeholder.svg?height=400&width=800",
+    duration: "6 Days",
+    difficulty: "Very Challenging",
+    success_rate: "70%",
+    itinerary: [
+      {
+        day: 1,
+        title: "Umbwe Gate to Umbwe Camp",
+        altitude: "1640m - 2940m",
+        distance: "11 Km",
+        time: "5-7 hours",
+        habitat: "Rain Forest",
+        image: "/assets/images/Frame 60.png",
+        description:
+          "The Umbwe route is known for its steep, direct ascent. Begin the challenging climb through dense rainforest.",
+      },
+  
+    ],
+    pricing: [
+      { group: "1 person", price: 1900 },
+      { group: "2-4 people", price: 1750 },
+      { group: "5-7 people", price: 1700 },
+      { group: "8-10 people", price: 1600 },
+      { group: "11+ people", price: 1550 },
+    ],
+    inclusions: [
+      "Pick-up and drop-off at Kilimanjaro International Airport",
+      "Transfer to and pick-up from the gate of Kilimanjaro National Park",
+      "All park fees collected by the Kilimanjaro National Park",
+      "Tented accommodation on Mount Kilimanjaro",
+    ],
+    exclusions: [
+      "Airline tickets",
+      "Accommodation before and after trekking",
+      "Visa fees",
+      "Personal gear rentals",
+    ],
+  },
+  "mount-meru-national-park": {
+    name: "Umbwe Route",
+    description2:
+      "The trail begins on the western side of Mount Kilimanjaro, with a scenic drive from Moshi to Londorossi Gate. The initial two days involve trekking through lush rainforests to reach Shira Ridge. The route then extends across the entire Shira Plateau from west to east, providing a relatively gentle and enjoyable hike. While the trail remains uncrowded at first, it merges with the Machame route near Lava Tower. From there, climbers follow the Southern Circuit beneath Kilimanjaro’s Southern Ice Field before making the final ascent from Barafu. The descent follows the Mweka route",
+
+    nickname: "Steep & Direct Route",
+    description:
+      "The Umbwe route is known for its steep, direct ascent and is considered one of the most challenging routes on Kilimanjaro. It's recommended for experienced hikers who are confident in their ability to acclimatize quickly.",
+    image: "/placeholder.svg?height=400&width=800",
+    duration: "6 Days",
+    difficulty: "Very Challenging",
+    success_rate: "70%",
+    itinerary: [
+      {
+        day: 1,
+        title: "Umbwe Gate to Umbwe Camp",
+        altitude: "1640m - 2940m",
+        distance: "11 Km",
+        time: "5-7 hours",
+        habitat: "Rain Forest",
+        image: "/assets/images/Frame 60.png",
+        description:
+          "The Umbwe route is known for its steep, direct ascent. Begin the challenging climb through dense rainforest.",
+      },
+  
+    ],
+    pricing: [
+      { group: "1 person", price: 1900 },
+      { group: "2-4 people", price: 1750 },
+      { group: "5-7 people", price: 1700 },
+      { group: "8-10 people", price: 1600 },
+      { group: "11+ people", price: 1550 },
+    ],
+    inclusions: [
+      "Pick-up and drop-off at Kilimanjaro International Airport",
+      "Transfer to and pick-up from the gate of Kilimanjaro National Park",
+      "All park fees collected by the Kilimanjaro National Park",
+      "Tented accommodation on Mount Kilimanjaro",
+    ],
+    exclusions: [
+      "Airline tickets",
+      "Accommodation before and after trekking",
+      "Visa fees",
+      "Personal gear rentals",
+    ],
+  },
+};
 
 export default function RouteDetail() {
-  const params = useParams()
-  const router = useRouter()
-  const { id } = params
-  const [tabValue, setTabValue] = useState(0)
-  const [selectedPeople, setSelectedPeople] = useState("2 people")
-  const [selectedDate, setSelectedDate] = useState("12-03-2024")
+  const params = useParams();
+  const router = useRouter();
+  const { id } = params;
+  const [tabValue, setTabValue] = useState(0);
+  const [selectedPeople, setSelectedPeople] = useState("2 people");
+  const [selectedDate, setSelectedDate] = useState("12-03-2024");
 
-  const route = routeData[id]
+  const route = routeData[id];
 
   if (!route) {
     return (
       <div className="container mx-auto px-4">
         <h1 className="text-4xl mt-8">Route not found</h1>
       </div>
-    )
+    );
   }
 
   const handleTabChange = (newValue) => {
-    setTabValue(newValue)
-  }
+    setTabValue(newValue);
+  };
 
   const getCurrentPrice = () => {
     const priceData = route.pricing.find(
       (p) =>
-        p.group.includes(selectedPeople.split(" ")[0]) || (selectedPeople === "2 people" && p.group === "2-4 people"),
-    )
-    return priceData ? priceData.price : route.pricing[1].price
-  }
+        p.group.includes(selectedPeople.split(" ")[0]) ||
+        (selectedPeople === "2 people" && p.group === "2-4 people")
+    );
+    return priceData ? priceData.price : route.pricing[1].price;
+  };
 
-  const tabs = ["Description", "Itenary", "Price", "Inclusion", "Exclusion"]
+  const tabs = ["Description", "Itenary", "Price", "Inclusion", "Exclusion"];
 
   // Check if this is the Lemosho route for special styling
-  const isLemoshoRoute = id === "lemosho-route"
+  const isLemoshoRoute = id === "lemosho-route";
 
   return (
     <div className="bg-gray-50 min-h-screen md:px-4">
@@ -757,7 +1239,9 @@ export default function RouteDetail() {
         <div className="text-black mx-auto px-4">
           <div className="flex flex-col lg:flex-row lg:justify-between lg:items-center mb-8 gap-6">
             <div className="flex-1">
-              <h1 className="text-4xl md:text-5xl font-bold mb-4 mt-5 md:mt-0">{route.name}</h1>
+              <h1 className="text-4xl md:text-5xl font-bold mb-4 mt-5 md:mt-0">
+                {route.name}
+              </h1>
 
               <div className="flex flex-wrap gap-4 mb-6">
                 {isLemoshoRoute ? (
@@ -771,18 +1255,26 @@ export default function RouteDetail() {
                   </>
                 ) : (
                   <>
-                    <span className="bg-gray-800 text-white px-6 py-2 rounded-full text-sm">8 Days route</span>
-                    <span className="border border-gray-300 px-6 py-2 rounded-full text-sm">7 Days route</span>
+                    <span className="bg-gray-800 text-white px-6 py-2 rounded-full text-sm">
+                      8 Days route
+                    </span>
+                    <span className="border border-gray-300 px-6 py-2 rounded-full text-sm">
+                      7 Days route
+                    </span>
                   </>
                 )}
               </div>
 
-              <p className="text-black -600  leading-relaxed mb-8 max-w-4xl md:leading-[40px] md:text-lg">{route.description}</p>
+              <p className="text-black -600  leading-relaxed mb-8 max-w-4xl md:leading-[40px] md:text-lg">
+                {route.description}
+              </p>
             </div>
 
             {/* Booking Card */}
             <div className="w-full lg:ml-8 lg:w-[400px] bg-white rounded-xl shadow-lg p-6">
-              <div className="text-2xl font-bold mb-6">${getCurrentPrice().toLocaleString()} / person</div>
+              <div className="text-2xl font-bold mb-6">
+                ${getCurrentPrice().toLocaleString()} / person
+              </div>
 
               <div className="mb-4">
                 <div className="flex items-center justify-between p-3 border border-gray-200 rounded-lg cursor-pointer hover:border-gray-300">
@@ -831,7 +1323,6 @@ export default function RouteDetail() {
                     <button className="flex-1 bg-[#78D8FF] text-white py-3 px-4 rounded-full text-sm font-medium hover:bg-sky-500 transition-colors">
                       Pay Full Amount
                     </button>
-
 
                     <button className="flex-1 bg-[#F4A460] text-white py-3 px-4 rounded-full text-sm font-medium hover:bg-[#f4b660] transition-colors">
                       Pay in Installments
@@ -887,7 +1378,9 @@ export default function RouteDetail() {
         {/* Description Tab */}
         {tabValue === 0 && (
           <div className="py-4 sm:py-6">
-            <p className="text-base sm:text-lg md:text-lg  text-gray-800 leading-relaxed md:leading-[40px] md:mb-16" >{route.description2}</p>
+            <p className="text-base sm:text-lg md:text-lg  text-gray-800 leading-relaxed md:leading-[40px] md:mb-16">
+              {route.description2}
+            </p>
           </div>
         )}
 
@@ -905,9 +1398,9 @@ export default function RouteDetail() {
                 "#F3FFF2", // Light green
                 "#F3FFF2", // Light green
                 "#F3FFF2", // Light green
-              ]
+              ];
 
-              const bgColor = cardColors[index % cardColors.length]
+              const bgColor = cardColors[index % cardColors.length];
 
               return (
                 <div
@@ -990,7 +1483,7 @@ export default function RouteDetail() {
             </div>
           </div> */}
                 </div>
-              )
+              );
             })}
           </div>
         )}
@@ -1012,17 +1505,19 @@ export default function RouteDetail() {
                     index === 0
                       ? "bg-orange-50"
                       : index === 1
-                        ? "bg-blue-50"
-                        : index === 2
-                          ? "bg-pink-50"
-                          : index === 3
-                            ? "bg-purple-50"
-                            : "bg-green-50"
+                      ? "bg-blue-50"
+                      : index === 2
+                      ? "bg-pink-50"
+                      : index === 3
+                      ? "bg-purple-50"
+                      : "bg-green-50"
                   }`}
                 >
                   <div className="flex items-center justify-center mb-3 sm:mb-4">
                     <Users className="w-4 h-4 sm:w-5 sm:h-5 mr-2 text-gray-600" />
-                    <span className="text-gray-600 text-xs sm:text-sm">{pricing.group}</span>
+                    <span className="text-gray-600 text-xs sm:text-sm">
+                      {pricing.group}
+                    </span>
                   </div>
                   <div className="text-xl sm:text-2xl lg:text-3xl font-bold text-gray-900">
                     ${pricing.price.toLocaleString()}
@@ -1032,8 +1527,10 @@ export default function RouteDetail() {
             </div>
 
             <p className="text-sm sm:text-base md:my-16 text-gray-600 max-w-4xl mx-auto px-4">
-              All prices quoted are per person in USD (US Dollars) and are negotiable according to the period of the
-              year, includes and excludes and change of government policies. Please contact us for more information.
+              All prices quoted are per person in USD (US Dollars) and are
+              negotiable according to the period of the year, includes and
+              excludes and change of government policies. Please contact us for
+              more information.
             </p>
           </div>
         )}
@@ -1041,18 +1538,30 @@ export default function RouteDetail() {
         {/* Inclusion Tab */}
         {tabValue === 3 && (
           <div className="py-4 sm:py-6">
-            <h2 className="text-2xl sm:text-3xl lg:text-4xl font-bold mb-6 sm:mb-8 text-gray-900">Package Includes</h2>
+            <h2 className="text-2xl sm:text-3xl lg:text-4xl font-bold mb-6 sm:mb-8 text-gray-900">
+              Package Includes
+            </h2>
 
             <div className="space-y-4 sm:space-y-6">
               {route.inclusions.map((item, index) => (
                 <div key={index} className="flex items-start gap-3 sm:gap-4">
                   <div className="bg-green-100 rounded-full p-2 sm:p-3 flex items-center justify-center min-w-10 h-10 sm:min-w-12 sm:h-12 flex-shrink-0">
-                    {index === 0 && <Plane className="w-4 h-4 sm:w-6 sm:h-6 text-green-600" />}
-                    {index === 1 && <Navigation className="w-4 h-4 sm:w-6 sm:h-6 text-green-600" />}
-                    {index === 2 && <DollarSign className="w-4 h-4 sm:w-6 sm:h-6 text-green-600" />}
-                    {index === 3 && <Home className="w-4 h-4 sm:w-6 sm:h-6 text-green-600" />}
+                    {index === 0 && (
+                      <Plane className="w-4 h-4 sm:w-6 sm:h-6 text-green-600" />
+                    )}
+                    {index === 1 && (
+                      <Navigation className="w-4 h-4 sm:w-6 sm:h-6 text-green-600" />
+                    )}
+                    {index === 2 && (
+                      <DollarSign className="w-4 h-4 sm:w-6 sm:h-6 text-green-600" />
+                    )}
+                    {index === 3 && (
+                      <Home className="w-4 h-4 sm:w-6 sm:h-6 text-green-600" />
+                    )}
                   </div>
-                  <p className="text-sm sm:text-base lg:text-lg leading-relaxed text-gray-700">{item}</p>
+                  <p className="text-sm sm:text-base lg:text-lg leading-relaxed text-gray-700">
+                    {item}
+                  </p>
                 </div>
               ))}
             </div>
@@ -1062,18 +1571,30 @@ export default function RouteDetail() {
         {/* Exclusion Tab */}
         {tabValue === 4 && (
           <div className="py-4 sm:py-6">
-            <h2 className="text-2xl sm:text-3xl lg:text-4xl font-bold mb-6 sm:mb-8 text-gray-900">Package Excludes</h2>
+            <h2 className="text-2xl sm:text-3xl lg:text-4xl font-bold mb-6 sm:mb-8 text-gray-900">
+              Package Excludes
+            </h2>
 
             <div className="space-y-4 sm:space-y-6">
               {route.exclusions.map((item, index) => (
                 <div key={index} className="flex items-start gap-3 sm:gap-4">
                   <div className="bg-red-100 rounded-full p-2 sm:p-3 flex items-center justify-center min-w-10 h-10 sm:min-w-12 sm:h-12 flex-shrink-0">
-                    {index === 0 && <Plane className="w-4 h-4 sm:w-6 sm:h-6 text-red-600" />}
-                    {index === 1 && <Home className="w-4 h-4 sm:w-6 sm:h-6 text-red-600" />}
-                    {index === 2 && <FileText className="w-4 h-4 sm:w-6 sm:h-6 text-red-600" />}
-                    {index === 3 && <Navigation className="w-4 h-4 sm:w-6 sm:h-6 text-red-600" />}
+                    {index === 0 && (
+                      <Plane className="w-4 h-4 sm:w-6 sm:h-6 text-red-600" />
+                    )}
+                    {index === 1 && (
+                      <Home className="w-4 h-4 sm:w-6 sm:h-6 text-red-600" />
+                    )}
+                    {index === 2 && (
+                      <FileText className="w-4 h-4 sm:w-6 sm:h-6 text-red-600" />
+                    )}
+                    {index === 3 && (
+                      <Navigation className="w-4 h-4 sm:w-6 sm:h-6 text-red-600" />
+                    )}
                   </div>
-                  <p className="text-sm sm:text-base lg:text-lg leading-relaxed text-gray-700">{item}</p>
+                  <p className="text-sm sm:text-base lg:text-lg leading-relaxed text-gray-700">
+                    {item}
+                  </p>
                 </div>
               ))}
             </div>
@@ -1081,5 +1602,5 @@ export default function RouteDetail() {
         )}
       </div>
     </div>
-  )
+  );
 }

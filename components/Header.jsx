@@ -48,7 +48,7 @@ const Header = () => {
     { name: "Travel Style", link: "/travel-style" },
     { name: "Destinations", link: "/destinations" },
     { name: "Mt.Kilimanjaro", link: "/kilimanjaro" },
-    { name: "DayTrips", link: "/daytrip" },
+    { name: "DayTrips", link: "/daytrips" },
     { name: "Experiences", link: "/experiences" },
     { name: "Escape DSM", link: "/escape-dsm" },
   ];
