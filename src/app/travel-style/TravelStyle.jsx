@@ -4,7 +4,7 @@ import { useState, useEffect } from "react"
 import Image from "next/image"
 import frame10 from "../../../public/assets/images/Frame 48.png";
 import frame11 from "../../../public/assets/images/Frame 50.png";
-import frame52 from "../../../public/assets/images/Frame 52.png";
+import frame52 from "../../../public/assets/images/Frame 44.png";
 import Link from "next/link"
 
 const adventureTypes = [
@@ -21,14 +21,14 @@ const adventureTypes = [
         duration: "8 Days Trip",
       },
       {
-        src: frame10,
+        src: frame11,
         alt: "Family mountain adventure",
         title: "Ultimate Northern Tanzania Safari",
         price: "$4500 / person",
         duration: "8 Days Trip",
       },
       {
-        src: frame10,
+        src: frame52,
         alt: "Family camping adventure",
         title: "Ultimate Northern Tanzania Safari",
         price: "$4500 / person",
@@ -49,14 +49,14 @@ const adventureTypes = [
         duration: "6 Days Trip",
       },
       {
-        src: frame10,
+        src: frame11,
         alt: "Couple hiking adventure",
         title: "Romantic Serengeti Getaway",
         price: "$3800 / person",
         duration: "6 Days Trip",
       },
       {
-        src: frame10,
+        src: frame52,
         alt: "Couple beach adventure",
         title: "Romantic Serengeti Getaway",
         price: "$3800 / person",
@@ -77,14 +77,14 @@ const adventureTypes = [
         duration: "10 Days Trip",
       },
       {
-        src: frame10,
+        src: frame52,
         alt: "Group camping adventure",
         title: "Epic Group Safari Experience",
         price: "$3200 / person",
         duration: "10 Days Trip",
       },
       {
-        src: frame10,
+        src: frame11,
         alt: "Group hiking adventure",
         title: "Epic Group Safari Experience",
         price: "$3200 / person",
@@ -98,14 +98,14 @@ const adventureTypes = [
     href: "/girls-adventures",
     images: [
       {
-        src: frame10,
+        src: frame11,
         alt: "Girls safari adventure",
         title: "Girls Only Safari Adventure",
         price: "$3600 / person",
         duration: "7 Days Trip",
       },
       {
-        src: frame10,
+        src: frame52,
         alt: "Girls beach adventure",
         title: "Girls Only Safari Adventure",
         price: "$3600 / person",
@@ -126,7 +126,7 @@ const adventureTypes = [
     href: "/individual-adventures",
     images: [
       {
-        src: frame10,
+        src: frame11,
         alt: "Solo safari adventure",
         title: "Solo Explorer Safari",
         price: "$4200 / person",
@@ -140,7 +140,7 @@ const adventureTypes = [
         duration: "9 Days Trip",
       },
       {
-        src: frame10,
+        src: frame52,
         alt: "Solo cultural adventure",
         title: "Solo Explorer Safari",
         price: "$4200 / person",
@@ -161,14 +161,14 @@ const adventureTypes = [
         duration: "5 Days Trip",
       },
       {
-        src: frame10,
+        src: frame11,
         alt: "Corporate retreat adventure",
         title: "Corporate Team Safari",
         price: "$2800 / person",
         duration: "5 Days Trip",
       },
       {
-        src: frame10,
+        src: frame52,
         alt: "Corporate conference adventure",
         title: "Corporate Team Safari",
         price: "$2800 / person",
