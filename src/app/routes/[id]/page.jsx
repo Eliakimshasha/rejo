@@ -1,9 +1,18 @@
-"use client"
+"use client";
 
-import { useState } from "react"
-import { useParams, useRouter } from "next/navigation"
-import { ChevronDown, Users, Calendar, Plane, Home, FileText, DollarSign, Navigation } from "lucide-react"
-import Image from "next/image"
+import { useState } from "react";
+import { useParams, useRouter } from "next/navigation";
+import {
+  ChevronDown,
+  Users,
+  Calendar,
+  Plane,
+  Home,
+  FileText,
+  DollarSign,
+  Navigation,
+} from "lucide-react";
+import Image from "next/image";
 
 const routeData = {
   // Kilimanjaro routes with multiple day options
@@ -219,7 +228,12 @@ const routeData = {
       "All park fees collected by the Kilimanjaro National Park (conservation fees, camping fees, crew fees, vehicle fee, rescue fee and all other fees collected by the Tanzania National Parks Authority)",
       "Tented accommodation on Mount Kilimanjaro (modern, comfortable 4-Season tents, North Face VE-25)",
     ],
-    exclusions: ["Airline tickets", "Accommodation before and after trekking", "Visa fees", "Personal gear rentals"],
+    exclusions: [
+      "Airline tickets",
+      "Accommodation before and after trekking",
+      "Visa fees",
+      "Personal gear rentals",
+    ],
   },
 
   "lemosho-route": {
@@ -286,7 +300,8 @@ const routeData = {
             time: "4-5 hours",
             habitat: "Alpine Desert",
             image: "/assets/images/Frame 61 (4).png",
-            description: "After breakfast, we leave Karanga and hit the junction which connects with the Mweka Trail.",
+            description:
+              "After breakfast, we leave Karanga and hit the junction which connects with the Mweka Trail.",
           },
           {
             day: 6,
@@ -389,7 +404,8 @@ const routeData = {
             time: "4-5 hours",
             habitat: "Alpine Desert",
             image: "/assets/images/Frame 61 (4).png",
-            description: "After breakfast, we leave Karanga and hit the junction which connects with the Mweka Trail.",
+            description:
+              "After breakfast, we leave Karanga and hit the junction which connects with the Mweka Trail.",
           },
           {
             day: 7,
@@ -432,7 +448,12 @@ const routeData = {
       "All park fees collected by the Kilimanjaro National Park",
       "Tented accommodation on Mount Kilimanjaro",
     ],
-    exclusions: ["Airline tickets", "Accommodation before and after trekking", "Visa fees", "Personal gear rentals"],
+    exclusions: [
+      "Airline tickets",
+      "Accommodation before and after trekking",
+      "Visa fees",
+      "Personal gear rentals",
+    ],
   },
 
   // Destination routes (no tabs, single duration)
@@ -495,7 +516,12 @@ const routeData = {
       "All park fees and government taxes",
       "Accommodation as specified",
     ],
-    exclusions: ["International flights", "Visa fees", "Travel insurance", "Personal expenses"],
+    exclusions: [
+      "International flights",
+      "Visa fees",
+      "Travel insurance",
+      "Personal expenses",
+    ],
   },
 
   "serengeti-national-park": {
@@ -568,7 +594,12 @@ const routeData = {
       "All park fees and government taxes",
       "Accommodation as specified",
     ],
-    exclusions: ["International flights", "Visa fees", "Travel insurance", "Personal expenses"],
+    exclusions: [
+      "International flights",
+      "Visa fees",
+      "Travel insurance",
+      "Personal expenses",
+    ],
   },
 
   // Escape DSM destinations (no tabs, show routes on left, days on right)
@@ -576,8 +607,8 @@ const routeData = {
     name: "From City Lights to Safari Nights",
     hasMultipleDays: false,
     isEscapeDSM: true,
-    blackBg: "Mikumi & Nyerere National Parks",
-    whiteBg: "7 Days",
+    whiteBg: "Mikumi & Nyerere National Parks",
+    blackBg: "7 Days",
     tabDescription:
       "Leave behind the hum of the city and follow the call of the wild. This journey takes you from the heartbeat of Dar es Salaam to the open plains of Mikumi and the untamed wilderness of Nyerere—where elephants roam free, rivers whisper ancient stories, and the stars shine brighter than ever.",
     description:
@@ -678,15 +709,20 @@ const routeData = {
       "Accommodation as specified",
       "Boat safari in Nyerere",
     ],
-    exclusions: ["International flights", "Visa fees", "Travel insurance", "Personal expenses"],
+    exclusions: [
+      "International flights",
+      "Visa fees",
+      "Travel insurance",
+      "Personal expenses",
+    ],
   },
 
   "unzip-serengeti-and-ngorongoro": {
     name: "Unzip Serengeti and Ngorongoro",
     hasMultipleDays: false,
     isEscapeDSM: true,
-    blackBg: "Serengeti & Ngorongoro",
-    whiteBg: "6 Days",
+    whiteBg: "Serengeti & Ngorongoro",
+    blackBg: "6 Days",
     tabDescription:
       "Escape the urban jungle and dive into the real one. From Dar es Salaam's busy streets to the endless plains of Serengeti and the ancient crater of Ngorongoro—witness the Great Migration, spot the Big Five, and discover why Tanzania is the heart of African safari.",
     description:
@@ -776,58 +812,70 @@ const routeData = {
       "All park fees and government taxes",
       "Accommodation as specified",
     ],
-    exclusions: ["International flights", "Visa fees", "Travel insurance", "Personal expenses"],
+    exclusions: [
+      "International flights",
+      "Visa fees",
+      "Travel insurance",
+      "Personal expenses",
+    ],
   },
-}
+};
 
 export default function RouteDetail() {
-  const params = useParams()
-  const router = useRouter()
-  const { id } = params
-  const [dayTabValue, setDayTabValue] = useState(0) // For day selection tabs (7 days vs 8 days)
-  const [contentTabValue, setContentTabValue] = useState(0) // For content tabs (Description, Itinerary, etc.)
-  const [selectedPeople, setSelectedPeople] = useState("2 people")
-  const [selectedDate, setSelectedDate] = useState("12-03-2024")
+  const params = useParams();
+  const router = useRouter();
+  const { id } = params;
+  const [dayTabValue, setDayTabValue] = useState(0); // For day selection tabs (7 days vs 8 days)
+  const [contentTabValue, setContentTabValue] = useState(0); // For content tabs (Description, Itinerary, etc.)
+  const [selectedPeople, setSelectedPeople] = useState("2 people");
+  const [selectedDate, setSelectedDate] = useState("12-03-2024");
 
-  const route = routeData[id]
+  const route = routeData[id];
 
   if (!route) {
     return (
       <div className="container mx-auto px-4">
         <h1 className="text-4xl mt-8">Route not found</h1>
       </div>
-    )
+    );
   }
 
   // Get current route data based on selected day tab
   const getCurrentRouteData = () => {
     if (route.hasMultipleDays) {
-      const dayOptions = Object.keys(route.variants)
-      const selectedDayOption = dayOptions[dayTabValue]
-      return route.variants[selectedDayOption]
+      const dayOptions = Object.keys(route.variants);
+      const selectedDayOption = dayOptions[dayTabValue];
+      return route.variants[selectedDayOption];
     }
-    return route
-  }
+    return route;
+  };
 
-  const currentData = getCurrentRouteData()
+  const currentData = getCurrentRouteData();
 
   const handleDayTabChange = (newValue) => {
-    setDayTabValue(newValue)
-  }
+    setDayTabValue(newValue);
+  };
 
   const handleContentTabChange = (newValue) => {
-    setContentTabValue(newValue)
-  }
+    setContentTabValue(newValue);
+  };
 
   const getCurrentPrice = () => {
     const priceData = currentData.pricing.find(
       (p) =>
-        p.group.includes(selectedPeople.split(" ")[0]) || (selectedPeople === "2 people" && p.group === "2-4 people"),
-    )
-    return priceData ? priceData.price : currentData.pricing[1].price
-  }
+        p.group.includes(selectedPeople.split(" ")[0]) ||
+        (selectedPeople === "2 people" && p.group === "2-4 people")
+    );
+    return priceData ? priceData.price : currentData.pricing[1].price;
+  };
 
-  const contentTabs = ["Description", "Itinerary", "Price", "Inclusion", "Exclusion"]
+  const contentTabs = [
+    "Description",
+    "Itinerary",
+    "Price",
+    "Inclusion",
+    "Exclusion",
+  ];
 
   return (
     <div className="bg-gray-50 min-h-screen md:px-4">
@@ -836,7 +884,9 @@ export default function RouteDetail() {
         <div className="text-black mx-auto px-4">
           <div className="flex flex-col lg:flex-row lg:justify-between lg:items-center mb-8 gap-6">
             <div className="flex-1">
-              <h1 className="text-4xl md:text-5xl font-bold mb-4 mt-5 md:mt-0">{route.name}</h1>
+              <h1 className="text-4xl md:mb-12 md:text-5xl font-bold mb-4 mt-5 md:mt-0">
+                {route.name}
+              </h1>
 
               {/* Day Selection Tabs - Only for Kilimanjaro routes with multiple days */}
               {route.hasMultipleDays && (
@@ -860,10 +910,10 @@ export default function RouteDetail() {
               {/* For Escape DSM destinations - show routes on left, days on right */}
               {route.isEscapeDSM && (
                 <div className="flex flex-wrap gap-4 mb-6">
-                  <span className="bg-gray-800 text-white px-6 py-2 rounded-full text-sm font-medium">
+                  <span className="border border-gray-300 bg-white text-gray-700 px-6 py-2 rounded-full text-sm font-medium">
                     {route.blackBg}
                   </span>
-                  <span className="border border-gray-300 bg-white text-gray-700 px-6 py-2 rounded-full text-sm font-medium">
+                  <span className="bg-gray-800 text-white px-6 py-2 rounded-full text-sm font-medium">
                     {route.whiteBg}
                   </span>
                 </div>
@@ -885,7 +935,9 @@ export default function RouteDetail() {
 
             {/* Booking Card */}
             <div className="w-full lg:ml-8 lg:w-[400px] bg-white rounded-xl shadow-lg p-6">
-              <div className="text-2xl font-bold mb-6">${getCurrentPrice().toLocaleString()} / person</div>
+              <div className="text-2xl font-bold mb-6">
+                ${getCurrentPrice().toLocaleString()} / person
+              </div>
 
               <div className="mb-4">
                 <div className="flex items-center justify-between p-3 border border-gray-200 rounded-lg cursor-pointer hover:border-gray-300">
@@ -993,9 +1045,9 @@ export default function RouteDetail() {
                 "#F3FFF2",
                 "#F3FFF2",
                 "#F3FFF2",
-              ]
+              ];
 
-              const bgColor = cardColors[index % cardColors.length]
+              const bgColor = cardColors[index % cardColors.length];
 
               return (
                 <div
@@ -1062,7 +1114,7 @@ export default function RouteDetail() {
                     </div>
                   </div>
                 </div>
-              )
+              );
             })}
           </div>
         )}
@@ -1085,17 +1137,19 @@ export default function RouteDetail() {
                     index === 0
                       ? "bg-orange-50"
                       : index === 1
-                        ? "bg-blue-50"
-                        : index === 2
-                          ? "bg-pink-50"
-                          : index === 3
-                            ? "bg-purple-50"
-                            : "bg-green-50"
+                      ? "bg-blue-50"
+                      : index === 2
+                      ? "bg-pink-50"
+                      : index === 3
+                      ? "bg-purple-50"
+                      : "bg-green-50"
                   }`}
                 >
                   <div className="flex items-center justify-center mb-3 sm:mb-4">
                     <Users className="w-4 h-4 sm:w-5 sm:h-5 mr-2 text-gray-600" />
-                    <span className="text-gray-600 text-xs sm:text-sm">{pricing.group}</span>
+                    <span className="text-gray-600 text-xs sm:text-sm">
+                      {pricing.group}
+                    </span>
                   </div>
                   <div className="text-xl sm:text-2xl lg:text-3xl font-bold text-gray-900">
                     ${pricing.price.toLocaleString()}
@@ -1105,8 +1159,10 @@ export default function RouteDetail() {
             </div>
 
             <p className="text-sm sm:text-base md:my-16 text-gray-600 max-w-4xl mx-auto px-4">
-              All prices quoted are per person in USD (US Dollars) and are negotiable according to the period of the
-              year, includes and excludes and change of government policies. Please contact us for more information.
+              All prices quoted are per person in USD (US Dollars) and are
+              negotiable according to the period of the year, includes and
+              excludes and change of government policies. Please contact us for
+              more information.
             </p>
           </div>
         )}
@@ -1114,18 +1170,30 @@ export default function RouteDetail() {
         {/* Inclusion Tab */}
         {contentTabValue === 3 && (
           <div className="py-4 sm:py-6">
-            <h2 className="text-2xl sm:text-3xl lg:text-4xl font-bold mb-6 sm:mb-8 text-gray-900">Package Includes</h2>
+            <h2 className="text-2xl sm:text-3xl lg:text-4xl font-bold mb-6 sm:mb-8 text-gray-900">
+              Package Includes
+            </h2>
 
             <div className="space-y-4 sm:space-y-6">
               {route.inclusions.map((item, index) => (
                 <div key={index} className="flex items-start gap-3 sm:gap-4">
                   <div className="bg-green-100 rounded-full p-2 sm:p-3 flex items-center justify-center min-w-10 h-10 sm:min-w-12 sm:h-12 flex-shrink-0">
-                    {index === 0 && <Plane className="w-4 h-4 sm:w-6 sm:h-6 text-green-600" />}
-                    {index === 1 && <Navigation className="w-4 h-4 sm:w-6 sm:h-6 text-green-600" />}
-                    {index === 2 && <DollarSign className="w-4 h-4 sm:w-6 sm:h-6 text-green-600" />}
-                    {index === 3 && <Home className="w-4 h-4 sm:w-6 sm:h-6 text-green-600" />}
+                    {index === 0 && (
+                      <Plane className="w-4 h-4 sm:w-6 sm:h-6 text-green-600" />
+                    )}
+                    {index === 1 && (
+                      <Navigation className="w-4 h-4 sm:w-6 sm:h-6 text-green-600" />
+                    )}
+                    {index === 2 && (
+                      <DollarSign className="w-4 h-4 sm:w-6 sm:h-6 text-green-600" />
+                    )}
+                    {index === 3 && (
+                      <Home className="w-4 h-4 sm:w-6 sm:h-6 text-green-600" />
+                    )}
                   </div>
-                  <p className="text-sm sm:text-base lg:text-lg leading-relaxed text-gray-700">{item}</p>
+                  <p className="text-sm sm:text-base lg:text-lg leading-relaxed text-gray-700">
+                    {item}
+                  </p>
                 </div>
               ))}
             </div>
@@ -1135,18 +1203,30 @@ export default function RouteDetail() {
         {/* Exclusion Tab */}
         {contentTabValue === 4 && (
           <div className="py-4 sm:py-6">
-            <h2 className="text-2xl sm:text-3xl lg:text-4xl font-bold mb-6 sm:mb-8 text-gray-900">Package Excludes</h2>
+            <h2 className="text-2xl sm:text-3xl lg:text-4xl font-bold mb-6 sm:mb-8 text-gray-900">
+              Package Excludes
+            </h2>
 
             <div className="space-y-4 sm:space-y-6">
               {route.exclusions.map((item, index) => (
                 <div key={index} className="flex items-start gap-3 sm:gap-4">
                   <div className="bg-red-100 rounded-full p-2 sm:p-3 flex items-center justify-center min-w-10 h-10 sm:min-w-12 sm:h-12 flex-shrink-0">
-                    {index === 0 && <Plane className="w-4 h-4 sm:w-6 sm:h-6 text-red-600" />}
-                    {index === 1 && <Home className="w-4 h-4 sm:w-6 sm:h-6 text-red-600" />}
-                    {index === 2 && <FileText className="w-4 h-4 sm:w-6 sm:h-6 text-red-600" />}
-                    {index === 3 && <Navigation className="w-4 h-4 sm:w-6 sm:h-6 text-red-600" />}
+                    {index === 0 && (
+                      <Plane className="w-4 h-4 sm:w-6 sm:h-6 text-red-600" />
+                    )}
+                    {index === 1 && (
+                      <Home className="w-4 h-4 sm:w-6 sm:h-6 text-red-600" />
+                    )}
+                    {index === 2 && (
+                      <FileText className="w-4 h-4 sm:w-6 sm:h-6 text-red-600" />
+                    )}
+                    {index === 3 && (
+                      <Navigation className="w-4 h-4 sm:w-6 sm:h-6 text-red-600" />
+                    )}
                   </div>
-                  <p className="text-sm sm:text-base lg:text-lg leading-relaxed text-gray-700">{item}</p>
+                  <p className="text-sm sm:text-base lg:text-lg leading-relaxed text-gray-700">
+                    {item}
+                  </p>
                 </div>
               ))}
             </div>
@@ -1154,5 +1234,5 @@ export default function RouteDetail() {
         )}
       </div>
     </div>
-  )
+  );
 }
