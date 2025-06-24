@@ -22,71 +22,64 @@ import { CiGrid41 } from "react-icons/ci";
 const EscapeDar = () => {
   const router = useRouter();
 
-  const routes = [
-    {
-      id: "machame-route",
-      name: "From city lights to safari nights",
-      days: 4,
-      nickname: "Whiskey",
-      description:
-        "Leave behind the hum of the city and follow the call of the wild. This journey takes you from the heartbeat of Dar es Salaam to the open plains of Mikumi and the untamed wilderness of Nyerere—where elephants roam free, rivers whisper ancient stories, and the stars shine brighter than ever.",
-      image: frame5,
-    },
-    {
-      id: "marangu-route",
-      name: "Marangu Route",
-      nickname: "Coca-Cola",
-      days: 4,
-      description:
-        "Experience the ultimate northern safari as you journey from Dar es Salaam to the legendary Serengeti and the breathtaking Ngorongoro Crater. Witness the Big Five, roam vast golden plains, and descend into an ancient volcanic caldera teeming with wildlife—all in one unforgettable adventure.",
-      image: frame6,
-    },
-    {
-      id: "lemosho-route",
-      name: "The North Wonders Safari",
-      nickname: "Wilderness",
-      days: 6,
-      description:
-        "Embark on a breathtaking journey through Tanzania’s most iconic landscapes. Start with the lush forests and tree-climbing lions of Lake Manyara, roam the endless plains of Serengeti in search of the Big Five, and descend into the ancient Ngorongoro Crater—a world within a world. This is the ultimate escape into the wild, where every stop reveals a new wonder.",
-      image: frame7,
-    },
-    {
-      id: "rongai-route",
-      name: "Skies Over the Wild",
-      nickname: "Northern Circuit",
-      days: 3,
-      description:
-        "Trade the city skyline for sweeping savannah views as you journey from Dar es Salaam to the elephant-rich plains of Tarangire National Park. Drift above ancient baobabs and herds of wildlife on a magical hot air balloon safari—watching the sunrise light up the landscape in golden hues. This is Tarangire from above: peaceful, powerful, and unforgettable.",
-      image: frame8,
-    },
-    {
-      id: "northern-circuit",
-      name: "Into the Wild Heart",
-      nickname: "Grand Traverse",
-      days: 4,
-      description:
-        "Leave behind the coastal breeze and step into Tanzania’s untamed soul. Start your journey in Tarangire, where massive baobabs and roaming elephant herds greet you at every turn. Then descend into the ancient Ngorongoro Crater, a natural amphitheater teeming with wildlife—from lions and rhinos to flamingos and grazing gazelles. A perfect blend of raw beauty and timeless wonder.",
-      image: frame9,
-    },
-    {
-      id: "umbwe-route",
-      name: "Where the Bush Meets the Beach",
-      nickname: "Steep & Direct",
-      description:
-        "Escape the city and venture to Saadani, Tanzania’s only national park where the wild meets the waves. Just a short journey from Dar es Salaam, Saadani offers a rare blend of safari and seashore—spot elephants and lions by day, then unwind on untouched beaches by sunset. It’s the perfect coastal wilderness retreat, where nature writes the soundtrack.",
-      days: 2,
-      image: frame10,
-    },
-    {
-      id: "shira-route",
-      name: "Into the Untamed Wilderness",
-      nickname: "Plateau",
-      description:
-        "From the bustling city of Dar es Salaam, venture into the expansive wilderness of Nyerere National Park, where vast savannahs meet meandering rivers. Home to one of the largest wildlife sanctuaries in Africa, this trip promises unforgettable encounters with majestic elephants, prowling lions, and the serene beauty of the Rufiji River. A perfect getaway for those who seek a true safari adventure just a short distance from the city.",
-      days: 2,
-      image: frame11,
-    },
-  ];
+ const routes = [
+  {
+    id: "from-city-lights-to-safari-nights",
+    name: "From city lights to safari nights",
+    days: 4,
+    description:
+      "Leave behind the hum of the city and follow the call of the wild. This journey takes you from the heartbeat of Dar es Salaam to the open plains of Mikumi and the untamed wilderness of Nyerere—where elephants roam free, rivers whisper ancient stories, and the stars shine brighter than ever.",
+    image: frame5,
+  },
+  {
+    id: "unzip-serengeti-and-ngorogoro",
+    name: "Unzip Serengeti & Ngorogoro",
+    days: 4,
+    description:
+      "Experience the ultimate northern safari as you journey from Dar es Salaam to the legendary Serengeti and the breathtaking Ngorongoro Crater. Witness the Big Five, roam vast golden plains, and descend into an ancient volcanic caldera teeming with wildlife—all in one unforgettable adventure.",
+    image: frame6,
+  },
+  {
+    id: "the-north-wonders-safari",
+    name: "The North Wonders Safari",
+    days: 6,
+    description:
+      "Embark on a breathtaking journey through Tanzania's most iconic landscapes. Start with the lush forests and tree-climbing lions of Lake Manyara, roam the endless plains of Serengeti in search of the Big Five, and descend into the ancient Ngorongoro Crater—a world within a world. This is the ultimate escape into the wild, where every stop reveals a new wonder.",
+    image: frame7,
+  },
+  {
+    id: "skies-over-the-wild",
+    name: "Skies Over the Wild",
+    days: 3,
+    description:
+      "Trade the city skyline for sweeping savannah views as you journey from Dar es Salaam to the elephant-rich plains of Tarangire National Park. Drift above ancient baobabs and herds of wildlife on a magical hot air balloon safari—watching the sunrise light up the landscape in golden hues. This is Tarangire from above: peaceful, powerful, and unforgettable.",
+    image: frame8,
+  },
+  {
+    id: "into-the-wild-heart",
+    name: "Into the Wild Heart",
+    days: 4,
+    description:
+      "Leave behind the coastal breeze and step into Tanzania's untamed soul. Start your journey in Tarangire, where massive baobabs and roaming elephant herds greet you at every turn. Then descend into the ancient Ngorongoro Crater, a natural amphitheater teeming with wildlife—from lions and rhinos to flamingos and grazing gazelles. A perfect blend of raw beauty and timeless wonder.",
+    image: frame9,
+  },
+  {
+    id: "where-the-bush-meets-the-beach",
+    name: "Where the Bush Meets the Beach",
+    description:
+      "Escape the city and venture to Saadani, Tanzania's only national park where the wild meets the waves. Just a short journey from Dar es Salaam, Saadani offers a rare blend of safari and seashore—spot elephants and lions by day, then unwind on untouched beaches by sunset. It's the perfect coastal wilderness retreat, where nature writes the soundtrack.",
+    days: 2,
+    image: frame10,
+  },
+  {
+    id: "into-the-untamed-wilderness",
+    name: "Into the Untamed Wilderness",
+    description:
+      "From the bustling city of Dar es Salaam, venture into the expansive wilderness of Nyerere National Park, where vast savannahs meet meandering rivers. Home to one of the largest wildlife sanctuaries in Africa, this trip promises unforgettable encounters with majestic elephants, prowling lions, and the serene beauty of the Rufiji River. A perfect getaway for those who seek a true safari adventure just a short distance from the city.",
+    days: 2,
+    image: frame11,
+  },
+];
 
   const handleBookNow = (routeId) => {
     router.push(`/routes/${routeId}`);

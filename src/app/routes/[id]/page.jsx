@@ -15,6 +15,7 @@ import {
 import Image from "next/image";
 
 const routeData = {
+  // kilimanjaro -routes
   "machame-route": {
     name: "Machame Route",
     nickname: "Whiskey Route",
@@ -780,6 +781,8 @@ const routeData = {
       "Personal gear rentals",
     ],
   },
+  // destinations routes
+
   "mikumi-national-park": {
     name: "Mikumi National Park Route",
     description2:
@@ -1358,6 +1361,772 @@ const routeData = {
       "Transfer to and pick-up from the gate of Kilimanjaro National Park",
       "All park fees collected by the Kilimanjaro National Park",
       "Tented accommodation on Mount Kilimanjaro",
+    ],
+    exclusions: [
+      "Airline tickets",
+      "Accommodation before and after trekking",
+      "Visa fees",
+      "Personal gear rentals",
+    ],
+  },
+
+  // escape DSM destinations
+
+  "from-city-lights-to-safari-nights": {
+    name: "Machame Route",
+    blackBg: "Mikumi And Nyerere National Parks",
+    description2:
+      "The trail begins on the western side of Mount Kilimanjaro, with a scenic drive from Moshi to Londorossi Gate. The initial two days involve trekking through lush rainforests to reach Shira Ridge. The route then extends across the entire Shira Plateau from west to east, providing a relatively gentle and enjoyable hike. While the trail remains uncrowded at first, it merges with the Machame route near Lava Tower. From there, climbers follow the Southern Circuit beneath Kilimanjaro’s Southern Ice Field before making the final ascent from Barafu. The descent follows the Mweka route",
+
+    description:
+      "Leave behind the hum of the city and follow the call of the wild. This journey takes you from the heartbeat of Dar es Salaam to the open plains of Mikumi and the untamed wilderness of Nyerere—where elephants roam free, rivers whisper ancient stories, and the stars shine brighter than ever.",
+    image: "/placeholder.svg?height=400&width=800",
+    whiteBg: "7 Days",
+    itinerary: [
+      {
+        day: 1,
+        title: "Machame Gate to Machame Camp",
+        altitude: "1640m - 2835m",
+        distance: "11 Km",
+        time: "5-7 hours",
+        habitat: "Rain Forest",
+        image: "/assets/images/Frame 61.png",
+        description:
+          "The drive from Moshi to the Machame Gate takes about 45 minutes. The journey passes through the village of Machame which is located on the lower slopes of the mountain.",
+      },
+      {
+        day: 2,
+        title: "Machame Camp to Shira Camp",
+        altitude: "2835m - 3750m",
+        distance: "5 Km",
+        time: "4-6 hours",
+        habitat: "Moorland",
+        image: "/assets/images/Frame 61 (1).png",
+        description:
+          "After breakfast, we leave the glades of the rain forest and continue on an ascending path, crossing the little valley walking along a steep rocky ridge.",
+      },
+      {
+        day: 3,
+        title: "Shira Camp to Lava Tower to Barranco Camp",
+        altitude: "3750m - 4630m - 3960m",
+        distance: "10 Km",
+        time: "6-8 hours",
+        habitat: "Semi Desert",
+        image: "/assets/images/Frame 61 (2).png",
+        description:
+          "From the Shira Plateau, we continue to the east up a ridge, passing the junction towards the peak of Kibo. As we continue, our direction changes to the South East towards the Lava Tower, called the 'Shark's Tooth'.",
+      },
+      {
+        day: 4,
+        title: "Barranco Camp to Karanga Camp",
+        altitude: "3960m - 4035m",
+        distance: "5 Km",
+        time: "4-5 hours",
+        habitat: "Alpine Desert",
+        image: "/assets/images/Frame 61 (3).png",
+        description:
+          "After breakfast, we leave Barranco and continue on a steep ridge passing the Barranco Wall, to the Karanga Valley campsite. This is a short day meant for acclimatization.",
+      },
+      {
+        day: 5,
+        title: "Karanga Camp to Barafu Camp",
+        altitude: "4035m - 4673m",
+        distance: "4 Km",
+        time: "4-5 hours",
+        habitat: "Alpine Desert",
+        image: "/assets/images/Frame 61 (4).png",
+        description:
+          "After breakfast, we leave Karanga and hit the junction which connects with the Mweka Trail. We continue up to the Barafu Hut. At this point, you have completed the South Circuit, which offers views of the summit from many different angles.",
+      },
+      {
+        day: 6,
+        title: "Barafu Camp to Summit to Mweka Camp",
+        altitude: "4673m - 5895m - 3068m",
+        distance: "17 Km",
+        time: "12-16 hours",
+        habitat: "Arctic",
+        image: "/assets/images/Frame 61 (1).png",
+        description:
+          "Very early in the morning (midnight to 2am), we continue our way to the summit between the Rebmann and Ratzel glaciers. You head in a northwesterly direction and ascend through heavy scree towards Stella Point on the crater rim.",
+      },
+      {
+        day: 7,
+        title: "Mweka Camp to Mweka Gate",
+        altitude: "3068m - 1640m",
+        distance: "10 Km",
+        time: "3-4 hours",
+        habitat: "Rain Forest",
+        image: "/assets/images/Frame 60.png",
+        description:
+          "After breakfast, we continue the descent down to the Mweka Park Gate to receive your summit certificates. At lower elevations, it can be wet and muddy. Gaiters and trekking poles are recommended.",
+      },
+    ],
+    pricing: [
+      { group: "1 person", price: 2050 },
+      { group: "2-4 people", price: 1900 },
+      { group: "5-7 people", price: 1850 },
+      { group: "8-10 people", price: 1750 },
+      { group: "11+ people", price: 1700 },
+    ],
+    inclusions: [
+      "Pick-up and drop-off at Kilimanjaro International Airport",
+      "Transfer to and pick-up from the gate of Kilimanjaro National Park",
+      "All park fees collected by the Kilimanjaro National Park (conservation fees, camping fees, crew fees, vehicle fee, rescue fee and all other fees collected by the Tanzania National Parks Authority)",
+      "Tented accommodation on Mount Kilimanjaro (modern, comfortable 4-Season tents, North Face VE-25)",
+    ],
+    exclusions: [
+      "Airline tickets",
+      "Accommodation before and after trekking",
+      "Visa fees",
+      "Personal gear rentals",
+    ],
+  },
+   "unzip-serengeti-and-ngorogoro": {
+    name: "Machame Route",
+    blackBg: "Mikumi And Nyerere National Parks",
+    description2:
+      "The trail begins on the western side of Mount Kilimanjaro, with a scenic drive from Moshi to Londorossi Gate. The initial two days involve trekking through lush rainforests to reach Shira Ridge. The route then extends across the entire Shira Plateau from west to east, providing a relatively gentle and enjoyable hike. While the trail remains uncrowded at first, it merges with the Machame route near Lava Tower. From there, climbers follow the Southern Circuit beneath Kilimanjaro’s Southern Ice Field before making the final ascent from Barafu. The descent follows the Mweka route",
+
+    description:
+      "Leave behind the hum of the city and follow the call of the wild. This journey takes you from the heartbeat of Dar es Salaam to the open plains of Mikumi and the untamed wilderness of Nyerere—where elephants roam free, rivers whisper ancient stories, and the stars shine brighter than ever.",
+    image: "/placeholder.svg?height=400&width=800",
+    whiteBg: "7 Days",
+    itinerary: [
+      {
+        day: 1,
+        title: "Machame Gate to Machame Camp",
+        altitude: "1640m - 2835m",
+        distance: "11 Km",
+        time: "5-7 hours",
+        habitat: "Rain Forest",
+        image: "/assets/images/Frame 61.png",
+        description:
+          "The drive from Moshi to the Machame Gate takes about 45 minutes. The journey passes through the village of Machame which is located on the lower slopes of the mountain.",
+      },
+      {
+        day: 2,
+        title: "Machame Camp to Shira Camp",
+        altitude: "2835m - 3750m",
+        distance: "5 Km",
+        time: "4-6 hours",
+        habitat: "Moorland",
+        image: "/assets/images/Frame 61 (1).png",
+        description:
+          "After breakfast, we leave the glades of the rain forest and continue on an ascending path, crossing the little valley walking along a steep rocky ridge.",
+      },
+      {
+        day: 3,
+        title: "Shira Camp to Lava Tower to Barranco Camp",
+        altitude: "3750m - 4630m - 3960m",
+        distance: "10 Km",
+        time: "6-8 hours",
+        habitat: "Semi Desert",
+        image: "/assets/images/Frame 61 (2).png",
+        description:
+          "From the Shira Plateau, we continue to the east up a ridge, passing the junction towards the peak of Kibo. As we continue, our direction changes to the South East towards the Lava Tower, called the 'Shark's Tooth'.",
+      },
+      {
+        day: 4,
+        title: "Barranco Camp to Karanga Camp",
+        altitude: "3960m - 4035m",
+        distance: "5 Km",
+        time: "4-5 hours",
+        habitat: "Alpine Desert",
+        image: "/assets/images/Frame 61 (3).png",
+        description:
+          "After breakfast, we leave Barranco and continue on a steep ridge passing the Barranco Wall, to the Karanga Valley campsite. This is a short day meant for acclimatization.",
+      },
+      {
+        day: 5,
+        title: "Karanga Camp to Barafu Camp",
+        altitude: "4035m - 4673m",
+        distance: "4 Km",
+        time: "4-5 hours",
+        habitat: "Alpine Desert",
+        image: "/assets/images/Frame 61 (4).png",
+        description:
+          "After breakfast, we leave Karanga and hit the junction which connects with the Mweka Trail. We continue up to the Barafu Hut. At this point, you have completed the South Circuit, which offers views of the summit from many different angles.",
+      },
+      {
+        day: 6,
+        title: "Barafu Camp to Summit to Mweka Camp",
+        altitude: "4673m - 5895m - 3068m",
+        distance: "17 Km",
+        time: "12-16 hours",
+        habitat: "Arctic",
+        image: "/assets/images/Frame 61 (1).png",
+        description:
+          "Very early in the morning (midnight to 2am), we continue our way to the summit between the Rebmann and Ratzel glaciers. You head in a northwesterly direction and ascend through heavy scree towards Stella Point on the crater rim.",
+      },
+      {
+        day: 7,
+        title: "Mweka Camp to Mweka Gate",
+        altitude: "3068m - 1640m",
+        distance: "10 Km",
+        time: "3-4 hours",
+        habitat: "Rain Forest",
+        image: "/assets/images/Frame 60.png",
+        description:
+          "After breakfast, we continue the descent down to the Mweka Park Gate to receive your summit certificates. At lower elevations, it can be wet and muddy. Gaiters and trekking poles are recommended.",
+      },
+    ],
+    pricing: [
+      { group: "1 person", price: 2050 },
+      { group: "2-4 people", price: 1900 },
+      { group: "5-7 people", price: 1850 },
+      { group: "8-10 people", price: 1750 },
+      { group: "11+ people", price: 1700 },
+    ],
+    inclusions: [
+      "Pick-up and drop-off at Kilimanjaro International Airport",
+      "Transfer to and pick-up from the gate of Kilimanjaro National Park",
+      "All park fees collected by the Kilimanjaro National Park (conservation fees, camping fees, crew fees, vehicle fee, rescue fee and all other fees collected by the Tanzania National Parks Authority)",
+      "Tented accommodation on Mount Kilimanjaro (modern, comfortable 4-Season tents, North Face VE-25)",
+    ],
+    exclusions: [
+      "Airline tickets",
+      "Accommodation before and after trekking",
+      "Visa fees",
+      "Personal gear rentals",
+    ],
+  },
+   "the-north-wonders-safari": {
+    name: "Machame Route",
+    blackBg: "Mikumi And Nyerere National Parks",
+    description2:
+      "The trail begins on the western side of Mount Kilimanjaro, with a scenic drive from Moshi to Londorossi Gate. The initial two days involve trekking through lush rainforests to reach Shira Ridge. The route then extends across the entire Shira Plateau from west to east, providing a relatively gentle and enjoyable hike. While the trail remains uncrowded at first, it merges with the Machame route near Lava Tower. From there, climbers follow the Southern Circuit beneath Kilimanjaro’s Southern Ice Field before making the final ascent from Barafu. The descent follows the Mweka route",
+
+    description:
+      "Leave behind the hum of the city and follow the call of the wild. This journey takes you from the heartbeat of Dar es Salaam to the open plains of Mikumi and the untamed wilderness of Nyerere—where elephants roam free, rivers whisper ancient stories, and the stars shine brighter than ever.",
+    image: "/placeholder.svg?height=400&width=800",
+    whiteBg: "7 Days",
+    itinerary: [
+      {
+        day: 1,
+        title: "Machame Gate to Machame Camp",
+        altitude: "1640m - 2835m",
+        distance: "11 Km",
+        time: "5-7 hours",
+        habitat: "Rain Forest",
+        image: "/assets/images/Frame 61.png",
+        description:
+          "The drive from Moshi to the Machame Gate takes about 45 minutes. The journey passes through the village of Machame which is located on the lower slopes of the mountain.",
+      },
+      {
+        day: 2,
+        title: "Machame Camp to Shira Camp",
+        altitude: "2835m - 3750m",
+        distance: "5 Km",
+        time: "4-6 hours",
+        habitat: "Moorland",
+        image: "/assets/images/Frame 61 (1).png",
+        description:
+          "After breakfast, we leave the glades of the rain forest and continue on an ascending path, crossing the little valley walking along a steep rocky ridge.",
+      },
+      {
+        day: 3,
+        title: "Shira Camp to Lava Tower to Barranco Camp",
+        altitude: "3750m - 4630m - 3960m",
+        distance: "10 Km",
+        time: "6-8 hours",
+        habitat: "Semi Desert",
+        image: "/assets/images/Frame 61 (2).png",
+        description:
+          "From the Shira Plateau, we continue to the east up a ridge, passing the junction towards the peak of Kibo. As we continue, our direction changes to the South East towards the Lava Tower, called the 'Shark's Tooth'.",
+      },
+      {
+        day: 4,
+        title: "Barranco Camp to Karanga Camp",
+        altitude: "3960m - 4035m",
+        distance: "5 Km",
+        time: "4-5 hours",
+        habitat: "Alpine Desert",
+        image: "/assets/images/Frame 61 (3).png",
+        description:
+          "After breakfast, we leave Barranco and continue on a steep ridge passing the Barranco Wall, to the Karanga Valley campsite. This is a short day meant for acclimatization.",
+      },
+      {
+        day: 5,
+        title: "Karanga Camp to Barafu Camp",
+        altitude: "4035m - 4673m",
+        distance: "4 Km",
+        time: "4-5 hours",
+        habitat: "Alpine Desert",
+        image: "/assets/images/Frame 61 (4).png",
+        description:
+          "After breakfast, we leave Karanga and hit the junction which connects with the Mweka Trail. We continue up to the Barafu Hut. At this point, you have completed the South Circuit, which offers views of the summit from many different angles.",
+      },
+      {
+        day: 6,
+        title: "Barafu Camp to Summit to Mweka Camp",
+        altitude: "4673m - 5895m - 3068m",
+        distance: "17 Km",
+        time: "12-16 hours",
+        habitat: "Arctic",
+        image: "/assets/images/Frame 61 (1).png",
+        description:
+          "Very early in the morning (midnight to 2am), we continue our way to the summit between the Rebmann and Ratzel glaciers. You head in a northwesterly direction and ascend through heavy scree towards Stella Point on the crater rim.",
+      },
+      {
+        day: 7,
+        title: "Mweka Camp to Mweka Gate",
+        altitude: "3068m - 1640m",
+        distance: "10 Km",
+        time: "3-4 hours",
+        habitat: "Rain Forest",
+        image: "/assets/images/Frame 60.png",
+        description:
+          "After breakfast, we continue the descent down to the Mweka Park Gate to receive your summit certificates. At lower elevations, it can be wet and muddy. Gaiters and trekking poles are recommended.",
+      },
+    ],
+    pricing: [
+      { group: "1 person", price: 2050 },
+      { group: "2-4 people", price: 1900 },
+      { group: "5-7 people", price: 1850 },
+      { group: "8-10 people", price: 1750 },
+      { group: "11+ people", price: 1700 },
+    ],
+    inclusions: [
+      "Pick-up and drop-off at Kilimanjaro International Airport",
+      "Transfer to and pick-up from the gate of Kilimanjaro National Park",
+      "All park fees collected by the Kilimanjaro National Park (conservation fees, camping fees, crew fees, vehicle fee, rescue fee and all other fees collected by the Tanzania National Parks Authority)",
+      "Tented accommodation on Mount Kilimanjaro (modern, comfortable 4-Season tents, North Face VE-25)",
+    ],
+    exclusions: [
+      "Airline tickets",
+      "Accommodation before and after trekking",
+      "Visa fees",
+      "Personal gear rentals",
+    ],
+  },
+   "skies-over-the-wild": {
+    name: "Machame Route",
+    blackBg: "Mikumi And Nyerere National Parks",
+    description2:
+      "The trail begins on the western side of Mount Kilimanjaro, with a scenic drive from Moshi to Londorossi Gate. The initial two days involve trekking through lush rainforests to reach Shira Ridge. The route then extends across the entire Shira Plateau from west to east, providing a relatively gentle and enjoyable hike. While the trail remains uncrowded at first, it merges with the Machame route near Lava Tower. From there, climbers follow the Southern Circuit beneath Kilimanjaro’s Southern Ice Field before making the final ascent from Barafu. The descent follows the Mweka route",
+
+    description:
+      "Leave behind the hum of the city and follow the call of the wild. This journey takes you from the heartbeat of Dar es Salaam to the open plains of Mikumi and the untamed wilderness of Nyerere—where elephants roam free, rivers whisper ancient stories, and the stars shine brighter than ever.",
+    image: "/placeholder.svg?height=400&width=800",
+    whiteBg: "7 Days",
+    itinerary: [
+      {
+        day: 1,
+        title: "Machame Gate to Machame Camp",
+        altitude: "1640m - 2835m",
+        distance: "11 Km",
+        time: "5-7 hours",
+        habitat: "Rain Forest",
+        image: "/assets/images/Frame 61.png",
+        description:
+          "The drive from Moshi to the Machame Gate takes about 45 minutes. The journey passes through the village of Machame which is located on the lower slopes of the mountain.",
+      },
+      {
+        day: 2,
+        title: "Machame Camp to Shira Camp",
+        altitude: "2835m - 3750m",
+        distance: "5 Km",
+        time: "4-6 hours",
+        habitat: "Moorland",
+        image: "/assets/images/Frame 61 (1).png",
+        description:
+          "After breakfast, we leave the glades of the rain forest and continue on an ascending path, crossing the little valley walking along a steep rocky ridge.",
+      },
+      {
+        day: 3,
+        title: "Shira Camp to Lava Tower to Barranco Camp",
+        altitude: "3750m - 4630m - 3960m",
+        distance: "10 Km",
+        time: "6-8 hours",
+        habitat: "Semi Desert",
+        image: "/assets/images/Frame 61 (2).png",
+        description:
+          "From the Shira Plateau, we continue to the east up a ridge, passing the junction towards the peak of Kibo. As we continue, our direction changes to the South East towards the Lava Tower, called the 'Shark's Tooth'.",
+      },
+      {
+        day: 4,
+        title: "Barranco Camp to Karanga Camp",
+        altitude: "3960m - 4035m",
+        distance: "5 Km",
+        time: "4-5 hours",
+        habitat: "Alpine Desert",
+        image: "/assets/images/Frame 61 (3).png",
+        description:
+          "After breakfast, we leave Barranco and continue on a steep ridge passing the Barranco Wall, to the Karanga Valley campsite. This is a short day meant for acclimatization.",
+      },
+      {
+        day: 5,
+        title: "Karanga Camp to Barafu Camp",
+        altitude: "4035m - 4673m",
+        distance: "4 Km",
+        time: "4-5 hours",
+        habitat: "Alpine Desert",
+        image: "/assets/images/Frame 61 (4).png",
+        description:
+          "After breakfast, we leave Karanga and hit the junction which connects with the Mweka Trail. We continue up to the Barafu Hut. At this point, you have completed the South Circuit, which offers views of the summit from many different angles.",
+      },
+      {
+        day: 6,
+        title: "Barafu Camp to Summit to Mweka Camp",
+        altitude: "4673m - 5895m - 3068m",
+        distance: "17 Km",
+        time: "12-16 hours",
+        habitat: "Arctic",
+        image: "/assets/images/Frame 61 (1).png",
+        description:
+          "Very early in the morning (midnight to 2am), we continue our way to the summit between the Rebmann and Ratzel glaciers. You head in a northwesterly direction and ascend through heavy scree towards Stella Point on the crater rim.",
+      },
+      {
+        day: 7,
+        title: "Mweka Camp to Mweka Gate",
+        altitude: "3068m - 1640m",
+        distance: "10 Km",
+        time: "3-4 hours",
+        habitat: "Rain Forest",
+        image: "/assets/images/Frame 60.png",
+        description:
+          "After breakfast, we continue the descent down to the Mweka Park Gate to receive your summit certificates. At lower elevations, it can be wet and muddy. Gaiters and trekking poles are recommended.",
+      },
+    ],
+    pricing: [
+      { group: "1 person", price: 2050 },
+      { group: "2-4 people", price: 1900 },
+      { group: "5-7 people", price: 1850 },
+      { group: "8-10 people", price: 1750 },
+      { group: "11+ people", price: 1700 },
+    ],
+    inclusions: [
+      "Pick-up and drop-off at Kilimanjaro International Airport",
+      "Transfer to and pick-up from the gate of Kilimanjaro National Park",
+      "All park fees collected by the Kilimanjaro National Park (conservation fees, camping fees, crew fees, vehicle fee, rescue fee and all other fees collected by the Tanzania National Parks Authority)",
+      "Tented accommodation on Mount Kilimanjaro (modern, comfortable 4-Season tents, North Face VE-25)",
+    ],
+    exclusions: [
+      "Airline tickets",
+      "Accommodation before and after trekking",
+      "Visa fees",
+      "Personal gear rentals",
+    ],
+  },
+   "into-the-wild-heart": {
+    name: "Machame Route",
+    blackBg: "Mikumi And Nyerere National Parks",
+    description2:
+      "The trail begins on the western side of Mount Kilimanjaro, with a scenic drive from Moshi to Londorossi Gate. The initial two days involve trekking through lush rainforests to reach Shira Ridge. The route then extends across the entire Shira Plateau from west to east, providing a relatively gentle and enjoyable hike. While the trail remains uncrowded at first, it merges with the Machame route near Lava Tower. From there, climbers follow the Southern Circuit beneath Kilimanjaro’s Southern Ice Field before making the final ascent from Barafu. The descent follows the Mweka route",
+
+    description:
+      "Leave behind the hum of the city and follow the call of the wild. This journey takes you from the heartbeat of Dar es Salaam to the open plains of Mikumi and the untamed wilderness of Nyerere—where elephants roam free, rivers whisper ancient stories, and the stars shine brighter than ever.",
+    image: "/placeholder.svg?height=400&width=800",
+    whiteBg: "7 Days",
+    itinerary: [
+      {
+        day: 1,
+        title: "Machame Gate to Machame Camp",
+        altitude: "1640m - 2835m",
+        distance: "11 Km",
+        time: "5-7 hours",
+        habitat: "Rain Forest",
+        image: "/assets/images/Frame 61.png",
+        description:
+          "The drive from Moshi to the Machame Gate takes about 45 minutes. The journey passes through the village of Machame which is located on the lower slopes of the mountain.",
+      },
+      {
+        day: 2,
+        title: "Machame Camp to Shira Camp",
+        altitude: "2835m - 3750m",
+        distance: "5 Km",
+        time: "4-6 hours",
+        habitat: "Moorland",
+        image: "/assets/images/Frame 61 (1).png",
+        description:
+          "After breakfast, we leave the glades of the rain forest and continue on an ascending path, crossing the little valley walking along a steep rocky ridge.",
+      },
+      {
+        day: 3,
+        title: "Shira Camp to Lava Tower to Barranco Camp",
+        altitude: "3750m - 4630m - 3960m",
+        distance: "10 Km",
+        time: "6-8 hours",
+        habitat: "Semi Desert",
+        image: "/assets/images/Frame 61 (2).png",
+        description:
+          "From the Shira Plateau, we continue to the east up a ridge, passing the junction towards the peak of Kibo. As we continue, our direction changes to the South East towards the Lava Tower, called the 'Shark's Tooth'.",
+      },
+      {
+        day: 4,
+        title: "Barranco Camp to Karanga Camp",
+        altitude: "3960m - 4035m",
+        distance: "5 Km",
+        time: "4-5 hours",
+        habitat: "Alpine Desert",
+        image: "/assets/images/Frame 61 (3).png",
+        description:
+          "After breakfast, we leave Barranco and continue on a steep ridge passing the Barranco Wall, to the Karanga Valley campsite. This is a short day meant for acclimatization.",
+      },
+      {
+        day: 5,
+        title: "Karanga Camp to Barafu Camp",
+        altitude: "4035m - 4673m",
+        distance: "4 Km",
+        time: "4-5 hours",
+        habitat: "Alpine Desert",
+        image: "/assets/images/Frame 61 (4).png",
+        description:
+          "After breakfast, we leave Karanga and hit the junction which connects with the Mweka Trail. We continue up to the Barafu Hut. At this point, you have completed the South Circuit, which offers views of the summit from many different angles.",
+      },
+      {
+        day: 6,
+        title: "Barafu Camp to Summit to Mweka Camp",
+        altitude: "4673m - 5895m - 3068m",
+        distance: "17 Km",
+        time: "12-16 hours",
+        habitat: "Arctic",
+        image: "/assets/images/Frame 61 (1).png",
+        description:
+          "Very early in the morning (midnight to 2am), we continue our way to the summit between the Rebmann and Ratzel glaciers. You head in a northwesterly direction and ascend through heavy scree towards Stella Point on the crater rim.",
+      },
+      {
+        day: 7,
+        title: "Mweka Camp to Mweka Gate",
+        altitude: "3068m - 1640m",
+        distance: "10 Km",
+        time: "3-4 hours",
+        habitat: "Rain Forest",
+        image: "/assets/images/Frame 60.png",
+        description:
+          "After breakfast, we continue the descent down to the Mweka Park Gate to receive your summit certificates. At lower elevations, it can be wet and muddy. Gaiters and trekking poles are recommended.",
+      },
+    ],
+    pricing: [
+      { group: "1 person", price: 2050 },
+      { group: "2-4 people", price: 1900 },
+      { group: "5-7 people", price: 1850 },
+      { group: "8-10 people", price: 1750 },
+      { group: "11+ people", price: 1700 },
+    ],
+    inclusions: [
+      "Pick-up and drop-off at Kilimanjaro International Airport",
+      "Transfer to and pick-up from the gate of Kilimanjaro National Park",
+      "All park fees collected by the Kilimanjaro National Park (conservation fees, camping fees, crew fees, vehicle fee, rescue fee and all other fees collected by the Tanzania National Parks Authority)",
+      "Tented accommodation on Mount Kilimanjaro (modern, comfortable 4-Season tents, North Face VE-25)",
+    ],
+    exclusions: [
+      "Airline tickets",
+      "Accommodation before and after trekking",
+      "Visa fees",
+      "Personal gear rentals",
+    ],
+  },
+   "where-the-bush-meets-the-beach": {
+    name: "Machame Route",
+    blackBg: "Mikumi And Nyerere National Parks",
+    description2:
+      "The trail begins on the western side of Mount Kilimanjaro, with a scenic drive from Moshi to Londorossi Gate. The initial two days involve trekking through lush rainforests to reach Shira Ridge. The route then extends across the entire Shira Plateau from west to east, providing a relatively gentle and enjoyable hike. While the trail remains uncrowded at first, it merges with the Machame route near Lava Tower. From there, climbers follow the Southern Circuit beneath Kilimanjaro’s Southern Ice Field before making the final ascent from Barafu. The descent follows the Mweka route",
+
+    description:
+      "Leave behind the hum of the city and follow the call of the wild. This journey takes you from the heartbeat of Dar es Salaam to the open plains of Mikumi and the untamed wilderness of Nyerere—where elephants roam free, rivers whisper ancient stories, and the stars shine brighter than ever.",
+    image: "/placeholder.svg?height=400&width=800",
+    whiteBg: "7 Days",
+    itinerary: [
+      {
+        day: 1,
+        title: "Machame Gate to Machame Camp",
+        altitude: "1640m - 2835m",
+        distance: "11 Km",
+        time: "5-7 hours",
+        habitat: "Rain Forest",
+        image: "/assets/images/Frame 61.png",
+        description:
+          "The drive from Moshi to the Machame Gate takes about 45 minutes. The journey passes through the village of Machame which is located on the lower slopes of the mountain.",
+      },
+      {
+        day: 2,
+        title: "Machame Camp to Shira Camp",
+        altitude: "2835m - 3750m",
+        distance: "5 Km",
+        time: "4-6 hours",
+        habitat: "Moorland",
+        image: "/assets/images/Frame 61 (1).png",
+        description:
+          "After breakfast, we leave the glades of the rain forest and continue on an ascending path, crossing the little valley walking along a steep rocky ridge.",
+      },
+      {
+        day: 3,
+        title: "Shira Camp to Lava Tower to Barranco Camp",
+        altitude: "3750m - 4630m - 3960m",
+        distance: "10 Km",
+        time: "6-8 hours",
+        habitat: "Semi Desert",
+        image: "/assets/images/Frame 61 (2).png",
+        description:
+          "From the Shira Plateau, we continue to the east up a ridge, passing the junction towards the peak of Kibo. As we continue, our direction changes to the South East towards the Lava Tower, called the 'Shark's Tooth'.",
+      },
+      {
+        day: 4,
+        title: "Barranco Camp to Karanga Camp",
+        altitude: "3960m - 4035m",
+        distance: "5 Km",
+        time: "4-5 hours",
+        habitat: "Alpine Desert",
+        image: "/assets/images/Frame 61 (3).png",
+        description:
+          "After breakfast, we leave Barranco and continue on a steep ridge passing the Barranco Wall, to the Karanga Valley campsite. This is a short day meant for acclimatization.",
+      },
+      {
+        day: 5,
+        title: "Karanga Camp to Barafu Camp",
+        altitude: "4035m - 4673m",
+        distance: "4 Km",
+        time: "4-5 hours",
+        habitat: "Alpine Desert",
+        image: "/assets/images/Frame 61 (4).png",
+        description:
+          "After breakfast, we leave Karanga and hit the junction which connects with the Mweka Trail. We continue up to the Barafu Hut. At this point, you have completed the South Circuit, which offers views of the summit from many different angles.",
+      },
+      {
+        day: 6,
+        title: "Barafu Camp to Summit to Mweka Camp",
+        altitude: "4673m - 5895m - 3068m",
+        distance: "17 Km",
+        time: "12-16 hours",
+        habitat: "Arctic",
+        image: "/assets/images/Frame 61 (1).png",
+        description:
+          "Very early in the morning (midnight to 2am), we continue our way to the summit between the Rebmann and Ratzel glaciers. You head in a northwesterly direction and ascend through heavy scree towards Stella Point on the crater rim.",
+      },
+      {
+        day: 7,
+        title: "Mweka Camp to Mweka Gate",
+        altitude: "3068m - 1640m",
+        distance: "10 Km",
+        time: "3-4 hours",
+        habitat: "Rain Forest",
+        image: "/assets/images/Frame 60.png",
+        description:
+          "After breakfast, we continue the descent down to the Mweka Park Gate to receive your summit certificates. At lower elevations, it can be wet and muddy. Gaiters and trekking poles are recommended.",
+      },
+    ],
+    pricing: [
+      { group: "1 person", price: 2050 },
+      { group: "2-4 people", price: 1900 },
+      { group: "5-7 people", price: 1850 },
+      { group: "8-10 people", price: 1750 },
+      { group: "11+ people", price: 1700 },
+    ],
+    inclusions: [
+      "Pick-up and drop-off at Kilimanjaro International Airport",
+      "Transfer to and pick-up from the gate of Kilimanjaro National Park",
+      "All park fees collected by the Kilimanjaro National Park (conservation fees, camping fees, crew fees, vehicle fee, rescue fee and all other fees collected by the Tanzania National Parks Authority)",
+      "Tented accommodation on Mount Kilimanjaro (modern, comfortable 4-Season tents, North Face VE-25)",
+    ],
+    exclusions: [
+      "Airline tickets",
+      "Accommodation before and after trekking",
+      "Visa fees",
+      "Personal gear rentals",
+    ],
+  },
+   "into-the-untamed-wilderness": {
+    name: "Machame Route",
+    blackBg: "Mikumi And Nyerere National Parks",
+    description2:
+      "The trail begins on the western side of Mount Kilimanjaro, with a scenic drive from Moshi to Londorossi Gate. The initial two days involve trekking through lush rainforests to reach Shira Ridge. The route then extends across the entire Shira Plateau from west to east, providing a relatively gentle and enjoyable hike. While the trail remains uncrowded at first, it merges with the Machame route near Lava Tower. From there, climbers follow the Southern Circuit beneath Kilimanjaro’s Southern Ice Field before making the final ascent from Barafu. The descent follows the Mweka route",
+
+    description:
+      "Leave behind the hum of the city and follow the call of the wild. This journey takes you from the heartbeat of Dar es Salaam to the open plains of Mikumi and the untamed wilderness of Nyerere—where elephants roam free, rivers whisper ancient stories, and the stars shine brighter than ever.",
+    image: "/placeholder.svg?height=400&width=800",
+    whiteBg: "7 Days",
+    itinerary: [
+      {
+        day: 1,
+        title: "Machame Gate to Machame Camp",
+        altitude: "1640m - 2835m",
+        distance: "11 Km",
+        time: "5-7 hours",
+        habitat: "Rain Forest",
+        image: "/assets/images/Frame 61.png",
+        description:
+          "The drive from Moshi to the Machame Gate takes about 45 minutes. The journey passes through the village of Machame which is located on the lower slopes of the mountain.",
+      },
+      {
+        day: 2,
+        title: "Machame Camp to Shira Camp",
+        altitude: "2835m - 3750m",
+        distance: "5 Km",
+        time: "4-6 hours",
+        habitat: "Moorland",
+        image: "/assets/images/Frame 61 (1).png",
+        description:
+          "After breakfast, we leave the glades of the rain forest and continue on an ascending path, crossing the little valley walking along a steep rocky ridge.",
+      },
+      {
+        day: 3,
+        title: "Shira Camp to Lava Tower to Barranco Camp",
+        altitude: "3750m - 4630m - 3960m",
+        distance: "10 Km",
+        time: "6-8 hours",
+        habitat: "Semi Desert",
+        image: "/assets/images/Frame 61 (2).png",
+        description:
+          "From the Shira Plateau, we continue to the east up a ridge, passing the junction towards the peak of Kibo. As we continue, our direction changes to the South East towards the Lava Tower, called the 'Shark's Tooth'.",
+      },
+      {
+        day: 4,
+        title: "Barranco Camp to Karanga Camp",
+        altitude: "3960m - 4035m",
+        distance: "5 Km",
+        time: "4-5 hours",
+        habitat: "Alpine Desert",
+        image: "/assets/images/Frame 61 (3).png",
+        description:
+          "After breakfast, we leave Barranco and continue on a steep ridge passing the Barranco Wall, to the Karanga Valley campsite. This is a short day meant for acclimatization.",
+      },
+      {
+        day: 5,
+        title: "Karanga Camp to Barafu Camp",
+        altitude: "4035m - 4673m",
+        distance: "4 Km",
+        time: "4-5 hours",
+        habitat: "Alpine Desert",
+        image: "/assets/images/Frame 61 (4).png",
+        description:
+          "After breakfast, we leave Karanga and hit the junction which connects with the Mweka Trail. We continue up to the Barafu Hut. At this point, you have completed the South Circuit, which offers views of the summit from many different angles.",
+      },
+      {
+        day: 6,
+        title: "Barafu Camp to Summit to Mweka Camp",
+        altitude: "4673m - 5895m - 3068m",
+        distance: "17 Km",
+        time: "12-16 hours",
+        habitat: "Arctic",
+        image: "/assets/images/Frame 61 (1).png",
+        description:
+          "Very early in the morning (midnight to 2am), we continue our way to the summit between the Rebmann and Ratzel glaciers. You head in a northwesterly direction and ascend through heavy scree towards Stella Point on the crater rim.",
+      },
+      {
+        day: 7,
+        title: "Mweka Camp to Mweka Gate",
+        altitude: "3068m - 1640m",
+        distance: "10 Km",
+        time: "3-4 hours",
+        habitat: "Rain Forest",
+        image: "/assets/images/Frame 60.png",
+        description:
+          "After breakfast, we continue the descent down to the Mweka Park Gate to receive your summit certificates. At lower elevations, it can be wet and muddy. Gaiters and trekking poles are recommended.",
+      },
+    ],
+    pricing: [
+      { group: "1 person", price: 2050 },
+      { group: "2-4 people", price: 1900 },
+      { group: "5-7 people", price: 1850 },
+      { group: "8-10 people", price: 1750 },
+      { group: "11+ people", price: 1700 },
+    ],
+    inclusions: [
+      "Pick-up and drop-off at Kilimanjaro International Airport",
+      "Transfer to and pick-up from the gate of Kilimanjaro National Park",
+      "All park fees collected by the Kilimanjaro National Park (conservation fees, camping fees, crew fees, vehicle fee, rescue fee and all other fees collected by the Tanzania National Parks Authority)",
+      "Tented accommodation on Mount Kilimanjaro (modern, comfortable 4-Season tents, North Face VE-25)",
     ],
     exclusions: [
       "Airline tickets",
