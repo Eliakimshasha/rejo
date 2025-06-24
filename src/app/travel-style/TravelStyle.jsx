@@ -222,7 +222,7 @@ export default function TravelShowcase() {
           </div>
 
           {/* Right Side - Images Grid */}
-          <div className="grid grid-cols-2 gap-4 h-[600px]">
+          <div className="grid grid-cols-2 gap-4 md:h-[600px] h-[400px]">
             {/* Left Column - Two Small Images Stacked */}
             <div className="flex flex-col gap-4">
               <div className="relative group overflow-hidden rounded-2xl flex-1">
@@ -234,14 +234,14 @@ export default function TravelShowcase() {
                   className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105"
                   sizes="(max-width: 768px) 50vw, (max-width: 1200px) 25vw, 20vw"
                 />
-                <div className="absolute top-4 left-4">
-                  <span className="bg-white/90 backdrop-blur-sm px-3 py-1 rounded-full text-sm font-medium text-gray-700">
+                <div className="absolute md:top-4 top-2 md:left-4 left-2">
+                  <span className="bg-white/90 backdrop-blur-sm px-3 md:py-1 py-[2px] rounded-full md:text-sm text-xs font-medium text-gray-700">
                     {currentAdventure.images[0].duration}
                   </span>
                 </div>
                 <div className="absolute bottom-0 w-full left-0">
                   <div className="bg-white/20 backdrop-blur-md  p-3 text-white">
-                    <h3 className="font-semibold text-sm mb-1">{currentAdventure.images[0].title}</h3>
+                    <h3 className="font-semibold text-sm mb-1 hidden md:block">{currentAdventure.images[0].title}</h3>
                     <p className="text-xs opacity-90">{currentAdventure.images[0].price}</p>
                   </div>
                 </div>
@@ -256,14 +256,14 @@ export default function TravelShowcase() {
                   className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105"
                   sizes="(max-width: 768px) 50vw, (max-width: 1200px) 25vw, 20vw"
                 />
-                <div className="absolute top-4 left-4">
-                  <span className="bg-white/90 backdrop-blur-sm px-3 py-1 rounded-full text-sm font-medium text-gray-700">
+                <div className="absolute md:top-4 top-2 md:left-4 left-2">
+                  <span className="bg-white/90 backdrop-blur-sm px-3 md:py-1 py-[2px] rounded-full md:text-sm text-xs font-medium text-gray-700">
                     {currentAdventure.images[1].duration}
                   </span>
                 </div>
                 <div className="absolute bottom-0 w-full left-0">
                   <div className="bg-white/20 backdrop-blur-md  p-3 text-white">
-                    <h3 className="font-semibold text-sm mb-1">{currentAdventure.images[1].title}</h3>
+                    <h3 className="font-semibold text-sm mb-1 hidden md:block">{currentAdventure.images[1].title}</h3>
                     <p className="text-xs opacity-90">{currentAdventure.images[1].price}</p>
                   </div>
                 </div>
@@ -280,14 +280,14 @@ export default function TravelShowcase() {
                 className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105"
                 sizes="(max-width: 768px) 50vw, (max-width: 1200px) 25vw, 25vw"
               />
-              <div className="absolute top-4 left-4">
-                <span className="bg-white/90 backdrop-blur-sm px-3 py-1 rounded-full text-sm font-medium text-gray-700">
+              <div className="absolute md:top-4 top-2 md:left-4 left-2">
+                <span className="bg-white/90 backdrop-blur-sm px-3 md:py-1 py-[2px] rounded-full md:text-sm text-xs font-medium text-gray-700">
                   {currentAdventure.images[2].duration}
                 </span>
               </div>
               <div className="absolute bottom-0 w-full left-0">
                 <div className="bg-white/20 backdrop-blur-md  p-4 text-white">
-                  <h3 className="font-semibold text-lg mb-1">{currentAdventure.images[2].title}</h3>
+                  <h3 className="font-semibold text-lg mb-1 hidden md:block">{currentAdventure.images[2].title}</h3>
                   <p className="text-sm opacity-90">{currentAdventure.images[2].price}</p>
                 </div>
               </div>
