@@ -581,7 +581,7 @@ const routeData = {
     ],
   },
   "marangu-route": {
-    name: "Umbwe Route",
+    name: "Marangu Route",
     description2:
       "The trail begins on the western side of Mount Kilimanjaro, with a scenic drive from Moshi to Londorossi Gate. The initial two days involve trekking through lush rainforests to reach Shira Ridge. The route then extends across the entire Shira Plateau from west to east, providing a relatively gentle and enjoyable hike. While the trail remains uncrowded at first, it merges with the Machame route near Lava Tower. From there, climbers follow the Southern Circuit beneath Kilimanjaro’s Southern Ice Field before making the final ascent from Barafu. The descent follows the Mweka route",
 
@@ -681,7 +681,7 @@ const routeData = {
     ],
   },
   "northern-circuit": {
-    name: "Umbwe Route",
+    name: "Nothern Circuit Route",
     description2:
       "The trail begins on the western side of Mount Kilimanjaro, with a scenic drive from Moshi to Londorossi Gate. The initial two days involve trekking through lush rainforests to reach Shira Ridge. The route then extends across the entire Shira Plateau from west to east, providing a relatively gentle and enjoyable hike. While the trail remains uncrowded at first, it merges with the Machame route near Lava Tower. From there, climbers follow the Southern Circuit beneath Kilimanjaro’s Southern Ice Field before making the final ascent from Barafu. The descent follows the Mweka route",
 
@@ -781,7 +781,7 @@ const routeData = {
     ],
   },
   "mikumi-national-park": {
-    name: "Umbwe Route",
+    name: "Mikumi National Park Route",
     description2:
       "The trail begins on the western side of Mount Kilimanjaro, with a scenic drive from Moshi to Londorossi Gate. The initial two days involve trekking through lush rainforests to reach Shira Ridge. The route then extends across the entire Shira Plateau from west to east, providing a relatively gentle and enjoyable hike. While the trail remains uncrowded at first, it merges with the Machame route near Lava Tower. From there, climbers follow the Southern Circuit beneath Kilimanjaro’s Southern Ice Field before making the final ascent from Barafu. The descent follows the Mweka route",
 
@@ -804,7 +804,6 @@ const routeData = {
         description:
           "The Umbwe route is known for its steep, direct ascent. Begin the challenging climb through dense rainforest.",
       },
-  
     ],
     pricing: [
       { group: "1 person", price: 1900 },
@@ -827,7 +826,7 @@ const routeData = {
     ],
   },
   "arusha-national-park": {
-    name: "Umbwe Route",
+    name: "Arusha National Park Route",
     description2:
       "The trail begins on the western side of Mount Kilimanjaro, with a scenic drive from Moshi to Londorossi Gate. The initial two days involve trekking through lush rainforests to reach Shira Ridge. The route then extends across the entire Shira Plateau from west to east, providing a relatively gentle and enjoyable hike. While the trail remains uncrowded at first, it merges with the Machame route near Lava Tower. From there, climbers follow the Southern Circuit beneath Kilimanjaro’s Southern Ice Field before making the final ascent from Barafu. The descent follows the Mweka route",
 
@@ -850,7 +849,6 @@ const routeData = {
         description:
           "The Umbwe route is known for its steep, direct ascent. Begin the challenging climb through dense rainforest.",
       },
-  
     ],
     pricing: [
       { group: "1 person", price: 1900 },
@@ -873,7 +871,7 @@ const routeData = {
     ],
   },
   "tarangire-national-park": {
-    name: "Umbwe Route",
+    name: "Tarangire National Park Route",
     description2:
       "The trail begins on the western side of Mount Kilimanjaro, with a scenic drive from Moshi to Londorossi Gate. The initial two days involve trekking through lush rainforests to reach Shira Ridge. The route then extends across the entire Shira Plateau from west to east, providing a relatively gentle and enjoyable hike. While the trail remains uncrowded at first, it merges with the Machame route near Lava Tower. From there, climbers follow the Southern Circuit beneath Kilimanjaro’s Southern Ice Field before making the final ascent from Barafu. The descent follows the Mweka route",
 
@@ -896,7 +894,6 @@ const routeData = {
         description:
           "The Umbwe route is known for its steep, direct ascent. Begin the challenging climb through dense rainforest.",
       },
-  
     ],
     pricing: [
       { group: "1 person", price: 1900 },
@@ -919,7 +916,7 @@ const routeData = {
     ],
   },
   "lake-manyara-national-park": {
-    name: "Umbwe Route",
+    name: "Lake Manyara National Park Route",
     description2:
       "The trail begins on the western side of Mount Kilimanjaro, with a scenic drive from Moshi to Londorossi Gate. The initial two days involve trekking through lush rainforests to reach Shira Ridge. The route then extends across the entire Shira Plateau from west to east, providing a relatively gentle and enjoyable hike. While the trail remains uncrowded at first, it merges with the Machame route near Lava Tower. From there, climbers follow the Southern Circuit beneath Kilimanjaro’s Southern Ice Field before making the final ascent from Barafu. The descent follows the Mweka route",
 
@@ -942,7 +939,6 @@ const routeData = {
         description:
           "The Umbwe route is known for its steep, direct ascent. Begin the challenging climb through dense rainforest.",
       },
-  
     ],
     pricing: [
       { group: "1 person", price: 1900 },
@@ -965,7 +961,7 @@ const routeData = {
     ],
   },
   "ngorongoro-national-park": {
-    name: "Umbwe Route",
+    name: "Ngorongoro National Park Route",
     description2:
       "The trail begins on the western side of Mount Kilimanjaro, with a scenic drive from Moshi to Londorossi Gate. The initial two days involve trekking through lush rainforests to reach Shira Ridge. The route then extends across the entire Shira Plateau from west to east, providing a relatively gentle and enjoyable hike. While the trail remains uncrowded at first, it merges with the Machame route near Lava Tower. From there, climbers follow the Southern Circuit beneath Kilimanjaro’s Southern Ice Field before making the final ascent from Barafu. The descent follows the Mweka route",
 
@@ -988,7 +984,6 @@ const routeData = {
         description:
           "The Umbwe route is known for its steep, direct ascent. Begin the challenging climb through dense rainforest.",
       },
-  
     ],
     pricing: [
       { group: "1 person", price: 1900 },
@@ -1011,7 +1006,7 @@ const routeData = {
     ],
   },
   "mkomazi-national-park": {
-    name: "Umbwe Route",
+    name: "Mkomazi National Park Route",
     description2:
       "The trail begins on the western side of Mount Kilimanjaro, with a scenic drive from Moshi to Londorossi Gate. The initial two days involve trekking through lush rainforests to reach Shira Ridge. The route then extends across the entire Shira Plateau from west to east, providing a relatively gentle and enjoyable hike. While the trail remains uncrowded at first, it merges with the Machame route near Lava Tower. From there, climbers follow the Southern Circuit beneath Kilimanjaro’s Southern Ice Field before making the final ascent from Barafu. The descent follows the Mweka route",
 
@@ -1034,7 +1029,6 @@ const routeData = {
         description:
           "The Umbwe route is known for its steep, direct ascent. Begin the challenging climb through dense rainforest.",
       },
-  
     ],
     pricing: [
       { group: "1 person", price: 1900 },
@@ -1057,7 +1051,7 @@ const routeData = {
     ],
   },
   "saadani-national-park": {
-    name: "Umbwe Route",
+    name: "Saadani National Park Route",
     description2:
       "The trail begins on the western side of Mount Kilimanjaro, with a scenic drive from Moshi to Londorossi Gate. The initial two days involve trekking through lush rainforests to reach Shira Ridge. The route then extends across the entire Shira Plateau from west to east, providing a relatively gentle and enjoyable hike. While the trail remains uncrowded at first, it merges with the Machame route near Lava Tower. From there, climbers follow the Southern Circuit beneath Kilimanjaro’s Southern Ice Field before making the final ascent from Barafu. The descent follows the Mweka route",
 
@@ -1080,7 +1074,6 @@ const routeData = {
         description:
           "The Umbwe route is known for its steep, direct ascent. Begin the challenging climb through dense rainforest.",
       },
-  
     ],
     pricing: [
       { group: "1 person", price: 1900 },
@@ -1103,7 +1096,7 @@ const routeData = {
     ],
   },
   "nyerere-national-park": {
-    name: "Umbwe Route",
+    name: "Nyerere National Park Route",
     description2:
       "The trail begins on the western side of Mount Kilimanjaro, with a scenic drive from Moshi to Londorossi Gate. The initial two days involve trekking through lush rainforests to reach Shira Ridge. The route then extends across the entire Shira Plateau from west to east, providing a relatively gentle and enjoyable hike. While the trail remains uncrowded at first, it merges with the Machame route near Lava Tower. From there, climbers follow the Southern Circuit beneath Kilimanjaro’s Southern Ice Field before making the final ascent from Barafu. The descent follows the Mweka route",
 
@@ -1126,7 +1119,6 @@ const routeData = {
         description:
           "The Umbwe route is known for its steep, direct ascent. Begin the challenging climb through dense rainforest.",
       },
-  
     ],
     pricing: [
       { group: "1 person", price: 1900 },
@@ -1149,7 +1141,7 @@ const routeData = {
     ],
   },
   "mount-meru-national-park": {
-    name: "Umbwe Route",
+    name: "Mount Meru Route",
     description2:
       "The trail begins on the western side of Mount Kilimanjaro, with a scenic drive from Moshi to Londorossi Gate. The initial two days involve trekking through lush rainforests to reach Shira Ridge. The route then extends across the entire Shira Plateau from west to east, providing a relatively gentle and enjoyable hike. While the trail remains uncrowded at first, it merges with the Machame route near Lava Tower. From there, climbers follow the Southern Circuit beneath Kilimanjaro’s Southern Ice Field before making the final ascent from Barafu. The descent follows the Mweka route",
 
@@ -1172,7 +1164,187 @@ const routeData = {
         description:
           "The Umbwe route is known for its steep, direct ascent. Begin the challenging climb through dense rainforest.",
       },
-  
+    ],
+    pricing: [
+      { group: "1 person", price: 1900 },
+      { group: "2-4 people", price: 1750 },
+      { group: "5-7 people", price: 1700 },
+      { group: "8-10 people", price: 1600 },
+      { group: "11+ people", price: 1550 },
+    ],
+    inclusions: [
+      "Pick-up and drop-off at Kilimanjaro International Airport",
+      "Transfer to and pick-up from the gate of Kilimanjaro National Park",
+      "All park fees collected by the Kilimanjaro National Park",
+      "Tented accommodation on Mount Kilimanjaro",
+    ],
+    exclusions: [
+      "Airline tickets",
+      "Accommodation before and after trekking",
+      "Visa fees",
+      "Personal gear rentals",
+    ],
+  },
+
+  "serengeti-national-park": {
+    name: "Serengeti Route",
+    description2:
+      "The trail begins on the western side of Mount Kilimanjaro, with a scenic drive from Moshi to Londorossi Gate. The initial two days involve trekking through lush rainforests to reach Shira Ridge. The route then extends across the entire Shira Plateau from west to east, providing a relatively gentle and enjoyable hike. While the trail remains uncrowded at first, it merges with the Machame route near Lava Tower. From there, climbers follow the Southern Circuit beneath Kilimanjaro’s Southern Ice Field before making the final ascent from Barafu. The descent follows the Mweka route",
+
+    nickname: "Steep & Direct Route",
+    description:
+      "The Umbwe route is known for its steep, direct ascent and is considered one of the most challenging routes on Kilimanjaro. It's recommended for experienced hikers who are confident in their ability to acclimatize quickly.",
+    image: "/placeholder.svg?height=400&width=800",
+    duration: "6 Days",
+    difficulty: "Very Challenging",
+    success_rate: "70%",
+    itinerary: [
+      {
+        day: 1,
+        title: "Umbwe Gate to Umbwe Camp",
+        altitude: "1640m - 2940m",
+        distance: "11 Km",
+        time: "5-7 hours",
+        habitat: "Rain Forest",
+        image: "/assets/images/Frame 60.png",
+        description:
+          "The Umbwe route is known for its steep, direct ascent. Begin the challenging climb through dense rainforest.",
+      },
+    ],
+    pricing: [
+      { group: "1 person", price: 1900 },
+      { group: "2-4 people", price: 1750 },
+      { group: "5-7 people", price: 1700 },
+      { group: "8-10 people", price: 1600 },
+      { group: "11+ people", price: 1550 },
+    ],
+    inclusions: [
+      "Pick-up and drop-off at Kilimanjaro International Airport",
+      "Transfer to and pick-up from the gate of Kilimanjaro National Park",
+      "All park fees collected by the Kilimanjaro National Park",
+      "Tented accommodation on Mount Kilimanjaro",
+    ],
+    exclusions: [
+      "Airline tickets",
+      "Accommodation before and after trekking",
+      "Visa fees",
+      "Personal gear rentals",
+    ],
+  },
+  "bongonyo-island": {
+    name: "Bongonyo Route",
+    description2:
+      "The trail begins on the western side of Mount Kilimanjaro, with a scenic drive from Moshi to Londorossi Gate. The initial two days involve trekking through lush rainforests to reach Shira Ridge. The route then extends across the entire Shira Plateau from west to east, providing a relatively gentle and enjoyable hike. While the trail remains uncrowded at first, it merges with the Machame route near Lava Tower. From there, climbers follow the Southern Circuit beneath Kilimanjaro’s Southern Ice Field before making the final ascent from Barafu. The descent follows the Mweka route",
+
+    nickname: "Steep & Direct Route",
+    description:
+      "The Umbwe route is known for its steep, direct ascent and is considered one of the most challenging routes on Kilimanjaro. It's recommended for experienced hikers who are confident in their ability to acclimatize quickly.",
+    image: "/placeholder.svg?height=400&width=800",
+    duration: "6 Days",
+    difficulty: "Very Challenging",
+    success_rate: "70%",
+    itinerary: [
+      {
+        day: 1,
+        title: "Umbwe Gate to Umbwe Camp",
+        altitude: "1640m - 2940m",
+        distance: "11 Km",
+        time: "5-7 hours",
+        habitat: "Rain Forest",
+        image: "/assets/images/Frame 60.png",
+        description:
+          "The Umbwe route is known for its steep, direct ascent. Begin the challenging climb through dense rainforest.",
+      },
+    ],
+    pricing: [
+      { group: "1 person", price: 1900 },
+      { group: "2-4 people", price: 1750 },
+      { group: "5-7 people", price: 1700 },
+      { group: "8-10 people", price: 1600 },
+      { group: "11+ people", price: 1550 },
+    ],
+    inclusions: [
+      "Pick-up and drop-off at Kilimanjaro International Airport",
+      "Transfer to and pick-up from the gate of Kilimanjaro National Park",
+      "All park fees collected by the Kilimanjaro National Park",
+      "Tented accommodation on Mount Kilimanjaro",
+    ],
+    exclusions: [
+      "Airline tickets",
+      "Accommodation before and after trekking",
+      "Visa fees",
+      "Personal gear rentals",
+    ],
+  },
+  "sinda-island": {
+    name: "Sinda Route",
+    description2:
+      "The trail begins on the western side of Mount Kilimanjaro, with a scenic drive from Moshi to Londorossi Gate. The initial two days involve trekking through lush rainforests to reach Shira Ridge. The route then extends across the entire Shira Plateau from west to east, providing a relatively gentle and enjoyable hike. While the trail remains uncrowded at first, it merges with the Machame route near Lava Tower. From there, climbers follow the Southern Circuit beneath Kilimanjaro’s Southern Ice Field before making the final ascent from Barafu. The descent follows the Mweka route",
+
+    nickname: "Steep & Direct Route",
+    description:
+      "The Umbwe route is known for its steep, direct ascent and is considered one of the most challenging routes on Kilimanjaro. It's recommended for experienced hikers who are confident in their ability to acclimatize quickly.",
+    image: "/placeholder.svg?height=400&width=800",
+    duration: "6 Days",
+    difficulty: "Very Challenging",
+    success_rate: "70%",
+    itinerary: [
+      {
+        day: 1,
+        title: "Umbwe Gate to Umbwe Camp",
+        altitude: "1640m - 2940m",
+        distance: "11 Km",
+        time: "5-7 hours",
+        habitat: "Rain Forest",
+        image: "/assets/images/Frame 60.png",
+        description:
+          "The Umbwe route is known for its steep, direct ascent. Begin the challenging climb through dense rainforest.",
+      },
+    ],
+    pricing: [
+      { group: "1 person", price: 1900 },
+      { group: "2-4 people", price: 1750 },
+      { group: "5-7 people", price: 1700 },
+      { group: "8-10 people", price: 1600 },
+      { group: "11+ people", price: 1550 },
+    ],
+    inclusions: [
+      "Pick-up and drop-off at Kilimanjaro International Airport",
+      "Transfer to and pick-up from the gate of Kilimanjaro National Park",
+      "All park fees collected by the Kilimanjaro National Park",
+      "Tented accommodation on Mount Kilimanjaro",
+    ],
+    exclusions: [
+      "Airline tickets",
+      "Accommodation before and after trekking",
+      "Visa fees",
+      "Personal gear rentals",
+    ],
+  },
+  "pugu-hills": {
+    name: "Pugu Route",
+    description2:
+      "The trail begins on the western side of Mount Kilimanjaro, with a scenic drive from Moshi to Londorossi Gate. The initial two days involve trekking through lush rainforests to reach Shira Ridge. The route then extends across the entire Shira Plateau from west to east, providing a relatively gentle and enjoyable hike. While the trail remains uncrowded at first, it merges with the Machame route near Lava Tower. From there, climbers follow the Southern Circuit beneath Kilimanjaro’s Southern Ice Field before making the final ascent from Barafu. The descent follows the Mweka route",
+
+    nickname: "Steep & Direct Route",
+    description:
+      "The Umbwe route is known for its steep, direct ascent and is considered one of the most challenging routes on Kilimanjaro. It's recommended for experienced hikers who are confident in their ability to acclimatize quickly.",
+    image: "/placeholder.svg?height=400&width=800",
+    duration: "6 Days",
+    difficulty: "Very Challenging",
+    success_rate: "70%",
+    itinerary: [
+      {
+        day: 1,
+        title: "Umbwe Gate to Umbwe Camp",
+        altitude: "1640m - 2940m",
+        distance: "11 Km",
+        time: "5-7 hours",
+        habitat: "Rain Forest",
+        image: "/assets/images/Frame 60.png",
+        description:
+          "The Umbwe route is known for its steep, direct ascent. Begin the challenging climb through dense rainforest.",
+      },
     ],
     pricing: [
       { group: "1 person", price: 1900 },

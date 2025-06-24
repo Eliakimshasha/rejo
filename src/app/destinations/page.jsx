@@ -2,15 +2,20 @@
 import React, { useState } from "react";
 import { destinations } from "../../../components/Destinations";
 import Link from "next/link";
+import { useRouter } from "next/navigation";
 
 const DestinationsPage = () => {
   const [activeSlides, setActiveSlides] = useState({});
+  const router = useRouter();
 
   const goToSlide = (destinationId, slideIndex) => {
     setActiveSlides((prev) => ({
       ...prev,
       [destinationId]: slideIndex,
     }));
+  };
+   const handleBookNow = (routeId) => {
+    router.push(`/routes/${routeId}`);
   };
 
   return (
@@ -44,13 +49,13 @@ const DestinationsPage = () => {
                     style={{ transform: `translateX(-${currentSlide * 100}%)` }}
                   >
                     {destination.images.map((image, index) => (
-                      <Link key={index} href="#" className="w-full h-full flex-shrink-0">
+                      <div key={index}  onClick={() => handleBookNow(destination.id)} className="w-full cursor-pointer h-full flex-shrink-0">
                         <img
                           src={image}
                           alt={`${destination.name} - Image ${index + 1}`}
                           className="w-full h-full object-cover rounded-3xl"
                         />
-                      </Link>
+                      </div>
                     ))}
                   </div>
 
@@ -81,7 +86,7 @@ const DestinationsPage = () => {
                       <button
                         key={index}
                         onClick={() => goToSlide(destination.id, index)}
-                        className={`w-2 h-2 rounded-full transition-colors ${
+                        className={`w-1 h-1 rounded-full transition-colors ${
                           index === currentSlide
                             ? "bg-green-600"
                             : "bg-white/50"
@@ -93,7 +98,7 @@ const DestinationsPage = () => {
 
                 {/* Card Content */}
                 <div className="p-6">
-                  <h3 className="text-xl font-medium text-gray-800 mb-2">
+                  <h3 className=" font-medium text-gray-800 mb-2">
                     {destination.name}
                   </h3>
                 </div>

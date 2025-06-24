@@ -1,6 +1,6 @@
 export const destinations = [
   {
-    id: 1,
+    id: "serengeti-national-park",
     name: "Serengeti National Park",
     category: "Northern Circuit",
     images: [
@@ -12,7 +12,7 @@ export const destinations = [
     ],
   },
   {
-    id: 2,
+    id: "ngorongoro-national-park",
     name: "Ngorongoro National Park",
     category: "Northern Circuit",
     images: [
@@ -24,7 +24,7 @@ export const destinations = [
     ],
   },
   {
-    id: 3,
+    id: "tarangire-national-park",
     name: "Tarangire National Park",
     category: "Northern Circuit",
     images: [
@@ -36,7 +36,7 @@ export const destinations = [
     ],
   },
   {
-    id: 4,
+    id: "lake-manyara-national-park",
     name: "Lake Manyara National Park",
     category: "Northern Circuit",
     images: [
@@ -48,9 +48,9 @@ export const destinations = [
     ],
   },
   {
-    id: 5,
-    name: "Ruaha National Park",
-    category: "Southern Circuit",
+    id: "bongonyo-island",
+    name: "Bongonyo Island",
+    category: "Coastal",
     images: [
       "https://images.unsplash.com/photo-1551650975-87deedd944c3?w=800&h=600&fit=crop",
       "https://images.unsplash.com/photo-1516426122078-c23e76319801?w=800&h=600&fit=crop",
@@ -60,9 +60,9 @@ export const destinations = [
     ],
   },
   {
-    id: 6,
-    name: "Selous Game Reserve",
-    category: "Southern Circuit",
+    id: "mkomazi-national-park",
+    name: "Mkomazi National Park",
+    category: "Nothern Circuit",
     images: [
       "https://images.unsplash.com/photo-1578662996442-48f60103fc96?w=800&h=600&fit=crop",
       "https://images.unsplash.com/photo-1547980703-7c30a5bb7c9c?w=800&h=600&fit=crop",
@@ -72,9 +72,9 @@ export const destinations = [
     ],
   },
   {
-    id: 7,
-    name: "Mikumi National Park",
-    category: "Southern Circuit",
+    id: "saadani-national-park",
+    name: "Saadani National Park",
+    category: "Coastal",
     images: [
       "https://images.unsplash.com/photo-1550839893-0ad415de56c8?w=800&h=600&fit=crop",
       "https://images.unsplash.com/photo-1577896851231-70ef18881754?w=800&h=600&fit=crop",
@@ -84,9 +84,9 @@ export const destinations = [
     ],
   },
   {
-    id: 8,
-    name: "Kilimanjaro National Park",
-    category: "Mountain Adventures",
+    id: "nyerere-national-park",
+    name: "Nyerere National Park",
+    category: "Southern Circuit",
     images: [
       "https://images.unsplash.com/photo-1564760055775-d63b17a55c44?w=800&h=600&fit=crop",
       "https://images.unsplash.com/photo-1512551980832-13df02b0529f?w=800&h=600&fit=crop",
@@ -96,9 +96,9 @@ export const destinations = [
     ],
   },
   {
-    id: 9,
-    name: "Mount Meru National Park",
-    category: "Mountain Adventures",
+    id: "mikumi-national-park",
+    name: "Mikumi National Park",
+    category: "Southern Circuit",
     images: [
       "https://images.unsplash.com/photo-1533587851505-d119e13fa0d7?w=800&h=600&fit=crop",
       "https://images.unsplash.com/photo-1564760055775-d63b17a55c44?w=800&h=600&fit=crop",
@@ -108,9 +108,9 @@ export const destinations = [
     ],
   },
   {
-    id: 10,
-    name: "Mikumi National Park",
-    category: "Southern Circuit",
+    id: "sinda-island",
+    name: "Sinda Island",
+    category: "Coastal",
     images: [
       "https://images.unsplash.com/photo-1550839893-0ad415de56c8?w=800&h=600&fit=crop",
       "https://images.unsplash.com/photo-1577896851231-70ef18881754?w=800&h=600&fit=crop",
@@ -120,9 +120,9 @@ export const destinations = [
     ],
   },
   {
-    id: 11,
-    name: "Kilimanjaro National Park",
-    category: "Mountain Adventures",
+    id: "arusha-national-park",
+    name: "Arusha National Park",
+    category:  "Northern Circuit",
     images: [
       "https://images.unsplash.com/photo-1564760055775-d63b17a55c44?w=800&h=600&fit=crop",
       "https://images.unsplash.com/photo-1512551980832-13df02b0529f?w=800&h=600&fit=crop",
@@ -132,9 +132,9 @@ export const destinations = [
     ],
   },
   {
-    id: 12,
-    name: "Mount Meru National Park",
-    category: "Mountain Adventures",
+    id: "pugu-hills",
+    name: "Pugu Hills",
+    category: "Coastal",
     images: [
       "https://images.unsplash.com/photo-1533587851505-d119e13fa0d7?w=800&h=600&fit=crop",
       "https://images.unsplash.com/photo-1564760055775-d63b17a55c44?w=800&h=600&fit=crop",
