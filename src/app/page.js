@@ -318,7 +318,7 @@ function page() {
         </div>
       </div>
       {/* travel style Section */}
-      <div  className="h-fit bg-gray-50 min-h-[760px]">
+      <div  className="h-fit bg-green-50/60 mb-9 min-h-[760px]">
         <TravelStyle/>
       </div>
 

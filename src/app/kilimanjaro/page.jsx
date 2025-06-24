@@ -20,6 +20,9 @@ import { CiGrid41 } from "react-icons/ci";
 
 const KilimanjaroTours = () => {
   const router = useRouter();
+  const navigateToContact = ()=>{
+    router.push("/contact");
+  }
 
   const routes = [
     {
@@ -288,7 +291,7 @@ const KilimanjaroTours = () => {
             Choose your route and start your journey to the roof of Africa
             today.
           </p>
-          <button className="inline-flex items-center px-6 py-2 bg-[#68AC33] text-white rounded-full text-sm font-semibold hover:bg-[#68AC33] transition-colors">
+          <button className="inline-flex items-center px-6 py-2 bg-[#68AC33] text-white rounded-full text-sm font-semibold hover:bg-[#68AC33] transition-colors" onClick={()=>navigateToContact}>
             Start Planning Your Adventure
             <ArrowRight className="ml-3 w-6 h-6" />
           </button>

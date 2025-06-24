@@ -192,7 +192,7 @@ export default function TravelShowcase() {
   const currentAdventure = adventureTypes[activeIndex]
 
   return (
-    <div className="min-h-[640px] bg-gray-50 h-fit p-4 md:p-8">
+    <div className="min-h-[640px] bg-green-506/60 h-fit p-4 md:p-8">
       <div className="max-w-7xl mx-auto">
         <div className="flex flex-col lg:flex-row gap-8 lg:gap-1  items-center">
           {/* Left Side - Text Content */}
