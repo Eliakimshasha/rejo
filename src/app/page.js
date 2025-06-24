@@ -13,6 +13,7 @@ import Image from "next/image";
 import { destinations } from "../../components/Destinations";
 import { useRouter } from "next/navigation";
 import { ArrowRight } from "lucide-react";
+import TravelStyle from "./travel-style/TravelStyle";
 
 function page() {
   const [activeSlides, setActiveSlides] = useState({});
@@ -315,6 +316,10 @@ function page() {
             </button>
           </div>
         </div>
+      </div>
+      {/* travel style Section */}
+      <div  className="h-fit bg-gray-50 min-h-[760px]">
+        <TravelStyle/>
       </div>
 
       <div className="min-h-screen flex flex-col lg:flex-row md:justify-between md:items-start  md:pl-9 md:pr-0 px-4">
