@@ -28,7 +28,7 @@
     ".next/types/**/*.ts",
     "**/*.ts",
     "**/*.tsx"
-, "src/app/escape-dsm/page.js", "src/app/escape-dsm/page.jsx"  ],
+, "src/app/escape-dsm/page.js", "src/app/escape-dsm/page.jsx", "src/app/routes/[id]/page.jsx"  ],
   "exclude": [
     "node_modules"
   ]
