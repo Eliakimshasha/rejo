@@ -25,58 +25,65 @@ const EscapeDar = () => {
   const routes = [
     {
       id: "machame-route",
-      name: "Machame Route",
+      name: "From city lights to safari nights",
+      days: 4,
       nickname: "Whiskey",
       description:
-        'The Machame route, often referred to as the "Whiskey" route, is the most popular trail on Kilimanjaro, renowned for its breathtaking scenic beauty.',
+        "Leave behind the hum of the city and follow the call of the wild. This journey takes you from the heartbeat of Dar es Salaam to the open plains of Mikumi and the untamed wilderness of Nyerere—where elephants roam free, rivers whisper ancient stories, and the stars shine brighter than ever.",
       image: frame5,
     },
     {
       id: "marangu-route",
       name: "Marangu Route",
       nickname: "Coca-Cola",
+      days: 4,
       description:
-        'The Marangu route, known as the "Coca-Cola" route, is the oldest and most established route on Kilimanjaro, offering hut accommodations along the way.',
+        "Experience the ultimate northern safari as you journey from Dar es Salaam to the legendary Serengeti and the breathtaking Ngorongoro Crater. Witness the Big Five, roam vast golden plains, and descend into an ancient volcanic caldera teeming with wildlife—all in one unforgettable adventure.",
       image: frame6,
     },
     {
       id: "lemosho-route",
-      name: "Lemosho Route",
+      name: "The North Wonders Safari",
       nickname: "Wilderness",
+      days: 6,
       description:
-        "The Lemosho route is considered one of the most beautiful routes on Kilimanjaro, offering spectacular views and excellent acclimatization.",
+        "Embark on a breathtaking journey through Tanzania’s most iconic landscapes. Start with the lush forests and tree-climbing lions of Lake Manyara, roam the endless plains of Serengeti in search of the Big Five, and descend into the ancient Ngorongoro Crater—a world within a world. This is the ultimate escape into the wild, where every stop reveals a new wonder.",
       image: frame7,
     },
     {
       id: "rongai-route",
-      name: "Rongai Route",
+      name: "Skies Over the Wild",
       nickname: "Northern Circuit",
+      days: 3,
       description:
-        "The Rongai route approaches Kilimanjaro from the north, offering a unique perspective and less crowded trails with beautiful wilderness scenery.",
+        "Trade the city skyline for sweeping savannah views as you journey from Dar es Salaam to the elephant-rich plains of Tarangire National Park. Drift above ancient baobabs and herds of wildlife on a magical hot air balloon safari—watching the sunrise light up the landscape in golden hues. This is Tarangire from above: peaceful, powerful, and unforgettable.",
       image: frame8,
     },
     {
       id: "northern-circuit",
-      name: "Northern Circuit",
+      name: "Into the Wild Heart",
       nickname: "Grand Traverse",
+      days: 4,
       description:
-        "The Northern Circuit is the longest route on Kilimanjaro, providing the best acclimatization and stunning 360-degree views of the mountain.",
+        "Leave behind the coastal breeze and step into Tanzania’s untamed soul. Start your journey in Tarangire, where massive baobabs and roaming elephant herds greet you at every turn. Then descend into the ancient Ngorongoro Crater, a natural amphitheater teeming with wildlife—from lions and rhinos to flamingos and grazing gazelles. A perfect blend of raw beauty and timeless wonder.",
       image: frame9,
     },
     {
       id: "umbwe-route",
-      name: "Umbwe Route",
+      name: "Where the Bush Meets the Beach",
       nickname: "Steep & Direct",
       description:
-        "The Umbwe route is the most challenging and direct route to the summit, recommended only for experienced climbers seeking adventure.",
+        "Escape the city and venture to Saadani, Tanzania’s only national park where the wild meets the waves. Just a short journey from Dar es Salaam, Saadani offers a rare blend of safari and seashore—spot elephants and lions by day, then unwind on untouched beaches by sunset. It’s the perfect coastal wilderness retreat, where nature writes the soundtrack.",
+      days: 2,
       image: frame10,
     },
     {
       id: "shira-route",
-      name: "Shira Route",
+      name: "Into the Untamed Wilderness",
       nickname: "Plateau",
       description:
-        "The Shira route offers incredible views of the Shira Plateau and provides excellent acclimatization opportunities for climbers.",
+        "From the bustling city of Dar es Salaam, venture into the expansive wilderness of Nyerere National Park, where vast savannahs meet meandering rivers. Home to one of the largest wildlife sanctuaries in Africa, this trip promises unforgettable encounters with majestic elephants, prowling lions, and the serene beauty of the Rufiji River. A perfect getaway for those who seek a true safari adventure just a short distance from the city.",
+      days: 2,
       image: frame11,
     },
   ];
@@ -208,14 +215,11 @@ const EscapeDar = () => {
         <div className="max-w-6xl mx-auto px-4">
           <div className="text-center mb-16">
             <h2 className="text-4xl md:text-5xl font-bold text-gray-900 mb-4">
-              Climb with confidence. Climb with purpose.
+              Whispers Beyond the City
             </h2>
             <p className="text-xl text-gray-600 mb-8">
-              <span className="font-semibold">
-                8 routes to get to the peak of Africa.
-              </span>{" "}
-              The journey begins with best selection of the path, let's begin
-              today.
+              Browse our curated escapes below, and let the journey back to
+              peace begin.
             </p>
           </div>
 
@@ -244,11 +248,11 @@ const EscapeDar = () => {
 
                 {/* Content */}
                 <div className="w-full lg:w-1/2 space-y-6">
-                  <h3 className="text-3xl md:text-5xl font-bold text-gray-900">
+                  <h3 className="text-3xl md:text-4xl font-bold text-gray-900">
                     {route.name}
                   </h3>
 
-                  <p className="text-lg text-gray-700 leading-relaxed">
+                  <p className="text-lg text-gray-700 leading-relaxed md:leading-[40px]">
                     {route.description}
                   </p>
 
