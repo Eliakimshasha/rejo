@@ -20,9 +20,9 @@ import { CiGrid41 } from "react-icons/ci";
 
 const KilimanjaroTours = () => {
   const router = useRouter();
-  const navigateToContact = ()=>{
+  const navigateToContact = () => {
     router.push("/contact");
-  }
+  };
 
   const routes = [
     {
@@ -38,7 +38,7 @@ const KilimanjaroTours = () => {
       name: "Marangu Route",
       nickname: "Coca-Cola",
       description:
-        'The Marangu route, known as the "Coca-Cola" route, is the oldest and most established route on Kilimanjaro, offering hut accommodations along the way.',
+        "Often referred to as the “Coca-Cola” route, the Marangu route is a classic trek on Mt.Kilimanjaro and is the oldest, most established path on the mountain. Many climbers prefer the Marangu route for its relatively easier ascent, thanks to its gradual slope.",
       image: frame6,
     },
     {
@@ -46,7 +46,7 @@ const KilimanjaroTours = () => {
       name: "Lemosho Route",
       nickname: "Wilderness",
       description:
-        "The Lemosho route is considered one of the most beautiful routes on Kilimanjaro, offering spectacular views and excellent acclimatization.",
+        "The Lemosho route is widely regarded as the most picturesque trail on Mount Kilimanjaro, offering breathtaking views from various angles.As one of the more recent trails, it is an excellent option for climbers.",
       image: frame7,
     },
     {
@@ -54,33 +54,19 @@ const KilimanjaroTours = () => {
       name: "Rongai Route",
       nickname: "Northern Circuit",
       description:
-        "The Rongai route approaches Kilimanjaro from the north, offering a unique perspective and less crowded trails with beautiful wilderness scenery.",
+        "The only way to reach Kilimanjaro from the north, close to the Kenyan border, is via the Rongai route. Although it is becoming more and more popular with climbers, it is still not overly crowded.",
       image: frame8,
     },
-    {
-      id: "northern-circuit",
-      name: "Northern Circuit",
-      nickname: "Grand Traverse",
-      description:
-        "The Northern Circuit is the longest route on Kilimanjaro, providing the best acclimatization and stunning 360-degree views of the mountain.",
-      image: frame9,
-    },
+   
     {
       id: "umbwe-route",
       name: "Umbwe Route",
       nickname: "Steep & Direct",
       description:
-        "The Umbwe route is the most challenging and direct route to the summit, recommended only for experienced climbers seeking adventure.",
+        "The only way to reach Kilimanjaro from the north, close to the Kenyan border, is via the Rongai route. Although it is becoming more and more popular with climbers, it is still not overly crowded.",
       image: frame10,
     },
-    {
-      id: "shira-route",
-      name: "Shira Route",
-      nickname: "Plateau",
-      description:
-        "The Shira route offers incredible views of the Shira Plateau and provides excellent acclimatization opportunities for climbers.",
-      image: frame11,
-    },
+   
   ];
 
   const handleBookNow = (routeId) => {
@@ -249,7 +235,7 @@ const KilimanjaroTours = () => {
                     {route.name}
                   </h3>
 
-                  <p className="text-lg text-gray-700 leading-relaxed">
+                  <p className="text-lg text-gray-700 leading-relaxed md:leading-[40px]">
                     {route.description}
                   </p>
 
@@ -291,7 +277,10 @@ const KilimanjaroTours = () => {
             Choose your route and start your journey to the roof of Africa
             today.
           </p>
-          <button className="inline-flex items-center px-6 py-2 bg-[#68AC33] text-white rounded-full text-sm font-semibold hover:bg-[#68AC33] transition-colors" onClick={navigateToContact}>
+          <button
+            className="inline-flex items-center px-6 py-2 bg-[#68AC33] text-white rounded-full text-sm font-semibold hover:bg-[#68AC33] transition-colors"
+            onClick={navigateToContact}
+          >
             Start Planning Your Adventure
             <ArrowRight className="ml-3 w-6 h-6" />
           </button>

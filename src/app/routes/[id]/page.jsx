@@ -21,201 +21,178 @@ const routeData = {
     nickname: "Whiskey Route",
     hasMultipleDays: true,
     variants: {
-      "7-days": {
-        duration: "7 Days",
+      "6-days": {
+        duration: "6 Days",
         tabDescription:
-          "The 7-day Machame route offers a challenging but rewarding climb with excellent acclimatization. This route takes you through diverse landscapes from lush rainforest to alpine desert, providing climbers with an unforgettable experience as they ascend to Uhuru Peak.",
+          "It begins with a drive of about 50 kilometers from Moshi to Machame Gate, taking roughly 1.5 hours. It’s one of the most popular and scenic routes up Kilimanjaro, offering rich variety in landscapes from lush rainforest at Machame Camp to moorlands around Shira Camp, and alpine desert at Lava Tower and Barafu Camp. After acclimatizing along the way, climbers pass through the dramatic Barranco Wall, rest at Karanga Camp, and then continue to Barafu Camp, the final stop before the summit push. Following the climb to Uhuru Peak, the descent is made via the Mweka Route, with a last overnight stop at Mweka Camp before reaching Mweka Gate.",
         description:
-          'The Machame route, often referred to as the "Whiskey" route, is the most popular trail on Kilimanjaro, renowned for its breathtaking scenic beauty. This 7-day version provides adequate time for acclimatization while maintaining a challenging pace.',
+          "The Machame Route, fondly known as the 'Whiskey Route', is Kilimanjaro’s most popular and scenic trail. Offering a dramatic journey through lush rainforest, heather moorlands, alpine desert, and glacier-covered peaks, it's the route of choice for those seeking a challenging yet rewarding adventure.",
         itinerary: [
           {
             day: 1,
-            title: "Machame Gate to Machame Camp",
+            title: "From Machame Gate to Machame Camp",
             altitude: "1640m - 2835m",
             distance: "11 Km",
             time: "5-7 hours",
             habitat: "Rain Forest",
             image: "/assets/images/Frame 61.png",
             description:
-              "The drive from Moshi to the Machame Gate takes about 45 minutes. The journey passes through the village of Machame which is located on the lower slopes of the mountain.",
+              "Departing from Moshi a 1.5 hour drive will take you through the Village of Machame to the Kilimanjaro National Park Gate. After the quick formality of acquiring climbing permits and registering with the search and rescue service, the group will start trekking up to Machame Camp. We advise you to pack a raincoat in addition to extra clothing because the walking path goes through a rainforest where tropical showers are very likely to occur.",
           },
           {
             day: 2,
-            title: "Machame Camp to Shira Camp",
+            title: "From Machame Camp to Shira Camp",
             altitude: "2835m - 3750m",
             distance: "5 Km",
             time: "4-6 hours",
             habitat: "Moorland",
             image: "/assets/images/Frame 61 (1).png",
             description:
-              "After breakfast, we leave the glades of the rain forest and continue on an ascending path, crossing the little valley walking along a steep rocky ridge.",
+              "The journey to Shira Camp begins after breakfast at Machame Camp. The hike takes 4-5 hours and covers about 5 kilometers. On this day, you will be able to see breathtaking views of the Shira Plateau spread out in front of you for the first time after emerging from the rainforest. Our porters will prepare lunch and set up the tents when we get to Shira Camp. Before supper, you'll have time to unwind and get used to your surroundings. Your guide will give you an update on the plans for the journey the following day in the evening.",
           },
           {
             day: 3,
-            title: "Shira Camp to Lava Tower to Barranco Camp",
+            title: "From Shira Camp to Lava to Barranco Camp",
             altitude: "3750m - 4630m - 3960m",
             distance: "10 Km",
             time: "6-8 hours",
             habitat: "Semi Desert",
             image: "/assets/images/Frame 61 (2).png",
-            description:
-              "From the Shira Plateau, we continue to the east up a ridge, passing the junction towards the peak of Kibo. As we continue, our direction changes to the South East towards the Lava Tower, called the 'Shark's Tooth'.",
+            description: `After breakfast upon leaving the Shira Plateau, we head east up a ridge through rocky, semi-desert terrains, past the intersection leading to the Kibo peak, and then south-east toward the Lava Tower, also known as the "Shark's Tooth" (elev. 4650m). The Arrow Glacier is reached at a second intersection just after the tower. After that, we descend further at 3,960 meters to spend the night at Barranco Camp.`,
           },
           {
             day: 4,
-            title: "Barranco Camp to Karanga Camp",
+            title: "From Barranco to Karanga to Barafu Camp",
             altitude: "3960m - 4035m",
             distance: "5 Km",
             time: "4-5 hours",
             habitat: "Alpine Desert",
             image: "/assets/images/Frame 61 (3).png",
             description:
-              "After breakfast, we leave Barranco and continue on a steep ridge passing the Barranco Wall, to the Karanga Valley campsite. This is a short day meant for acclimatization.",
+              "Early mornings will be accompanied with breakfast before departure on a steep ridge up to the adventurous Barranco Wall to the Karanga Valley and the junction, which connects, with the Mweka Trail. One of the most amazing days to witness your crew's strength, power, and agility as they seemingly effortlessly zoom over this wall. We keep going up toward Barafu Camp, and once you get there, you've finished the South Circuit, which has a number of amazing vantage points of the peak. As we get ready for summit night, we'll have an early dinner and spend the night at the Barafu Camp.",
           },
           {
             day: 5,
-            title: "Karanga Camp to Barafu Camp",
+            title: "From Karanga to Summit to Mweka Camp",
             altitude: "4035m - 4673m",
             distance: "4 Km",
             time: "4-5 hours",
             habitat: "Alpine Desert",
             image: "/assets/images/Frame 61 (4).png",
             description:
-              "After breakfast, we leave Karanga and hit the junction which connects with the Mweka Trail. We continue up to the Barafu Hut. At this point, you have completed the South Circuit, which offers views of the summit from many different angles.",
+              "We will depart from Barafu Camp at night 6-hour trek to Stella Point (5685m) often the most mentally and physically challenging part of the climb. From there, 2 hour climb to Uhuru Peak is coated with snow. The weather will determine how long you spend at the peak, so don't stay too long because you'll be tired and chilly. Congratulations, one step at a time you have now reached Uhuru Peak the highest point on Mount Kilimanjaro and the entire continent of Africa. It takes roughly 3 hours to descend to Barafu, where you can relax for a little before continuing on to Mweka Camp for dinner and overnight.",
           },
           {
             day: 6,
-            title: "Barafu Camp to Summit to Mweka Camp",
+            title: "From Machame Gate to Machame Camp",
             altitude: "4673m - 5895m - 3068m",
             distance: "17 Km",
             time: "12-16 hours",
             habitat: "Arctic",
             image: "/assets/images/Frame 61 (1).png",
             description:
-              "Very early in the morning (midnight to 2am), we continue our way to the summit between the Rebmann and Ratzel glaciers. You head in a northwesterly direction and ascend through heavy scree towards Stella Point on the crater rim.",
-          },
-          {
-            day: 7,
-            title: "Mweka Camp to Mweka Gate",
-            altitude: "3068m - 1640m",
-            distance: "10 Km",
-            time: "3-4 hours",
-            habitat: "Rain Forest",
-            image: "/assets/images/Frame 60.png",
-            description:
-              "After breakfast, we continue the descent down to the Mweka Park Gate to receive your summit certificates. At lower elevations, it can be wet and muddy. Gaiters and trekking poles are recommended.",
+              "It's time to say farewell to your crew after breakfast and a sincere ceremony of gratitude and team building. To pick up your summit certificates, we descend further to the Mweka Park Gate. We strongly advise Gaiters and trekking poles because the terrain is damp, mudd y, and steep due to the significantly warmer temperature. A car will pick you up at Mweka village at the gate and take you back to your Moshi, which should take you around 30 minutes.",
           },
         ],
         pricing: [
-          { group: "1 person", price: 2050 },
-          { group: "2-4 people", price: 1900 },
-          { group: "5-7 people", price: 1850 },
-          { group: "8-10 people", price: 1750 },
-          { group: "11+ people", price: 1700 },
+          { group: "1 person", price: 1800 },
+          { group: "2-4 people", price: 1750 },
+          { group: "5-7 people", price: 1650 },
+          { group: "8-10 people", price: 1600 },
+          { group: "11+ people", price: 1550 },
         ],
       },
-      "8-days": {
-        duration: "8 Days",
+      "7-days": {
+        duration: "7 Days",
         tabDescription:
           "The 8-day Machame route provides the best acclimatization profile with an extra day for rest and adjustment. This extended version significantly increases your chances of summit success while allowing you to fully enjoy the spectacular scenery and diverse ecosystems of Kilimanjaro.",
         description:
-          "The extended 8-day Machame route offers superior acclimatization and higher success rates. This version includes an additional acclimatization day, making it ideal for climbers who want to maximize their summit chances while enjoying the journey.",
+          "The route approaches Mount Kilimanjaro from the south, beginning with a short drive from Moshi to Machame Gate.  The path leads hikers through the rain forest to Shira Plateau. Here, many of Kilimanjaro’s routes converge. Then the route turns east and traverses underneath Kilimanjaro's Southern Ice Field on a path known as the Southern Circuit before summiting from Barafu. Descent is made via the Mweka route.",
         itinerary: [
           {
             day: 1,
-            title: "Machame Gate to Machame Camp",
+            title: "From Machame Gate to Machame Camp",
             altitude: "1640m - 2835m",
             distance: "11 Km",
             time: "5-7 hours",
             habitat: "Rain Forest",
             image: "/assets/images/Frame 61.png",
             description:
-              "The drive from Moshi to the Machame Gate takes about 45 minutes. The journey passes through the village of Machame which is located on the lower slopes of the mountain.",
+              "Departing from Moshi a 45-minute drive will take you through the Village of Machame to the Kilimanjaro National Park Gate. After the quick formality of acquiring climbing permits and registering with the search and rescue service, the group will start trekking up to Machame Camp. We advise you to pack a raincoat in addition to extra clothing because the walking path goes through a rainforest where tropical showers are very likely to occur.",
           },
           {
             day: 2,
-            title: "Machame Camp to Shira Camp",
+            title: "From Machame Camp to Shira Camp",
             altitude: "2835m - 3750m",
             distance: "5 Km",
             time: "4-6 hours",
             habitat: "Moorland",
             image: "/assets/images/Frame 61 (1).png",
             description:
-              "After breakfast, we leave the glades of the rain forest and continue on an ascending path, crossing the little valley walking along a steep rocky ridge.",
+              "The journey to Shira Camp begins after breakfast at Machame Camp. The hike takes 4-5 hours and covers about 5 kilometers. On this day, you will be able to see breathtaking views of the Shira Plateau spread out in front of you for the first time after emerging from the rainforest. Our porters will prepare lunch and set up the tents when we get to Shira Camp. Before supper, you'll have time to unwind and get used to your surroundings. Your guide will give you an update on the plans for the journey the following day in the evening.",
           },
           {
             day: 3,
-            title: "Shira Camp to Lava Tower to Barranco Camp",
+            title: "From Shira to Lava to Barranco Camp",
             altitude: "3750m - 4630m - 3960m",
             distance: "10 Km",
             time: "6-8 hours",
             habitat: "Semi Desert",
             image: "/assets/images/Frame 61 (2).png",
-            description:
-              "From the Shira Plateau, we continue to the east up a ridge, passing the junction towards the peak of Kibo. As we continue, our direction changes to the South East towards the Lava Tower, called the 'Shark's Tooth'.",
+            description: `After breakfast upon leaving the Shira Plateau, we head east up a ridge through rocky, semi-desert terrains, past the intersection leading to the Kibo peak, and then south-east toward the Lava Tower, also known as the "Shark's Tooth" (elev. 4650m). The Arrow Glacier is reached at a second intersection just after the tower. After that, we descend further at 3,960 meters to spend the night at Barranco Camp.`,
           },
           {
             day: 4,
-            title: "Barranco Camp to Karanga Camp",
+            title: "From Baranco to Karanga Camp",
             altitude: "3960m - 4035m",
             distance: "5 Km",
             time: "4-5 hours",
             habitat: "Alpine Desert",
             image: "/assets/images/Frame 61 (3).png",
-            description:
-              "After breakfast, we leave Barranco and continue on a steep ridge passing the Barranco Wall, to the Karanga Valley campsite. This is a short day meant for acclimatization.",
+            description: `After breakfast, we begin our ascent along a steep ridge leading to the thrilling Barranco Wall, followed
+by a trek into the Karanga Valley and the junction that connects with the Mweka Trail. This day offers one
+of the most spectacular views, as you witness the remarkable skill, agility, and strength of your crew
+effortlessly navigating the wall. We spend the night at Karanga Camp.`,
           },
           {
             day: 5,
-            title: "Karanga Camp - Acclimatization Day",
+            title: "From Karanga Camp to Barafu Camp",
             altitude: "4035m",
             distance: "3 Km",
             time: "2-3 hours",
             habitat: "Alpine Desert",
             image: "/assets/images/Frame 61 (4).png",
-            description:
-              "Today is dedicated to acclimatization. We take a short hike to higher altitude and return to Karanga Camp for rest. This extra day significantly improves your chances of summit success.",
+            description: `We proceed upward toward Barafu Camp, and upon arrival, you will have completed the South Circuit,
+which provides a stunning array of views of the summit from various perspectives. After an early dinner,
+we rest and prepare for the challenging summit night ahead. Overnight at Barafu Camp..`,
           },
           {
             day: 6,
-            title: "Karanga Camp to Barafu Camp",
+            title: "From Barafu Camp-Summit-Mweka Camp ",
             altitude: "4035m - 4673m",
             distance: "4 Km",
             time: "4-5 hours",
             habitat: "Alpine Desert",
             image: "/assets/images/Frame 61 (4).png",
-            description:
-              "After breakfast, we leave Karanga and hit the junction which connects with the Mweka Trail. We continue up to the Barafu Hut. At this point, you have completed the South Circuit, which offers views of the summit from many different angles.",
+            description: `We will depart from Barafu Camp at night 6-hour trek to Stella Point (5685m) often the most mentally and physically challenging part of the climb. From there, 2 hour climb to Uhuru Peak is coated with snow. The weather will determine how long you spend at the peak, so don't stay too long because you'll be tired and chilly. Congratulations, one step at a time you have now reached Uhuru Peak the highest point on Mount Kilimanjaro and the entire continent of Africa. It takes roughly 3 hours to descend to Barafu, where you can relax for a little before continuing on to Mweka Camp for dinner and overnight.`,
           },
           {
             day: 7,
-            title: "Barafu Camp to Summit to Mweka Camp",
+            title: "From Mweka Camp to Mweka Gate ",
             altitude: "4673m - 5895m - 3068m",
             distance: "17 Km",
             time: "12-16 hours",
             habitat: "Arctic",
             image: "/assets/images/Frame 61 (1).png",
-            description:
-              "Very early in the morning (midnight to 2am), we continue our way to the summit between the Rebmann and Ratzel glaciers. You head in a northwesterly direction and ascend through heavy scree towards Stella Point on the crater rim.",
-          },
-          {
-            day: 8,
-            title: "Mweka Camp to Mweka Gate",
-            altitude: "3068m - 1640m",
-            distance: "10 Km",
-            time: "3-4 hours",
-            habitat: "Rain Forest",
-            image: "/assets/images/Frame 60.png",
-            description:
-              "After breakfast, we continue the descent down to the Mweka Park Gate to receive your summit certificates. At lower elevations, it can be wet and muddy. Gaiters and trekking poles are recommended.",
+            description: `It's time to say farewell to your staff after breakfast and a sincere ceremony of gratitude and team building. To pick up your summit certificates, we descend further to the Mweka Park Gate. We strongly advise Gaiters and trekking poles because the terrain is damp, mudd y, and steep due to the significantly warmer temperature. A car will pick you up at Mweka village at the gate and take you back to your Moshi, which should take you around 30 minutes.`,
           },
         ],
         pricing: [
-          { group: "1 person", price: 2250 },
-          { group: "2-4 people", price: 2100 },
-          { group: "5-7 people", price: 2050 },
-          { group: "8-10 people", price: 1950 },
-          { group: "11+ people", price: 1900 },
+          { group: "1 person", price: 1950 },
+          { group: "2-4 people", price: 1830 },
+          { group: "5-7 people", price: 1750 },
+          { group: "8-10 people", price: 1680 },
+          { group: "11+ people", price: 1635 },
         ],
       },
     },
@@ -224,15 +201,24 @@ const routeData = {
     success_rate: "85%",
     inclusions: [
       "Pick-up and drop-off at Kilimanjaro International Airport",
-      "Transfer to and pick-up from the gate of Kilimanjaro National Park",
-      "All park fees collected by the Kilimanjaro National Park (conservation fees, camping fees, crew fees, vehicle fee, rescue fee and all other fees collected by the Tanzania National Parks Authority)",
-      "Tented accommodation on Mount Kilimanjaro (modern, comfortable 4-Season tents, North Face VE-25)",
+      "Transfer to and pick-up from the gate of Kilimanjaro National Park.",
+      "All park fees collected by the Kilimanjaro National Park (conservation fees, camping fees, crew fees, vehicle fee, rescue fee and all other fees collected by the Tanzania National Parks Authority).",
+      "Tented accommodation on Mount Kilimanjaro (modern, comfortable 4-Season tents, North Face VE-25 ).",
+      "All meals on the hike.",
+      "4-inch (10-cm) thick and comfortable sleeping mats",
+      "Oxygen cylinders and oximeters",
+      "GPS-tracking service",
+      "Complete medical kits.",
+      "Professional guides, licensed by Kilimanjaro National Park. All our guides are the holder of Wilderness First Responder or Wilderness First Aid certifications. All our guides have 10+years of successful mountaineering experience.",
+      "Dedicated support crew (assistant guides, camp master, porters, cooks.etc).",
     ],
     exclusions: [
       "Airline tickets",
       "Accommodation before and after trekking",
       "Visa fees",
       "Personal gear rentals",
+      "Tips for the mountain crew.",
+      "Mountaineering insurance",
     ],
   },
 
@@ -243,196 +229,202 @@ const routeData = {
     variants: {
       "7-days": {
         duration: "7 Days",
-        tabDescription:
-          "The 7-day Lemosho route offers a more direct approach to the summit while still providing excellent scenery and good acclimatization. This route is perfect for experienced climbers who want to experience the wilderness beauty of Lemosho in a shorter timeframe.",
-        description:
-          "The 7-day Lemosho route is a condensed version of our most scenic trail, offering breathtaking views and excellent wildlife viewing opportunities. This route provides a perfect balance of challenge and beauty for experienced climbers.",
+        tabDescription: `The trail begins on the western side of Mount Kilimanjaro, with a scenic drive from Moshi to
+Londorossi Gate. The initial two days involve trekking through lush rainforests to reach Shira
+Ridge. The route then extends across the entire Shira Plateau from west to east, providing a
+relatively gentle and enjoyable hike. While the trail remains uncrowded at first, it merges with
+the Machame route near Lava Tower. From there, climbers follow the Southern Circuit beneath
+Kilimanjaro’s Southern Ice Field before making the final ascent from Barafu. The descent
+follows the Mweka route`,
+        description: `The Lemosho route is widely regarded as the most picturesque trail on Mount Kilimanjaro, offering breathtaking views from various angles. As one of the more recent trails, it is an excellent option for climbers. This route is particularly favored due to its perfect combination of minimal crowds, stunning landscapes, and a high success rate for reaching the summit. Almighty Kilimanjaro specializes in guiding climbers along the Lemosho route, with most of our clients choosing it and consistently expressing their satisfaction. `,
         itinerary: [
           {
             day: 1,
-            title: "Londorossi Gate to Forest Camp",
+            title: "From Londrosi Gate  to Mti Mkubwa Camp",
             altitude: "2100m - 2785m",
             distance: "6 Km",
             time: "3-4 hours",
             habitat: "Rain Forest",
             image: "/assets/images/Frame 61.png",
-            description:
-              "Drive to Londorossi Gate for registration and permits. Begin hiking through pristine forest with chances to see wildlife.",
+            description: `Leaving Moshi, a 45-minute drive winds through charming mountainside villages before arriving at the Kilimanjaro National Park Gate. While we wait for our permits to be processed, we can observe the lively preparations of various trekking teams gearing up for their journey. As we set
+off, enjoy the lush rainforest scenery and winding trails while your guide shares insights about the region’s flora, fauna, and wildlife. The lower sections of the trail can be muddy and slippery, so we strongly recommend using gaiters and trekking poles for better stability.`,
           },
           {
             day: 2,
-            title: "Forest Camp to Shira Camp 1",
+            title: "From Mti Mkubwa to Shira Camp",
             altitude: "2785m - 3504m",
             distance: "8 Km",
             time: "5-6 hours",
             habitat: "Heath",
             image: "/assets/images/Frame 61 (1).png",
-            description:
-              "We continue on the trail leading out of the forest and into a savannah of tall grasses, heather, and volcanic rock draped with lichen beards.",
+            description: `After a restful night and a nourishing breakfast, we leave the rainforest behind and follow a
+steadily ascending trail. As we climb higher, expansive views begin to unfold, eventually leading
+us to the edge of the Shira Plateau. With the increasing altitude, temperatures start to drop.`,
           },
           {
             day: 3,
-            title: "Shira Camp 1 to Lava Tower to Barranco Camp",
+            title: "From Shira to Lava Camp to Barranco Camp ",
             altitude: "3504m - 4630m - 3960m",
             distance: "10 Km",
             time: "6-8 hours",
             habitat: "Alpine Desert",
             image: "/assets/images/Frame 61 (2).png",
-            description:
-              "From the Shira Plateau, we continue to the east up a ridge, passing the junction towards the peak of Kibo.",
+            description: `After breakfast upon leaving the Shira Plateau, we head east up a ridge through rocky, semi-desert terrains, past the intersection leading to the Kibo peak, and then south-east toward the Lava Tower, also known as the "Shark's Tooth" (elev. 4650m). The Arrow Glacier is reached at a second intersection just after the tower. After that, we descend further at 3,960 meters to
+spend the night at Barranco Camp.`,
           },
           {
             day: 4,
-            title: "Barranco Camp to Karanga Camp",
+            title: "From Barranco Camp to Karanga Camp",
             altitude: "3960m - 4035m",
             distance: "5 Km",
             time: "4-5 hours",
             habitat: "Alpine Desert",
             image: "/assets/images/Frame 61 (3).png",
-            description:
-              "After breakfast, we leave Barranco and continue on a steep ridge passing the Barranco Wall, to the Karanga Valley campsite.",
+            description: `After breakfast, we begin our ascent along a steep ridge leading to the thrilling Barranco Wall, followed by a trek into the Karanga Valley and the junction that connects with the Mweka Trail. This day offers one of the most spectacular views, as you witness the remarkable skill, agility,and strength of your crew effortlessly navigating the wall. We spend the night at Karanga Camp.`,
           },
           {
             day: 5,
-            title: "Karanga Camp to Barafu Camp",
+            title: "From Karanga Camp to Barafu Camp",
             altitude: "4035m - 4673m",
             distance: "4 Km",
             time: "4-5 hours",
             habitat: "Alpine Desert",
             image: "/assets/images/Frame 61 (4).png",
-            description:
-              "After breakfast, we leave Karanga and hit the junction which connects with the Mweka Trail.",
+            description: `After breakfast, we begin our ascent along a steep ridge leading to the thrilling Barranco Wall, followed by a trek into the Karanga Valley and the junction that connects with the Mweka Trail. This day offers one of the most spectacular views, as you witness the remarkable skill, agility,and strength of your crew effortlessly navigating the wall. We spend the night at Karanga Camp.`,
           },
           {
             day: 6,
-            title: "Barafu Camp to Summit to Mweka Camp",
+            title: "From Barafu  to Summit to Mweka Camp",
             altitude: "4673m - 5895m - 3068m",
             distance: "17 Km",
             time: "12-16 hours",
             habitat: "Arctic",
             image: "/assets/images/Frame 61 (5).png",
-            description:
-              "Very early in the morning (midnight to 2am), we continue our way to the summit between the Rebmann and Ratzel glaciers.",
+            description: `We will depart from Barafu Camp at night 6-hour trek to Stella Point (5685m) often the most mentally and physically challenging part of the climb. From there, 2 hour climb to Uhuru Peak is coated with snow. The weather will determine how long you spend at the peak, so don't stay too long because you'll be tired and chilly. Congratulations, one step at a time you have now reached Uhuru Peak the highest point on Mount Kilimanjaro and the entire continent of Africa. It takes roughly 3 hours to descend to Barafu, where you can relax for a little before continuing on to Mweka Camp for dinner and overnight.`,
           },
           {
             day: 7,
-            title: "Mweka Camp to Mweka Gate",
+            title: "From Mweka Camp to Mweka Gate ",
             altitude: "3068m - 1640m",
             distance: "10 Km",
             time: "3-4 hours",
             habitat: "Rain Forest",
             image: "/assets/images/Frame 61 (6).png",
-            description:
-              "After breakfast, we continue the descent down to the Mweka Park Gate to receive your summit certificates.",
+            description: `It's time to say farewell to your staff after breakfast and a sincere ceremony of gratitude and team building. To pick up your summit certificates, we descend further to the Mweka Park Gate. We strongly advise Gaiters and trekking poles because the terrain is damp, muddy, and steep due to the significantly warmer temperature.
+A car will pick you up at Mweka village at the gate and take you back to your Moshi, which should take
+you around 30 minutes.`,
           },
         ],
         pricing: [
-          { group: "1 person", price: 2000 },
+          { group: "1 person", price: 1935 },
           { group: "2-4 people", price: 1850 },
           { group: "5-7 people", price: 1800 },
-          { group: "8-10 people", price: 1700 },
-          { group: "11+ people", price: 1650 },
+          { group: "8-10 people", price: 1750 },
+          { group: "11+ people", price: 1700 },
         ],
       },
       "8-days": {
         duration: "8 Days",
-        tabDescription:
-          "The 8-day Lemosho route is widely regarded as the most picturesque trail on Mount Kilimanjaro, offering breathtaking views from various angles. As one of the more recent trails, it is an excellent option for climbers. This route is particularly favored due to its perfect combination of minimal crowds, stunning landscapes, and a high success rate for reaching the summit.",
-        description:
-          "The Lemosho route is widely regarded as the most picturesque trail on Mount Kilimanjaro, offering breathtaking views from various angles. As one of the more recent trails, it is an excellent option for climbers. This route is particularly favored due to its perfect combination of minimal crowds, stunning landscapes, and a high success rate for reaching the summit.",
+        tabDescription: `The trail begins on the western side of Mount Kilimanjaro, with a scenic drive from Moshi to
+Londorossi Gate. The initial two days involve trekking through lush rainforests to reach Shira
+Ridge. The route then extends across the entire Shira Plateau from west to east, providing a
+relatively gentle and enjoyable hike. While the trail remains uncrowded at first, it merges with
+the Machame route near Lava Tower. From there, climbers follow the Southern Circuit beneath
+Kilimanjaro’s Southern Ice Field before making the final ascent from Barafu. The descent
+follows the Mweka route`,
+        description: `The Lemosho route is widely regarded as the most picturesque trail on Mount Kilimanjaro, offering breathtaking views from various angles. As one of the more recent trails, it is an excellent option for climbers. This route is particularly favored due to its perfect combination of minimal crowds, stunning landscapes, and a high success rate for reaching the summit. Almighty Kilimanjaro specializes in guiding climbers along the Lemosho route, with most of our clients choosing it and consistently expressing their satisfaction. `,
         itinerary: [
           {
             day: 1,
-            title: "Londorossi Gate to Forest Camp",
+            title: "From Londrosi Gate  to Mti Mkubwa Camp",
             altitude: "2100m - 2785m",
             distance: "6 Km",
             time: "3-4 hours",
             habitat: "Rain Forest",
             image: "/assets/images/Frame 61.png",
-            description:
-              "Drive to Londorossi Gate for registration and permits. Begin hiking through pristine forest with chances to see wildlife.",
+            description: `Leaving Moshi, a 45-minute drive winds through charming mountainside villages before arriving at the Kilimanjaro National Park Gate. While we wait for our permits to be processed, we can observe the lively preparations of various trekking teams gearing up for their journey. As we set
+off, enjoy the lush rainforest scenery and winding trails while your guide shares insights about the region’s flora, fauna, and wildlife. The lower sections of the trail can be muddy and slippery, so we strongly recommend using gaiters and trekking poles for better stability.`,
           },
           {
             day: 2,
-            title: "Forest Camp to Shira Camp 1",
+            title: "From Mti Mkubwa to Shira 1 Camp",
             altitude: "2785m - 3504m",
             distance: "8 Km",
             time: "5-6 hours",
             habitat: "Heath",
             image: "/assets/images/Frame 61 (1).png",
-            description:
-              "We continue on the trail leading out of the forest and into a savannah of tall grasses, heather, and volcanic rock draped with lichen beards.",
+            description: `After a restful night and a nourishing breakfast, we leave the rainforest behind and follow a
+steadily ascending trail. As we climb higher, expansive views begin to unfold, eventually leading
+us to the edge of the Shira Plateau. With the increasing altitude, temperatures start to drop.`,
           },
           {
             day: 3,
-            title: "Shira Camp 1 to Shira 2 to Moir Hut",
+            title: "From Shira 1 Camp to Shira Hut",
             altitude: "3504m - 4200m",
             distance: "14 Km",
             time: "5-7 hours",
             habitat: "Alpine Desert",
             image: "/assets/images/Frame 61 (2).png",
-            description:
-              "We explore the Shira plateau for a full day. It is a gentle walk east toward Kibo's glaciered peak, across the plateau which leads to Shira 2 camp.",
+            description: `We spend the entire day exploring the vast Shira Plateau, taking a leisurely walk eastward toward Kibo’s glacier-covered peak. The trail crosses the plateau, leading to Shira 2 Camp, nestled in moorland meadows beside a stream. From there, we proceed to Moir Hut, a secluded campsite at the base of the Lent Hills. The area offers several hiking options, providing a great opportunity for acclimatization. Notably, Shira is among the highest plateaus in the world.`,
           },
           {
             day: 4,
-            title: "Moir Hut to Lava Tower to Barranco Camp",
+            title: "From Shira to Lava Camp to Barranco Camp ",
             altitude: "4200m - 4630m - 3960m",
             distance: "7 Km",
             time: "4-6 hours",
             habitat: "Alpine Desert",
             image: "/assets/images/Frame 61 (2).png",
-            description:
-              "From the Shira Plateau, we continue to the east up a ridge, passing the junction towards the peak of Kibo.",
+            description: `After breakfast upon leaving the Shira Plateau, we head east up a ridge through rocky, semi-desert terrains, past the intersection leading to the Kibo peak, and then south-east toward the Lava Tower, also known as the "Shark's Tooth" (elev. 4650m). The Arrow Glacier is reached at a second intersection just after the tower. After that, we descend further at 3,960 meters to
+spend the night at Barranco Camp.`,
           },
           {
             day: 5,
-            title: "Barranco Camp to Karanga Camp",
+            title: "From Barranco Camp to Karanga Camp",
             altitude: "3960m - 4035m",
             distance: "5 Km",
             time: "4-5 hours",
             habitat: "Alpine Desert",
             image: "/assets/images/Frame 61 (3).png",
-            description:
-              "After breakfast, we leave Barranco and continue on a steep ridge passing the Barranco Wall, to the Karanga Valley campsite.",
+            description: `After breakfast, we begin our ascent along a steep ridge leading to the thrilling Barranco Wall, followed by a trek into the Karanga Valley and the junction that connects with the Mweka Trail. This day offers one of the most spectacular views, as you witness the remarkable skill, agility,
+and strength of your crew effortlessly navigating the wall. We spend the night at Karanga Camp.`,
           },
           {
             day: 6,
-            title: "Karanga Camp to Barafu Camp",
+            title: "From Karanga Camp to Barafu Camp",
             altitude: "4035m - 4673m",
             distance: "4 Km",
             time: "4-5 hours",
             habitat: "Alpine Desert",
             image: "/assets/images/Frame 61 (4).png",
-            description:
-              "After breakfast, we leave Karanga and hit the junction which connects with the Mweka Trail.",
+            description: `After breakfast, we begin our ascent along a steep ridge leading to the thrilling Barranco Wall, followed by a trek into the Karanga Valley and the junction that connects with the Mweka Trail. This day offers one of the most spectacular views, as you witness the remarkable skill, agility,and strength of your crew effortlessly navigating the wall. We spend the night at Karanga Camp.`,
           },
           {
             day: 7,
-            title: "Barafu Camp to Summit to Mweka Camp",
+            title: "From Barafu  to Summit to Mweka Camp",
             altitude: "4673m - 5895m - 3068m",
             distance: "17 Km",
             time: "12-16 hours",
             habitat: "Arctic",
             image: "/assets/images/Frame 61 (5).png",
-            description:
-              "Very early in the morning (midnight to 2am), we continue our way to the summit between the Rebmann and Ratzel glaciers.",
+            description: `We will depart from Barafu Camp at night 6-hour trek to Stella Point (5685m) often the most mentally and physically challenging part of the climb. From there, 2 hour climb to Uhuru Peak is coated with snow. The weather will determine how long you spend at the peak, so don't stay too long because you'll be tired and chilly. Congratulations, one step at a time you have now reached Uhuru Peak the highest point on Mount Kilimanjaro and the entire continent of Africa. It takes roughly 3 hours to descend to Barafu, where you can relax for a little before continuing on to Mweka Camp for dinner and overnight.`,
           },
           {
             day: 8,
-            title: "Mweka Camp to Mweka Gate",
+            title: "From Mweka Camp to Mweka Gate ",
             altitude: "3068m - 1640m",
             distance: "10 Km",
             time: "3-4 hours",
             habitat: "Rain Forest",
             image: "/assets/images/Frame 61 (6).png",
-            description:
-              "After breakfast, we continue the descent down to the Mweka Park Gate to receive your summit certificates.",
+            description: `It's time to say farewell to your staff after breakfast and a sincere ceremony of gratitude and team building. To pick up your summit certificates, we descend further to the Mweka Park Gate. We strongly advise Gaiters and trekking poles because the terrain is damp, muddy, and steep due to the significantly warmer temperature.
+A car will pick you up at Mweka village at the gate and take you back to your Moshi, which should take
+you around 30 minutes.`,
           },
         ],
         pricing: [
-          { group: "1 person", price: 2200 },
-          { group: "2-4 people", price: 2000 },
+          { group: "1 person", price: 2300 },
+          { group: "2-4 people", price: 2200 },
           { group: "5-7 people", price: 1950 },
           { group: "8-10 people", price: 1850 },
           { group: "11+ people", price: 1800 },
@@ -444,15 +436,24 @@ const routeData = {
     success_rate: "90%",
     inclusions: [
       "Pick-up and drop-off at Kilimanjaro International Airport",
-      "Transfer to and pick-up from the gate of Kilimanjaro National Park",
-      "All park fees collected by the Kilimanjaro National Park",
-      "Tented accommodation on Mount Kilimanjaro",
+      "Transfer to and pick-up from the gate of Kilimanjaro National Park.",
+      "All park fees collected by the Kilimanjaro National Park (conservation fees, camping fees, crew fees, vehicle fee, rescue fee and all other fees collected by the Tanzania National Parks Authority).",
+      "Tented accommodation on Mount Kilimanjaro (modern, comfortable 4-Season tents, North Face VE-25 ).",
+      "All meals on the hike.",
+      "4-inch (10-cm) thick and comfortable sleeping mats",
+      "Oxygen cylinders and oximeters",
+      "GPS-tracking service",
+      "Complete medical kits.",
+      "Professional guides, licensed by Kilimanjaro National Park. All our guides are the holder of Wilderness First Responder or Wilderness First Aid certifications. All our guides have 10+years of successful mountaineering experience.",
+      "Dedicated support crew (assistant guides, camp master, porters, cooks.etc).",
     ],
     exclusions: [
       "Airline tickets",
       "Accommodation before and after trekking",
       "Visa fees",
       "Personal gear rentals",
+      "Tips for the mountain crew.",
+      "Mountaineering insurance",
     ],
   },
 
@@ -461,201 +462,174 @@ const routeData = {
     nickname: "Wilderness Route",
     hasMultipleDays: true,
     variants: {
-      "7-days": {
-        duration: "7 Days",
-        tabDescription:
-          "The 7-day Lemosho route offers a more direct approach to the summit while still providing excellent scenery and good acclimatization. This route is perfect for experienced climbers who want to experience the wilderness beauty of Lemosho in a shorter timeframe.",
-        description:
-          "The 7-day Lemosho route is a condensed version of our most scenic trail, offering breathtaking views and excellent wildlife viewing opportunities. This route provides a perfect balance of challenge and beauty for experienced climbers.",
+      "6-days": {
+        duration: "6 Days",
+        tabDescription: `The Rongai Route begins with a scenic drive from Moshi to the Rongai Gate near the Kenyan border, covering approximately 70 to 80 kilometers and taking about 4-5 hours. It’s the only route that approaches Kilimanjaro from the north, offering a quieter and less crowded experience. The route starts in dry savannah and gradually transitions through moorland and alpine desert, with key resting stops including Simba Camp at the forest edge, followed by Second Cave or Kikelewa Camp in the heath zone. From there, hikers proceed to Mawenzi Tarn, nestled beneath the dramatic Mawenzi Peak, then cross the Saddle to reach Kibo Hut— the base for the final summit push. After reaching Uhuru Peak, the descent follows the Marangu Route, with Horombo Hut as the last overnight stop before exiting through Marangu Gate.`,
+        description: `The only way to reach Kilimanjaro from the north, close to the Kenyan border, is via the Rongai route. Although it is becoming more and more popular with climbers, it is still not overly crowded. For those looking for an alternative to the more crowded Marangu route, Rongai is a fantastic option because it provides a more gradual ascent than other routes on the mountain.`,
         itinerary: [
           {
             day: 1,
-            title: "Londorossi Gate to Forest Camp",
+            title: "From Rongai Gate to Simba  Camp",
             altitude: "2100m - 2785m",
             distance: "6 Km",
             time: "3-4 hours",
             habitat: "Rain Forest",
             image: "/assets/images/Frame 61.png",
-            description:
-              "Drive to Londorossi Gate for registration and permits. Begin hiking through pristine forest with chances to see wildlife.",
+            description: `It will take 4-5 hour drive from Moshi to the Kilimanjaro National Park Gate, passing through the Nale Muru village. There is only one route over on the north eastern side of the mountain, Rongai route. After the climbing permits and rescue service registration are completed, the group will begin their hike up to Simba Camp. With breathtaking views of the Kenyan plains, Simba Camp is located close to the first cave
+at the edge of the moorland zone.`,
           },
           {
             day: 2,
-            title: "Forest Camp to Shira Camp 1",
+            title: "From Simba Camp to Second Cave Camp",
             altitude: "2785m - 3504m",
             distance: "8 Km",
             time: "5-6 hours",
             habitat: "Heath",
             image: "/assets/images/Frame 61 (1).png",
-            description:
-              "We continue on the trail leading out of the forest and into a savannah of tall grasses, heather, and volcanic rock draped with lichen beards.",
+            description: `After early morning breakfast, the group will leave Simba Camp to Second Cave Camp, your second high altitude camp. You will have your first look at the ice fields on the Eastern crater rim and enjoy some amazing views of Kibo. As you get to Second Cave for the overnight, the small shrubs of moorland
+become sparse and temperature starts to decrease.`,
           },
           {
             day: 3,
-            title: "Shira Camp 1 to Lava Tower to Barranco Camp",
+            title: "From Second Cave Camp to Third Cave ",
             altitude: "3504m - 4630m - 3960m",
             distance: "10 Km",
             time: "6-8 hours",
             habitat: "Alpine Desert",
             image: "/assets/images/Frame 61 (2).png",
-            description:
-              "From the Shira Plateau, we continue to the east up a ridge, passing the junction towards the peak of Kibo.",
+            description: `After breafast , journey to steady climb across the Moorland in the direction of the ragged peaks of Mawenzi begins. You get closer to the Easter ice fields on this comparatively short hiking day, which keeps highlighting their splendor. Keep an eye on your body and notify your guide if you experience any
+symptoms of altitude sickness.`,
           },
           {
             day: 4,
-            title: "Barranco Camp to Karanga Camp",
+            title: "From Third Cave Camp to Kibo Hut",
             altitude: "3960m - 4035m",
             distance: "5 Km",
             time: "4-5 hours",
             habitat: "Alpine Desert",
             image: "/assets/images/Frame 61 (3).png",
-            description:
-              "After breakfast, we leave Barranco and continue on a steep ridge passing the Barranco Wall, to the Karanga Valley campsite.",
+            description: `From the Third Cave, you leave the semi-desert area early in the morning and start your hike into the Alpine Desert, where you will spend the rest of your trip. You will reach the Kibo Huts today by hiking just below the Kibo crater wall. You will next turn into the Marangu Route, which will be your hiking
+route to the top. Before going to bed at 7 PM, you will get your gear and clothes ready (changing the batteries in your camera and headlamp) and attempt to get a few hours of sleep before your summit
+attempt.`,
           },
           {
             day: 5,
-            title: "Karanga Camp to Barafu Camp",
+            title: "From Kibo Hut to Summit to Horombo Hut",
             altitude: "4035m - 4673m",
             distance: "4 Km",
             time: "4-5 hours",
             habitat: "Alpine Desert",
             image: "/assets/images/Frame 61 (4).png",
-            description:
-              "After breakfast, we leave Karanga and hit the junction which connects with the Mweka Trail.",
+            description: `Early wakeup, breakfast and the start of trekking to Mawenzi Tarn Camp, which is situated at the foot of Mawenzi Volcano, Kilimanjaro's second summit. When you reach the camp, you will have lunch and rest, after which there will be an acclimatization hike towards Mawenzi Volcano, followed by a hike back down to Mawenzi Tarn Camp, where you will have dinner in the evening.`,
           },
           {
             day: 6,
-            title: "Barafu Camp to Summit to Mweka Camp",
+            title: "From Horombo Huts to Marangu Gate ",
             altitude: "4673m - 5895m - 3068m",
             distance: "17 Km",
             time: "12-16 hours",
             habitat: "Arctic",
             image: "/assets/images/Frame 61 (5).png",
-            description:
-              "Very early in the morning (midnight to 2am), we continue our way to the summit between the Rebmann and Ratzel glaciers.",
-          },
-          {
-            day: 7,
-            title: "Mweka Camp to Mweka Gate",
-            altitude: "3068m - 1640m",
-            distance: "10 Km",
-            time: "3-4 hours",
-            habitat: "Rain Forest",
-            image: "/assets/images/Frame 61 (6).png",
-            description:
-              "After breakfast, we continue the descent down to the Mweka Park Gate to receive your summit certificates.",
+            description: `It's time to say farewell to your staff after breakfast and a sincere ceremony of gratitude and team building. We keep going down, to Marangu Park Gate where you will be given your certificates. We strongly advise Gaiters and trekking poles because the terrain is damp, muddy, and steep due to the
+significantly warmer temperature. A car will pick you up at the entrance and take you back to your Moshi
+for about 45 minutes drive.`,
           },
         ],
         pricing: [
-          { group: "1 person", price: 2000 },
+          { group: "1 person", price: 1920 },
           { group: "2-4 people", price: 1850 },
-          { group: "5-7 people", price: 1800 },
-          { group: "8-10 people", price: 1700 },
-          { group: "11+ people", price: 1650 },
+          { group: "5-7 people", price: 1700 },
+          { group: "8-10 people", price: 1650 },
+          { group: "11+ people", price: 1600 },
         ],
       },
-      "8-days": {
-        duration: "8 Days",
-        tabDescription:
-          "The 8-day Lemosho route is widely regarded as the most picturesque trail on Mount Kilimanjaro, offering breathtaking views from various angles. As one of the more recent trails, it is an excellent option for climbers. This route is particularly favored due to its perfect combination of minimal crowds, stunning landscapes, and a high success rate for reaching the summit.",
-        description:
-          "The Lemosho route is widely regarded as the most picturesque trail on Mount Kilimanjaro, offering breathtaking views from various angles. As one of the more recent trails, it is an excellent option for climbers. This route is particularly favored due to its perfect combination of minimal crowds, stunning landscapes, and a high success rate for reaching the summit.",
+      "7-days": {
+        duration: "7 Days",
+        tabDescription: `The Rongai Route begins with a scenic drive from Moshi to the Rongai Gate near the Kenyan border, covering approximately 70 to 80 kilometers and taking about 4-5 hours. It’s the only route that approaches Kilimanjaro from the north, offering a quieter and less crowded experience. The route starts in dry savannah and gradually transitions through moorland and alpine desert, with key resting stops including Simba Camp at the forest edge, followed by Second Cave or Kikelewa Camp in the heath zone. From there, hikers proceed to Mawenzi Tarn, nestled beneath the dramatic Mawenzi Peak, then cross the Saddle to reach Kibo Hut— the base for the final summit push. After reaching Uhuru Peak, the descent follows the Marangu Route, with Horombo Hut as the last overnight stop before exiting through Marangu Gate.`,
+        description: `The only way to reach Kilimanjaro from the north, close to the Kenyan border, is via the Rongai route. Although it is becoming more and more popular with climbers, it is still not overly crowded. For those looking for an alternative to the more crowded Marangu route, Rongai is a fantastic option because it provides a more gradual ascent than other routes on the mountain.`,
         itinerary: [
           {
             day: 1,
-            title: "Londorossi Gate to Forest Camp",
+            title: "From Rongai Gate to Simba  Camp",
             altitude: "2100m - 2785m",
             distance: "6 Km",
             time: "3-4 hours",
             habitat: "Rain Forest",
             image: "/assets/images/Frame 61.png",
-            description:
-              "Drive to Londorossi Gate for registration and permits. Begin hiking through pristine forest with chances to see wildlife.",
+            description: `It will take 4-5 hour drive from Moshi to the Kilimanjaro National Park Gate, passing through the Nale Muru village. There is only one route over on the north eastern side of the mountain, Rongai route. After the climbing permits and rescue service registration are completed, the group will begin their hike up to Simba Camp. With breathtaking views of the Kenyan plains, Simba Camp is located close to the first cave
+at the edge of the moorland zone.`,
           },
           {
             day: 2,
-            title: "Forest Camp to Shira Camp 1",
+            title: "From Simba Camp to Second Cave Camp",
             altitude: "2785m - 3504m",
             distance: "8 Km",
             time: "5-6 hours",
             habitat: "Heath",
             image: "/assets/images/Frame 61 (1).png",
-            description:
-              "We continue on the trail leading out of the forest and into a savannah of tall grasses, heather, and volcanic rock draped with lichen beards.",
+            description: `After early morning breakfast, the group will leave Simba Camp to Second Cave Camp, your second high altitude camp. You will have your first look at the ice fields on the Eastern crater rim and enjoy some amazing views of Kibo. As you get to Second Cave for the overnight, the small shrubs of moorland
+become sparse and temperature starts to decrease.`,
           },
           {
             day: 3,
-            title: "Shira Camp 1 to Shira 2 to Moir Hut",
+            title: "From Second Cave Camp to Kikelewa Camp",
             altitude: "3504m - 4200m",
             distance: "14 Km",
             time: "5-7 hours",
             habitat: "Alpine Desert",
             image: "/assets/images/Frame 61 (2).png",
-            description:
-              "We explore the Shira plateau for a full day. It is a gentle walk east toward Kibo's glaciered peak, across the plateau which leads to Shira 2 camp.",
+            description: `After breafast , journey to steady climb across the Moorland in the direction of the ragged peaks of Mawenzi begins. You get closer to the Easter ice fields on this comparatively short hiking day, which keeps highlighting their splendor. Keep an eye on your body and notify your guide if you experience any
+symptoms of altitude sickness.`,
           },
           {
             day: 4,
-            title: "Moir Hut to Lava Tower to Barranco Camp",
+            title: "From Kikelewa Camp to Mawenzi Tarn",
             altitude: "4200m - 4630m - 3960m",
             distance: "7 Km",
             time: "4-6 hours",
             habitat: "Alpine Desert",
             image: "/assets/images/Frame 61 (2).png",
-            description:
-              "From the Shira Plateau, we continue to the east up a ridge, passing the junction towards the peak of Kibo.",
+            description: `Early wakeup, breakfast and the start of trekking to Mawenzi Tarn Camp, which is situated at the foot of Mawenzi Volcano, Kilimanjaro's second summit. When you reach the camp, you will have lunch and rest,after which there will be an acclimatization hike towards Mawenzi Volcano, followed by a hike back down to Mawenzi Tarn Camp, where you will have dinner in the evening.`,
           },
           {
             day: 5,
-            title: "Barranco Camp to Karanga Camp",
+            title: "From Mawenzi Tarn to Kibo Hut",
             altitude: "3960m - 4035m",
             distance: "5 Km",
             time: "4-5 hours",
             habitat: "Alpine Desert",
             image: "/assets/images/Frame 61 (3).png",
-            description:
-              "After breakfast, we leave Barranco and continue on a steep ridge passing the Barranco Wall, to the Karanga Valley campsite.",
+            description: `Early wakeup, breakfast and the start of trekking to Mawenzi Tarn Camp, which is situated at the foot of Mawenzi Volcano, Kilimanjaro's second summit. When you reach the camp, you will have lunch and rest,after which there will be an acclimatization hike towards Mawenzi Volcano, followed by a hike back down to Mawenzi Tarn Camp, where you will have dinner in the evening.`,
           },
           {
             day: 6,
-            title: "Karanga Camp to Barafu Camp",
+            title: "From Kibo Hut to Summit to Horombo Hut",
             altitude: "4035m - 4673m",
             distance: "4 Km",
             time: "4-5 hours",
             habitat: "Alpine Desert",
             image: "/assets/images/Frame 61 (4).png",
-            description:
-              "After breakfast, we leave Karanga and hit the junction which connects with the Mweka Trail.",
+            description: `Early wakeup, breakfast and the start of trekking to Mawenzi Tarn Camp, which is situated at the foot of Mawenzi Volcano, Kilimanjaro's second summit. When you reach the camp, you will have lunch and rest, after which there will be an acclimatization hike towards Mawenzi Volcano, followed by a hike back down to Mawenzi Tarn Camp, where you will have dinner in the evening.`,
           },
           {
             day: 7,
-            title: "Barafu Camp to Summit to Mweka Camp",
+            title: "From Horombo Huts to Marangu Gate ",
             altitude: "4673m - 5895m - 3068m",
             distance: "17 Km",
             time: "12-16 hours",
             habitat: "Arctic",
             image: "/assets/images/Frame 61 (5).png",
-            description:
-              "Very early in the morning (midnight to 2am), we continue our way to the summit between the Rebmann and Ratzel glaciers.",
-          },
-          {
-            day: 8,
-            title: "Mweka Camp to Mweka Gate",
-            altitude: "3068m - 1640m",
-            distance: "10 Km",
-            time: "3-4 hours",
-            habitat: "Rain Forest",
-            image: "/assets/images/Frame 61 (6).png",
-            description:
-              "After breakfast, we continue the descent down to the Mweka Park Gate to receive your summit certificates.",
+            description: `It's time to say farewell to your staff after breakfast and a sincere ceremony of gratitude and team building. We keep going down, to Marangu Park Gate where you will be given your certificates. We strongly advise Gaiters and trekking poles because the terrain is damp, muddy, and steep due to the
+significantly warmer temperature. A car will pick you up at the entrance and take you back to your Moshi
+for about 45 minutes drive.`,
           },
         ],
         pricing: [
-          { group: "1 person", price: 2200 },
-          { group: "2-4 people", price: 2000 },
-          { group: "5-7 people", price: 1950 },
-          { group: "8-10 people", price: 1850 },
-          { group: "11+ people", price: 1800 },
+          { group: "1 person", price: 2050 },
+          { group: "2-4 people", price: 1900 },
+          { group: "5-7 people", price: 1850 },
+          { group: "8-10 people", price: 1750 },
+          { group: "11+ people", price: 1700 },
         ],
       },
     },
@@ -664,15 +638,24 @@ const routeData = {
     success_rate: "90%",
     inclusions: [
       "Pick-up and drop-off at Kilimanjaro International Airport",
-      "Transfer to and pick-up from the gate of Kilimanjaro National Park",
-      "All park fees collected by the Kilimanjaro National Park",
-      "Tented accommodation on Mount Kilimanjaro",
+      "Transfer to and pick-up from the gate of Kilimanjaro National Park.",
+      "All park fees collected by the Kilimanjaro National Park (conservation fees, camping fees, crew fees, vehicle fee, rescue fee and all other fees collected by the Tanzania National Parks Authority).",
+      "Tented accommodation on Mount Kilimanjaro (modern, comfortable 4-Season tents, North Face VE-25 ).",
+      "All meals on the hike.",
+      "4-inch (10-cm) thick and comfortable sleeping mats",
+      "Oxygen cylinders and oximeters",
+      "GPS-tracking service",
+      "Complete medical kits.",
+      "Professional guides, licensed by Kilimanjaro National Park. All our guides are the holder of Wilderness First Responder or Wilderness First Aid certifications. All our guides have 10+years of successful mountaineering experience.",
+      "Dedicated support crew (assistant guides, camp master, porters, cooks.etc).",
     ],
     exclusions: [
       "Airline tickets",
       "Accommodation before and after trekking",
       "Visa fees",
       "Personal gear rentals",
+      "Tips for the mountain crew.",
+      "Mountaineering insurance",
     ],
   },
 
@@ -884,15 +867,24 @@ const routeData = {
     success_rate: "90%",
     inclusions: [
       "Pick-up and drop-off at Kilimanjaro International Airport",
-      "Transfer to and pick-up from the gate of Kilimanjaro National Park",
-      "All park fees collected by the Kilimanjaro National Park",
-      "Tented accommodation on Mount Kilimanjaro",
+      "Transfer to and pick-up from the gate of Kilimanjaro National Park.",
+      "All park fees collected by the Kilimanjaro National Park (conservation fees, camping fees, crew fees, vehicle fee, rescue fee and all other fees collected by the Tanzania National Parks Authority).",
+      "Tented accommodation on Mount Kilimanjaro (modern, comfortable 4-Season tents, North Face VE-25 ).",
+      "All meals on the hike.",
+      "4-inch (10-cm) thick and comfortable sleeping mats",
+      "Oxygen cylinders and oximeters",
+      "GPS-tracking service",
+      "Complete medical kits.",
+      "Professional guides, licensed by Kilimanjaro National Park. All our guides are the holder of Wilderness First Responder or Wilderness First Aid certifications. All our guides have 10+years of successful mountaineering experience.",
+      "Dedicated support crew (assistant guides, camp master, porters, cooks.etc).",
     ],
     exclusions: [
       "Airline tickets",
       "Accommodation before and after trekking",
       "Visa fees",
       "Personal gear rentals",
+      "Tips for the mountain crew.",
+      "Mountaineering insurance",
     ],
   },
 
@@ -901,12 +893,11 @@ const routeData = {
     nickname: "Wilderness Route",
     hasMultipleDays: true,
     variants: {
-      "7-days": {
+      "6-days": {
         duration: "7 Days",
-        tabDescription:
-          "The 7-day Lemosho route offers a more direct approach to the summit while still providing excellent scenery and good acclimatization. This route is perfect for experienced climbers who want to experience the wilderness beauty of Lemosho in a shorter timeframe.",
-        description:
-          "The 7-day Lemosho route is a condensed version of our most scenic trail, offering breathtaking views and excellent wildlife viewing opportunities. This route provides a perfect balance of challenge and beauty for experienced climbers.",
+        tabDescription: `The Umbwe Route starts with a short drive of about 30 kilometers from Moshi to the Umbwe Gate, typically taking around 1 hour. Known as the steepest and most direct route up Kilimanjaro, it’s favored by experienced trekkers seeking a challenge and solitude. The trail ascends rapidly through dense rainforest to Umbwe Cave Camp, then continues to Barranco Camp, where it joins the Machame Route. From there, climbers move through the scenic Barranco Wall to Karanga Camp, then onward to Barafu Camp, the final stop before the summit attempt. After reaching Uhuru Peak, the descent follows the Mweka Route, with a final rest at Mweka Camp before exiting through Mweka Gate.`,
+        description: `On Kilimanjaro, the Umbwe Route is arguably the least traveled. Along the Machame Route, it begins at the tropical rainforest and joins it at Barranco Camp (3800m). Although Umbwe is the shortest path, it is
+one of the most strenuous on Kilimanjaro due to its steep ascent and little acclimatization periods. Nevertheless, it showcases the mountain's natural beauty with its various habitat zones and expansive vistas. This is considered one of the most difficult routes to climb Kilimanjaro.`,
         itinerary: [
           {
             day: 1,
@@ -987,14 +978,14 @@ const routeData = {
           },
         ],
         pricing: [
-          { group: "1 person", price: 2000 },
-          { group: "2-4 people", price: 1850 },
-          { group: "5-7 people", price: 1800 },
-          { group: "8-10 people", price: 1700 },
-          { group: "11+ people", price: 1650 },
+          { group: "1 person", price: 1800 },
+          { group: "2-4 people", price: 1740 },
+          { group: "5-7 people", price: 1630 },
+          { group: "8-10 people", price: 1560 },
+          { group: "11+ people", price: 1510 },
         ],
       },
-      "8-days": {
+      "7-days": {
         duration: "8 Days",
         tabDescription:
           "The 8-day Lemosho route is widely regarded as the most picturesque trail on Mount Kilimanjaro, offering breathtaking views from various angles. As one of the more recent trails, it is an excellent option for climbers. This route is particularly favored due to its perfect combination of minimal crowds, stunning landscapes, and a high success rate for reaching the summit.",
@@ -1104,15 +1095,24 @@ const routeData = {
     success_rate: "90%",
     inclusions: [
       "Pick-up and drop-off at Kilimanjaro International Airport",
-      "Transfer to and pick-up from the gate of Kilimanjaro National Park",
-      "All park fees collected by the Kilimanjaro National Park",
-      "Tented accommodation on Mount Kilimanjaro",
+      "Transfer to and pick-up from the gate of Kilimanjaro National Park.",
+      "All park fees collected by the Kilimanjaro National Park (conservation fees, camping fees, crew fees, vehicle fee, rescue fee and all other fees collected by the Tanzania National Parks Authority).",
+      "Tented accommodation on Mount Kilimanjaro (modern, comfortable 4-Season tents, North Face VE-25 ).",
+      "All meals on the hike.",
+      "4-inch (10-cm) thick and comfortable sleeping mats",
+      "Oxygen cylinders and oximeters",
+      "GPS-tracking service",
+      "Complete medical kits.",
+      "Professional guides, licensed by Kilimanjaro National Park. All our guides are the holder of Wilderness First Responder or Wilderness First Aid certifications. All our guides have 10+years of successful mountaineering experience.",
+      "Dedicated support crew (assistant guides, camp master, porters, cooks.etc).",
     ],
     exclusions: [
       "Airline tickets",
       "Accommodation before and after trekking",
       "Visa fees",
       "Personal gear rentals",
+      "Tips for the mountain crew.",
+      "Mountaineering insurance",
     ],
   },
   "marangu-route": {
@@ -1120,12 +1120,10 @@ const routeData = {
     nickname: "Wilderness Route",
     hasMultipleDays: true,
     variants: {
-      "7-days": {
-        duration: "7 Days",
-        tabDescription:
-          "The 7-day Lemosho route offers a more direct approach to the summit while still providing excellent scenery and good acclimatization. This route is perfect for experienced climbers who want to experience the wilderness beauty of Lemosho in a shorter timeframe.",
-        description:
-          "The 7-day Lemosho route is a condensed version of our most scenic trail, offering breathtaking views and excellent wildlife viewing opportunities. This route provides a perfect balance of challenge and beauty for experienced climbers.",
+      "5-days": {
+        duration: "5 Days",
+        tabDescription: `The Marangu Route begins with a drive from Moshi to Marangu Gate, a distance of approximately 80 kilometers that takes about 1.5 to 2 hours by car. From the gate, climbers start their ascent with the first resting stop at Mandara Hut, nestled in the lush rainforest. The next key stop is Horombo Hut, located in the moorland zone, which also serves as an acclimatization point for those taking the longer 6-day option. Further up is Kibo Hut in the alpine desert, the final resting place before the challenging summit push to Uhuru Peak. After reaching the summit, climbers descend and spend one last night at Horombo Hut before heading back down to the gate.`,
+        description: `Often referred to as the “Coca-Cola” route, the Marangu route is a classic trek on Mount Kilimanjaro and is the oldest, most established path on the mountain. Many climbers prefer the Marangu route for its relatively easier ascent, thanks to its gradual slope. It is also the only route on Kilimanjaro that offers dormitory-style sleeping huts.`,
         itinerary: [
           {
             day: 1,
@@ -1206,19 +1204,18 @@ const routeData = {
           },
         ],
         pricing: [
-          { group: "1 person", price: 2000 },
-          { group: "2-4 people", price: 1850 },
-          { group: "5-7 people", price: 1800 },
-          { group: "8-10 people", price: 1700 },
-          { group: "11+ people", price: 1650 },
+          { group: "1 person", price: 1650 },
+          { group: "2-4 people", price: 1520 },
+          { group: "5-7 people", price: 1450 },
+          { group: "8-10 people", price: 1400 },
+          { group: "11+ people", price: 1380 },
         ],
       },
-      "8-days": {
-        duration: "8 Days",
-        tabDescription:
-          "The 8-day Lemosho route is widely regarded as the most picturesque trail on Mount Kilimanjaro, offering breathtaking views from various angles. As one of the more recent trails, it is an excellent option for climbers. This route is particularly favored due to its perfect combination of minimal crowds, stunning landscapes, and a high success rate for reaching the summit.",
-        description:
-          "The Lemosho route is widely regarded as the most picturesque trail on Mount Kilimanjaro, offering breathtaking views from various angles. As one of the more recent trails, it is an excellent option for climbers. This route is particularly favored due to its perfect combination of minimal crowds, stunning landscapes, and a high success rate for reaching the summit.",
+      "6-days": {
+        duration: "7 Days",
+        tabDescription: `The Marangu Route begins with a drive from Moshi to Marangu Gate, a distance of approximately 80 kilometers that takes about 1.5 to 2 hours by car. From the gate, climbers start their ascent with the first resting stop at Mandara Hut, nestled in the lush rainforest. The next key stop is Horombo Hut, located in the moorland zone, which also serves as an acclimatization point for those taking the longer 6-day option. Further up is Kibo Hut in the alpine desert, the final resting place before the challenging summit push to Uhuru Peak. After reaching the summit, climbers descend and spend one last night at Horombo Hut before heading back down to the gate.`,
+
+        description: `Often referred to as the “Coca-Cola” route, the Marangu route is a classic trek on Mount Kilimanjaro and is the oldest, most established path on the mountain. Many climbers prefer the Marangu route for its relatively easier ascent, thanks to its gradual slope. It is also the only route on Kilimanjaro that offers dormitory-style sleeping huts.`,
         itinerary: [
           {
             day: 1,
@@ -1310,11 +1307,11 @@ const routeData = {
           },
         ],
         pricing: [
-          { group: "1 person", price: 2200 },
-          { group: "2-4 people", price: 2000 },
-          { group: "5-7 people", price: 1950 },
-          { group: "8-10 people", price: 1850 },
-          { group: "11+ people", price: 1800 },
+          { group: "1 person", price: 1800 },
+          { group: "2-4 people", price: 1750 },
+          { group: "5-7 people", price: 1700 },
+          { group: "8-10 people", price: 1650 },
+          { group: "11+ people", price: 1600 },
         ],
       },
     },
@@ -1323,15 +1320,24 @@ const routeData = {
     success_rate: "90%",
     inclusions: [
       "Pick-up and drop-off at Kilimanjaro International Airport",
-      "Transfer to and pick-up from the gate of Kilimanjaro National Park",
-      "All park fees collected by the Kilimanjaro National Park",
-      "Tented accommodation on Mount Kilimanjaro",
+      "Transfer to and pick-up from the gate of Kilimanjaro National Park.",
+      "All park fees collected by the Kilimanjaro National Park (conservation fees, camping fees, crew fees, vehicle fee, rescue fee and all other fees collected by the Tanzania National Parks Authority).",
+      "Tented accommodation on Mount Kilimanjaro (modern, comfortable 4-Season tents, North Face VE-25 ).",
+      "All meals on the hike.",
+      "4-inch (10-cm) thick and comfortable sleeping mats",
+      "Oxygen cylinders and oximeters",
+      "GPS-tracking service",
+      "Complete medical kits.",
+      "Professional guides, licensed by Kilimanjaro National Park. All our guides are the holder of Wilderness First Responder or Wilderness First Aid certifications. All our guides have 10+years of successful mountaineering experience.",
+      "Dedicated support crew (assistant guides, camp master, porters, cooks.etc).",
     ],
     exclusions: [
       "Airline tickets",
       "Accommodation before and after trekking",
       "Visa fees",
       "Personal gear rentals",
+      "Tips for the mountain crew.",
+      "Mountaineering insurance",
     ],
   },
   "nothern-circuit": {
@@ -1542,15 +1548,24 @@ const routeData = {
     success_rate: "90%",
     inclusions: [
       "Pick-up and drop-off at Kilimanjaro International Airport",
-      "Transfer to and pick-up from the gate of Kilimanjaro National Park",
-      "All park fees collected by the Kilimanjaro National Park",
-      "Tented accommodation on Mount Kilimanjaro",
+      "Transfer to and pick-up from the gate of Kilimanjaro National Park.",
+      "All park fees collected by the Kilimanjaro National Park (conservation fees, camping fees, crew fees, vehicle fee, rescue fee and all other fees collected by the Tanzania National Parks Authority).",
+      "Tented accommodation on Mount Kilimanjaro (modern, comfortable 4-Season tents, North Face VE-25 ).",
+      "All meals on the hike.",
+      "4-inch (10-cm) thick and comfortable sleeping mats",
+      "Oxygen cylinders and oximeters",
+      "GPS-tracking service",
+      "Complete medical kits.",
+      "Professional guides, licensed by Kilimanjaro National Park. All our guides are the holder of Wilderness First Responder or Wilderness First Aid certifications. All our guides have 10+years of successful mountaineering experience.",
+      "Dedicated support crew (assistant guides, camp master, porters, cooks.etc).",
     ],
     exclusions: [
       "Airline tickets",
       "Accommodation before and after trekking",
       "Visa fees",
       "Personal gear rentals",
+      "Tips for the mountain crew.",
+      "Mountaineering insurance",
     ],
   },
 
@@ -3280,10 +3295,9 @@ const routeData = {
     ],
   },
 
-
   // Home (Popular Packages) (no tabs, show routes on left, days on right)
 
-    "premier-nothern-safari": {
+  "premier-nothern-safari": {
     name: "Premier Nothern Safari",
     hasMultipleDays: false,
     isEscapeDSM: true,
@@ -3384,7 +3398,8 @@ const routeData = {
       "Travel insurance",
       "Personal expenses",
     ],
-  },  "mt-kilimanjaro-to-machame-route": {
+  },
+  "mt-kilimanjaro-to-machame-route": {
     name: "Mt. Kilimanjaro - Machame Route",
     hasMultipleDays: false,
     isEscapeDSM: true,
@@ -3485,7 +3500,8 @@ const routeData = {
       "Travel insurance",
       "Personal expenses",
     ],
-  },  "ultimate-nothern-tanzania-safari": {
+  },
+  "ultimate-nothern-tanzania-safari": {
     name: "Ultimate Nothern Tanzania Safari",
     hasMultipleDays: false,
     isEscapeDSM: true,
@@ -3587,7 +3603,6 @@ const routeData = {
       "Personal expenses",
     ],
   },
-
 };
 
 export default function RouteDetail() {
@@ -3850,16 +3865,7 @@ export default function RouteDetail() {
                       {/* Description */}
                       <div className="flex-1 flex items-start lg:items-center overflow-hidden">
                         <div className="space-y-2 sm:space-y-3 lg:space-y-4">
-                          <p className="text-[#2E492E] lg:text-base xl:text-lg leading-relaxed font-medium line-clamp-3 sm:line-clamp-4 lg:line-clamp-none">
-                            {day.description}
-                          </p>
-                          <p className="text-[#2E492E] lg:text-base xl:text-lg leading-relaxed font-medium line-clamp-3 sm:line-clamp-4 lg:line-clamp-none">
-                            {day.description}
-                          </p>
-                          <p className="text-[#2E492E] lg:text-base xl:text-lg leading-relaxed font-medium line-clamp-3 sm:line-clamp-4 lg:line-clamp-none">
-                            {day.description}
-                          </p>
-                          <p className="text-[#2E492E] lg:text-base xl:text-lg leading-relaxed font-medium line-clamp-3 sm:line-clamp-4 lg:line-clamp-none">
+                          <p className="text-[#2E492E] md:leading-[40px] md:mt-7 lg:text-base xl:text-lg leading-relaxed font-medium line-clamp-3 sm:line-clamp-4 lg:line-clamp-none">
                             {day.description}
                           </p>
                         </div>
