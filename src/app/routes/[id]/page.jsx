@@ -456,6 +456,1104 @@ const routeData = {
     ],
   },
 
+  "rongai-route": {
+    name: "Rongai Route",
+    nickname: "Wilderness Route",
+    hasMultipleDays: true,
+    variants: {
+      "7-days": {
+        duration: "7 Days",
+        tabDescription:
+          "The 7-day Lemosho route offers a more direct approach to the summit while still providing excellent scenery and good acclimatization. This route is perfect for experienced climbers who want to experience the wilderness beauty of Lemosho in a shorter timeframe.",
+        description:
+          "The 7-day Lemosho route is a condensed version of our most scenic trail, offering breathtaking views and excellent wildlife viewing opportunities. This route provides a perfect balance of challenge and beauty for experienced climbers.",
+        itinerary: [
+          {
+            day: 1,
+            title: "Londorossi Gate to Forest Camp",
+            altitude: "2100m - 2785m",
+            distance: "6 Km",
+            time: "3-4 hours",
+            habitat: "Rain Forest",
+            image: "/assets/images/Frame 61.png",
+            description:
+              "Drive to Londorossi Gate for registration and permits. Begin hiking through pristine forest with chances to see wildlife.",
+          },
+          {
+            day: 2,
+            title: "Forest Camp to Shira Camp 1",
+            altitude: "2785m - 3504m",
+            distance: "8 Km",
+            time: "5-6 hours",
+            habitat: "Heath",
+            image: "/assets/images/Frame 61 (1).png",
+            description:
+              "We continue on the trail leading out of the forest and into a savannah of tall grasses, heather, and volcanic rock draped with lichen beards.",
+          },
+          {
+            day: 3,
+            title: "Shira Camp 1 to Lava Tower to Barranco Camp",
+            altitude: "3504m - 4630m - 3960m",
+            distance: "10 Km",
+            time: "6-8 hours",
+            habitat: "Alpine Desert",
+            image: "/assets/images/Frame 61 (2).png",
+            description:
+              "From the Shira Plateau, we continue to the east up a ridge, passing the junction towards the peak of Kibo.",
+          },
+          {
+            day: 4,
+            title: "Barranco Camp to Karanga Camp",
+            altitude: "3960m - 4035m",
+            distance: "5 Km",
+            time: "4-5 hours",
+            habitat: "Alpine Desert",
+            image: "/assets/images/Frame 61 (3).png",
+            description:
+              "After breakfast, we leave Barranco and continue on a steep ridge passing the Barranco Wall, to the Karanga Valley campsite.",
+          },
+          {
+            day: 5,
+            title: "Karanga Camp to Barafu Camp",
+            altitude: "4035m - 4673m",
+            distance: "4 Km",
+            time: "4-5 hours",
+            habitat: "Alpine Desert",
+            image: "/assets/images/Frame 61 (4).png",
+            description:
+              "After breakfast, we leave Karanga and hit the junction which connects with the Mweka Trail.",
+          },
+          {
+            day: 6,
+            title: "Barafu Camp to Summit to Mweka Camp",
+            altitude: "4673m - 5895m - 3068m",
+            distance: "17 Km",
+            time: "12-16 hours",
+            habitat: "Arctic",
+            image: "/assets/images/Frame 61 (5).png",
+            description:
+              "Very early in the morning (midnight to 2am), we continue our way to the summit between the Rebmann and Ratzel glaciers.",
+          },
+          {
+            day: 7,
+            title: "Mweka Camp to Mweka Gate",
+            altitude: "3068m - 1640m",
+            distance: "10 Km",
+            time: "3-4 hours",
+            habitat: "Rain Forest",
+            image: "/assets/images/Frame 61 (6).png",
+            description:
+              "After breakfast, we continue the descent down to the Mweka Park Gate to receive your summit certificates.",
+          },
+        ],
+        pricing: [
+          { group: "1 person", price: 2000 },
+          { group: "2-4 people", price: 1850 },
+          { group: "5-7 people", price: 1800 },
+          { group: "8-10 people", price: 1700 },
+          { group: "11+ people", price: 1650 },
+        ],
+      },
+      "8-days": {
+        duration: "8 Days",
+        tabDescription:
+          "The 8-day Lemosho route is widely regarded as the most picturesque trail on Mount Kilimanjaro, offering breathtaking views from various angles. As one of the more recent trails, it is an excellent option for climbers. This route is particularly favored due to its perfect combination of minimal crowds, stunning landscapes, and a high success rate for reaching the summit.",
+        description:
+          "The Lemosho route is widely regarded as the most picturesque trail on Mount Kilimanjaro, offering breathtaking views from various angles. As one of the more recent trails, it is an excellent option for climbers. This route is particularly favored due to its perfect combination of minimal crowds, stunning landscapes, and a high success rate for reaching the summit.",
+        itinerary: [
+          {
+            day: 1,
+            title: "Londorossi Gate to Forest Camp",
+            altitude: "2100m - 2785m",
+            distance: "6 Km",
+            time: "3-4 hours",
+            habitat: "Rain Forest",
+            image: "/assets/images/Frame 61.png",
+            description:
+              "Drive to Londorossi Gate for registration and permits. Begin hiking through pristine forest with chances to see wildlife.",
+          },
+          {
+            day: 2,
+            title: "Forest Camp to Shira Camp 1",
+            altitude: "2785m - 3504m",
+            distance: "8 Km",
+            time: "5-6 hours",
+            habitat: "Heath",
+            image: "/assets/images/Frame 61 (1).png",
+            description:
+              "We continue on the trail leading out of the forest and into a savannah of tall grasses, heather, and volcanic rock draped with lichen beards.",
+          },
+          {
+            day: 3,
+            title: "Shira Camp 1 to Shira 2 to Moir Hut",
+            altitude: "3504m - 4200m",
+            distance: "14 Km",
+            time: "5-7 hours",
+            habitat: "Alpine Desert",
+            image: "/assets/images/Frame 61 (2).png",
+            description:
+              "We explore the Shira plateau for a full day. It is a gentle walk east toward Kibo's glaciered peak, across the plateau which leads to Shira 2 camp.",
+          },
+          {
+            day: 4,
+            title: "Moir Hut to Lava Tower to Barranco Camp",
+            altitude: "4200m - 4630m - 3960m",
+            distance: "7 Km",
+            time: "4-6 hours",
+            habitat: "Alpine Desert",
+            image: "/assets/images/Frame 61 (2).png",
+            description:
+              "From the Shira Plateau, we continue to the east up a ridge, passing the junction towards the peak of Kibo.",
+          },
+          {
+            day: 5,
+            title: "Barranco Camp to Karanga Camp",
+            altitude: "3960m - 4035m",
+            distance: "5 Km",
+            time: "4-5 hours",
+            habitat: "Alpine Desert",
+            image: "/assets/images/Frame 61 (3).png",
+            description:
+              "After breakfast, we leave Barranco and continue on a steep ridge passing the Barranco Wall, to the Karanga Valley campsite.",
+          },
+          {
+            day: 6,
+            title: "Karanga Camp to Barafu Camp",
+            altitude: "4035m - 4673m",
+            distance: "4 Km",
+            time: "4-5 hours",
+            habitat: "Alpine Desert",
+            image: "/assets/images/Frame 61 (4).png",
+            description:
+              "After breakfast, we leave Karanga and hit the junction which connects with the Mweka Trail.",
+          },
+          {
+            day: 7,
+            title: "Barafu Camp to Summit to Mweka Camp",
+            altitude: "4673m - 5895m - 3068m",
+            distance: "17 Km",
+            time: "12-16 hours",
+            habitat: "Arctic",
+            image: "/assets/images/Frame 61 (5).png",
+            description:
+              "Very early in the morning (midnight to 2am), we continue our way to the summit between the Rebmann and Ratzel glaciers.",
+          },
+          {
+            day: 8,
+            title: "Mweka Camp to Mweka Gate",
+            altitude: "3068m - 1640m",
+            distance: "10 Km",
+            time: "3-4 hours",
+            habitat: "Rain Forest",
+            image: "/assets/images/Frame 61 (6).png",
+            description:
+              "After breakfast, we continue the descent down to the Mweka Park Gate to receive your summit certificates.",
+          },
+        ],
+        pricing: [
+          { group: "1 person", price: 2200 },
+          { group: "2-4 people", price: 2000 },
+          { group: "5-7 people", price: 1950 },
+          { group: "8-10 people", price: 1850 },
+          { group: "11+ people", price: 1800 },
+        ],
+      },
+    },
+    image: "/placeholder.svg?height=400&width=800",
+    difficulty: "Moderate",
+    success_rate: "90%",
+    inclusions: [
+      "Pick-up and drop-off at Kilimanjaro International Airport",
+      "Transfer to and pick-up from the gate of Kilimanjaro National Park",
+      "All park fees collected by the Kilimanjaro National Park",
+      "Tented accommodation on Mount Kilimanjaro",
+    ],
+    exclusions: [
+      "Airline tickets",
+      "Accommodation before and after trekking",
+      "Visa fees",
+      "Personal gear rentals",
+    ],
+  },
+
+  "shira-route": {
+    name: "Shira Route",
+    nickname: "Wilderness Route",
+    hasMultipleDays: true,
+    variants: {
+      "7-days": {
+        duration: "7 Days",
+        tabDescription:
+          "The 7-day Lemosho route offers a more direct approach to the summit while still providing excellent scenery and good acclimatization. This route is perfect for experienced climbers who want to experience the wilderness beauty of Lemosho in a shorter timeframe.",
+        description:
+          "The 7-day Lemosho route is a condensed version of our most scenic trail, offering breathtaking views and excellent wildlife viewing opportunities. This route provides a perfect balance of challenge and beauty for experienced climbers.",
+        itinerary: [
+          {
+            day: 1,
+            title: "Londorossi Gate to Forest Camp",
+            altitude: "2100m - 2785m",
+            distance: "6 Km",
+            time: "3-4 hours",
+            habitat: "Rain Forest",
+            image: "/assets/images/Frame 61.png",
+            description:
+              "Drive to Londorossi Gate for registration and permits. Begin hiking through pristine forest with chances to see wildlife.",
+          },
+          {
+            day: 2,
+            title: "Forest Camp to Shira Camp 1",
+            altitude: "2785m - 3504m",
+            distance: "8 Km",
+            time: "5-6 hours",
+            habitat: "Heath",
+            image: "/assets/images/Frame 61 (1).png",
+            description:
+              "We continue on the trail leading out of the forest and into a savannah of tall grasses, heather, and volcanic rock draped with lichen beards.",
+          },
+          {
+            day: 3,
+            title: "Shira Camp 1 to Lava Tower to Barranco Camp",
+            altitude: "3504m - 4630m - 3960m",
+            distance: "10 Km",
+            time: "6-8 hours",
+            habitat: "Alpine Desert",
+            image: "/assets/images/Frame 61 (2).png",
+            description:
+              "From the Shira Plateau, we continue to the east up a ridge, passing the junction towards the peak of Kibo.",
+          },
+          {
+            day: 4,
+            title: "Barranco Camp to Karanga Camp",
+            altitude: "3960m - 4035m",
+            distance: "5 Km",
+            time: "4-5 hours",
+            habitat: "Alpine Desert",
+            image: "/assets/images/Frame 61 (3).png",
+            description:
+              "After breakfast, we leave Barranco and continue on a steep ridge passing the Barranco Wall, to the Karanga Valley campsite.",
+          },
+          {
+            day: 5,
+            title: "Karanga Camp to Barafu Camp",
+            altitude: "4035m - 4673m",
+            distance: "4 Km",
+            time: "4-5 hours",
+            habitat: "Alpine Desert",
+            image: "/assets/images/Frame 61 (4).png",
+            description:
+              "After breakfast, we leave Karanga and hit the junction which connects with the Mweka Trail.",
+          },
+          {
+            day: 6,
+            title: "Barafu Camp to Summit to Mweka Camp",
+            altitude: "4673m - 5895m - 3068m",
+            distance: "17 Km",
+            time: "12-16 hours",
+            habitat: "Arctic",
+            image: "/assets/images/Frame 61 (5).png",
+            description:
+              "Very early in the morning (midnight to 2am), we continue our way to the summit between the Rebmann and Ratzel glaciers.",
+          },
+          {
+            day: 7,
+            title: "Mweka Camp to Mweka Gate",
+            altitude: "3068m - 1640m",
+            distance: "10 Km",
+            time: "3-4 hours",
+            habitat: "Rain Forest",
+            image: "/assets/images/Frame 61 (6).png",
+            description:
+              "After breakfast, we continue the descent down to the Mweka Park Gate to receive your summit certificates.",
+          },
+        ],
+        pricing: [
+          { group: "1 person", price: 2000 },
+          { group: "2-4 people", price: 1850 },
+          { group: "5-7 people", price: 1800 },
+          { group: "8-10 people", price: 1700 },
+          { group: "11+ people", price: 1650 },
+        ],
+      },
+      "8-days": {
+        duration: "8 Days",
+        tabDescription:
+          "The 8-day Lemosho route is widely regarded as the most picturesque trail on Mount Kilimanjaro, offering breathtaking views from various angles. As one of the more recent trails, it is an excellent option for climbers. This route is particularly favored due to its perfect combination of minimal crowds, stunning landscapes, and a high success rate for reaching the summit.",
+        description:
+          "The Lemosho route is widely regarded as the most picturesque trail on Mount Kilimanjaro, offering breathtaking views from various angles. As one of the more recent trails, it is an excellent option for climbers. This route is particularly favored due to its perfect combination of minimal crowds, stunning landscapes, and a high success rate for reaching the summit.",
+        itinerary: [
+          {
+            day: 1,
+            title: "Londorossi Gate to Forest Camp",
+            altitude: "2100m - 2785m",
+            distance: "6 Km",
+            time: "3-4 hours",
+            habitat: "Rain Forest",
+            image: "/assets/images/Frame 61.png",
+            description:
+              "Drive to Londorossi Gate for registration and permits. Begin hiking through pristine forest with chances to see wildlife.",
+          },
+          {
+            day: 2,
+            title: "Forest Camp to Shira Camp 1",
+            altitude: "2785m - 3504m",
+            distance: "8 Km",
+            time: "5-6 hours",
+            habitat: "Heath",
+            image: "/assets/images/Frame 61 (1).png",
+            description:
+              "We continue on the trail leading out of the forest and into a savannah of tall grasses, heather, and volcanic rock draped with lichen beards.",
+          },
+          {
+            day: 3,
+            title: "Shira Camp 1 to Shira 2 to Moir Hut",
+            altitude: "3504m - 4200m",
+            distance: "14 Km",
+            time: "5-7 hours",
+            habitat: "Alpine Desert",
+            image: "/assets/images/Frame 61 (2).png",
+            description:
+              "We explore the Shira plateau for a full day. It is a gentle walk east toward Kibo's glaciered peak, across the plateau which leads to Shira 2 camp.",
+          },
+          {
+            day: 4,
+            title: "Moir Hut to Lava Tower to Barranco Camp",
+            altitude: "4200m - 4630m - 3960m",
+            distance: "7 Km",
+            time: "4-6 hours",
+            habitat: "Alpine Desert",
+            image: "/assets/images/Frame 61 (2).png",
+            description:
+              "From the Shira Plateau, we continue to the east up a ridge, passing the junction towards the peak of Kibo.",
+          },
+          {
+            day: 5,
+            title: "Barranco Camp to Karanga Camp",
+            altitude: "3960m - 4035m",
+            distance: "5 Km",
+            time: "4-5 hours",
+            habitat: "Alpine Desert",
+            image: "/assets/images/Frame 61 (3).png",
+            description:
+              "After breakfast, we leave Barranco and continue on a steep ridge passing the Barranco Wall, to the Karanga Valley campsite.",
+          },
+          {
+            day: 6,
+            title: "Karanga Camp to Barafu Camp",
+            altitude: "4035m - 4673m",
+            distance: "4 Km",
+            time: "4-5 hours",
+            habitat: "Alpine Desert",
+            image: "/assets/images/Frame 61 (4).png",
+            description:
+              "After breakfast, we leave Karanga and hit the junction which connects with the Mweka Trail.",
+          },
+          {
+            day: 7,
+            title: "Barafu Camp to Summit to Mweka Camp",
+            altitude: "4673m - 5895m - 3068m",
+            distance: "17 Km",
+            time: "12-16 hours",
+            habitat: "Arctic",
+            image: "/assets/images/Frame 61 (5).png",
+            description:
+              "Very early in the morning (midnight to 2am), we continue our way to the summit between the Rebmann and Ratzel glaciers.",
+          },
+          {
+            day: 8,
+            title: "Mweka Camp to Mweka Gate",
+            altitude: "3068m - 1640m",
+            distance: "10 Km",
+            time: "3-4 hours",
+            habitat: "Rain Forest",
+            image: "/assets/images/Frame 61 (6).png",
+            description:
+              "After breakfast, we continue the descent down to the Mweka Park Gate to receive your summit certificates.",
+          },
+        ],
+        pricing: [
+          { group: "1 person", price: 2200 },
+          { group: "2-4 people", price: 2000 },
+          { group: "5-7 people", price: 1950 },
+          { group: "8-10 people", price: 1850 },
+          { group: "11+ people", price: 1800 },
+        ],
+      },
+    },
+    image: "/placeholder.svg?height=400&width=800",
+    difficulty: "Moderate",
+    success_rate: "90%",
+    inclusions: [
+      "Pick-up and drop-off at Kilimanjaro International Airport",
+      "Transfer to and pick-up from the gate of Kilimanjaro National Park",
+      "All park fees collected by the Kilimanjaro National Park",
+      "Tented accommodation on Mount Kilimanjaro",
+    ],
+    exclusions: [
+      "Airline tickets",
+      "Accommodation before and after trekking",
+      "Visa fees",
+      "Personal gear rentals",
+    ],
+  },
+
+  "umbwe-route": {
+    name: "Umbwe Route",
+    nickname: "Wilderness Route",
+    hasMultipleDays: true,
+    variants: {
+      "7-days": {
+        duration: "7 Days",
+        tabDescription:
+          "The 7-day Lemosho route offers a more direct approach to the summit while still providing excellent scenery and good acclimatization. This route is perfect for experienced climbers who want to experience the wilderness beauty of Lemosho in a shorter timeframe.",
+        description:
+          "The 7-day Lemosho route is a condensed version of our most scenic trail, offering breathtaking views and excellent wildlife viewing opportunities. This route provides a perfect balance of challenge and beauty for experienced climbers.",
+        itinerary: [
+          {
+            day: 1,
+            title: "Londorossi Gate to Forest Camp",
+            altitude: "2100m - 2785m",
+            distance: "6 Km",
+            time: "3-4 hours",
+            habitat: "Rain Forest",
+            image: "/assets/images/Frame 61.png",
+            description:
+              "Drive to Londorossi Gate for registration and permits. Begin hiking through pristine forest with chances to see wildlife.",
+          },
+          {
+            day: 2,
+            title: "Forest Camp to Shira Camp 1",
+            altitude: "2785m - 3504m",
+            distance: "8 Km",
+            time: "5-6 hours",
+            habitat: "Heath",
+            image: "/assets/images/Frame 61 (1).png",
+            description:
+              "We continue on the trail leading out of the forest and into a savannah of tall grasses, heather, and volcanic rock draped with lichen beards.",
+          },
+          {
+            day: 3,
+            title: "Shira Camp 1 to Lava Tower to Barranco Camp",
+            altitude: "3504m - 4630m - 3960m",
+            distance: "10 Km",
+            time: "6-8 hours",
+            habitat: "Alpine Desert",
+            image: "/assets/images/Frame 61 (2).png",
+            description:
+              "From the Shira Plateau, we continue to the east up a ridge, passing the junction towards the peak of Kibo.",
+          },
+          {
+            day: 4,
+            title: "Barranco Camp to Karanga Camp",
+            altitude: "3960m - 4035m",
+            distance: "5 Km",
+            time: "4-5 hours",
+            habitat: "Alpine Desert",
+            image: "/assets/images/Frame 61 (3).png",
+            description:
+              "After breakfast, we leave Barranco and continue on a steep ridge passing the Barranco Wall, to the Karanga Valley campsite.",
+          },
+          {
+            day: 5,
+            title: "Karanga Camp to Barafu Camp",
+            altitude: "4035m - 4673m",
+            distance: "4 Km",
+            time: "4-5 hours",
+            habitat: "Alpine Desert",
+            image: "/assets/images/Frame 61 (4).png",
+            description:
+              "After breakfast, we leave Karanga and hit the junction which connects with the Mweka Trail.",
+          },
+          {
+            day: 6,
+            title: "Barafu Camp to Summit to Mweka Camp",
+            altitude: "4673m - 5895m - 3068m",
+            distance: "17 Km",
+            time: "12-16 hours",
+            habitat: "Arctic",
+            image: "/assets/images/Frame 61 (5).png",
+            description:
+              "Very early in the morning (midnight to 2am), we continue our way to the summit between the Rebmann and Ratzel glaciers.",
+          },
+          {
+            day: 7,
+            title: "Mweka Camp to Mweka Gate",
+            altitude: "3068m - 1640m",
+            distance: "10 Km",
+            time: "3-4 hours",
+            habitat: "Rain Forest",
+            image: "/assets/images/Frame 61 (6).png",
+            description:
+              "After breakfast, we continue the descent down to the Mweka Park Gate to receive your summit certificates.",
+          },
+        ],
+        pricing: [
+          { group: "1 person", price: 2000 },
+          { group: "2-4 people", price: 1850 },
+          { group: "5-7 people", price: 1800 },
+          { group: "8-10 people", price: 1700 },
+          { group: "11+ people", price: 1650 },
+        ],
+      },
+      "8-days": {
+        duration: "8 Days",
+        tabDescription:
+          "The 8-day Lemosho route is widely regarded as the most picturesque trail on Mount Kilimanjaro, offering breathtaking views from various angles. As one of the more recent trails, it is an excellent option for climbers. This route is particularly favored due to its perfect combination of minimal crowds, stunning landscapes, and a high success rate for reaching the summit.",
+        description:
+          "The Lemosho route is widely regarded as the most picturesque trail on Mount Kilimanjaro, offering breathtaking views from various angles. As one of the more recent trails, it is an excellent option for climbers. This route is particularly favored due to its perfect combination of minimal crowds, stunning landscapes, and a high success rate for reaching the summit.",
+        itinerary: [
+          {
+            day: 1,
+            title: "Londorossi Gate to Forest Camp",
+            altitude: "2100m - 2785m",
+            distance: "6 Km",
+            time: "3-4 hours",
+            habitat: "Rain Forest",
+            image: "/assets/images/Frame 61.png",
+            description:
+              "Drive to Londorossi Gate for registration and permits. Begin hiking through pristine forest with chances to see wildlife.",
+          },
+          {
+            day: 2,
+            title: "Forest Camp to Shira Camp 1",
+            altitude: "2785m - 3504m",
+            distance: "8 Km",
+            time: "5-6 hours",
+            habitat: "Heath",
+            image: "/assets/images/Frame 61 (1).png",
+            description:
+              "We continue on the trail leading out of the forest and into a savannah of tall grasses, heather, and volcanic rock draped with lichen beards.",
+          },
+          {
+            day: 3,
+            title: "Shira Camp 1 to Shira 2 to Moir Hut",
+            altitude: "3504m - 4200m",
+            distance: "14 Km",
+            time: "5-7 hours",
+            habitat: "Alpine Desert",
+            image: "/assets/images/Frame 61 (2).png",
+            description:
+              "We explore the Shira plateau for a full day. It is a gentle walk east toward Kibo's glaciered peak, across the plateau which leads to Shira 2 camp.",
+          },
+          {
+            day: 4,
+            title: "Moir Hut to Lava Tower to Barranco Camp",
+            altitude: "4200m - 4630m - 3960m",
+            distance: "7 Km",
+            time: "4-6 hours",
+            habitat: "Alpine Desert",
+            image: "/assets/images/Frame 61 (2).png",
+            description:
+              "From the Shira Plateau, we continue to the east up a ridge, passing the junction towards the peak of Kibo.",
+          },
+          {
+            day: 5,
+            title: "Barranco Camp to Karanga Camp",
+            altitude: "3960m - 4035m",
+            distance: "5 Km",
+            time: "4-5 hours",
+            habitat: "Alpine Desert",
+            image: "/assets/images/Frame 61 (3).png",
+            description:
+              "After breakfast, we leave Barranco and continue on a steep ridge passing the Barranco Wall, to the Karanga Valley campsite.",
+          },
+          {
+            day: 6,
+            title: "Karanga Camp to Barafu Camp",
+            altitude: "4035m - 4673m",
+            distance: "4 Km",
+            time: "4-5 hours",
+            habitat: "Alpine Desert",
+            image: "/assets/images/Frame 61 (4).png",
+            description:
+              "After breakfast, we leave Karanga and hit the junction which connects with the Mweka Trail.",
+          },
+          {
+            day: 7,
+            title: "Barafu Camp to Summit to Mweka Camp",
+            altitude: "4673m - 5895m - 3068m",
+            distance: "17 Km",
+            time: "12-16 hours",
+            habitat: "Arctic",
+            image: "/assets/images/Frame 61 (5).png",
+            description:
+              "Very early in the morning (midnight to 2am), we continue our way to the summit between the Rebmann and Ratzel glaciers.",
+          },
+          {
+            day: 8,
+            title: "Mweka Camp to Mweka Gate",
+            altitude: "3068m - 1640m",
+            distance: "10 Km",
+            time: "3-4 hours",
+            habitat: "Rain Forest",
+            image: "/assets/images/Frame 61 (6).png",
+            description:
+              "After breakfast, we continue the descent down to the Mweka Park Gate to receive your summit certificates.",
+          },
+        ],
+        pricing: [
+          { group: "1 person", price: 2200 },
+          { group: "2-4 people", price: 2000 },
+          { group: "5-7 people", price: 1950 },
+          { group: "8-10 people", price: 1850 },
+          { group: "11+ people", price: 1800 },
+        ],
+      },
+    },
+    image: "/placeholder.svg?height=400&width=800",
+    difficulty: "Moderate",
+    success_rate: "90%",
+    inclusions: [
+      "Pick-up and drop-off at Kilimanjaro International Airport",
+      "Transfer to and pick-up from the gate of Kilimanjaro National Park",
+      "All park fees collected by the Kilimanjaro National Park",
+      "Tented accommodation on Mount Kilimanjaro",
+    ],
+    exclusions: [
+      "Airline tickets",
+      "Accommodation before and after trekking",
+      "Visa fees",
+      "Personal gear rentals",
+    ],
+  },
+  "marangu-route": {
+    name: "Marangu Route",
+    nickname: "Wilderness Route",
+    hasMultipleDays: true,
+    variants: {
+      "7-days": {
+        duration: "7 Days",
+        tabDescription:
+          "The 7-day Lemosho route offers a more direct approach to the summit while still providing excellent scenery and good acclimatization. This route is perfect for experienced climbers who want to experience the wilderness beauty of Lemosho in a shorter timeframe.",
+        description:
+          "The 7-day Lemosho route is a condensed version of our most scenic trail, offering breathtaking views and excellent wildlife viewing opportunities. This route provides a perfect balance of challenge and beauty for experienced climbers.",
+        itinerary: [
+          {
+            day: 1,
+            title: "Londorossi Gate to Forest Camp",
+            altitude: "2100m - 2785m",
+            distance: "6 Km",
+            time: "3-4 hours",
+            habitat: "Rain Forest",
+            image: "/assets/images/Frame 61.png",
+            description:
+              "Drive to Londorossi Gate for registration and permits. Begin hiking through pristine forest with chances to see wildlife.",
+          },
+          {
+            day: 2,
+            title: "Forest Camp to Shira Camp 1",
+            altitude: "2785m - 3504m",
+            distance: "8 Km",
+            time: "5-6 hours",
+            habitat: "Heath",
+            image: "/assets/images/Frame 61 (1).png",
+            description:
+              "We continue on the trail leading out of the forest and into a savannah of tall grasses, heather, and volcanic rock draped with lichen beards.",
+          },
+          {
+            day: 3,
+            title: "Shira Camp 1 to Lava Tower to Barranco Camp",
+            altitude: "3504m - 4630m - 3960m",
+            distance: "10 Km",
+            time: "6-8 hours",
+            habitat: "Alpine Desert",
+            image: "/assets/images/Frame 61 (2).png",
+            description:
+              "From the Shira Plateau, we continue to the east up a ridge, passing the junction towards the peak of Kibo.",
+          },
+          {
+            day: 4,
+            title: "Barranco Camp to Karanga Camp",
+            altitude: "3960m - 4035m",
+            distance: "5 Km",
+            time: "4-5 hours",
+            habitat: "Alpine Desert",
+            image: "/assets/images/Frame 61 (3).png",
+            description:
+              "After breakfast, we leave Barranco and continue on a steep ridge passing the Barranco Wall, to the Karanga Valley campsite.",
+          },
+          {
+            day: 5,
+            title: "Karanga Camp to Barafu Camp",
+            altitude: "4035m - 4673m",
+            distance: "4 Km",
+            time: "4-5 hours",
+            habitat: "Alpine Desert",
+            image: "/assets/images/Frame 61 (4).png",
+            description:
+              "After breakfast, we leave Karanga and hit the junction which connects with the Mweka Trail.",
+          },
+          {
+            day: 6,
+            title: "Barafu Camp to Summit to Mweka Camp",
+            altitude: "4673m - 5895m - 3068m",
+            distance: "17 Km",
+            time: "12-16 hours",
+            habitat: "Arctic",
+            image: "/assets/images/Frame 61 (5).png",
+            description:
+              "Very early in the morning (midnight to 2am), we continue our way to the summit between the Rebmann and Ratzel glaciers.",
+          },
+          {
+            day: 7,
+            title: "Mweka Camp to Mweka Gate",
+            altitude: "3068m - 1640m",
+            distance: "10 Km",
+            time: "3-4 hours",
+            habitat: "Rain Forest",
+            image: "/assets/images/Frame 61 (6).png",
+            description:
+              "After breakfast, we continue the descent down to the Mweka Park Gate to receive your summit certificates.",
+          },
+        ],
+        pricing: [
+          { group: "1 person", price: 2000 },
+          { group: "2-4 people", price: 1850 },
+          { group: "5-7 people", price: 1800 },
+          { group: "8-10 people", price: 1700 },
+          { group: "11+ people", price: 1650 },
+        ],
+      },
+      "8-days": {
+        duration: "8 Days",
+        tabDescription:
+          "The 8-day Lemosho route is widely regarded as the most picturesque trail on Mount Kilimanjaro, offering breathtaking views from various angles. As one of the more recent trails, it is an excellent option for climbers. This route is particularly favored due to its perfect combination of minimal crowds, stunning landscapes, and a high success rate for reaching the summit.",
+        description:
+          "The Lemosho route is widely regarded as the most picturesque trail on Mount Kilimanjaro, offering breathtaking views from various angles. As one of the more recent trails, it is an excellent option for climbers. This route is particularly favored due to its perfect combination of minimal crowds, stunning landscapes, and a high success rate for reaching the summit.",
+        itinerary: [
+          {
+            day: 1,
+            title: "Londorossi Gate to Forest Camp",
+            altitude: "2100m - 2785m",
+            distance: "6 Km",
+            time: "3-4 hours",
+            habitat: "Rain Forest",
+            image: "/assets/images/Frame 61.png",
+            description:
+              "Drive to Londorossi Gate for registration and permits. Begin hiking through pristine forest with chances to see wildlife.",
+          },
+          {
+            day: 2,
+            title: "Forest Camp to Shira Camp 1",
+            altitude: "2785m - 3504m",
+            distance: "8 Km",
+            time: "5-6 hours",
+            habitat: "Heath",
+            image: "/assets/images/Frame 61 (1).png",
+            description:
+              "We continue on the trail leading out of the forest and into a savannah of tall grasses, heather, and volcanic rock draped with lichen beards.",
+          },
+          {
+            day: 3,
+            title: "Shira Camp 1 to Shira 2 to Moir Hut",
+            altitude: "3504m - 4200m",
+            distance: "14 Km",
+            time: "5-7 hours",
+            habitat: "Alpine Desert",
+            image: "/assets/images/Frame 61 (2).png",
+            description:
+              "We explore the Shira plateau for a full day. It is a gentle walk east toward Kibo's glaciered peak, across the plateau which leads to Shira 2 camp.",
+          },
+          {
+            day: 4,
+            title: "Moir Hut to Lava Tower to Barranco Camp",
+            altitude: "4200m - 4630m - 3960m",
+            distance: "7 Km",
+            time: "4-6 hours",
+            habitat: "Alpine Desert",
+            image: "/assets/images/Frame 61 (2).png",
+            description:
+              "From the Shira Plateau, we continue to the east up a ridge, passing the junction towards the peak of Kibo.",
+          },
+          {
+            day: 5,
+            title: "Barranco Camp to Karanga Camp",
+            altitude: "3960m - 4035m",
+            distance: "5 Km",
+            time: "4-5 hours",
+            habitat: "Alpine Desert",
+            image: "/assets/images/Frame 61 (3).png",
+            description:
+              "After breakfast, we leave Barranco and continue on a steep ridge passing the Barranco Wall, to the Karanga Valley campsite.",
+          },
+          {
+            day: 6,
+            title: "Karanga Camp to Barafu Camp",
+            altitude: "4035m - 4673m",
+            distance: "4 Km",
+            time: "4-5 hours",
+            habitat: "Alpine Desert",
+            image: "/assets/images/Frame 61 (4).png",
+            description:
+              "After breakfast, we leave Karanga and hit the junction which connects with the Mweka Trail.",
+          },
+          {
+            day: 7,
+            title: "Barafu Camp to Summit to Mweka Camp",
+            altitude: "4673m - 5895m - 3068m",
+            distance: "17 Km",
+            time: "12-16 hours",
+            habitat: "Arctic",
+            image: "/assets/images/Frame 61 (5).png",
+            description:
+              "Very early in the morning (midnight to 2am), we continue our way to the summit between the Rebmann and Ratzel glaciers.",
+          },
+          {
+            day: 8,
+            title: "Mweka Camp to Mweka Gate",
+            altitude: "3068m - 1640m",
+            distance: "10 Km",
+            time: "3-4 hours",
+            habitat: "Rain Forest",
+            image: "/assets/images/Frame 61 (6).png",
+            description:
+              "After breakfast, we continue the descent down to the Mweka Park Gate to receive your summit certificates.",
+          },
+        ],
+        pricing: [
+          { group: "1 person", price: 2200 },
+          { group: "2-4 people", price: 2000 },
+          { group: "5-7 people", price: 1950 },
+          { group: "8-10 people", price: 1850 },
+          { group: "11+ people", price: 1800 },
+        ],
+      },
+    },
+    image: "/placeholder.svg?height=400&width=800",
+    difficulty: "Moderate",
+    success_rate: "90%",
+    inclusions: [
+      "Pick-up and drop-off at Kilimanjaro International Airport",
+      "Transfer to and pick-up from the gate of Kilimanjaro National Park",
+      "All park fees collected by the Kilimanjaro National Park",
+      "Tented accommodation on Mount Kilimanjaro",
+    ],
+    exclusions: [
+      "Airline tickets",
+      "Accommodation before and after trekking",
+      "Visa fees",
+      "Personal gear rentals",
+    ],
+  },
+  "nothern-circuit": {
+    name: "Nothern Circuit Route",
+    nickname: "Wilderness Route",
+    hasMultipleDays: true,
+    variants: {
+      "7-days": {
+        duration: "7 Days",
+        tabDescription:
+          "The 7-day Lemosho route offers a more direct approach to the summit while still providing excellent scenery and good acclimatization. This route is perfect for experienced climbers who want to experience the wilderness beauty of Lemosho in a shorter timeframe.",
+        description:
+          "The 7-day Lemosho route is a condensed version of our most scenic trail, offering breathtaking views and excellent wildlife viewing opportunities. This route provides a perfect balance of challenge and beauty for experienced climbers.",
+        itinerary: [
+          {
+            day: 1,
+            title: "Londorossi Gate to Forest Camp",
+            altitude: "2100m - 2785m",
+            distance: "6 Km",
+            time: "3-4 hours",
+            habitat: "Rain Forest",
+            image: "/assets/images/Frame 61.png",
+            description:
+              "Drive to Londorossi Gate for registration and permits. Begin hiking through pristine forest with chances to see wildlife.",
+          },
+          {
+            day: 2,
+            title: "Forest Camp to Shira Camp 1",
+            altitude: "2785m - 3504m",
+            distance: "8 Km",
+            time: "5-6 hours",
+            habitat: "Heath",
+            image: "/assets/images/Frame 61 (1).png",
+            description:
+              "We continue on the trail leading out of the forest and into a savannah of tall grasses, heather, and volcanic rock draped with lichen beards.",
+          },
+          {
+            day: 3,
+            title: "Shira Camp 1 to Lava Tower to Barranco Camp",
+            altitude: "3504m - 4630m - 3960m",
+            distance: "10 Km",
+            time: "6-8 hours",
+            habitat: "Alpine Desert",
+            image: "/assets/images/Frame 61 (2).png",
+            description:
+              "From the Shira Plateau, we continue to the east up a ridge, passing the junction towards the peak of Kibo.",
+          },
+          {
+            day: 4,
+            title: "Barranco Camp to Karanga Camp",
+            altitude: "3960m - 4035m",
+            distance: "5 Km",
+            time: "4-5 hours",
+            habitat: "Alpine Desert",
+            image: "/assets/images/Frame 61 (3).png",
+            description:
+              "After breakfast, we leave Barranco and continue on a steep ridge passing the Barranco Wall, to the Karanga Valley campsite.",
+          },
+          {
+            day: 5,
+            title: "Karanga Camp to Barafu Camp",
+            altitude: "4035m - 4673m",
+            distance: "4 Km",
+            time: "4-5 hours",
+            habitat: "Alpine Desert",
+            image: "/assets/images/Frame 61 (4).png",
+            description:
+              "After breakfast, we leave Karanga and hit the junction which connects with the Mweka Trail.",
+          },
+          {
+            day: 6,
+            title: "Barafu Camp to Summit to Mweka Camp",
+            altitude: "4673m - 5895m - 3068m",
+            distance: "17 Km",
+            time: "12-16 hours",
+            habitat: "Arctic",
+            image: "/assets/images/Frame 61 (5).png",
+            description:
+              "Very early in the morning (midnight to 2am), we continue our way to the summit between the Rebmann and Ratzel glaciers.",
+          },
+          {
+            day: 7,
+            title: "Mweka Camp to Mweka Gate",
+            altitude: "3068m - 1640m",
+            distance: "10 Km",
+            time: "3-4 hours",
+            habitat: "Rain Forest",
+            image: "/assets/images/Frame 61 (6).png",
+            description:
+              "After breakfast, we continue the descent down to the Mweka Park Gate to receive your summit certificates.",
+          },
+        ],
+        pricing: [
+          { group: "1 person", price: 2000 },
+          { group: "2-4 people", price: 1850 },
+          { group: "5-7 people", price: 1800 },
+          { group: "8-10 people", price: 1700 },
+          { group: "11+ people", price: 1650 },
+        ],
+      },
+      "8-days": {
+        duration: "8 Days",
+        tabDescription:
+          "The 8-day Lemosho route is widely regarded as the most picturesque trail on Mount Kilimanjaro, offering breathtaking views from various angles. As one of the more recent trails, it is an excellent option for climbers. This route is particularly favored due to its perfect combination of minimal crowds, stunning landscapes, and a high success rate for reaching the summit.",
+        description:
+          "The Lemosho route is widely regarded as the most picturesque trail on Mount Kilimanjaro, offering breathtaking views from various angles. As one of the more recent trails, it is an excellent option for climbers. This route is particularly favored due to its perfect combination of minimal crowds, stunning landscapes, and a high success rate for reaching the summit.",
+        itinerary: [
+          {
+            day: 1,
+            title: "Londorossi Gate to Forest Camp",
+            altitude: "2100m - 2785m",
+            distance: "6 Km",
+            time: "3-4 hours",
+            habitat: "Rain Forest",
+            image: "/assets/images/Frame 61.png",
+            description:
+              "Drive to Londorossi Gate for registration and permits. Begin hiking through pristine forest with chances to see wildlife.",
+          },
+          {
+            day: 2,
+            title: "Forest Camp to Shira Camp 1",
+            altitude: "2785m - 3504m",
+            distance: "8 Km",
+            time: "5-6 hours",
+            habitat: "Heath",
+            image: "/assets/images/Frame 61 (1).png",
+            description:
+              "We continue on the trail leading out of the forest and into a savannah of tall grasses, heather, and volcanic rock draped with lichen beards.",
+          },
+          {
+            day: 3,
+            title: "Shira Camp 1 to Shira 2 to Moir Hut",
+            altitude: "3504m - 4200m",
+            distance: "14 Km",
+            time: "5-7 hours",
+            habitat: "Alpine Desert",
+            image: "/assets/images/Frame 61 (2).png",
+            description:
+              "We explore the Shira plateau for a full day. It is a gentle walk east toward Kibo's glaciered peak, across the plateau which leads to Shira 2 camp.",
+          },
+          {
+            day: 4,
+            title: "Moir Hut to Lava Tower to Barranco Camp",
+            altitude: "4200m - 4630m - 3960m",
+            distance: "7 Km",
+            time: "4-6 hours",
+            habitat: "Alpine Desert",
+            image: "/assets/images/Frame 61 (2).png",
+            description:
+              "From the Shira Plateau, we continue to the east up a ridge, passing the junction towards the peak of Kibo.",
+          },
+          {
+            day: 5,
+            title: "Barranco Camp to Karanga Camp",
+            altitude: "3960m - 4035m",
+            distance: "5 Km",
+            time: "4-5 hours",
+            habitat: "Alpine Desert",
+            image: "/assets/images/Frame 61 (3).png",
+            description:
+              "After breakfast, we leave Barranco and continue on a steep ridge passing the Barranco Wall, to the Karanga Valley campsite.",
+          },
+          {
+            day: 6,
+            title: "Karanga Camp to Barafu Camp",
+            altitude: "4035m - 4673m",
+            distance: "4 Km",
+            time: "4-5 hours",
+            habitat: "Alpine Desert",
+            image: "/assets/images/Frame 61 (4).png",
+            description:
+              "After breakfast, we leave Karanga and hit the junction which connects with the Mweka Trail.",
+          },
+          {
+            day: 7,
+            title: "Barafu Camp to Summit to Mweka Camp",
+            altitude: "4673m - 5895m - 3068m",
+            distance: "17 Km",
+            time: "12-16 hours",
+            habitat: "Arctic",
+            image: "/assets/images/Frame 61 (5).png",
+            description:
+              "Very early in the morning (midnight to 2am), we continue our way to the summit between the Rebmann and Ratzel glaciers.",
+          },
+          {
+            day: 8,
+            title: "Mweka Camp to Mweka Gate",
+            altitude: "3068m - 1640m",
+            distance: "10 Km",
+            time: "3-4 hours",
+            habitat: "Rain Forest",
+            image: "/assets/images/Frame 61 (6).png",
+            description:
+              "After breakfast, we continue the descent down to the Mweka Park Gate to receive your summit certificates.",
+          },
+        ],
+        pricing: [
+          { group: "1 person", price: 2200 },
+          { group: "2-4 people", price: 2000 },
+          { group: "5-7 people", price: 1950 },
+          { group: "8-10 people", price: 1850 },
+          { group: "11+ people", price: 1800 },
+        ],
+      },
+    },
+    image: "/placeholder.svg?height=400&width=800",
+    difficulty: "Moderate",
+    success_rate: "90%",
+    inclusions: [
+      "Pick-up and drop-off at Kilimanjaro International Airport",
+      "Transfer to and pick-up from the gate of Kilimanjaro National Park",
+      "All park fees collected by the Kilimanjaro National Park",
+      "Tented accommodation on Mount Kilimanjaro",
+    ],
+    exclusions: [
+      "Airline tickets",
+      "Accommodation before and after trekking",
+      "Visa fees",
+      "Personal gear rentals",
+    ],
+  },
+
   // Destination routes (no tabs, single duration)
   "mikumi-national-park": {
     name: "Mikumi National Park",
@@ -526,6 +1624,853 @@ const routeData = {
 
   "serengeti-national-park": {
     name: "Serengeti National Park",
+    hasMultipleDays: false,
+    duration: "4 Days",
+    tabDescription:
+      "The Serengeti National Park is undoubtedly the best-known wildlife sanctuary in the world, unequalled for its natural beauty and scientific value. It has the greatest concentration of plains game in Africa and is famous for the annual Great Migration of wildebeest and zebra.",
+    description:
+      "The Serengeti National Park is undoubtedly the best-known wildlife sanctuary in the world, unequalled for its natural beauty and scientific value. It has the greatest concentration of plains game in Africa and is famous for the annual Great Migration.",
+    image: "/placeholder.svg?height=400&width=800",
+    difficulty: "Easy",
+    success_rate: "100%",
+    itinerary: [
+      {
+        day: 1,
+        title: "Arusha to Serengeti National Park",
+        altitude: "1400m - 1500m",
+        distance: "335 Km",
+        time: "6-7 hours",
+        habitat: "Savannah",
+        image: "/assets/images/Frame 60.png",
+        description:
+          "Depart from Arusha and drive to Serengeti National Park via Ngorongoro Conservation Area. Enjoy game drive en route and arrive at your accommodation for dinner and overnight.",
+      },
+      {
+        day: 2,
+        title: "Full Day Serengeti Game Drive",
+        altitude: "1500m",
+        distance: "200 Km",
+        time: "8-10 hours",
+        habitat: "Savannah",
+        image: "/assets/images/Frame 60.png",
+        description:
+          "Full day game drive in Serengeti National Park. The park is famous for its annual migration of over 1.5 million white-bearded wildebeest and 250,000 zebra.",
+      },
+      {
+        day: 3,
+        title: "Serengeti to Ngorongoro",
+        altitude: "1500m - 2300m",
+        distance: "145 Km",
+        time: "4-5 hours",
+        habitat: "Highland",
+        image: "/assets/images/Frame 60.png",
+        description:
+          "Morning game drive in Serengeti then drive to Ngorongoro Conservation Area. Arrive at your lodge on the crater rim for dinner and overnight.",
+      },
+      {
+        day: 4,
+        title: "Ngorongoro Crater to Arusha",
+        altitude: "2300m - 1600m - 1400m",
+        distance: "210 Km",
+        time: "6-7 hours",
+        habitat: "Crater Floor",
+        image: "/assets/images/Frame 60.png",
+        description:
+          "Early morning descent into Ngorongoro Crater for game drive. Afternoon drive back to Arusha arriving in the evening.",
+      },
+    ],
+    pricing: [
+      { group: "1 person", price: 1500 },
+      { group: "2-4 people", price: 1200 },
+      { group: "5-7 people", price: 1100 },
+      { group: "8-10 people", price: 1000 },
+      { group: "11+ people", price: 950 },
+    ],
+    inclusions: [
+      "Transportation in 4WD safari vehicle",
+      "Professional safari guide",
+      "All park fees and government taxes",
+      "Accommodation as specified",
+    ],
+    exclusions: [
+      "International flights",
+      "Visa fees",
+      "Travel insurance",
+      "Personal expenses",
+    ],
+  },
+  "arusha-national-park": {
+    name: "Arusha National Park",
+    hasMultipleDays: false,
+    duration: "4 Days",
+    tabDescription:
+      "The Serengeti National Park is undoubtedly the best-known wildlife sanctuary in the world, unequalled for its natural beauty and scientific value. It has the greatest concentration of plains game in Africa and is famous for the annual Great Migration of wildebeest and zebra.",
+    description:
+      "The Serengeti National Park is undoubtedly the best-known wildlife sanctuary in the world, unequalled for its natural beauty and scientific value. It has the greatest concentration of plains game in Africa and is famous for the annual Great Migration.",
+    image: "/placeholder.svg?height=400&width=800",
+    difficulty: "Easy",
+    success_rate: "100%",
+    itinerary: [
+      {
+        day: 1,
+        title: "Arusha to Serengeti National Park",
+        altitude: "1400m - 1500m",
+        distance: "335 Km",
+        time: "6-7 hours",
+        habitat: "Savannah",
+        image: "/assets/images/Frame 60.png",
+        description:
+          "Depart from Arusha and drive to Serengeti National Park via Ngorongoro Conservation Area. Enjoy game drive en route and arrive at your accommodation for dinner and overnight.",
+      },
+      {
+        day: 2,
+        title: "Full Day Serengeti Game Drive",
+        altitude: "1500m",
+        distance: "200 Km",
+        time: "8-10 hours",
+        habitat: "Savannah",
+        image: "/assets/images/Frame 60.png",
+        description:
+          "Full day game drive in Serengeti National Park. The park is famous for its annual migration of over 1.5 million white-bearded wildebeest and 250,000 zebra.",
+      },
+      {
+        day: 3,
+        title: "Serengeti to Ngorongoro",
+        altitude: "1500m - 2300m",
+        distance: "145 Km",
+        time: "4-5 hours",
+        habitat: "Highland",
+        image: "/assets/images/Frame 60.png",
+        description:
+          "Morning game drive in Serengeti then drive to Ngorongoro Conservation Area. Arrive at your lodge on the crater rim for dinner and overnight.",
+      },
+      {
+        day: 4,
+        title: "Ngorongoro Crater to Arusha",
+        altitude: "2300m - 1600m - 1400m",
+        distance: "210 Km",
+        time: "6-7 hours",
+        habitat: "Crater Floor",
+        image: "/assets/images/Frame 60.png",
+        description:
+          "Early morning descent into Ngorongoro Crater for game drive. Afternoon drive back to Arusha arriving in the evening.",
+      },
+    ],
+    pricing: [
+      { group: "1 person", price: 1500 },
+      { group: "2-4 people", price: 1200 },
+      { group: "5-7 people", price: 1100 },
+      { group: "8-10 people", price: 1000 },
+      { group: "11+ people", price: 950 },
+    ],
+    inclusions: [
+      "Transportation in 4WD safari vehicle",
+      "Professional safari guide",
+      "All park fees and government taxes",
+      "Accommodation as specified",
+    ],
+    exclusions: [
+      "International flights",
+      "Visa fees",
+      "Travel insurance",
+      "Personal expenses",
+    ],
+  },
+  "tarangire-national-park": {
+    name: "Tarangire National Park",
+    hasMultipleDays: false,
+    duration: "4 Days",
+    tabDescription:
+      "The Serengeti National Park is undoubtedly the best-known wildlife sanctuary in the world, unequalled for its natural beauty and scientific value. It has the greatest concentration of plains game in Africa and is famous for the annual Great Migration of wildebeest and zebra.",
+    description:
+      "The Serengeti National Park is undoubtedly the best-known wildlife sanctuary in the world, unequalled for its natural beauty and scientific value. It has the greatest concentration of plains game in Africa and is famous for the annual Great Migration.",
+    image: "/placeholder.svg?height=400&width=800",
+    difficulty: "Easy",
+    success_rate: "100%",
+    itinerary: [
+      {
+        day: 1,
+        title: "Arusha to Serengeti National Park",
+        altitude: "1400m - 1500m",
+        distance: "335 Km",
+        time: "6-7 hours",
+        habitat: "Savannah",
+        image: "/assets/images/Frame 60.png",
+        description:
+          "Depart from Arusha and drive to Serengeti National Park via Ngorongoro Conservation Area. Enjoy game drive en route and arrive at your accommodation for dinner and overnight.",
+      },
+      {
+        day: 2,
+        title: "Full Day Serengeti Game Drive",
+        altitude: "1500m",
+        distance: "200 Km",
+        time: "8-10 hours",
+        habitat: "Savannah",
+        image: "/assets/images/Frame 60.png",
+        description:
+          "Full day game drive in Serengeti National Park. The park is famous for its annual migration of over 1.5 million white-bearded wildebeest and 250,000 zebra.",
+      },
+      {
+        day: 3,
+        title: "Serengeti to Ngorongoro",
+        altitude: "1500m - 2300m",
+        distance: "145 Km",
+        time: "4-5 hours",
+        habitat: "Highland",
+        image: "/assets/images/Frame 60.png",
+        description:
+          "Morning game drive in Serengeti then drive to Ngorongoro Conservation Area. Arrive at your lodge on the crater rim for dinner and overnight.",
+      },
+      {
+        day: 4,
+        title: "Ngorongoro Crater to Arusha",
+        altitude: "2300m - 1600m - 1400m",
+        distance: "210 Km",
+        time: "6-7 hours",
+        habitat: "Crater Floor",
+        image: "/assets/images/Frame 60.png",
+        description:
+          "Early morning descent into Ngorongoro Crater for game drive. Afternoon drive back to Arusha arriving in the evening.",
+      },
+    ],
+    pricing: [
+      { group: "1 person", price: 1500 },
+      { group: "2-4 people", price: 1200 },
+      { group: "5-7 people", price: 1100 },
+      { group: "8-10 people", price: 1000 },
+      { group: "11+ people", price: 950 },
+    ],
+    inclusions: [
+      "Transportation in 4WD safari vehicle",
+      "Professional safari guide",
+      "All park fees and government taxes",
+      "Accommodation as specified",
+    ],
+    exclusions: [
+      "International flights",
+      "Visa fees",
+      "Travel insurance",
+      "Personal expenses",
+    ],
+  },
+  "lake-manyara-national-park": {
+    name: "Lake Manyara National Park",
+    hasMultipleDays: false,
+    duration: "4 Days",
+    tabDescription:
+      "The Serengeti National Park is undoubtedly the best-known wildlife sanctuary in the world, unequalled for its natural beauty and scientific value. It has the greatest concentration of plains game in Africa and is famous for the annual Great Migration of wildebeest and zebra.",
+    description:
+      "The Serengeti National Park is undoubtedly the best-known wildlife sanctuary in the world, unequalled for its natural beauty and scientific value. It has the greatest concentration of plains game in Africa and is famous for the annual Great Migration.",
+    image: "/placeholder.svg?height=400&width=800",
+    difficulty: "Easy",
+    success_rate: "100%",
+    itinerary: [
+      {
+        day: 1,
+        title: "Arusha to Serengeti National Park",
+        altitude: "1400m - 1500m",
+        distance: "335 Km",
+        time: "6-7 hours",
+        habitat: "Savannah",
+        image: "/assets/images/Frame 60.png",
+        description:
+          "Depart from Arusha and drive to Serengeti National Park via Ngorongoro Conservation Area. Enjoy game drive en route and arrive at your accommodation for dinner and overnight.",
+      },
+      {
+        day: 2,
+        title: "Full Day Serengeti Game Drive",
+        altitude: "1500m",
+        distance: "200 Km",
+        time: "8-10 hours",
+        habitat: "Savannah",
+        image: "/assets/images/Frame 60.png",
+        description:
+          "Full day game drive in Serengeti National Park. The park is famous for its annual migration of over 1.5 million white-bearded wildebeest and 250,000 zebra.",
+      },
+      {
+        day: 3,
+        title: "Serengeti to Ngorongoro",
+        altitude: "1500m - 2300m",
+        distance: "145 Km",
+        time: "4-5 hours",
+        habitat: "Highland",
+        image: "/assets/images/Frame 60.png",
+        description:
+          "Morning game drive in Serengeti then drive to Ngorongoro Conservation Area. Arrive at your lodge on the crater rim for dinner and overnight.",
+      },
+      {
+        day: 4,
+        title: "Ngorongoro Crater to Arusha",
+        altitude: "2300m - 1600m - 1400m",
+        distance: "210 Km",
+        time: "6-7 hours",
+        habitat: "Crater Floor",
+        image: "/assets/images/Frame 60.png",
+        description:
+          "Early morning descent into Ngorongoro Crater for game drive. Afternoon drive back to Arusha arriving in the evening.",
+      },
+    ],
+    pricing: [
+      { group: "1 person", price: 1500 },
+      { group: "2-4 people", price: 1200 },
+      { group: "5-7 people", price: 1100 },
+      { group: "8-10 people", price: 1000 },
+      { group: "11+ people", price: 950 },
+    ],
+    inclusions: [
+      "Transportation in 4WD safari vehicle",
+      "Professional safari guide",
+      "All park fees and government taxes",
+      "Accommodation as specified",
+    ],
+    exclusions: [
+      "International flights",
+      "Visa fees",
+      "Travel insurance",
+      "Personal expenses",
+    ],
+  },
+  "ngorongoro-national-park": {
+    name: "Ngorongoro National Park",
+    hasMultipleDays: false,
+    duration: "4 Days",
+    tabDescription:
+      "The Serengeti National Park is undoubtedly the best-known wildlife sanctuary in the world, unequalled for its natural beauty and scientific value. It has the greatest concentration of plains game in Africa and is famous for the annual Great Migration of wildebeest and zebra.",
+    description:
+      "The Serengeti National Park is undoubtedly the best-known wildlife sanctuary in the world, unequalled for its natural beauty and scientific value. It has the greatest concentration of plains game in Africa and is famous for the annual Great Migration.",
+    image: "/placeholder.svg?height=400&width=800",
+    difficulty: "Easy",
+    success_rate: "100%",
+    itinerary: [
+      {
+        day: 1,
+        title: "Arusha to Serengeti National Park",
+        altitude: "1400m - 1500m",
+        distance: "335 Km",
+        time: "6-7 hours",
+        habitat: "Savannah",
+        image: "/assets/images/Frame 60.png",
+        description:
+          "Depart from Arusha and drive to Serengeti National Park via Ngorongoro Conservation Area. Enjoy game drive en route and arrive at your accommodation for dinner and overnight.",
+      },
+      {
+        day: 2,
+        title: "Full Day Serengeti Game Drive",
+        altitude: "1500m",
+        distance: "200 Km",
+        time: "8-10 hours",
+        habitat: "Savannah",
+        image: "/assets/images/Frame 60.png",
+        description:
+          "Full day game drive in Serengeti National Park. The park is famous for its annual migration of over 1.5 million white-bearded wildebeest and 250,000 zebra.",
+      },
+      {
+        day: 3,
+        title: "Serengeti to Ngorongoro",
+        altitude: "1500m - 2300m",
+        distance: "145 Km",
+        time: "4-5 hours",
+        habitat: "Highland",
+        image: "/assets/images/Frame 60.png",
+        description:
+          "Morning game drive in Serengeti then drive to Ngorongoro Conservation Area. Arrive at your lodge on the crater rim for dinner and overnight.",
+      },
+      {
+        day: 4,
+        title: "Ngorongoro Crater to Arusha",
+        altitude: "2300m - 1600m - 1400m",
+        distance: "210 Km",
+        time: "6-7 hours",
+        habitat: "Crater Floor",
+        image: "/assets/images/Frame 60.png",
+        description:
+          "Early morning descent into Ngorongoro Crater for game drive. Afternoon drive back to Arusha arriving in the evening.",
+      },
+    ],
+    pricing: [
+      { group: "1 person", price: 1500 },
+      { group: "2-4 people", price: 1200 },
+      { group: "5-7 people", price: 1100 },
+      { group: "8-10 people", price: 1000 },
+      { group: "11+ people", price: 950 },
+    ],
+    inclusions: [
+      "Transportation in 4WD safari vehicle",
+      "Professional safari guide",
+      "All park fees and government taxes",
+      "Accommodation as specified",
+    ],
+    exclusions: [
+      "International flights",
+      "Visa fees",
+      "Travel insurance",
+      "Personal expenses",
+    ],
+  },
+  "mkomazi-national-park": {
+    name: "Mkomazi National Park",
+    hasMultipleDays: false,
+    duration: "4 Days",
+    tabDescription:
+      "The Serengeti National Park is undoubtedly the best-known wildlife sanctuary in the world, unequalled for its natural beauty and scientific value. It has the greatest concentration of plains game in Africa and is famous for the annual Great Migration of wildebeest and zebra.",
+    description:
+      "The Serengeti National Park is undoubtedly the best-known wildlife sanctuary in the world, unequalled for its natural beauty and scientific value. It has the greatest concentration of plains game in Africa and is famous for the annual Great Migration.",
+    image: "/placeholder.svg?height=400&width=800",
+    difficulty: "Easy",
+    success_rate: "100%",
+    itinerary: [
+      {
+        day: 1,
+        title: "Arusha to Serengeti National Park",
+        altitude: "1400m - 1500m",
+        distance: "335 Km",
+        time: "6-7 hours",
+        habitat: "Savannah",
+        image: "/assets/images/Frame 60.png",
+        description:
+          "Depart from Arusha and drive to Serengeti National Park via Ngorongoro Conservation Area. Enjoy game drive en route and arrive at your accommodation for dinner and overnight.",
+      },
+      {
+        day: 2,
+        title: "Full Day Serengeti Game Drive",
+        altitude: "1500m",
+        distance: "200 Km",
+        time: "8-10 hours",
+        habitat: "Savannah",
+        image: "/assets/images/Frame 60.png",
+        description:
+          "Full day game drive in Serengeti National Park. The park is famous for its annual migration of over 1.5 million white-bearded wildebeest and 250,000 zebra.",
+      },
+      {
+        day: 3,
+        title: "Serengeti to Ngorongoro",
+        altitude: "1500m - 2300m",
+        distance: "145 Km",
+        time: "4-5 hours",
+        habitat: "Highland",
+        image: "/assets/images/Frame 60.png",
+        description:
+          "Morning game drive in Serengeti then drive to Ngorongoro Conservation Area. Arrive at your lodge on the crater rim for dinner and overnight.",
+      },
+      {
+        day: 4,
+        title: "Ngorongoro Crater to Arusha",
+        altitude: "2300m - 1600m - 1400m",
+        distance: "210 Km",
+        time: "6-7 hours",
+        habitat: "Crater Floor",
+        image: "/assets/images/Frame 60.png",
+        description:
+          "Early morning descent into Ngorongoro Crater for game drive. Afternoon drive back to Arusha arriving in the evening.",
+      },
+    ],
+    pricing: [
+      { group: "1 person", price: 1500 },
+      { group: "2-4 people", price: 1200 },
+      { group: "5-7 people", price: 1100 },
+      { group: "8-10 people", price: 1000 },
+      { group: "11+ people", price: 950 },
+    ],
+    inclusions: [
+      "Transportation in 4WD safari vehicle",
+      "Professional safari guide",
+      "All park fees and government taxes",
+      "Accommodation as specified",
+    ],
+    exclusions: [
+      "International flights",
+      "Visa fees",
+      "Travel insurance",
+      "Personal expenses",
+    ],
+  },
+  "saadani-national-park": {
+    name: "Saadani National Park",
+    hasMultipleDays: false,
+    duration: "4 Days",
+    tabDescription:
+      "The Serengeti National Park is undoubtedly the best-known wildlife sanctuary in the world, unequalled for its natural beauty and scientific value. It has the greatest concentration of plains game in Africa and is famous for the annual Great Migration of wildebeest and zebra.",
+    description:
+      "The Serengeti National Park is undoubtedly the best-known wildlife sanctuary in the world, unequalled for its natural beauty and scientific value. It has the greatest concentration of plains game in Africa and is famous for the annual Great Migration.",
+    image: "/placeholder.svg?height=400&width=800",
+    difficulty: "Easy",
+    success_rate: "100%",
+    itinerary: [
+      {
+        day: 1,
+        title: "Arusha to Serengeti National Park",
+        altitude: "1400m - 1500m",
+        distance: "335 Km",
+        time: "6-7 hours",
+        habitat: "Savannah",
+        image: "/assets/images/Frame 60.png",
+        description:
+          "Depart from Arusha and drive to Serengeti National Park via Ngorongoro Conservation Area. Enjoy game drive en route and arrive at your accommodation for dinner and overnight.",
+      },
+      {
+        day: 2,
+        title: "Full Day Serengeti Game Drive",
+        altitude: "1500m",
+        distance: "200 Km",
+        time: "8-10 hours",
+        habitat: "Savannah",
+        image: "/assets/images/Frame 60.png",
+        description:
+          "Full day game drive in Serengeti National Park. The park is famous for its annual migration of over 1.5 million white-bearded wildebeest and 250,000 zebra.",
+      },
+      {
+        day: 3,
+        title: "Serengeti to Ngorongoro",
+        altitude: "1500m - 2300m",
+        distance: "145 Km",
+        time: "4-5 hours",
+        habitat: "Highland",
+        image: "/assets/images/Frame 60.png",
+        description:
+          "Morning game drive in Serengeti then drive to Ngorongoro Conservation Area. Arrive at your lodge on the crater rim for dinner and overnight.",
+      },
+      {
+        day: 4,
+        title: "Ngorongoro Crater to Arusha",
+        altitude: "2300m - 1600m - 1400m",
+        distance: "210 Km",
+        time: "6-7 hours",
+        habitat: "Crater Floor",
+        image: "/assets/images/Frame 60.png",
+        description:
+          "Early morning descent into Ngorongoro Crater for game drive. Afternoon drive back to Arusha arriving in the evening.",
+      },
+    ],
+    pricing: [
+      { group: "1 person", price: 1500 },
+      { group: "2-4 people", price: 1200 },
+      { group: "5-7 people", price: 1100 },
+      { group: "8-10 people", price: 1000 },
+      { group: "11+ people", price: 950 },
+    ],
+    inclusions: [
+      "Transportation in 4WD safari vehicle",
+      "Professional safari guide",
+      "All park fees and government taxes",
+      "Accommodation as specified",
+    ],
+    exclusions: [
+      "International flights",
+      "Visa fees",
+      "Travel insurance",
+      "Personal expenses",
+    ],
+  },
+  "nyerere-national-park": {
+    name: "Nyerere National Park",
+    hasMultipleDays: false,
+    duration: "4 Days",
+    tabDescription:
+      "The Serengeti National Park is undoubtedly the best-known wildlife sanctuary in the world, unequalled for its natural beauty and scientific value. It has the greatest concentration of plains game in Africa and is famous for the annual Great Migration of wildebeest and zebra.",
+    description:
+      "The Serengeti National Park is undoubtedly the best-known wildlife sanctuary in the world, unequalled for its natural beauty and scientific value. It has the greatest concentration of plains game in Africa and is famous for the annual Great Migration.",
+    image: "/placeholder.svg?height=400&width=800",
+    difficulty: "Easy",
+    success_rate: "100%",
+    itinerary: [
+      {
+        day: 1,
+        title: "Arusha to Serengeti National Park",
+        altitude: "1400m - 1500m",
+        distance: "335 Km",
+        time: "6-7 hours",
+        habitat: "Savannah",
+        image: "/assets/images/Frame 60.png",
+        description:
+          "Depart from Arusha and drive to Serengeti National Park via Ngorongoro Conservation Area. Enjoy game drive en route and arrive at your accommodation for dinner and overnight.",
+      },
+      {
+        day: 2,
+        title: "Full Day Serengeti Game Drive",
+        altitude: "1500m",
+        distance: "200 Km",
+        time: "8-10 hours",
+        habitat: "Savannah",
+        image: "/assets/images/Frame 60.png",
+        description:
+          "Full day game drive in Serengeti National Park. The park is famous for its annual migration of over 1.5 million white-bearded wildebeest and 250,000 zebra.",
+      },
+      {
+        day: 3,
+        title: "Serengeti to Ngorongoro",
+        altitude: "1500m - 2300m",
+        distance: "145 Km",
+        time: "4-5 hours",
+        habitat: "Highland",
+        image: "/assets/images/Frame 60.png",
+        description:
+          "Morning game drive in Serengeti then drive to Ngorongoro Conservation Area. Arrive at your lodge on the crater rim for dinner and overnight.",
+      },
+      {
+        day: 4,
+        title: "Ngorongoro Crater to Arusha",
+        altitude: "2300m - 1600m - 1400m",
+        distance: "210 Km",
+        time: "6-7 hours",
+        habitat: "Crater Floor",
+        image: "/assets/images/Frame 60.png",
+        description:
+          "Early morning descent into Ngorongoro Crater for game drive. Afternoon drive back to Arusha arriving in the evening.",
+      },
+    ],
+    pricing: [
+      { group: "1 person", price: 1500 },
+      { group: "2-4 people", price: 1200 },
+      { group: "5-7 people", price: 1100 },
+      { group: "8-10 people", price: 1000 },
+      { group: "11+ people", price: 950 },
+    ],
+    inclusions: [
+      "Transportation in 4WD safari vehicle",
+      "Professional safari guide",
+      "All park fees and government taxes",
+      "Accommodation as specified",
+    ],
+    exclusions: [
+      "International flights",
+      "Visa fees",
+      "Travel insurance",
+      "Personal expenses",
+    ],
+  },
+  "mount-meru-national-park": {
+    name: "Mount Meru National Park",
+    hasMultipleDays: false,
+    duration: "4 Days",
+    tabDescription:
+      "The Serengeti National Park is undoubtedly the best-known wildlife sanctuary in the world, unequalled for its natural beauty and scientific value. It has the greatest concentration of plains game in Africa and is famous for the annual Great Migration of wildebeest and zebra.",
+    description:
+      "The Serengeti National Park is undoubtedly the best-known wildlife sanctuary in the world, unequalled for its natural beauty and scientific value. It has the greatest concentration of plains game in Africa and is famous for the annual Great Migration.",
+    image: "/placeholder.svg?height=400&width=800",
+    difficulty: "Easy",
+    success_rate: "100%",
+    itinerary: [
+      {
+        day: 1,
+        title: "Arusha to Serengeti National Park",
+        altitude: "1400m - 1500m",
+        distance: "335 Km",
+        time: "6-7 hours",
+        habitat: "Savannah",
+        image: "/assets/images/Frame 60.png",
+        description:
+          "Depart from Arusha and drive to Serengeti National Park via Ngorongoro Conservation Area. Enjoy game drive en route and arrive at your accommodation for dinner and overnight.",
+      },
+      {
+        day: 2,
+        title: "Full Day Serengeti Game Drive",
+        altitude: "1500m",
+        distance: "200 Km",
+        time: "8-10 hours",
+        habitat: "Savannah",
+        image: "/assets/images/Frame 60.png",
+        description:
+          "Full day game drive in Serengeti National Park. The park is famous for its annual migration of over 1.5 million white-bearded wildebeest and 250,000 zebra.",
+      },
+      {
+        day: 3,
+        title: "Serengeti to Ngorongoro",
+        altitude: "1500m - 2300m",
+        distance: "145 Km",
+        time: "4-5 hours",
+        habitat: "Highland",
+        image: "/assets/images/Frame 60.png",
+        description:
+          "Morning game drive in Serengeti then drive to Ngorongoro Conservation Area. Arrive at your lodge on the crater rim for dinner and overnight.",
+      },
+      {
+        day: 4,
+        title: "Ngorongoro Crater to Arusha",
+        altitude: "2300m - 1600m - 1400m",
+        distance: "210 Km",
+        time: "6-7 hours",
+        habitat: "Crater Floor",
+        image: "/assets/images/Frame 60.png",
+        description:
+          "Early morning descent into Ngorongoro Crater for game drive. Afternoon drive back to Arusha arriving in the evening.",
+      },
+    ],
+    pricing: [
+      { group: "1 person", price: 1500 },
+      { group: "2-4 people", price: 1200 },
+      { group: "5-7 people", price: 1100 },
+      { group: "8-10 people", price: 1000 },
+      { group: "11+ people", price: 950 },
+    ],
+    inclusions: [
+      "Transportation in 4WD safari vehicle",
+      "Professional safari guide",
+      "All park fees and government taxes",
+      "Accommodation as specified",
+    ],
+    exclusions: [
+      "International flights",
+      "Visa fees",
+      "Travel insurance",
+      "Personal expenses",
+    ],
+  },
+  "bongonyo-island": {
+    name: "Bongonyo Island",
+    hasMultipleDays: false,
+    duration: "4 Days",
+    tabDescription:
+      "The Serengeti National Park is undoubtedly the best-known wildlife sanctuary in the world, unequalled for its natural beauty and scientific value. It has the greatest concentration of plains game in Africa and is famous for the annual Great Migration of wildebeest and zebra.",
+    description:
+      "The Serengeti National Park is undoubtedly the best-known wildlife sanctuary in the world, unequalled for its natural beauty and scientific value. It has the greatest concentration of plains game in Africa and is famous for the annual Great Migration.",
+    image: "/placeholder.svg?height=400&width=800",
+    difficulty: "Easy",
+    success_rate: "100%",
+    itinerary: [
+      {
+        day: 1,
+        title: "Arusha to Serengeti National Park",
+        altitude: "1400m - 1500m",
+        distance: "335 Km",
+        time: "6-7 hours",
+        habitat: "Savannah",
+        image: "/assets/images/Frame 60.png",
+        description:
+          "Depart from Arusha and drive to Serengeti National Park via Ngorongoro Conservation Area. Enjoy game drive en route and arrive at your accommodation for dinner and overnight.",
+      },
+      {
+        day: 2,
+        title: "Full Day Serengeti Game Drive",
+        altitude: "1500m",
+        distance: "200 Km",
+        time: "8-10 hours",
+        habitat: "Savannah",
+        image: "/assets/images/Frame 60.png",
+        description:
+          "Full day game drive in Serengeti National Park. The park is famous for its annual migration of over 1.5 million white-bearded wildebeest and 250,000 zebra.",
+      },
+      {
+        day: 3,
+        title: "Serengeti to Ngorongoro",
+        altitude: "1500m - 2300m",
+        distance: "145 Km",
+        time: "4-5 hours",
+        habitat: "Highland",
+        image: "/assets/images/Frame 60.png",
+        description:
+          "Morning game drive in Serengeti then drive to Ngorongoro Conservation Area. Arrive at your lodge on the crater rim for dinner and overnight.",
+      },
+      {
+        day: 4,
+        title: "Ngorongoro Crater to Arusha",
+        altitude: "2300m - 1600m - 1400m",
+        distance: "210 Km",
+        time: "6-7 hours",
+        habitat: "Crater Floor",
+        image: "/assets/images/Frame 60.png",
+        description:
+          "Early morning descent into Ngorongoro Crater for game drive. Afternoon drive back to Arusha arriving in the evening.",
+      },
+    ],
+    pricing: [
+      { group: "1 person", price: 1500 },
+      { group: "2-4 people", price: 1200 },
+      { group: "5-7 people", price: 1100 },
+      { group: "8-10 people", price: 1000 },
+      { group: "11+ people", price: 950 },
+    ],
+    inclusions: [
+      "Transportation in 4WD safari vehicle",
+      "Professional safari guide",
+      "All park fees and government taxes",
+      "Accommodation as specified",
+    ],
+    exclusions: [
+      "International flights",
+      "Visa fees",
+      "Travel insurance",
+      "Personal expenses",
+    ],
+  },
+  "sinda-island": {
+    name: "Sinda Island",
+    hasMultipleDays: false,
+    duration: "4 Days",
+    tabDescription:
+      "The Serengeti National Park is undoubtedly the best-known wildlife sanctuary in the world, unequalled for its natural beauty and scientific value. It has the greatest concentration of plains game in Africa and is famous for the annual Great Migration of wildebeest and zebra.",
+    description:
+      "The Serengeti National Park is undoubtedly the best-known wildlife sanctuary in the world, unequalled for its natural beauty and scientific value. It has the greatest concentration of plains game in Africa and is famous for the annual Great Migration.",
+    image: "/placeholder.svg?height=400&width=800",
+    difficulty: "Easy",
+    success_rate: "100%",
+    itinerary: [
+      {
+        day: 1,
+        title: "Arusha to Serengeti National Park",
+        altitude: "1400m - 1500m",
+        distance: "335 Km",
+        time: "6-7 hours",
+        habitat: "Savannah",
+        image: "/assets/images/Frame 60.png",
+        description:
+          "Depart from Arusha and drive to Serengeti National Park via Ngorongoro Conservation Area. Enjoy game drive en route and arrive at your accommodation for dinner and overnight.",
+      },
+      {
+        day: 2,
+        title: "Full Day Serengeti Game Drive",
+        altitude: "1500m",
+        distance: "200 Km",
+        time: "8-10 hours",
+        habitat: "Savannah",
+        image: "/assets/images/Frame 60.png",
+        description:
+          "Full day game drive in Serengeti National Park. The park is famous for its annual migration of over 1.5 million white-bearded wildebeest and 250,000 zebra.",
+      },
+      {
+        day: 3,
+        title: "Serengeti to Ngorongoro",
+        altitude: "1500m - 2300m",
+        distance: "145 Km",
+        time: "4-5 hours",
+        habitat: "Highland",
+        image: "/assets/images/Frame 60.png",
+        description:
+          "Morning game drive in Serengeti then drive to Ngorongoro Conservation Area. Arrive at your lodge on the crater rim for dinner and overnight.",
+      },
+      {
+        day: 4,
+        title: "Ngorongoro Crater to Arusha",
+        altitude: "2300m - 1600m - 1400m",
+        distance: "210 Km",
+        time: "6-7 hours",
+        habitat: "Crater Floor",
+        image: "/assets/images/Frame 60.png",
+        description:
+          "Early morning descent into Ngorongoro Crater for game drive. Afternoon drive back to Arusha arriving in the evening.",
+      },
+    ],
+    pricing: [
+      { group: "1 person", price: 1500 },
+      { group: "2-4 people", price: 1200 },
+      { group: "5-7 people", price: 1100 },
+      { group: "8-10 people", price: 1000 },
+      { group: "11+ people", price: 950 },
+    ],
+    inclusions: [
+      "Transportation in 4WD safari vehicle",
+      "Professional safari guide",
+      "All park fees and government taxes",
+      "Accommodation as specified",
+    ],
+    exclusions: [
+      "International flights",
+      "Visa fees",
+      "Travel insurance",
+      "Personal expenses",
+    ],
+  },
+  "pugu-hills": {
+    name: "Pugu Hills",
     hasMultipleDays: false,
     duration: "4 Days",
     tabDescription:
@@ -819,6 +2764,830 @@ const routeData = {
       "Personal expenses",
     ],
   },
+
+  "the-north-wonders-safari": {
+    name: "The North Wonders Safari",
+    hasMultipleDays: false,
+    isEscapeDSM: true,
+    whiteBg: "Serengeti & Ngorongoro",
+    blackBg: "6 Days",
+    tabDescription:
+      "Escape the urban jungle and dive into the real one. From Dar es Salaam's busy streets to the endless plains of Serengeti and the ancient crater of Ngorongoro—witness the Great Migration, spot the Big Five, and discover why Tanzania is the heart of African safari.",
+    description:
+      "Escape the urban jungle and dive into the real one. From Dar es Salaam's busy streets to the endless plains of Serengeti and the ancient crater of Ngorongoro—witness the Great Migration, spot the Big Five, and discover why Tanzania is the heart of African safari.",
+    image: "/placeholder.svg?height=400&width=800",
+    difficulty: "Easy",
+    success_rate: "100%",
+    itinerary: [
+      {
+        day: 1,
+        title: "Dar es Salaam to Arusha",
+        altitude: "0m - 1400m",
+        distance: "650 Km",
+        time: "1 hour flight",
+        habitat: "Urban to Highland",
+        image: "/assets/images/Frame 61.png",
+        description:
+          "Fly from Dar es Salaam to Arusha, leaving behind the coastal humidity for the crisp highland air. Arusha, the safari capital of Tanzania, welcomes you with views of Mount Meru.",
+      },
+      {
+        day: 2,
+        title: "Arusha to Serengeti National Park",
+        altitude: "1400m - 1500m",
+        distance: "335 Km",
+        time: "6-7 hours",
+        habitat: "Highland to Savannah",
+        image: "/assets/images/Frame 61 (1).png",
+        description:
+          "Journey through the Ngorongoro Conservation Area to reach the legendary Serengeti. As you crest the crater rim, the endless plains stretch before you—home to the greatest wildlife spectacle on Earth.",
+      },
+      {
+        day: 3,
+        title: "Full Day Serengeti Safari",
+        altitude: "1500m",
+        distance: "200 Km",
+        time: "8-10 hours",
+        habitat: "Endless Plains",
+        image: "/assets/images/Frame 61 (2).png",
+        description:
+          "Immerse yourself in the Serengeti's magic. Follow the Great Migration, watch predators in action, and experience the raw drama of survival in Africa's most famous national park.",
+      },
+      {
+        day: 4,
+        title: "Serengeti to Ngorongoro",
+        altitude: "1500m - 2300m",
+        distance: "145 Km",
+        time: "4-5 hours",
+        habitat: "Plains to Crater Rim",
+        image: "/assets/images/Frame 61 (3).png",
+        description:
+          "Morning game drive in Serengeti before ascending to the Ngorongoro Crater rim. Perched on the edge of this ancient caldera, prepare for tomorrow's descent into the 'Garden of Eden.'",
+      },
+      {
+        day: 5,
+        title: "Ngorongoro Crater Safari",
+        altitude: "2300m - 1700m - 2300m",
+        distance: "120 Km",
+        time: "8-10 hours",
+        habitat: "Crater Floor",
+        image: "/assets/images/Frame 61 (4).png",
+        description:
+          "Descend into the Ngorongoro Crater, a UNESCO World Heritage Site. This natural amphitheater hosts an incredible concentration of wildlife, including the rare black rhino.",
+      },
+      {
+        day: 6,
+        title: "Ngorongoro to Dar es Salaam",
+        altitude: "2300m - 1400m - 0m",
+        distance: "650 Km",
+        time: "1 hour flight",
+        habitat: "Highland to Coastal",
+        image: "/assets/images/Frame 60.png",
+        description:
+          "Return to Arusha and fly back to Dar es Salaam, carrying with you the memories of Tanzania's most iconic wildlife destinations and the spirit of the African wilderness.",
+      },
+    ],
+    pricing: [
+      { group: "1 person", price: 3000 },
+      { group: "2-4 people", price: 2700 },
+      { group: "5-7 people", price: 2500 },
+      { group: "8-10 people", price: 2300 },
+      { group: "11+ people", price: 2100 },
+    ],
+    inclusions: [
+      "Domestic flights Dar-Arusha-Dar",
+      "Transportation in 4WD safari vehicle",
+      "Professional safari guide",
+      "All park fees and government taxes",
+      "Accommodation as specified",
+    ],
+    exclusions: [
+      "International flights",
+      "Visa fees",
+      "Travel insurance",
+      "Personal expenses",
+    ],
+  },
+
+  "skies-over-the-wild": {
+    name: "Skies Over The Wild",
+    hasMultipleDays: false,
+    isEscapeDSM: true,
+    whiteBg: "Serengeti & Ngorongoro",
+    blackBg: "6 Days",
+    tabDescription:
+      "Escape the urban jungle and dive into the real one. From Dar es Salaam's busy streets to the endless plains of Serengeti and the ancient crater of Ngorongoro—witness the Great Migration, spot the Big Five, and discover why Tanzania is the heart of African safari.",
+    description:
+      "Escape the urban jungle and dive into the real one. From Dar es Salaam's busy streets to the endless plains of Serengeti and the ancient crater of Ngorongoro—witness the Great Migration, spot the Big Five, and discover why Tanzania is the heart of African safari.",
+    image: "/placeholder.svg?height=400&width=800",
+    difficulty: "Easy",
+    success_rate: "100%",
+    itinerary: [
+      {
+        day: 1,
+        title: "Dar es Salaam to Arusha",
+        altitude: "0m - 1400m",
+        distance: "650 Km",
+        time: "1 hour flight",
+        habitat: "Urban to Highland",
+        image: "/assets/images/Frame 61.png",
+        description:
+          "Fly from Dar es Salaam to Arusha, leaving behind the coastal humidity for the crisp highland air. Arusha, the safari capital of Tanzania, welcomes you with views of Mount Meru.",
+      },
+      {
+        day: 2,
+        title: "Arusha to Serengeti National Park",
+        altitude: "1400m - 1500m",
+        distance: "335 Km",
+        time: "6-7 hours",
+        habitat: "Highland to Savannah",
+        image: "/assets/images/Frame 61 (1).png",
+        description:
+          "Journey through the Ngorongoro Conservation Area to reach the legendary Serengeti. As you crest the crater rim, the endless plains stretch before you—home to the greatest wildlife spectacle on Earth.",
+      },
+      {
+        day: 3,
+        title: "Full Day Serengeti Safari",
+        altitude: "1500m",
+        distance: "200 Km",
+        time: "8-10 hours",
+        habitat: "Endless Plains",
+        image: "/assets/images/Frame 61 (2).png",
+        description:
+          "Immerse yourself in the Serengeti's magic. Follow the Great Migration, watch predators in action, and experience the raw drama of survival in Africa's most famous national park.",
+      },
+      {
+        day: 4,
+        title: "Serengeti to Ngorongoro",
+        altitude: "1500m - 2300m",
+        distance: "145 Km",
+        time: "4-5 hours",
+        habitat: "Plains to Crater Rim",
+        image: "/assets/images/Frame 61 (3).png",
+        description:
+          "Morning game drive in Serengeti before ascending to the Ngorongoro Crater rim. Perched on the edge of this ancient caldera, prepare for tomorrow's descent into the 'Garden of Eden.'",
+      },
+      {
+        day: 5,
+        title: "Ngorongoro Crater Safari",
+        altitude: "2300m - 1700m - 2300m",
+        distance: "120 Km",
+        time: "8-10 hours",
+        habitat: "Crater Floor",
+        image: "/assets/images/Frame 61 (4).png",
+        description:
+          "Descend into the Ngorongoro Crater, a UNESCO World Heritage Site. This natural amphitheater hosts an incredible concentration of wildlife, including the rare black rhino.",
+      },
+      {
+        day: 6,
+        title: "Ngorongoro to Dar es Salaam",
+        altitude: "2300m - 1400m - 0m",
+        distance: "650 Km",
+        time: "1 hour flight",
+        habitat: "Highland to Coastal",
+        image: "/assets/images/Frame 60.png",
+        description:
+          "Return to Arusha and fly back to Dar es Salaam, carrying with you the memories of Tanzania's most iconic wildlife destinations and the spirit of the African wilderness.",
+      },
+    ],
+    pricing: [
+      { group: "1 person", price: 3000 },
+      { group: "2-4 people", price: 2700 },
+      { group: "5-7 people", price: 2500 },
+      { group: "8-10 people", price: 2300 },
+      { group: "11+ people", price: 2100 },
+    ],
+    inclusions: [
+      "Domestic flights Dar-Arusha-Dar",
+      "Transportation in 4WD safari vehicle",
+      "Professional safari guide",
+      "All park fees and government taxes",
+      "Accommodation as specified",
+    ],
+    exclusions: [
+      "International flights",
+      "Visa fees",
+      "Travel insurance",
+      "Personal expenses",
+    ],
+  },
+
+  "into-the-wild-heart": {
+    name: "Into The Wild Heart",
+    hasMultipleDays: false,
+    isEscapeDSM: true,
+    whiteBg: "Serengeti & Ngorongoro",
+    blackBg: "6 Days",
+    tabDescription:
+      "Escape the urban jungle and dive into the real one. From Dar es Salaam's busy streets to the endless plains of Serengeti and the ancient crater of Ngorongoro—witness the Great Migration, spot the Big Five, and discover why Tanzania is the heart of African safari.",
+    description:
+      "Escape the urban jungle and dive into the real one. From Dar es Salaam's busy streets to the endless plains of Serengeti and the ancient crater of Ngorongoro—witness the Great Migration, spot the Big Five, and discover why Tanzania is the heart of African safari.",
+    image: "/placeholder.svg?height=400&width=800",
+    difficulty: "Easy",
+    success_rate: "100%",
+    itinerary: [
+      {
+        day: 1,
+        title: "Dar es Salaam to Arusha",
+        altitude: "0m - 1400m",
+        distance: "650 Km",
+        time: "1 hour flight",
+        habitat: "Urban to Highland",
+        image: "/assets/images/Frame 61.png",
+        description:
+          "Fly from Dar es Salaam to Arusha, leaving behind the coastal humidity for the crisp highland air. Arusha, the safari capital of Tanzania, welcomes you with views of Mount Meru.",
+      },
+      {
+        day: 2,
+        title: "Arusha to Serengeti National Park",
+        altitude: "1400m - 1500m",
+        distance: "335 Km",
+        time: "6-7 hours",
+        habitat: "Highland to Savannah",
+        image: "/assets/images/Frame 61 (1).png",
+        description:
+          "Journey through the Ngorongoro Conservation Area to reach the legendary Serengeti. As you crest the crater rim, the endless plains stretch before you—home to the greatest wildlife spectacle on Earth.",
+      },
+      {
+        day: 3,
+        title: "Full Day Serengeti Safari",
+        altitude: "1500m",
+        distance: "200 Km",
+        time: "8-10 hours",
+        habitat: "Endless Plains",
+        image: "/assets/images/Frame 61 (2).png",
+        description:
+          "Immerse yourself in the Serengeti's magic. Follow the Great Migration, watch predators in action, and experience the raw drama of survival in Africa's most famous national park.",
+      },
+      {
+        day: 4,
+        title: "Serengeti to Ngorongoro",
+        altitude: "1500m - 2300m",
+        distance: "145 Km",
+        time: "4-5 hours",
+        habitat: "Plains to Crater Rim",
+        image: "/assets/images/Frame 61 (3).png",
+        description:
+          "Morning game drive in Serengeti before ascending to the Ngorongoro Crater rim. Perched on the edge of this ancient caldera, prepare for tomorrow's descent into the 'Garden of Eden.'",
+      },
+      {
+        day: 5,
+        title: "Ngorongoro Crater Safari",
+        altitude: "2300m - 1700m - 2300m",
+        distance: "120 Km",
+        time: "8-10 hours",
+        habitat: "Crater Floor",
+        image: "/assets/images/Frame 61 (4).png",
+        description:
+          "Descend into the Ngorongoro Crater, a UNESCO World Heritage Site. This natural amphitheater hosts an incredible concentration of wildlife, including the rare black rhino.",
+      },
+      {
+        day: 6,
+        title: "Ngorongoro to Dar es Salaam",
+        altitude: "2300m - 1400m - 0m",
+        distance: "650 Km",
+        time: "1 hour flight",
+        habitat: "Highland to Coastal",
+        image: "/assets/images/Frame 60.png",
+        description:
+          "Return to Arusha and fly back to Dar es Salaam, carrying with you the memories of Tanzania's most iconic wildlife destinations and the spirit of the African wilderness.",
+      },
+    ],
+    pricing: [
+      { group: "1 person", price: 3000 },
+      { group: "2-4 people", price: 2700 },
+      { group: "5-7 people", price: 2500 },
+      { group: "8-10 people", price: 2300 },
+      { group: "11+ people", price: 2100 },
+    ],
+    inclusions: [
+      "Domestic flights Dar-Arusha-Dar",
+      "Transportation in 4WD safari vehicle",
+      "Professional safari guide",
+      "All park fees and government taxes",
+      "Accommodation as specified",
+    ],
+    exclusions: [
+      "International flights",
+      "Visa fees",
+      "Travel insurance",
+      "Personal expenses",
+    ],
+  },
+
+  "where-the-bush-meets-the-beach": {
+    name: "Where The Bush Meets The Beach",
+    hasMultipleDays: false,
+    isEscapeDSM: true,
+    whiteBg: "Serengeti & Ngorongoro",
+    blackBg: "6 Days",
+    tabDescription:
+      "Escape the urban jungle and dive into the real one. From Dar es Salaam's busy streets to the endless plains of Serengeti and the ancient crater of Ngorongoro—witness the Great Migration, spot the Big Five, and discover why Tanzania is the heart of African safari.",
+    description:
+      "Escape the urban jungle and dive into the real one. From Dar es Salaam's busy streets to the endless plains of Serengeti and the ancient crater of Ngorongoro—witness the Great Migration, spot the Big Five, and discover why Tanzania is the heart of African safari.",
+    image: "/placeholder.svg?height=400&width=800",
+    difficulty: "Easy",
+    success_rate: "100%",
+    itinerary: [
+      {
+        day: 1,
+        title: "Dar es Salaam to Arusha",
+        altitude: "0m - 1400m",
+        distance: "650 Km",
+        time: "1 hour flight",
+        habitat: "Urban to Highland",
+        image: "/assets/images/Frame 61.png",
+        description:
+          "Fly from Dar es Salaam to Arusha, leaving behind the coastal humidity for the crisp highland air. Arusha, the safari capital of Tanzania, welcomes you with views of Mount Meru.",
+      },
+      {
+        day: 2,
+        title: "Arusha to Serengeti National Park",
+        altitude: "1400m - 1500m",
+        distance: "335 Km",
+        time: "6-7 hours",
+        habitat: "Highland to Savannah",
+        image: "/assets/images/Frame 61 (1).png",
+        description:
+          "Journey through the Ngorongoro Conservation Area to reach the legendary Serengeti. As you crest the crater rim, the endless plains stretch before you—home to the greatest wildlife spectacle on Earth.",
+      },
+      {
+        day: 3,
+        title: "Full Day Serengeti Safari",
+        altitude: "1500m",
+        distance: "200 Km",
+        time: "8-10 hours",
+        habitat: "Endless Plains",
+        image: "/assets/images/Frame 61 (2).png",
+        description:
+          "Immerse yourself in the Serengeti's magic. Follow the Great Migration, watch predators in action, and experience the raw drama of survival in Africa's most famous national park.",
+      },
+      {
+        day: 4,
+        title: "Serengeti to Ngorongoro",
+        altitude: "1500m - 2300m",
+        distance: "145 Km",
+        time: "4-5 hours",
+        habitat: "Plains to Crater Rim",
+        image: "/assets/images/Frame 61 (3).png",
+        description:
+          "Morning game drive in Serengeti before ascending to the Ngorongoro Crater rim. Perched on the edge of this ancient caldera, prepare for tomorrow's descent into the 'Garden of Eden.'",
+      },
+      {
+        day: 5,
+        title: "Ngorongoro Crater Safari",
+        altitude: "2300m - 1700m - 2300m",
+        distance: "120 Km",
+        time: "8-10 hours",
+        habitat: "Crater Floor",
+        image: "/assets/images/Frame 61 (4).png",
+        description:
+          "Descend into the Ngorongoro Crater, a UNESCO World Heritage Site. This natural amphitheater hosts an incredible concentration of wildlife, including the rare black rhino.",
+      },
+      {
+        day: 6,
+        title: "Ngorongoro to Dar es Salaam",
+        altitude: "2300m - 1400m - 0m",
+        distance: "650 Km",
+        time: "1 hour flight",
+        habitat: "Highland to Coastal",
+        image: "/assets/images/Frame 60.png",
+        description:
+          "Return to Arusha and fly back to Dar es Salaam, carrying with you the memories of Tanzania's most iconic wildlife destinations and the spirit of the African wilderness.",
+      },
+    ],
+    pricing: [
+      { group: "1 person", price: 3000 },
+      { group: "2-4 people", price: 2700 },
+      { group: "5-7 people", price: 2500 },
+      { group: "8-10 people", price: 2300 },
+      { group: "11+ people", price: 2100 },
+    ],
+    inclusions: [
+      "Domestic flights Dar-Arusha-Dar",
+      "Transportation in 4WD safari vehicle",
+      "Professional safari guide",
+      "All park fees and government taxes",
+      "Accommodation as specified",
+    ],
+    exclusions: [
+      "International flights",
+      "Visa fees",
+      "Travel insurance",
+      "Personal expenses",
+    ],
+  },
+
+  "into-the-untamed-wilderness": {
+    name: "Into The Untamed Wilderness",
+    hasMultipleDays: false,
+    isEscapeDSM: true,
+    whiteBg: "Serengeti & Ngorongoro",
+    blackBg: "6 Days",
+    tabDescription:
+      "Escape the urban jungle and dive into the real one. From Dar es Salaam's busy streets to the endless plains of Serengeti and the ancient crater of Ngorongoro—witness the Great Migration, spot the Big Five, and discover why Tanzania is the heart of African safari.",
+    description:
+      "Escape the urban jungle and dive into the real one. From Dar es Salaam's busy streets to the endless plains of Serengeti and the ancient crater of Ngorongoro—witness the Great Migration, spot the Big Five, and discover why Tanzania is the heart of African safari.",
+    image: "/placeholder.svg?height=400&width=800",
+    difficulty: "Easy",
+    success_rate: "100%",
+    itinerary: [
+      {
+        day: 1,
+        title: "Dar es Salaam to Arusha",
+        altitude: "0m - 1400m",
+        distance: "650 Km",
+        time: "1 hour flight",
+        habitat: "Urban to Highland",
+        image: "/assets/images/Frame 61.png",
+        description:
+          "Fly from Dar es Salaam to Arusha, leaving behind the coastal humidity for the crisp highland air. Arusha, the safari capital of Tanzania, welcomes you with views of Mount Meru.",
+      },
+      {
+        day: 2,
+        title: "Arusha to Serengeti National Park",
+        altitude: "1400m - 1500m",
+        distance: "335 Km",
+        time: "6-7 hours",
+        habitat: "Highland to Savannah",
+        image: "/assets/images/Frame 61 (1).png",
+        description:
+          "Journey through the Ngorongoro Conservation Area to reach the legendary Serengeti. As you crest the crater rim, the endless plains stretch before you—home to the greatest wildlife spectacle on Earth.",
+      },
+      {
+        day: 3,
+        title: "Full Day Serengeti Safari",
+        altitude: "1500m",
+        distance: "200 Km",
+        time: "8-10 hours",
+        habitat: "Endless Plains",
+        image: "/assets/images/Frame 61 (2).png",
+        description:
+          "Immerse yourself in the Serengeti's magic. Follow the Great Migration, watch predators in action, and experience the raw drama of survival in Africa's most famous national park.",
+      },
+      {
+        day: 4,
+        title: "Serengeti to Ngorongoro",
+        altitude: "1500m - 2300m",
+        distance: "145 Km",
+        time: "4-5 hours",
+        habitat: "Plains to Crater Rim",
+        image: "/assets/images/Frame 61 (3).png",
+        description:
+          "Morning game drive in Serengeti before ascending to the Ngorongoro Crater rim. Perched on the edge of this ancient caldera, prepare for tomorrow's descent into the 'Garden of Eden.'",
+      },
+      {
+        day: 5,
+        title: "Ngorongoro Crater Safari",
+        altitude: "2300m - 1700m - 2300m",
+        distance: "120 Km",
+        time: "8-10 hours",
+        habitat: "Crater Floor",
+        image: "/assets/images/Frame 61 (4).png",
+        description:
+          "Descend into the Ngorongoro Crater, a UNESCO World Heritage Site. This natural amphitheater hosts an incredible concentration of wildlife, including the rare black rhino.",
+      },
+      {
+        day: 6,
+        title: "Ngorongoro to Dar es Salaam",
+        altitude: "2300m - 1400m - 0m",
+        distance: "650 Km",
+        time: "1 hour flight",
+        habitat: "Highland to Coastal",
+        image: "/assets/images/Frame 60.png",
+        description:
+          "Return to Arusha and fly back to Dar es Salaam, carrying with you the memories of Tanzania's most iconic wildlife destinations and the spirit of the African wilderness.",
+      },
+    ],
+    pricing: [
+      { group: "1 person", price: 3000 },
+      { group: "2-4 people", price: 2700 },
+      { group: "5-7 people", price: 2500 },
+      { group: "8-10 people", price: 2300 },
+      { group: "11+ people", price: 2100 },
+    ],
+    inclusions: [
+      "Domestic flights Dar-Arusha-Dar",
+      "Transportation in 4WD safari vehicle",
+      "Professional safari guide",
+      "All park fees and government taxes",
+      "Accommodation as specified",
+    ],
+    exclusions: [
+      "International flights",
+      "Visa fees",
+      "Travel insurance",
+      "Personal expenses",
+    ],
+  },
+
+
+  // Home (Popular Packages) (no tabs, show routes on left, days on right)
+
+    "premier-nothern-safari": {
+    name: "Premier Nothern Safari",
+    hasMultipleDays: false,
+    isEscapeDSM: true,
+    whiteBg: "Serengeti & Ngorongoro",
+    blackBg: "6 Days",
+    tabDescription:
+      "Escape the urban jungle and dive into the real one. From Dar es Salaam's busy streets to the endless plains of Serengeti and the ancient crater of Ngorongoro—witness the Great Migration, spot the Big Five, and discover why Tanzania is the heart of African safari.",
+    description:
+      "Escape the urban jungle and dive into the real one. From Dar es Salaam's busy streets to the endless plains of Serengeti and the ancient crater of Ngorongoro—witness the Great Migration, spot the Big Five, and discover why Tanzania is the heart of African safari.",
+    image: "/placeholder.svg?height=400&width=800",
+    difficulty: "Easy",
+    success_rate: "100%",
+    itinerary: [
+      {
+        day: 1,
+        title: "Dar es Salaam to Arusha",
+        altitude: "0m - 1400m",
+        distance: "650 Km",
+        time: "1 hour flight",
+        habitat: "Urban to Highland",
+        image: "/assets/images/Frame 61.png",
+        description:
+          "Fly from Dar es Salaam to Arusha, leaving behind the coastal humidity for the crisp highland air. Arusha, the safari capital of Tanzania, welcomes you with views of Mount Meru.",
+      },
+      {
+        day: 2,
+        title: "Arusha to Serengeti National Park",
+        altitude: "1400m - 1500m",
+        distance: "335 Km",
+        time: "6-7 hours",
+        habitat: "Highland to Savannah",
+        image: "/assets/images/Frame 61 (1).png",
+        description:
+          "Journey through the Ngorongoro Conservation Area to reach the legendary Serengeti. As you crest the crater rim, the endless plains stretch before you—home to the greatest wildlife spectacle on Earth.",
+      },
+      {
+        day: 3,
+        title: "Full Day Serengeti Safari",
+        altitude: "1500m",
+        distance: "200 Km",
+        time: "8-10 hours",
+        habitat: "Endless Plains",
+        image: "/assets/images/Frame 61 (2).png",
+        description:
+          "Immerse yourself in the Serengeti's magic. Follow the Great Migration, watch predators in action, and experience the raw drama of survival in Africa's most famous national park.",
+      },
+      {
+        day: 4,
+        title: "Serengeti to Ngorongoro",
+        altitude: "1500m - 2300m",
+        distance: "145 Km",
+        time: "4-5 hours",
+        habitat: "Plains to Crater Rim",
+        image: "/assets/images/Frame 61 (3).png",
+        description:
+          "Morning game drive in Serengeti before ascending to the Ngorongoro Crater rim. Perched on the edge of this ancient caldera, prepare for tomorrow's descent into the 'Garden of Eden.'",
+      },
+      {
+        day: 5,
+        title: "Ngorongoro Crater Safari",
+        altitude: "2300m - 1700m - 2300m",
+        distance: "120 Km",
+        time: "8-10 hours",
+        habitat: "Crater Floor",
+        image: "/assets/images/Frame 61 (4).png",
+        description:
+          "Descend into the Ngorongoro Crater, a UNESCO World Heritage Site. This natural amphitheater hosts an incredible concentration of wildlife, including the rare black rhino.",
+      },
+      {
+        day: 6,
+        title: "Ngorongoro to Dar es Salaam",
+        altitude: "2300m - 1400m - 0m",
+        distance: "650 Km",
+        time: "1 hour flight",
+        habitat: "Highland to Coastal",
+        image: "/assets/images/Frame 60.png",
+        description:
+          "Return to Arusha and fly back to Dar es Salaam, carrying with you the memories of Tanzania's most iconic wildlife destinations and the spirit of the African wilderness.",
+      },
+    ],
+    pricing: [
+      { group: "1 person", price: 3000 },
+      { group: "2-4 people", price: 2700 },
+      { group: "5-7 people", price: 2500 },
+      { group: "8-10 people", price: 2300 },
+      { group: "11+ people", price: 2100 },
+    ],
+    inclusions: [
+      "Domestic flights Dar-Arusha-Dar",
+      "Transportation in 4WD safari vehicle",
+      "Professional safari guide",
+      "All park fees and government taxes",
+      "Accommodation as specified",
+    ],
+    exclusions: [
+      "International flights",
+      "Visa fees",
+      "Travel insurance",
+      "Personal expenses",
+    ],
+  },  "mt-kilimanjaro-to-machame-route": {
+    name: "Mt. Kilimanjaro - Machame Route",
+    hasMultipleDays: false,
+    isEscapeDSM: true,
+    whiteBg: "Serengeti & Ngorongoro",
+    blackBg: "6 Days",
+    tabDescription:
+      "Escape the urban jungle and dive into the real one. From Dar es Salaam's busy streets to the endless plains of Serengeti and the ancient crater of Ngorongoro—witness the Great Migration, spot the Big Five, and discover why Tanzania is the heart of African safari.",
+    description:
+      "Escape the urban jungle and dive into the real one. From Dar es Salaam's busy streets to the endless plains of Serengeti and the ancient crater of Ngorongoro—witness the Great Migration, spot the Big Five, and discover why Tanzania is the heart of African safari.",
+    image: "/placeholder.svg?height=400&width=800",
+    difficulty: "Easy",
+    success_rate: "100%",
+    itinerary: [
+      {
+        day: 1,
+        title: "Dar es Salaam to Arusha",
+        altitude: "0m - 1400m",
+        distance: "650 Km",
+        time: "1 hour flight",
+        habitat: "Urban to Highland",
+        image: "/assets/images/Frame 61.png",
+        description:
+          "Fly from Dar es Salaam to Arusha, leaving behind the coastal humidity for the crisp highland air. Arusha, the safari capital of Tanzania, welcomes you with views of Mount Meru.",
+      },
+      {
+        day: 2,
+        title: "Arusha to Serengeti National Park",
+        altitude: "1400m - 1500m",
+        distance: "335 Km",
+        time: "6-7 hours",
+        habitat: "Highland to Savannah",
+        image: "/assets/images/Frame 61 (1).png",
+        description:
+          "Journey through the Ngorongoro Conservation Area to reach the legendary Serengeti. As you crest the crater rim, the endless plains stretch before you—home to the greatest wildlife spectacle on Earth.",
+      },
+      {
+        day: 3,
+        title: "Full Day Serengeti Safari",
+        altitude: "1500m",
+        distance: "200 Km",
+        time: "8-10 hours",
+        habitat: "Endless Plains",
+        image: "/assets/images/Frame 61 (2).png",
+        description:
+          "Immerse yourself in the Serengeti's magic. Follow the Great Migration, watch predators in action, and experience the raw drama of survival in Africa's most famous national park.",
+      },
+      {
+        day: 4,
+        title: "Serengeti to Ngorongoro",
+        altitude: "1500m - 2300m",
+        distance: "145 Km",
+        time: "4-5 hours",
+        habitat: "Plains to Crater Rim",
+        image: "/assets/images/Frame 61 (3).png",
+        description:
+          "Morning game drive in Serengeti before ascending to the Ngorongoro Crater rim. Perched on the edge of this ancient caldera, prepare for tomorrow's descent into the 'Garden of Eden.'",
+      },
+      {
+        day: 5,
+        title: "Ngorongoro Crater Safari",
+        altitude: "2300m - 1700m - 2300m",
+        distance: "120 Km",
+        time: "8-10 hours",
+        habitat: "Crater Floor",
+        image: "/assets/images/Frame 61 (4).png",
+        description:
+          "Descend into the Ngorongoro Crater, a UNESCO World Heritage Site. This natural amphitheater hosts an incredible concentration of wildlife, including the rare black rhino.",
+      },
+      {
+        day: 6,
+        title: "Ngorongoro to Dar es Salaam",
+        altitude: "2300m - 1400m - 0m",
+        distance: "650 Km",
+        time: "1 hour flight",
+        habitat: "Highland to Coastal",
+        image: "/assets/images/Frame 60.png",
+        description:
+          "Return to Arusha and fly back to Dar es Salaam, carrying with you the memories of Tanzania's most iconic wildlife destinations and the spirit of the African wilderness.",
+      },
+    ],
+    pricing: [
+      { group: "1 person", price: 3000 },
+      { group: "2-4 people", price: 2700 },
+      { group: "5-7 people", price: 2500 },
+      { group: "8-10 people", price: 2300 },
+      { group: "11+ people", price: 2100 },
+    ],
+    inclusions: [
+      "Domestic flights Dar-Arusha-Dar",
+      "Transportation in 4WD safari vehicle",
+      "Professional safari guide",
+      "All park fees and government taxes",
+      "Accommodation as specified",
+    ],
+    exclusions: [
+      "International flights",
+      "Visa fees",
+      "Travel insurance",
+      "Personal expenses",
+    ],
+  },  "ultimate-nothern-tanzania-safari": {
+    name: "Ultimate Nothern Tanzania Safari",
+    hasMultipleDays: false,
+    isEscapeDSM: true,
+    whiteBg: "Serengeti & Ngorongoro",
+    blackBg: "6 Days",
+    tabDescription:
+      "Escape the urban jungle and dive into the real one. From Dar es Salaam's busy streets to the endless plains of Serengeti and the ancient crater of Ngorongoro—witness the Great Migration, spot the Big Five, and discover why Tanzania is the heart of African safari.",
+    description:
+      "Escape the urban jungle and dive into the real one. From Dar es Salaam's busy streets to the endless plains of Serengeti and the ancient crater of Ngorongoro—witness the Great Migration, spot the Big Five, and discover why Tanzania is the heart of African safari.",
+    image: "/placeholder.svg?height=400&width=800",
+    difficulty: "Easy",
+    success_rate: "100%",
+    itinerary: [
+      {
+        day: 1,
+        title: "Dar es Salaam to Arusha",
+        altitude: "0m - 1400m",
+        distance: "650 Km",
+        time: "1 hour flight",
+        habitat: "Urban to Highland",
+        image: "/assets/images/Frame 61.png",
+        description:
+          "Fly from Dar es Salaam to Arusha, leaving behind the coastal humidity for the crisp highland air. Arusha, the safari capital of Tanzania, welcomes you with views of Mount Meru.",
+      },
+      {
+        day: 2,
+        title: "Arusha to Serengeti National Park",
+        altitude: "1400m - 1500m",
+        distance: "335 Km",
+        time: "6-7 hours",
+        habitat: "Highland to Savannah",
+        image: "/assets/images/Frame 61 (1).png",
+        description:
+          "Journey through the Ngorongoro Conservation Area to reach the legendary Serengeti. As you crest the crater rim, the endless plains stretch before you—home to the greatest wildlife spectacle on Earth.",
+      },
+      {
+        day: 3,
+        title: "Full Day Serengeti Safari",
+        altitude: "1500m",
+        distance: "200 Km",
+        time: "8-10 hours",
+        habitat: "Endless Plains",
+        image: "/assets/images/Frame 61 (2).png",
+        description:
+          "Immerse yourself in the Serengeti's magic. Follow the Great Migration, watch predators in action, and experience the raw drama of survival in Africa's most famous national park.",
+      },
+      {
+        day: 4,
+        title: "Serengeti to Ngorongoro",
+        altitude: "1500m - 2300m",
+        distance: "145 Km",
+        time: "4-5 hours",
+        habitat: "Plains to Crater Rim",
+        image: "/assets/images/Frame 61 (3).png",
+        description:
+          "Morning game drive in Serengeti before ascending to the Ngorongoro Crater rim. Perched on the edge of this ancient caldera, prepare for tomorrow's descent into the 'Garden of Eden.'",
+      },
+      {
+        day: 5,
+        title: "Ngorongoro Crater Safari",
+        altitude: "2300m - 1700m - 2300m",
+        distance: "120 Km",
+        time: "8-10 hours",
+        habitat: "Crater Floor",
+        image: "/assets/images/Frame 61 (4).png",
+        description:
+          "Descend into the Ngorongoro Crater, a UNESCO World Heritage Site. This natural amphitheater hosts an incredible concentration of wildlife, including the rare black rhino.",
+      },
+      {
+        day: 6,
+        title: "Ngorongoro to Dar es Salaam",
+        altitude: "2300m - 1400m - 0m",
+        distance: "650 Km",
+        time: "1 hour flight",
+        habitat: "Highland to Coastal",
+        image: "/assets/images/Frame 60.png",
+        description:
+          "Return to Arusha and fly back to Dar es Salaam, carrying with you the memories of Tanzania's most iconic wildlife destinations and the spirit of the African wilderness.",
+      },
+    ],
+    pricing: [
+      { group: "1 person", price: 3000 },
+      { group: "2-4 people", price: 2700 },
+      { group: "5-7 people", price: 2500 },
+      { group: "8-10 people", price: 2300 },
+      { group: "11+ people", price: 2100 },
+    ],
+    inclusions: [
+      "Domestic flights Dar-Arusha-Dar",
+      "Transportation in 4WD safari vehicle",
+      "Professional safari guide",
+      "All park fees and government taxes",
+      "Accommodation as specified",
+    ],
+    exclusions: [
+      "International flights",
+      "Visa fees",
+      "Travel insurance",
+      "Personal expenses",
+    ],
+  },
+
 };
 
 export default function RouteDetail() {

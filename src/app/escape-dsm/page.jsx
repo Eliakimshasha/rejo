@@ -32,7 +32,7 @@ const EscapeDar = () => {
     image: frame5,
   },
   {
-    id: "unzip-serengeti-and-ngorogoro",
+    id: "unzip-serengeti-and-ngorongoro",
     name: "Unzip Serengeti & Ngorogoro",
     days: 4,
     description:
