@@ -2568,91 +2568,53 @@ one of the most strenuous on Kilimanjaro due to its steep ascent and little accl
     hasMultipleDays: false,
     isEscapeDSM: true,
     whiteBg: "Mikumi & Nyerere National Parks",
-    blackBg: "7 Days",
+    blackBg: "4 Days",
     tabDescription:
       "Leave behind the hum of the city and follow the call of the wild. This journey takes you from the heartbeat of Dar es Salaam to the open plains of Mikumi and the untamed wilderness of Nyerere—where elephants roam free, rivers whisper ancient stories, and the stars shine brighter than ever.",
-    description:
-      "Leave behind the hum of the city and follow the call of the wild. This journey takes you from the heartbeat of Dar es Salaam to the open plains of Mikumi and the untamed wilderness of Nyerere—where elephants roam free, rivers whisper ancient stories, and the stars shine brighter than ever.",
+    description: `Leave behind the hum of the city and follow the call of the wild. This journey takes you from the heartbeat of Dar es Salaam to the open plains of Mikumi and the untamed wilderness of Nyerere—where elephants roam free, rivers whisper ancient stories, and the stars shine brighter than ever.`,
     image: "/placeholder.svg?height=400&width=800",
     difficulty: "Easy",
     success_rate: "100%",
     itinerary: [
       {
         day: 1,
-        title: "Dar es Salaam to Mikumi National Park",
+        title: " Dar es Salaam to Mikumi National Park",
         altitude: "0m - 500m",
         distance: "283 Km",
         time: "5-6 hours",
         habitat: "Urban to Savannah",
         image: "/assets/images/Frame 61.png",
-        description:
-          "Early morning departure from the bustling streets of Dar es Salaam. Journey through changing landscapes as the city gives way to rural Tanzania, arriving at Mikumi National Park for your first taste of the wild.",
+        description: `Around 5:30 am, our driver will arrive at your Dar es Salaam hotel/residence to pick you up for your 5 hour trip to Mikumi National Park. After a lunch at Morogoro, you can embark on game drives until dusk. You will be able to see various wildanimals, including lions, girrafes and elephants. After the game drive, you will have dinner, rest at the lodge nd getting ready for the following day's activities.`,
       },
       {
         day: 2,
-        title: "Mikumi Game Drives",
+        title: "Mikumi to Nyerere National Park",
         altitude: "500m",
         distance: "150 Km",
         time: "8-10 hours",
         habitat: "Savannah",
         image: "/assets/images/Frame 61 (1).png",
-        description:
-          "Full day exploring Mikumi's vast plains. Watch elephants move in family groups, lions lounging in the shade, and zebras grazing peacefully. The park's open horizons offer spectacular wildlife viewing opportunities.",
+        description: `After breakfast, you will be picked-up from your camp and driven to Nyerere National Park.   Having taken lunch on your way, you will arrive there in the evening and start a boat drive. You will see crocodiles and hippos in their natural environment while on your boat excursion. Meals and your overnight will be offered at the Camp. `,
       },
       {
         day: 3,
-        title: "Mikumi to Nyerere National Park",
+        title: "Game Drive at Nyerere National Park",
         altitude: "500m - 300m",
         distance: "230 Km",
         time: "4-5 hours",
         habitat: "Savannah to Woodland",
         image: "/assets/images/Frame 61 (2).png",
-        description:
-          "Journey deeper into Tanzania's wilderness as you travel to Nyerere National Park, Africa's largest national park. The landscape transforms from open plains to dense woodlands and riverine forests.",
+        description: `You will have a full game drive trip at Nyerere National Park, formerly known as Selous on this day from 7:30 am until evening. Our skilled drivers and guides will pick you up at the camp, where the trip will begin. Lunch will be served at noon.  You will be able to see; Elephants, zebras, giraffes, antelopes, and many other Birds and other landscape features, such as wetlands, dry grasslands and light acacia forests. After game drive in the evening, you will be taken back to the camp for dinner and rest.`,
       },
       {
         day: 4,
-        title: "Nyerere Game Drive & Boat Safari",
+        title: "Walking Tour & Drive Back to Dar",
         altitude: "300m",
         distance: "100 Km",
         time: "8-10 hours",
         habitat: "Woodland & River",
         image: "/assets/images/Frame 61 (3).png",
-        description:
-          "Experience the magic of Nyerere with morning game drives and afternoon boat safari on the Rufiji River. Watch hippos and crocodiles in their natural habitat while elephants come to drink at the water's edge.",
-      },
-      {
-        day: 5,
-        title: "Full Day Nyerere Exploration",
-        altitude: "300m",
-        distance: "200 Km",
-        time: "10-12 hours",
-        habitat: "Diverse Ecosystems",
-        image: "/assets/images/Frame 61 (4).png",
-        description:
-          "Immerse yourself completely in the untamed wilderness of Nyerere. Track wild dogs, spot rare birds, and witness the raw beauty of Africa's largest protected area where nature reigns supreme.",
-      },
-      {
-        day: 6,
-        title: "Nyerere to Dar es Salaam",
-        altitude: "300m - 0m",
-        distance: "230 Km",
-        time: "5-6 hours",
-        habitat: "Woodland to Urban",
-        image: "/assets/images/Frame 61 (1).png",
-        description:
-          "Morning game drive followed by the journey back to Dar es Salaam. Watch as the wilderness gradually gives way to civilization, carrying with you memories of Africa's untamed heart.",
-      },
-      {
-        day: 7,
-        title: "Departure Day",
-        altitude: "0m",
-        distance: "0 Km",
-        time: "Transfer",
-        habitat: "Urban",
-        image: "/assets/images/Frame 60.png",
-        description:
-          "Final morning in Dar es Salaam. Transfer to Julius Nyerere International Airport for your departure, taking with you the sounds, sights, and spirit of the African wilderness.",
+        description: `After your morning tea on this particular day, you will go on a bushman walking excursion through the forest with our bushman and an armed ranger. You will return to Camp for breakfast after the walking tour. After, make ready to drive back to Dar es Salaam.`,
       },
     ],
     pricing: [
@@ -2663,17 +2625,22 @@ one of the most strenuous on Kilimanjaro due to its steep ascent and little accl
       { group: "11+ people", price: 1600 },
     ],
     inclusions: [
-      "Transportation in 4WD safari vehicle",
-      "Professional safari guide",
-      "All park fees and government taxes",
-      "Accommodation as specified",
-      "Boat safari in Nyerere",
+      "Pick-up and drop-off at Kilimanjaro International Airport",
+      `All park fees collected by the National Park (conservation fees, camping
+fees, crew fees, vehicle fee, rescue fee and all other fees collected by the Tanzania
+National Parks Authority).`,
+      "All accomodations",
+      "All meals",
+      `Professional guides, licensed by Tanzania National Park. All our guides are the holder
+of Wilderness First Responder or Wilderness First Aid certifications. All our guides have
+10+years of successful mountaineering experience.`,
     ],
     exclusions: [
-      "International flights",
+      "Airline tickets",
+      "Accommodation after tour.",
+      "Personal gear rentals",
       "Visa fees",
-      "Travel insurance",
-      "Personal expenses",
+      "Tips",
     ],
   },
 
@@ -2681,26 +2648,27 @@ one of the most strenuous on Kilimanjaro due to its steep ascent and little accl
     name: "Unzip Serengeti and Ngorongoro",
     hasMultipleDays: false,
     isEscapeDSM: true,
-    whiteBg: "Serengeti & Ngorongoro",
-    blackBg: "6 Days",
+    whiteBg: "Serengeti & Ngorongoro National Park",
+    blackBg: "4 Days",
     tabDescription:
       "Escape the urban jungle and dive into the real one. From Dar es Salaam's busy streets to the endless plains of Serengeti and the ancient crater of Ngorongoro—witness the Great Migration, spot the Big Five, and discover why Tanzania is the heart of African safari.",
-    description:
-      "Escape the urban jungle and dive into the real one. From Dar es Salaam's busy streets to the endless plains of Serengeti and the ancient crater of Ngorongoro—witness the Great Migration, spot the Big Five, and discover why Tanzania is the heart of African safari.",
+    description: `Experience the ultimate northern safari as you journey from Dar es Salaam to the legendary Serengeti and the breathtaking Ngorongoro Crater. Witness the Big Five, roam vast golden plains, and descend into an ancient volcanic caldera teeming with wildlife—all in one unforgettable adventure.
+`,
     image: "/placeholder.svg?height=400&width=800",
     difficulty: "Easy",
     success_rate: "100%",
     itinerary: [
       {
         day: 1,
-        title: "Dar es Salaam to Arusha",
+        title: " Dar es Salaam to Arusha",
         altitude: "0m - 1400m",
         distance: "650 Km",
         time: "1 hour flight",
         habitat: "Urban to Highland",
         image: "/assets/images/Frame 61.png",
-        description:
-          "Fly from Dar es Salaam to Arusha, leaving behind the coastal humidity for the crisp highland air. Arusha, the safari capital of Tanzania, welcomes you with views of Mount Meru.",
+        description: `Around 5:30 am, our driver will arrive at your Dar es Salaam hotel/residence to pick you up for your 11
+hour trip to Arusha. It is a whole day trip with breakfast and dinner covered, arriving at Arusha in the
+evening. You will get dinner and rest at the lodge ready for tomorrow’s activities.`,
       },
       {
         day: 2,
@@ -2710,52 +2678,32 @@ one of the most strenuous on Kilimanjaro due to its steep ascent and little accl
         time: "6-7 hours",
         habitat: "Highland to Savannah",
         image: "/assets/images/Frame 61 (1).png",
-        description:
-          "Journey through the Ngorongoro Conservation Area to reach the legendary Serengeti. As you crest the crater rim, the endless plains stretch before you—home to the greatest wildlife spectacle on Earth.",
+        description: `Your safari will begin at 7 a.m. with a pick-up from your hotel in Arusha. With everyone aboard, you will go to Serengeti National Park. The 240 km travel will take approximately 6 hours. You will drive through the Ngorongoro Conservation Area and enjoy a game drive along the way and arrive at Serengeti National Park in the early afternoon and take a brief wildlife drive until sundown. The Serengeti is also home to the
+majestic "Big 5" (elephant, rhino, buffalo, lion, and leopard). Along with the "Big 5", a very pleasant sighting would be one of Africa's most gorgeous animal game`,
       },
       {
         day: 3,
-        title: "Full Day Serengeti Safari",
+        title: "Serengeti to  Ngorongoro N.Park",
         altitude: "1500m",
         distance: "200 Km",
         time: "8-10 hours",
         habitat: "Endless Plains",
         image: "/assets/images/Frame 61 (2).png",
-        description:
-          "Immerse yourself in the Serengeti's magic. Follow the Great Migration, watch predators in action, and experience the raw drama of survival in Africa's most famous national park.",
+        description: `After breakfast, you will embark on a morning game drive across Serengeti National Park. Later, head for
+the Ngorongoro Conservation Area with a picnic lunch. Ngorongoro Crater is the world’s largest collapsed volcano crater, spanning fourteen kilometers of solitary natural splendor. Ngorongoro Crater is ringed by a ring of ancient volcanoes, and the bottom, riddled with watering holes, supports over 30,000 animals. The adventurous day concludes with a hearty dinner and a nice night's sleep in your
+accommodations in Arusha.`,
       },
       {
         day: 4,
-        title: "Serengeti to Ngorongoro",
+        title: "Arusha to Dar es Salaam",
         altitude: "1500m - 2300m",
         distance: "145 Km",
         time: "4-5 hours",
         habitat: "Plains to Crater Rim",
         image: "/assets/images/Frame 61 (3).png",
-        description:
-          "Morning game drive in Serengeti before ascending to the Ngorongoro Crater rim. Perched on the edge of this ancient caldera, prepare for tomorrow's descent into the 'Garden of Eden.'",
-      },
-      {
-        day: 5,
-        title: "Ngorongoro Crater Safari",
-        altitude: "2300m - 1700m - 2300m",
-        distance: "120 Km",
-        time: "8-10 hours",
-        habitat: "Crater Floor",
-        image: "/assets/images/Frame 61 (4).png",
-        description:
-          "Descend into the Ngorongoro Crater, a UNESCO World Heritage Site. This natural amphitheater hosts an incredible concentration of wildlife, including the rare black rhino.",
-      },
-      {
-        day: 6,
-        title: "Ngorongoro to Dar es Salaam",
-        altitude: "2300m - 1400m - 0m",
-        distance: "650 Km",
-        time: "1 hour flight",
-        habitat: "Highland to Coastal",
-        image: "/assets/images/Frame 60.png",
-        description:
-          "Return to Arusha and fly back to Dar es Salaam, carrying with you the memories of Tanzania's most iconic wildlife destinations and the spirit of the African wilderness.",
+        description: `Around 5:30 am, our driver will arrive at your Arusha hotel to pick you up for your 11 hour trip to Dar es
+Salaam. It is a whole day trip with breakfast and dinner covered, arriving at Dar es Salaam in the evening.
+End of tour.`,
       },
     ],
     pricing: [
@@ -2766,17 +2714,22 @@ one of the most strenuous on Kilimanjaro due to its steep ascent and little accl
       { group: "11+ people", price: 2100 },
     ],
     inclusions: [
-      "Domestic flights Dar-Arusha-Dar",
-      "Transportation in 4WD safari vehicle",
-      "Professional safari guide",
-      "All park fees and government taxes",
-      "Accommodation as specified",
+      "Pick-up and drop-off at Kilimanjaro International Airport",
+      `All park fees collected by the National Park (conservation fees, camping
+fees, crew fees, vehicle fee, rescue fee and all other fees collected by the Tanzania
+National Parks Authority).`,
+      "All accomodations",
+      "All meals",
+      `Professional guides, licensed by Tanzania National Park. All our guides are the holder
+of Wilderness First Responder or Wilderness First Aid certifications. All our guides have
+10+years of successful mountaineering experience.`,
     ],
     exclusions: [
-      "International flights",
+      "Airline tickets",
+      "Accommodation after tour.",
+      "Personal gear rentals",
       "Visa fees",
-      "Travel insurance",
-      "Personal expenses",
+      "Tips",
     ],
   },
 
@@ -2784,81 +2737,81 @@ one of the most strenuous on Kilimanjaro due to its steep ascent and little accl
     name: "The North Wonders Safari",
     hasMultipleDays: false,
     isEscapeDSM: true,
-    whiteBg: "Serengeti & Ngorongoro",
+    whiteBg: " Lake Manyara, Serengeti & Ngorongoro N.Park",
     blackBg: "6 Days",
     tabDescription:
       "Escape the urban jungle and dive into the real one. From Dar es Salaam's busy streets to the endless plains of Serengeti and the ancient crater of Ngorongoro—witness the Great Migration, spot the Big Five, and discover why Tanzania is the heart of African safari.",
-    description:
-      "Escape the urban jungle and dive into the real one. From Dar es Salaam's busy streets to the endless plains of Serengeti and the ancient crater of Ngorongoro—witness the Great Migration, spot the Big Five, and discover why Tanzania is the heart of African safari.",
+    description: `Embark on a breathtaking journey through Tanzania’s most iconic landscapes. Start with the lush forests and tree-climbing lions of Lake Manyara, roam the endless plains of Serengeti in search of the Big Five, and descend into the ancient Ngorongoro Crater—a world within a world. This is the ultimate escape into the wild, where every stop reveals a new wonder.
+`,
     image: "/placeholder.svg?height=400&width=800",
     difficulty: "Easy",
     success_rate: "100%",
     itinerary: [
       {
         day: 1,
-        title: "Dar es Salaam to Arusha",
+        title: " Dar es Salaam to Arusha",
         altitude: "0m - 1400m",
         distance: "650 Km",
         time: "1 hour flight",
         habitat: "Urban to Highland",
         image: "/assets/images/Frame 61.png",
-        description:
-          "Fly from Dar es Salaam to Arusha, leaving behind the coastal humidity for the crisp highland air. Arusha, the safari capital of Tanzania, welcomes you with views of Mount Meru.",
+        description: `Around 5:30 am, our driver will arrive at your Dar es Salaam hotel/residence to pick you up for your 11
+hour trip to Arusha. It is a whole day trip with breakfast and dinner covered, arriving at Arusha in the
+evening. You will get dinner and rest at the lodge ready for tomorrow’s activities.`,
       },
       {
         day: 2,
-        title: "Arusha to Serengeti National Park",
+        title: "Arusha to Lake Manyara N. Park",
         altitude: "1400m - 1500m",
         distance: "335 Km",
         time: "6-7 hours",
         habitat: "Highland to Savannah",
         image: "/assets/images/Frame 61 (1).png",
-        description:
-          "Journey through the Ngorongoro Conservation Area to reach the legendary Serengeti. As you crest the crater rim, the endless plains stretch before you—home to the greatest wildlife spectacle on Earth.",
+        description: `Early in the morning we will leave to Lake Manyara National Park. The park draws a vast range of animals, including tree-climbing lions, elephants, buffalos, hippos, antelopes, enormous baboon bands, and flocks of flamingos that decorate the gorgeous lake, as well as more than 400 bird species. You will have a game drive anda picnic lunch at Manyara Park before returning to lodge late evening for dinner and sleep.`,
       },
       {
         day: 3,
-        title: "Full Day Serengeti Safari",
+        title: "Lake Manyara to Serengeti N.Park",
         altitude: "1500m",
         distance: "200 Km",
         time: "8-10 hours",
         habitat: "Endless Plains",
         image: "/assets/images/Frame 61 (2).png",
-        description:
-          "Immerse yourself in the Serengeti's magic. Follow the Great Migration, watch predators in action, and experience the raw drama of survival in Africa's most famous national park.",
+        description: `After a hearty breakfast, you'll go to the Serengeti National Park and journey across the never-ending plain grasslands. The Serengeti is undoubtedly the world's most stunning animal sanctuary. An afternoon wildlife drive through the boundless plains of the Serengeti will provide you with the opportunity to
+observe large herds of wildebeest, zebras, and gazelles, as well as a pride of lions lazing in the shade. A picnic lunch will be served throughout the day-long game drive. The adventurous day concludes with a hearty dinner and a nice night's sleep in your accommodations.`,
       },
       {
         day: 4,
-        title: "Serengeti to Ngorongoro",
+        title: "Serengeti  to Ngorongoro Crater",
         altitude: "1500m - 2300m",
         distance: "145 Km",
         time: "4-5 hours",
         habitat: "Plains to Crater Rim",
         image: "/assets/images/Frame 61 (3).png",
-        description:
-          "Morning game drive in Serengeti before ascending to the Ngorongoro Crater rim. Perched on the edge of this ancient caldera, prepare for tomorrow's descent into the 'Garden of Eden.'",
+        description: `After breakfast, you will embark on a morning wildlife drive across Serengeti National Park. Later, head for the Ngorongoro Conservation Area with a picnic lunch. Ngorongoro Crater is the world's largest collapsed volcano crater, spanning fourteen kilometers of solitary natural splendor. Ngorongoro Crater is
+ringed by a ring of ancient volcanoes, and the bottom, riddled with watering holes, supports over 30,000 animals. The adventurous day concludes with a hearty dinner and a nice night's sleep in your accommodations.`,
       },
       {
         day: 5,
-        title: "Ngorongoro Crater Safari",
-        altitude: "2300m - 1700m - 2300m",
-        distance: "120 Km",
-        time: "8-10 hours",
-        habitat: "Crater Floor",
-        image: "/assets/images/Frame 61 (4).png",
-        description:
-          "Descend into the Ngorongoro Crater, a UNESCO World Heritage Site. This natural amphitheater hosts an incredible concentration of wildlife, including the rare black rhino.",
+        title: "Ngorongoro Crater to Arusha",
+        altitude: "1500m - 2300m",
+        distance: "145 Km",
+        time: "4-5 hours",
+        habitat: "Plains to Crater Rim",
+        image: "/assets/images/Frame 61 (3).png",
+        description: `After a quick breakfast, you will descend into the crater bottom at approximately 6:30 a.m. Ngorongoro Crater is the world's biggest inactive, undamaged, and unfilled volcanic caldera. It has a vast floor of over 260 square kilometers and a depth of over 2000 feet. The 5-hour game drive on the crater floor will
+provide plenty of animal action. Having the camera ready is highly advised. African elephants, buffaloes, black rhinos, hippos, hyenas, cheetahs, and lions are abundant. Following the picnic lunch by the stunning Hippo pool, you will begin a difficult ascent to the crater's top exit. You will be have dinner and rest at Arusha.`,
       },
       {
         day: 6,
-        title: "Ngorongoro to Dar es Salaam",
-        altitude: "2300m - 1400m - 0m",
-        distance: "650 Km",
-        time: "1 hour flight",
-        habitat: "Highland to Coastal",
-        image: "/assets/images/Frame 60.png",
-        description:
-          "Return to Arusha and fly back to Dar es Salaam, carrying with you the memories of Tanzania's most iconic wildlife destinations and the spirit of the African wilderness.",
+        title: "Arusha to Dar es Salaam",
+        altitude: "1500m - 2300m",
+        distance: "145 Km",
+        time: "4-5 hours",
+        habitat: "Plains to Crater Rim",
+        image: "/assets/images/Frame 61 (3).png",
+        description: `Around 5:30 am, our driver will arrive at your Arusha hotel to pick you up for your 11 hour trip to Dar es Salaam. It is a whole day trip with breakfast and dinner covered, arriving at Dar es Salaam in the evening.
+End of tour.`,
       },
     ],
     pricing: [
@@ -2869,17 +2822,22 @@ one of the most strenuous on Kilimanjaro due to its steep ascent and little accl
       { group: "11+ people", price: 2100 },
     ],
     inclusions: [
-      "Domestic flights Dar-Arusha-Dar",
-      "Transportation in 4WD safari vehicle",
-      "Professional safari guide",
-      "All park fees and government taxes",
-      "Accommodation as specified",
+      "Pick-up and drop-off at Kilimanjaro International Airport",
+      `All park fees collected by the National Park (conservation fees, camping
+fees, crew fees, vehicle fee, rescue fee and all other fees collected by the Tanzania
+National Parks Authority).`,
+      "All accomodations",
+      "All meals",
+      `Professional guides, licensed by Tanzania National Park. All our guides are the holder
+of Wilderness First Responder or Wilderness First Aid certifications. All our guides have
+10+years of successful mountaineering experience.`,
     ],
     exclusions: [
-      "International flights",
+      "Airline tickets",
+      "Accommodation after tour.",
+      "Personal gear rentals",
       "Visa fees",
-      "Travel insurance",
-      "Personal expenses",
+      "Tips",
     ],
   },
 
@@ -2887,81 +2845,49 @@ one of the most strenuous on Kilimanjaro due to its steep ascent and little accl
     name: "Skies Over The Wild",
     hasMultipleDays: false,
     isEscapeDSM: true,
-    whiteBg: "Serengeti & Ngorongoro",
-    blackBg: "6 Days",
+    whiteBg: "Tarangire & Balloon Safaril ",
+    blackBg: "3 Days",
     tabDescription:
       "Escape the urban jungle and dive into the real one. From Dar es Salaam's busy streets to the endless plains of Serengeti and the ancient crater of Ngorongoro—witness the Great Migration, spot the Big Five, and discover why Tanzania is the heart of African safari.",
-    description:
-      "Escape the urban jungle and dive into the real one. From Dar es Salaam's busy streets to the endless plains of Serengeti and the ancient crater of Ngorongoro—witness the Great Migration, spot the Big Five, and discover why Tanzania is the heart of African safari.",
+    description: `
+Trade the city skyline for sweeping savannah views as you journey from Dar es Salaam to the elephant-rich plains of Tarangire National Park. Drift above ancient baobabs and herds of wildlife on a magical hot air balloon safari—watching the sunrise light up the landscape in golden hues. This is Tarangire from above: peaceful, powerful, and unforgettable.
+`,
     image: "/placeholder.svg?height=400&width=800",
     difficulty: "Easy",
     success_rate: "100%",
     itinerary: [
       {
         day: 1,
-        title: "Dar es Salaam to Arusha",
+        title: " Dar es Salaam to Tarangire N.Park",
         altitude: "0m - 1400m",
         distance: "650 Km",
         time: "1 hour flight",
         habitat: "Urban to Highland",
         image: "/assets/images/Frame 61.png",
-        description:
-          "Fly from Dar es Salaam to Arusha, leaving behind the coastal humidity for the crisp highland air. Arusha, the safari capital of Tanzania, welcomes you with views of Mount Meru.",
+        description: `Around 5:30 am, our driver will arrive at your Dar es Salaam hotel/residence to pick you up for your 11 hour trip to Tarangire National Park. It is a whole day trip with breakfast and dinner covered, arriving at Tarangire in the evening. You will get dinner and rest at the lodge ready for tomorrow’s activities.`,
       },
       {
         day: 2,
-        title: "Arusha to Serengeti National Park",
+        title: "ABalloon Experience & Game Drive",
         altitude: "1400m - 1500m",
         distance: "335 Km",
         time: "6-7 hours",
         habitat: "Highland to Savannah",
         image: "/assets/images/Frame 61 (1).png",
-        description:
-          "Journey through the Ngorongoro Conservation Area to reach the legendary Serengeti. As you crest the crater rim, the endless plains stretch before you—home to the greatest wildlife spectacle on Earth.",
+        description: `Early in the morning 5am, you will be picked at your lodge ready for the balloon experience and observing the good sceneries and wildlife at Tarangire National Park for 2-3 hours. After, you will have certificates and breakfast, and then game drive for the remaining hours till late 4 pm. You will get back to
+Arusha for dinner and rest.`,
       },
       {
         day: 3,
-        title: "Full Day Serengeti Safari",
+        title: "Arusha to Dar es Salaam",
         altitude: "1500m",
         distance: "200 Km",
         time: "8-10 hours",
         habitat: "Endless Plains",
         image: "/assets/images/Frame 61 (2).png",
-        description:
-          "Immerse yourself in the Serengeti's magic. Follow the Great Migration, watch predators in action, and experience the raw drama of survival in Africa's most famous national park.",
-      },
-      {
-        day: 4,
-        title: "Serengeti to Ngorongoro",
-        altitude: "1500m - 2300m",
-        distance: "145 Km",
-        time: "4-5 hours",
-        habitat: "Plains to Crater Rim",
-        image: "/assets/images/Frame 61 (3).png",
-        description:
-          "Morning game drive in Serengeti before ascending to the Ngorongoro Crater rim. Perched on the edge of this ancient caldera, prepare for tomorrow's descent into the 'Garden of Eden.'",
-      },
-      {
-        day: 5,
-        title: "Ngorongoro Crater Safari",
-        altitude: "2300m - 1700m - 2300m",
-        distance: "120 Km",
-        time: "8-10 hours",
-        habitat: "Crater Floor",
-        image: "/assets/images/Frame 61 (4).png",
-        description:
-          "Descend into the Ngorongoro Crater, a UNESCO World Heritage Site. This natural amphitheater hosts an incredible concentration of wildlife, including the rare black rhino.",
-      },
-      {
-        day: 6,
-        title: "Ngorongoro to Dar es Salaam",
-        altitude: "2300m - 1400m - 0m",
-        distance: "650 Km",
-        time: "1 hour flight",
-        habitat: "Highland to Coastal",
-        image: "/assets/images/Frame 60.png",
-        description:
-          "Return to Arusha and fly back to Dar es Salaam, carrying with you the memories of Tanzania's most iconic wildlife destinations and the spirit of the African wilderness.",
+        description: `Around 5:30 am, our driver will arrive at your Arusha hotel to pick you up for your 11 hour trip to Dar es
+Salaam. It is a whole day trip with breakfast and dinner covered, arriving at Dar es Salaam in the evening.
+End of tour.`,
       },
     ],
     pricing: [
@@ -2972,17 +2898,22 @@ one of the most strenuous on Kilimanjaro due to its steep ascent and little accl
       { group: "11+ people", price: 2100 },
     ],
     inclusions: [
-      "Domestic flights Dar-Arusha-Dar",
-      "Transportation in 4WD safari vehicle",
-      "Professional safari guide",
-      "All park fees and government taxes",
-      "Accommodation as specified",
+      "Pick-up and drop-off at Kilimanjaro International Airport",
+      `All park fees collected by the National Park (conservation fees, camping
+fees, crew fees, vehicle fee, rescue fee and all other fees collected by the Tanzania
+National Parks Authority).`,
+      "All accomodations",
+      "All meals",
+      `Professional guides, licensed by Tanzania National Park. All our guides are the holder
+of Wilderness First Responder or Wilderness First Aid certifications. All our guides have
+10+years of successful mountaineering experience.`,
     ],
     exclusions: [
-      "International flights",
+      "Airline tickets",
+      "Accommodation after tour.",
+      "Personal gear rentals",
       "Visa fees",
-      "Travel insurance",
-      "Personal expenses",
+      "Tips",
     ],
   },
 
@@ -2990,81 +2921,62 @@ one of the most strenuous on Kilimanjaro due to its steep ascent and little accl
     name: "Into The Wild Heart",
     hasMultipleDays: false,
     isEscapeDSM: true,
-    whiteBg: "Serengeti & Ngorongoro",
-    blackBg: "6 Days",
+    whiteBg: "Tarangire & Ngorongoro National Park",
+    blackBg: "4 Days",
     tabDescription:
       "Escape the urban jungle and dive into the real one. From Dar es Salaam's busy streets to the endless plains of Serengeti and the ancient crater of Ngorongoro—witness the Great Migration, spot the Big Five, and discover why Tanzania is the heart of African safari.",
-    description:
-      "Escape the urban jungle and dive into the real one. From Dar es Salaam's busy streets to the endless plains of Serengeti and the ancient crater of Ngorongoro—witness the Great Migration, spot the Big Five, and discover why Tanzania is the heart of African safari.",
+    description: `Leave behind the coastal breeze and step into Tanzania’s untamed soul. Start your journey in Tarangire, where massive baobabs and roaming elephant herds greet you at every turn. Then descend into the ancient Ngorongoro Crater, a natural amphitheater teeming with wildlife—from lions and rhinos to flamingos and grazing gazelles. A perfect blend of raw beauty and timeless wonder.
+`,
     image: "/placeholder.svg?height=400&width=800",
     difficulty: "Easy",
     success_rate: "100%",
     itinerary: [
       {
         day: 1,
-        title: "Dar es Salaam to Arusha",
+        title: " Dar es Salaam to Arusha",
         altitude: "0m - 1400m",
         distance: "650 Km",
         time: "1 hour flight",
         habitat: "Urban to Highland",
         image: "/assets/images/Frame 61.png",
-        description:
-          "Fly from Dar es Salaam to Arusha, leaving behind the coastal humidity for the crisp highland air. Arusha, the safari capital of Tanzania, welcomes you with views of Mount Meru.",
+        description: `Around 5:30 am, our driver will arrive at your Dar es Salaam hotel/residence to pick you up for your 11
+hour trip to Arusha. It is a whole day trip with breakfast and dinner covered, arriving at Arusha in the
+evening. You will get dinner and rest at the lodge ready for tomorrow’s activities.`,
       },
       {
         day: 2,
-        title: "Arusha to Serengeti National Park",
+        title: "Arusha to Tarangire National Park",
         altitude: "1400m - 1500m",
         distance: "335 Km",
         time: "6-7 hours",
         habitat: "Highland to Savannah",
         image: "/assets/images/Frame 61 (1).png",
-        description:
-          "Journey through the Ngorongoro Conservation Area to reach the legendary Serengeti. As you crest the crater rim, the endless plains stretch before you—home to the greatest wildlife spectacle on Earth.",
+        description: `After breakfast, we will pick you at your hotel in Moshi/Arusha for a short safari briefing before heading to Tarangire National Park. On the route, you'll pass in the malls/supermarkets of Arusha for any last- minute purchases before heading into the bush. This park is famous for its large elephant population and
+towering Baobab trees. Over 3000 elephants have been reported migrating through the Tarangire Lake Manyara habitat. After a full day of wildlife drive in Tarangire, you will travel to Manyara or Karatu for dinner and sleep.`,
       },
       {
         day: 3,
-        title: "Full Day Serengeti Safari",
+        title: "Tarangire  to  Ngorongoro N.Park",
         altitude: "1500m",
         distance: "200 Km",
         time: "8-10 hours",
         habitat: "Endless Plains",
         image: "/assets/images/Frame 61 (2).png",
-        description:
-          "Immerse yourself in the Serengeti's magic. Follow the Great Migration, watch predators in action, and experience the raw drama of survival in Africa's most famous national park.",
+        description: `After early breakfast we will travel to the Ngorongoro Conservation Area before descending to the crater
+for game watching in the world's largest caldera, which boasts breathtaking scenery and a high concentration of animals, including the endangered black rhino. The terrain is home of the BIG 5 and to many elephants, so keep your eyes open for this enormous species. The Ngorongoro Crater features a
+large number of wildlife. Picnic lunch in the Ngoitok-tok area, followed by a wildlife viewing drive to Arusha for dinner and an overnight stay.`,
       },
       {
         day: 4,
-        title: "Serengeti to Ngorongoro",
+        title: "Arusha to Dar es Salaam",
         altitude: "1500m - 2300m",
         distance: "145 Km",
         time: "4-5 hours",
         habitat: "Plains to Crater Rim",
         image: "/assets/images/Frame 61 (3).png",
-        description:
-          "Morning game drive in Serengeti before ascending to the Ngorongoro Crater rim. Perched on the edge of this ancient caldera, prepare for tomorrow's descent into the 'Garden of Eden.'",
-      },
-      {
-        day: 5,
-        title: "Ngorongoro Crater Safari",
-        altitude: "2300m - 1700m - 2300m",
-        distance: "120 Km",
-        time: "8-10 hours",
-        habitat: "Crater Floor",
-        image: "/assets/images/Frame 61 (4).png",
-        description:
-          "Descend into the Ngorongoro Crater, a UNESCO World Heritage Site. This natural amphitheater hosts an incredible concentration of wildlife, including the rare black rhino.",
-      },
-      {
-        day: 6,
-        title: "Ngorongoro to Dar es Salaam",
-        altitude: "2300m - 1400m - 0m",
-        distance: "650 Km",
-        time: "1 hour flight",
-        habitat: "Highland to Coastal",
-        image: "/assets/images/Frame 60.png",
-        description:
-          "Return to Arusha and fly back to Dar es Salaam, carrying with you the memories of Tanzania's most iconic wildlife destinations and the spirit of the African wilderness.",
+        description: `Around 5:30 am, our driver will arrive at your Arusha hotel to pick you up for your 11 hour trip to Dar es
+Salaam. It is a whole day trip with breakfast and dinner covered, arriving at Dar es Salaam in the evening.
+End of tour.`,
       },
     ],
     pricing: [
@@ -3075,17 +2987,22 @@ one of the most strenuous on Kilimanjaro due to its steep ascent and little accl
       { group: "11+ people", price: 2100 },
     ],
     inclusions: [
-      "Domestic flights Dar-Arusha-Dar",
-      "Transportation in 4WD safari vehicle",
-      "Professional safari guide",
-      "All park fees and government taxes",
-      "Accommodation as specified",
+      "Pick-up and drop-off at Kilimanjaro International Airport",
+      `All park fees collected by the National Park (conservation fees, camping
+fees, crew fees, vehicle fee, rescue fee and all other fees collected by the Tanzania
+National Parks Authority).`,
+      "All accomodations",
+      "All meals",
+      `Professional guides, licensed by Tanzania National Park. All our guides are the holder
+of Wilderness First Responder or Wilderness First Aid certifications. All our guides have
+10+years of successful mountaineering experience.`,
     ],
     exclusions: [
-      "International flights",
+      "Airline tickets",
+      "Accommodation after tour.",
+      "Personal gear rentals",
       "Visa fees",
-      "Travel insurance",
-      "Personal expenses",
+      "Tips",
     ],
   },
 
@@ -3093,81 +3010,38 @@ one of the most strenuous on Kilimanjaro due to its steep ascent and little accl
     name: "Where The Bush Meets The Beach",
     hasMultipleDays: false,
     isEscapeDSM: true,
-    whiteBg: "Serengeti & Ngorongoro",
-    blackBg: "6 Days",
+    whiteBg: "Saadani National Park ",
+    blackBg: "2 Days",
     tabDescription:
       "Escape the urban jungle and dive into the real one. From Dar es Salaam's busy streets to the endless plains of Serengeti and the ancient crater of Ngorongoro—witness the Great Migration, spot the Big Five, and discover why Tanzania is the heart of African safari.",
-    description:
-      "Escape the urban jungle and dive into the real one. From Dar es Salaam's busy streets to the endless plains of Serengeti and the ancient crater of Ngorongoro—witness the Great Migration, spot the Big Five, and discover why Tanzania is the heart of African safari.",
+    description: `
+Escape the city and venture to Saadani, Tanzania’s only national park where the wild meets the waves. Just a short journey from Dar es Salaam, Saadani offers a rare blend of safari and seashore—spot elephants and lions by day, then unwind on untouched beaches by sunset. It’s the perfect coastal wilderness retreat, where nature writes the soundtrack.
+
+`,
     image: "/placeholder.svg?height=400&width=800",
     difficulty: "Easy",
     success_rate: "100%",
     itinerary: [
       {
         day: 1,
-        title: "Dar es Salaam to Arusha",
+        title: " Dar es Salaam to Saadani N.Park",
         altitude: "0m - 1400m",
         distance: "650 Km",
         time: "1 hour flight",
         habitat: "Urban to Highland",
         image: "/assets/images/Frame 61.png",
-        description:
-          "Fly from Dar es Salaam to Arusha, leaving behind the coastal humidity for the crisp highland air. Arusha, the safari capital of Tanzania, welcomes you with views of Mount Meru.",
+        description: `Early in the morning, you will be picked up from the airport or your hotel for your departure to Sadaani National Park. The drive will take approximately 2 hours as you unwind through the beautiful setting of local villages, the historical triangle, and the fascinating Wami river. When you arrive at the park, you will go for an evening game drive to catch a glimpse of some of the wildlife in the park, which includes wildebeests, hartebeest, giraffe, zebra, waterbuck, and sable antelope, among many others.`,
       },
       {
         day: 2,
-        title: "Arusha to Serengeti National Park",
+        title: "Game Drive & Boat Safari to  Dar",
         altitude: "1400m - 1500m",
         distance: "335 Km",
         time: "6-7 hours",
         habitat: "Highland to Savannah",
         image: "/assets/images/Frame 61 (1).png",
-        description:
-          "Journey through the Ngorongoro Conservation Area to reach the legendary Serengeti. As you crest the crater rim, the endless plains stretch before you—home to the greatest wildlife spectacle on Earth.",
-      },
-      {
-        day: 3,
-        title: "Full Day Serengeti Safari",
-        altitude: "1500m",
-        distance: "200 Km",
-        time: "8-10 hours",
-        habitat: "Endless Plains",
-        image: "/assets/images/Frame 61 (2).png",
-        description:
-          "Immerse yourself in the Serengeti's magic. Follow the Great Migration, watch predators in action, and experience the raw drama of survival in Africa's most famous national park.",
-      },
-      {
-        day: 4,
-        title: "Serengeti to Ngorongoro",
-        altitude: "1500m - 2300m",
-        distance: "145 Km",
-        time: "4-5 hours",
-        habitat: "Plains to Crater Rim",
-        image: "/assets/images/Frame 61 (3).png",
-        description:
-          "Morning game drive in Serengeti before ascending to the Ngorongoro Crater rim. Perched on the edge of this ancient caldera, prepare for tomorrow's descent into the 'Garden of Eden.'",
-      },
-      {
-        day: 5,
-        title: "Ngorongoro Crater Safari",
-        altitude: "2300m - 1700m - 2300m",
-        distance: "120 Km",
-        time: "8-10 hours",
-        habitat: "Crater Floor",
-        image: "/assets/images/Frame 61 (4).png",
-        description:
-          "Descend into the Ngorongoro Crater, a UNESCO World Heritage Site. This natural amphitheater hosts an incredible concentration of wildlife, including the rare black rhino.",
-      },
-      {
-        day: 6,
-        title: "Ngorongoro to Dar es Salaam",
-        altitude: "2300m - 1400m - 0m",
-        distance: "650 Km",
-        time: "1 hour flight",
-        habitat: "Highland to Coastal",
-        image: "/assets/images/Frame 60.png",
-        description:
-          "Return to Arusha and fly back to Dar es Salaam, carrying with you the memories of Tanzania's most iconic wildlife destinations and the spirit of the African wilderness.",
+        description: `During a morning game drive in the park, you may see the big four, such as lions, African bush elephants, Cape buffaloes, and leopards, as well as many other animals. You can choose to have a picnic lunch at the beach, relax in the fresh air of the ocean, or return to your lodge for lunch. In the afternoon, enjoy a boat safari along the Wami River. The waters and swamplands are home to a big population of hippos, crocodiles, and various water birds, making it ideal for passionate bird watchers. After your boat safari, you'll depart the park and return to Dar es Salaam to your accommodation or be
+dropped off at the airport.`,
       },
     ],
     pricing: [
@@ -3178,17 +3052,22 @@ one of the most strenuous on Kilimanjaro due to its steep ascent and little accl
       { group: "11+ people", price: 2100 },
     ],
     inclusions: [
-      "Domestic flights Dar-Arusha-Dar",
-      "Transportation in 4WD safari vehicle",
-      "Professional safari guide",
-      "All park fees and government taxes",
-      "Accommodation as specified",
+      "Pick-up and drop-off at Kilimanjaro International Airport",
+      `All park fees collected by the National Park (conservation fees, camping
+fees, crew fees, vehicle fee, rescue fee and all other fees collected by the Tanzania
+National Parks Authority).`,
+      "All accomodations",
+      "All meals",
+      `Professional guides, licensed by Tanzania National Park. All our guides are the holder
+of Wilderness First Responder or Wilderness First Aid certifications. All our guides have
+10+years of successful mountaineering experience.`,
     ],
     exclusions: [
-      "International flights",
+      "Airline tickets",
+      "Accommodation after tour.",
+      "Personal gear rentals",
       "Visa fees",
-      "Travel insurance",
-      "Personal expenses",
+      "Tips",
     ],
   },
 
@@ -3196,81 +3075,38 @@ one of the most strenuous on Kilimanjaro due to its steep ascent and little accl
     name: "Into The Untamed Wilderness",
     hasMultipleDays: false,
     isEscapeDSM: true,
-    whiteBg: "Serengeti & Ngorongoro",
-    blackBg: "6 Days",
+    whiteBg: "Nyerere National Park ",
+    blackBg: "2 Days",
     tabDescription:
       "Escape the urban jungle and dive into the real one. From Dar es Salaam's busy streets to the endless plains of Serengeti and the ancient crater of Ngorongoro—witness the Great Migration, spot the Big Five, and discover why Tanzania is the heart of African safari.",
-    description:
-      "Escape the urban jungle and dive into the real one. From Dar es Salaam's busy streets to the endless plains of Serengeti and the ancient crater of Ngorongoro—witness the Great Migration, spot the Big Five, and discover why Tanzania is the heart of African safari.",
+    description: `
+From the bustling city of Dar es Salaam, venture into the expansive wilderness of Nyerere National Park, where vast savannahs meet meandering rivers. Home to one of the largest wildlife sanctuaries in Africa, this trip promises unforgettable encounters with majestic elephants, prowling lions, and the serene beauty of the Rufiji River. A perfect getaway for those who seek a true safari adventure just a short distance from the city.
+
+`,
     image: "/placeholder.svg?height=400&width=800",
     difficulty: "Easy",
     success_rate: "100%",
     itinerary: [
       {
         day: 1,
-        title: "Dar es Salaam to Arusha",
+        title: " Dar es Salaam to Nyerere N.Park",
         altitude: "0m - 1400m",
         distance: "650 Km",
         time: "1 hour flight",
         habitat: "Urban to Highland",
         image: "/assets/images/Frame 61.png",
-        description:
-          "Fly from Dar es Salaam to Arusha, leaving behind the coastal humidity for the crisp highland air. Arusha, the safari capital of Tanzania, welcomes you with views of Mount Meru.",
+        description: `You will be picked up in the morning at 4:30 am from Dar es Salaam and driven by our experienced driver to Selous Game Reserve (Nyerere National Park) via Kisarawe. The trip should take approximately 3 and half hours. When you first arrive to Nyerere National Park, you will go on game drives till dusk,
+during which you will be able to see a variety of tourist attractions, including antelopes, giraffes, zebras, lions, elephants, and more. Birds and other landscape features, such as ponds, dry grasslands, light acacia forests, and higher ground with expansive views of distant mountains, will also be visible to you. After that, you'll head to Camp or Lodge for dinner and rest in order to get ready for the final day.`,
       },
       {
         day: 2,
-        title: "Arusha to Serengeti National Park",
+        title: "Boat Safari &  Back to Dar es Salaam",
         altitude: "1400m - 1500m",
         distance: "335 Km",
         time: "6-7 hours",
         habitat: "Highland to Savannah",
         image: "/assets/images/Frame 61 (1).png",
-        description:
-          "Journey through the Ngorongoro Conservation Area to reach the legendary Serengeti. As you crest the crater rim, the endless plains stretch before you—home to the greatest wildlife spectacle on Earth.",
-      },
-      {
-        day: 3,
-        title: "Full Day Serengeti Safari",
-        altitude: "1500m",
-        distance: "200 Km",
-        time: "8-10 hours",
-        habitat: "Endless Plains",
-        image: "/assets/images/Frame 61 (2).png",
-        description:
-          "Immerse yourself in the Serengeti's magic. Follow the Great Migration, watch predators in action, and experience the raw drama of survival in Africa's most famous national park.",
-      },
-      {
-        day: 4,
-        title: "Serengeti to Ngorongoro",
-        altitude: "1500m - 2300m",
-        distance: "145 Km",
-        time: "4-5 hours",
-        habitat: "Plains to Crater Rim",
-        image: "/assets/images/Frame 61 (3).png",
-        description:
-          "Morning game drive in Serengeti before ascending to the Ngorongoro Crater rim. Perched on the edge of this ancient caldera, prepare for tomorrow's descent into the 'Garden of Eden.'",
-      },
-      {
-        day: 5,
-        title: "Ngorongoro Crater Safari",
-        altitude: "2300m - 1700m - 2300m",
-        distance: "120 Km",
-        time: "8-10 hours",
-        habitat: "Crater Floor",
-        image: "/assets/images/Frame 61 (4).png",
-        description:
-          "Descend into the Ngorongoro Crater, a UNESCO World Heritage Site. This natural amphitheater hosts an incredible concentration of wildlife, including the rare black rhino.",
-      },
-      {
-        day: 6,
-        title: "Ngorongoro to Dar es Salaam",
-        altitude: "2300m - 1400m - 0m",
-        distance: "650 Km",
-        time: "1 hour flight",
-        habitat: "Highland to Coastal",
-        image: "/assets/images/Frame 60.png",
-        description:
-          "Return to Arusha and fly back to Dar es Salaam, carrying with you the memories of Tanzania's most iconic wildlife destinations and the spirit of the African wilderness.",
+        description: `You will start the day with morning tea and then go on a bushman walking trip through the forest with our armed ranger. After that, you will do a boat safari in the Rufiji River, Tanzania's largest and longest river. It is over 600 kilometers (370 miles) long, with its mouth on the Indian Ocean and its source in southwestern Tanzania. Crocodiles, hippos, river bluffs, birds, and more are among the river's many attractions. You will return to your camp or lodge for breakfast following the boat tour. While you're getting ready to return to Dar es Salaam, stop for lunch.`,
       },
     ],
     pricing: [
@@ -3281,17 +3117,22 @@ one of the most strenuous on Kilimanjaro due to its steep ascent and little accl
       { group: "11+ people", price: 2100 },
     ],
     inclusions: [
-      "Domestic flights Dar-Arusha-Dar",
-      "Transportation in 4WD safari vehicle",
-      "Professional safari guide",
-      "All park fees and government taxes",
-      "Accommodation as specified",
+      "Pick-up and drop-off at Kilimanjaro International Airport",
+      `All park fees collected by the National Park (conservation fees, camping
+fees, crew fees, vehicle fee, rescue fee and all other fees collected by the Tanzania
+National Parks Authority).`,
+      "All accomodations",
+      "All meals",
+      `Professional guides, licensed by Tanzania National Park. All our guides are the holder
+of Wilderness First Responder or Wilderness First Aid certifications. All our guides have
+10+years of successful mountaineering experience.`,
     ],
     exclusions: [
-      "International flights",
+      "Airline tickets",
+      "Accommodation after tour.",
+      "Personal gear rentals",
       "Visa fees",
-      "Travel insurance",
-      "Personal expenses",
+      "Tips",
     ],
   },
 
