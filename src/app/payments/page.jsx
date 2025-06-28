@@ -12,6 +12,8 @@ import {
   Shield,
   Heart,
 } from "lucide-react";
+import lock from "../../../public/assets/images/lock.png";
+import Image from "next/image";
 
 const BookingFlow = () => {
   const [currentStep, setCurrentStep] = useState(1);
@@ -22,8 +24,7 @@ const BookingFlow = () => {
   const [expiryDate, setExpiryDate] = useState("MM/YYYY");
   const [cvv, setCvv] = useState("XXX");
 
-    const dateInputRef = useRef(null);
-  
+  const dateInputRef = useRef(null);
 
   // Adventure Details State
   const [adventureDetails, setAdventureDetails] = useState({
@@ -81,12 +82,12 @@ const BookingFlow = () => {
 
   // Step 1: Adventure Details
   const renderAdventureDetails = () => (
-    <div className="space-y-6">
+    <div className="space-y-6  md:pr-5">
       <h2 className="text-xl lg:text-2xl font-bold text-gray-800 mb-6">
         Adventure Details
       </h2>
 
-      <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
+      <div className="grid grid-cols-1 md:grid-cols-2 gap-6 ">
         <div>
           <label className="block text-sm font-medium text-gray-700 mb-2">
             Number Of Adults
@@ -182,7 +183,7 @@ const BookingFlow = () => {
 
   // Step 2: Personal Details
   const renderPersonalDetails = () => (
-    <div className="space-y-6">
+    <div className="space-y-6 md:mr-9">
       <div className="flex items-center mb-6">
         <button
           onClick={prevStep}
@@ -348,15 +349,21 @@ const BookingFlow = () => {
         <h1 className="text-lg sm:text-xl lg:text-2xl font-bold text-gray-800 mr-3">
           Complete Payment Securely
         </h1>
-        <div className="w-6 h-6 sm:w-8 sm:h-8 bg-blue-100 rounded-lg flex items-center justify-center">
-          <Shield className="w-4 h-4 sm:w-5 sm:h-5 text-blue-600" />
+        <div className=" bg-blue-50 rounded-lg flex items-center justify-center">
+          <Image
+            src={lock}
+            alt="Lock Icon"
+            width={24}
+            height={24}
+            className="w-12 h-12 "
+          />
         </div>
       </div>
 
-      <div className="flex flex-col lg:flex-row">
+      <div className="flex flex-col lg:flex-row   border border-gray-200 rounded-l-2xl relative overflow-hidden">
         {/* Payment Methods Sidebar */}
-        <div className="w-full lg:w-48 mb-6 lg:mb-0 lg:mr-8">
-          <div className="bg-gray-100 rounded-lg p-4">
+        <div className="w-full md:h-full lg:w-48 mb-6 lg:mb-0 lg:mr-8">
+          <div className="bg-gray-100  p-4 md:h-[67vh]">
             <h3 className="font-semibold text-gray-700 mb-4">Payment Method</h3>
 
             <div className="flex lg:flex-col space-x-2 lg:space-x-0 lg:space-y-2">
@@ -365,7 +372,7 @@ const BookingFlow = () => {
                 className={`flex-1 lg:w-full flex items-center justify-center lg:justify-start p-3 rounded-lg transition-colors ${
                   paymentMethod === "card"
                     ? "bg-gray-800 text-white"
-                    : "text-gray-600 hover:bg-gray-200"
+                    : "text-gray-600 hover:bg-gray-200 bg-gray-200"
                 }`}
               >
                 <CreditCard className="w-4 h-4 mr-2 lg:mr-3" />
@@ -377,7 +384,7 @@ const BookingFlow = () => {
                 className={`flex-1 lg:w-full flex items-center justify-center lg:justify-start p-3 rounded-lg transition-colors ${
                   paymentMethod === "mobile"
                     ? "bg-gray-800 text-white"
-                    : "text-gray-600 hover:bg-gray-200"
+                    : "text-gray-600 hover:bg-gray-200 bg-gray-200"
                 }`}
               >
                 <Smartphone className="w-4 h-4 mr-2 lg:mr-3" />
@@ -388,109 +395,113 @@ const BookingFlow = () => {
         </div>
 
         {/* Payment Form */}
-        <div className="flex-1">
+        <div className="flex-1 md:relative px-3 md:px-0">
           <button
             onClick={prevStep}
-            className="mb-4 lg:mb-6 text-gray-600 hover:text-gray-800"
+            className="mb-4 lg:mb-6 text-gray-600 md:absolute md:top-2 md:left-2 hover:text-gray-800"
           >
-            <ArrowLeft className="w-5 h-5" />
+            <ArrowLeft size={30} className="bg-gray-200 rounded-full p-2" />
           </button>
 
           {paymentMethod === "mobile" ? (
             <div className="space-y-4 lg:space-y-6">
-              {/* Mobile Money Network */}
-              <div>
-                <div className="bg-gray-100 p-3 lg:p-4 rounded-lg">
-                  <div className="flex items-center justify-between">
-                    <span className="text-sm font-medium text-gray-700">
-                      Mobile Money Network
-                    </span>
-                    <ChevronDown className="w-4 h-4 text-gray-500" />
-                  </div>
-                  <div className="text-sm text-gray-500 mt-1">
-                    Select Network
-                  </div>
-                </div>
-              </div>
-
-              {/* Phone Number */}
-              <div>
-                <label className="block text-sm font-medium text-gray-700 mb-2">
-                  Phone Number
-                </label>
-                <input
-                  type="text"
-                  value={phoneNumber}
-                  onChange={(e) => setPhoneNumber(e.target.value)}
-                  className="w-full p-3 border border-gray-300 rounded-lg focus:outline-none text-black focus:r text-sm lg:text-base"
-                  placeholder="0XXXXXXXXX"
-                />
-              </div>
-            </div>
-          ) : (
-            <div className="space-y-4 lg:space-y-6">
-              {/* Card Owner Name */}
-              <div>
-                <label className="block text-sm font-medium text-gray-700 mb-2">
-                  NAME OF CARD OWNER
-                </label>
-                <input
-                  type="text"
-                  value={cardOwner}
-                  onChange={(e) => setCardOwner(e.target.value)}
-                  className="w-full p-3 border border-gray-300 rounded-lg focus:outline-none text-black focus:r text-sm lg:text-base"
-                  placeholder="First Name & Last Name"
-                />
-              </div>
-
-              {/* Card Number */}
-              <div>
-                <label className="block text-sm font-medium text-gray-700 mb-2">
-                  CARD NUMBER
-                </label>
-                <div className="relative">
-                  <input
-                    type="text"
-                    value={cardNumber}
-                    onChange={(e) => setCardNumber(e.target.value)}
-                    className="w-full p-3 border border-gray-300 rounded-lg focus:outline-none text-black focus:r pr-12 text-sm lg:text-base"
-                    placeholder="0000 0000 0000 0000"
-                  />
-                  <div className="absolute right-3 top-3 flex space-x-1">
-                    <div className="w-4 h-3 lg:w-6 lg:h-4 bg-red-500 rounded-sm"></div>
-                    <div className="w-4 h-3 lg:w-6 lg:h-4 bg-orange-400 rounded-sm"></div>
+              <div className="md:w-[64%] md:mx-auto md:mt-16 mt-1 space-y-4 lg:space-y-6">
+                {/* Mobile Money Network */}
+                <div>
+                  <div className="bg-gray-100 p-3 lg:p-4 rounded-lg">
+                    <div className="flex items-center justify-between">
+                      <span className="text-sm font-medium text-gray-700">
+                        Mobile Money Network
+                      </span>
+                      <ChevronDown className="w-4 h-4 text-gray-500" />
+                    </div>
+                    <div className="text-sm text-gray-500 mt-1">
+                      Select Network
+                    </div>
                   </div>
                 </div>
-              </div>
 
-              {/* Expiry and CVV */}
-              <div className="flex flex-col sm:flex-row space-y-4 sm:space-y-0 sm:space-x-4">
-                <div className="flex-1">
+                {/* Phone Number */}
+                <div>
                   <label className="block text-sm font-medium text-gray-700 mb-2">
-                    EXPIRY DATE
+                    Phone Number
                   </label>
                   <input
                     type="text"
-                    value={expiryDate}
-                    onChange={(e) => setExpiryDate(e.target.value)}
+                    value={phoneNumber}
+                    onChange={(e) => setPhoneNumber(e.target.value)}
                     className="w-full p-3 border border-gray-300 rounded-lg focus:outline-none text-black focus:r text-sm lg:text-base"
-                    placeholder="MM/YYYY"
+                    placeholder="0XXXXXXXXX"
                   />
                 </div>
-                <div className="flex-1">
+              </div>
+            </div>
+          ) : (
+            <div className="md:flex md:justify-center   md:mt-9 ">
+              <div className="space-y-4 lg:space-y-6">
+                {/* Card Owner Name */}
+                <div>
                   <label className="block text-sm font-medium text-gray-700 mb-2">
-                    CVV
+                    NAME OF CARD OWNER
+                  </label>
+                  <input
+                    type="text"
+                    value={cardOwner}
+                    onChange={(e) => setCardOwner(e.target.value)}
+                    className="w-full p-3 md:py-2 py-3  border border-gray-300 rounded-lg focus:outline-none text-black focus:r text-sm "
+                    placeholder="First Name & Last Name"
+                  />
+                </div>
+
+                {/* Card Number */}
+                <div>
+                  <label className="block text-sm font-medium text-gray-700 mb-2">
+                    CARD NUMBER
                   </label>
                   <div className="relative">
                     <input
                       type="text"
-                      value={cvv}
-                      onChange={(e) => setCvv(e.target.value)}
-                      className="w-full p-3 border border-gray-300 rounded-lg focus:outline-none text-black focus:r pr-12 text-sm lg:text-base"
-                      placeholder="XXX"
+                      value={cardNumber}
+                      onChange={(e) => setCardNumber(e.target.value)}
+                      className="w-full md:py-2 p-3   border border-gray-300 rounded-lg focus:outline-none text-black focus:r pr-12 text-sm "
+                      placeholder="0000 0000 0000 0000"
                     />
-                    <div className="absolute right-3 top-3">
-                      <div className="w-4 h-3 lg:w-6 lg:h-4 bg-blue-600 rounded-sm"></div>
+                    <div className="absolute right-3 top-3 flex space-x-1">
+                      <div className="w-4 h-3 lg:w-6 lg:h-4 bg-red-500 rounded-sm"></div>
+                      <div className="w-4 h-3 lg:w-6 lg:h-4 bg-orange-400 rounded-sm"></div>
+                    </div>
+                  </div>
+                </div>
+
+                {/* Expiry and CVV */}
+                <div className="flex flex-col sm:flex-row space-y-4 sm:space-y-0 sm:space-x-4">
+                  <div className="flex-1">
+                    <label className="block text-sm font-medium text-gray-700 mb-2">
+                      EXPIRY DATE
+                    </label>
+                    <input
+                      type="text"
+                      value={expiryDate}
+                      onChange={(e) => setExpiryDate(e.target.value)}
+                      className="w-full md:py-2 p-3   border border-gray-300 rounded-lg focus:outline-none text-black focus:r text-sm "
+                      placeholder="MM/YYYY"
+                    />
+                  </div>
+                  <div className="flex-1">
+                    <label className="block text-sm font-medium text-gray-700 mb-2">
+                      CVV
+                    </label>
+                    <div className="relative">
+                      <input
+                        type="text"
+                        value={cvv}
+                        onChange={(e) => setCvv(e.target.value)}
+                        className="w-full md:py-2 p-3   border border-gray-300 rounded-lg focus:outline-none text-black focus:r pr-12 text-sm"
+                        placeholder="XXX"
+                      />
+                      <div className="absolute right-3 top-3">
+                        <div className="w-4 h-3 lg:w-6 lg:h-4 bg-blue-600 rounded-sm"></div>
+                      </div>
                     </div>
                   </div>
                 </div>
@@ -499,12 +510,14 @@ const BookingFlow = () => {
           )}
 
           {/* Pay Button */}
-          <button className="w-full bg-gray-800 text-white py-3 lg:py-4 rounded-lg font-semibold mt-6 lg:mt-8 hover:bg-gray-900 transition-colors text-sm lg:text-base">
-            Pay ${calculateTotal().toLocaleString()}
-          </button>
+          <div className="md:flex md:justify-center  md:mt-9">
+            <button className="w-full bg-gray-800 md:w-[64%] text-white py-3 lg:py-3 rounded-lg font-semibold mt-6 lg:mt-0 hover:bg-gray-900 transition-colors text-sm lg:text-base">
+              Pay ${calculateTotal().toLocaleString()}
+            </button>
+          </div>
 
           {/* Security Info */}
-          <div className="flex items-center justify-center mt-4 text-xs lg:text-sm text-gray-500">
+          <div className="flex items-center mb-7 justify-center mt-4 text-xs lg:text-sm text-gray-500">
             <Shield className="w-3 h-3 lg:w-4 lg:h-4 mr-1" />
             <span>Secured By</span>
             <span className="text-orange-500 ml-1">SwahiliePay</span>
@@ -517,7 +530,7 @@ const BookingFlow = () => {
   return (
     <div className="min-h-screen bg-gray-50 flex flex-col lg:flex-row">
       {/* Left Panel */}
-      <div className="w-full lg:w-2/3 bg-white p-4 lg:p-8 lg:pt-4">
+      <div className="w-full lg:w-2/3 bg-white p-4 lg:p-8 lg:pr-0  lg:pt-4">
         {/* Header */}
         <div className="flex items-center mb-4 lg:mb-4">
           <svg
@@ -553,9 +566,8 @@ const BookingFlow = () => {
         {/* Title with Heart */}
         <div className="flex items-center mb-6">
           <h1 className="text-xl lg:text-2xl font-bold text-gray-800 mr-2">
-            Skies Over The Wild - Balloon Experience
+            Skies over The Wild - Balloon Experience 🎈
           </h1>
-          <Heart className="w-5 h-5 text-red-500 fill-current" />
         </div>
 
         {/* Step Content */}
@@ -566,7 +578,8 @@ const BookingFlow = () => {
         </div>
 
         {/* Progress */}
-        <div className="flex items-center justify-between mt-6 lg:mt-8">
+      <div className="md:pr-8">
+          <div className="flex items-center justify-between mt-6 lg:mt-8">
           <span className="text-xs lg:text-sm text-gray-500">STEPS</span>
           <span className="text-xs lg:text-sm text-gray-500">
             {currentStep}/3
@@ -579,90 +592,92 @@ const BookingFlow = () => {
           ></div>
         </div>
       </div>
+      </div>
 
       {/* Right Panel - Trip Details */}
-      <div className="w-full lg:w-1/3 bg-white border-l border-gray-200 p-6">
-        <h2 className="text-xl font-bold text-gray-800 mb-6">Trip Details</h2>
-
-        <div className="space-y-4 mb-8">
-          <div className="flex items-start">
-            <MapPin className="w-4 h-4 text-gray-500 mt-1 mr-3" />
-            <div>
-              <div className="text-sm text-gray-500">Destination</div>
-              <div className="font-medium text-gray-800">
-                Mt Kilimanjaro - Machame Route
-              </div>
-            </div>
-          </div>
-
-          <div className="flex items-start">
-            <Clock className="w-4 h-4 text-gray-500 mt-1 mr-3" />
-            <div>
-              <div className="text-sm text-gray-500">Time</div>
-              <div className="font-medium text-gray-800">6 Days</div>
-            </div>
-          </div>
-
-          <div className="flex items-start">
-            <Calendar className="w-4 h-4 text-gray-500 mt-1 mr-3" />
-            <div>
-              <div className="text-sm text-gray-500">Start and End</div>
-              <div className="font-medium text-gray-800">
-                {adventureDetails.startDate} - {adventureDetails.endDate}
-              </div>
-            </div>
-          </div>
-
-          <div className="flex items-start">
-            <Package className="w-4 h-4 text-gray-500 mt-1 mr-3" />
-            <div>
-              <div className="text-sm text-gray-500">Package Includes</div>
-              <div className="font-medium text-gray-800">
-                Accommodation, Guide, Meals, Transport
-              </div>
-            </div>
-          </div>
-        </div>
-
-        <div>
-          <h3 className="text-lg font-bold text-gray-800 mb-4">
-            Payment Details
-          </h3>
-
-          <div className="space-y-3">
-            <div className="flex justify-between items-center">
+      <div className="w-full lg:w-1/3 bg-white   rounded-l-2xl  shadow-2xl   p-6">
+        <div className="md:w-[97%] w-[100%] mx-auto rounded-2xl shadow-g bg-white p-6 px-3 md:px-6">
+          {" "}
+          <h2 className="text-xl font-bold text-gray-800 mb-6">Trip Details</h2>
+          <div className="space-y-4 mb-8">
+            <div className="flex items-start">
+              <MapPin className="w-4 h-4 text-gray-500 mt-1 mr-3" />
               <div>
-                <span className="text-gray-700">
-                  {adventureDetails.adults} Adults
-                </span>
-                <span className="text-xs text-gray-500 ml-2">@ $512</span>
+                <div className="text-sm text-gray-500">Destination</div>
+                <div className="font-medium text-gray-800">
+                  Mt Kilimanjaro - Machame Route
+                </div>
               </div>
-              <span className="font-semibold text-gray-800">
-                ${(adventureDetails.adults * 512).toLocaleString()}
-              </span>
             </div>
 
-            {adventureDetails.children > 0 && (
+            <div className="flex items-start">
+              <Clock className="w-4 h-4 text-gray-500 mt-1 mr-3" />
+              <div>
+                <div className="text-sm text-gray-500">Time</div>
+                <div className="font-medium text-gray-800">6 Days</div>
+              </div>
+            </div>
+
+            <div className="flex items-start">
+              <Calendar className="w-4 h-4 text-gray-500 mt-1 mr-3" />
+              <div>
+                <div className="text-sm text-gray-500">Start and End</div>
+                <div className="font-medium text-gray-800">
+                  {adventureDetails.startDate} - {adventureDetails.endDate}
+                </div>
+              </div>
+            </div>
+
+            <div className="flex items-start">
+              <Package className="w-4 h-4 text-gray-500 mt-1 mr-3" />
+              <div>
+                <div className="text-sm text-gray-500">Package Includes</div>
+                <div className="font-medium text-gray-800">
+                  Accommodation, Guide, Meals, Transport
+                </div>
+              </div>
+            </div>
+          </div>
+          <div>
+            <h3 className="text-lg font-bold text-gray-800 mb-4">
+              Payment Details
+            </h3>
+
+            <div className="space-y-3">
               <div className="flex justify-between items-center">
                 <div>
                   <span className="text-gray-700">
-                    {adventureDetails.children} Child
-                    {adventureDetails.children > 1 ? "ren" : ""}
+                    {adventureDetails.adults} Adults
                   </span>
                   <span className="text-xs text-gray-500 ml-2">@ $512</span>
                 </div>
                 <span className="font-semibold text-gray-800">
-                  ${(adventureDetails.children * 512).toLocaleString()}
+                  ${(adventureDetails.adults * 512).toLocaleString()}
                 </span>
               </div>
-            )}
 
-            <div className="border-t border-gray-200 pt-3 mt-4">
-              <div className="flex justify-between items-center">
-                <span className="text-gray-500">TOTAL</span>
-                <span className="text-xl font-bold text-gray-800">
-                  ${calculateTotal().toLocaleString()}
-                </span>
+              {adventureDetails.children > 0 && (
+                <div className="flex justify-between items-center">
+                  <div>
+                    <span className="text-gray-700">
+                      {adventureDetails.children} Child
+                      {adventureDetails.children > 1 ? "ren" : ""}
+                    </span>
+                    <span className="text-xs text-gray-500 ml-2">@ $512</span>
+                  </div>
+                  <span className="font-semibold text-gray-800">
+                    ${(adventureDetails.children * 512).toLocaleString()}
+                  </span>
+                </div>
+              )}
+
+              <div className="border-t border-gray-200 pt-3 mt-4">
+                <div className="flex justify-between items-center">
+                  <span className="text-gray-500">TOTAL</span>
+                  <span className="text-xl font-bold text-gray-800">
+                    ${calculateTotal().toLocaleString()}
+                  </span>
+                </div>
               </div>
             </div>
           </div>
