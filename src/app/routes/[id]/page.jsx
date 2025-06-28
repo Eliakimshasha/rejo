@@ -1573,12 +1573,13 @@ one of the most strenuous on Kilimanjaro due to its steep ascent and little accl
   "mikumi-national-park": {
     name: "Mikumi National Park",
     hasMultipleDays: false,
-    duration: "3 Days",
+    duration: "1 Day",
     tabDescription:
       "Mikumi National Park is Tanzania's fourth-largest national park and the most accessible from Dar es Salaam. The park offers excellent wildlife viewing opportunities with its open horizons and abundant wildlife that includes elephants, lions, wild dogs, zebras, hyenas, hippos, hartebeest, wildebeest, eland, impala, warthog, waterbuck and reedbuck.",
     description:
-      "Mikumi National Park is Tanzania's fourth-largest national park, covering an area of 3,230 square kilometers. Located between the Uluguru Mountains and the Lumango range, Mikumi is the most accessible from Dar es Salaam. The park offers excellent wildlife viewing with its open horizons and abundant wildlife.",
-    image: "/placeholder.svg?height=400&width=800",
+`Mikumi National Park lies roughly 300 kilometers west of Dar es Salaam and 107 kilometers from Morogoro town. In addition to being home to a variety of wild animals and bird species, the park is
+adorned by its breathtakingly beautiful grasslands and baobabs. The park has a remarkable concentration of species, such elephants, giraffes, hartebeests, zebras, leopards, lions, impalas, sable
+antelopes, warthogs wildebeests, reedbuck, crocodiles, hippos and many more. `,    image: "/placeholder.svg?height=400&width=800",
     difficulty: "Easy",
     success_rate: "100%",
     itinerary: [
@@ -1591,30 +1592,8 @@ one of the most strenuous on Kilimanjaro due to its steep ascent and little accl
         habitat: "Savannah",
         image: "/assets/images/Frame 60.png",
         description:
-          "Early morning departure from Dar es Salaam to Mikumi National Park. Arrive at the park and enjoy afternoon game drive. Dinner and overnight at the lodge.",
-      },
-      {
-        day: 2,
-        title: "Full Day Game Drive in Mikumi",
-        altitude: "500m",
-        distance: "150 Km",
-        time: "8-10 hours",
-        habitat: "Savannah",
-        image: "/assets/images/Frame 60.png",
-        description:
-          "Full day game drive in Mikumi National Park. The park is rich in wildlife including elephant, lion, wild dog, zebra, hyena, hippo, hartebeest, wildebeest, eland, impala, warthog, waterbuck and reedbuck.",
-      },
-      {
-        day: 3,
-        title: "Mikumi to Dar es Salaam",
-        altitude: "500m - 0m",
-        distance: "283 Km",
-        time: "5-6 hours",
-        habitat: "Urban",
-        image: "/assets/images/Frame 60.png",
-        description:
-          "Morning game drive then depart for Dar es Salaam. Arrive in the evening and transfer to your hotel or airport for departure.",
-      },
+`At 4:00 AM, you will be collected from the Dar es Salaam hotel/airport. We will begin your five to six- hour journey through Morogoro town to Mikumi National Park. As soon as we get at Mikumi, we'll head directly to the park complete registrations and begin the tour that will take 4 to 5 hours. We will start our 5-6 hour journey back to Dar es Salaam at 4:00 PM, and you will be dropped off at your hotel, airport, or home.`      },
+     
     ],
     pricing: [
       { group: "1 person", price: 800 },
@@ -1729,12 +1708,14 @@ of Wilderness First Responder or Wilderness First Aid certifications. All our gu
   "arusha-national-park": {
     name: "Arusha National Park",
     hasMultipleDays: false,
-    duration: "4 Days",
+    duration: "1 Day",
     tabDescription:
       "The Serengeti National Park is undoubtedly the best-known wildlife sanctuary in the world, unequalled for its natural beauty and scientific value. It has the greatest concentration of plains game in Africa and is famous for the annual Great Migration of wildebeest and zebra.",
     description:
-      "The Serengeti National Park is undoubtedly the best-known wildlife sanctuary in the world, unequalled for its natural beauty and scientific value. It has the greatest concentration of plains game in Africa and is famous for the annual Great Migration.",
-    image: "/placeholder.svg?height=400&width=800",
+`
+A wide variety of creatures can be seen in the Arusha National Park such as giraffes, zebras, buffaloes, warthogs, and other kinds of antelope. Primates including acrobatic vervet monkeys, black and white colobus monkeys, and blue monkeys may also be seen. The park has three significant features including Mount Meru, colored momela lakes and Ngurdoto crater. Game drive will begin early morning after arrival at Arusha National Park until late noon, we depart to Moshi or
+
+`,    image: "/placeholder.svg?height=400&width=800",
     difficulty: "Easy",
     success_rate: "100%",
     itinerary: [
@@ -1747,41 +1728,8 @@ of Wilderness First Responder or Wilderness First Aid certifications. All our gu
         habitat: "Savannah",
         image: "/assets/images/Frame 60.png",
         description:
-          "Depart from Arusha and drive to Serengeti National Park via Ngorongoro Conservation Area. Enjoy game drive en route and arrive at your accommodation for dinner and overnight.",
-      },
-      {
-        day: 2,
-        title: "Full Day Serengeti Game Drive",
-        altitude: "1500m",
-        distance: "200 Km",
-        time: "8-10 hours",
-        habitat: "Savannah",
-        image: "/assets/images/Frame 60.png",
-        description:
-          "Full day game drive in Serengeti National Park. The park is famous for its annual migration of over 1.5 million white-bearded wildebeest and 250,000 zebra.",
-      },
-      {
-        day: 3,
-        title: "Serengeti to Ngorongoro",
-        altitude: "1500m - 2300m",
-        distance: "145 Km",
-        time: "4-5 hours",
-        habitat: "Highland",
-        image: "/assets/images/Frame 60.png",
-        description:
-          "Morning game drive in Serengeti then drive to Ngorongoro Conservation Area. Arrive at your lodge on the crater rim for dinner and overnight.",
-      },
-      {
-        day: 4,
-        title: "Ngorongoro Crater to Arusha",
-        altitude: "2300m - 1600m - 1400m",
-        distance: "210 Km",
-        time: "6-7 hours",
-        habitat: "Crater Floor",
-        image: "/assets/images/Frame 60.png",
-        description:
-          "Early morning descent into Ngorongoro Crater for game drive. Afternoon drive back to Arusha arriving in the evening.",
-      },
+`Arusha National Park is 30 km from Arusha and 75km from Moshi, thus a perfect 1 day trip. We will pick you up from your accommodation in Moshi/Arusha around 7 in the morning and drive to the entrance of Arusha National Park. A day trip to Arusha National Park is a great way to experience a range of wild animals in a small space. Game drive will begin early morning after arrival at Arusha National Park until late noon, we depart to Moshi or Arusha.`      },
+     
     ],
     pricing: [
       { group: "1 person", price: 1500 },
@@ -1812,12 +1760,14 @@ of Wilderness First Responder or Wilderness First Aid certifications. All our gu
   "tarangire-national-park": {
     name: "Tarangire National Park",
     hasMultipleDays: false,
-    duration: "4 Days",
+    duration: "1 Day",
     tabDescription:
       "The Serengeti National Park is undoubtedly the best-known wildlife sanctuary in the world, unequalled for its natural beauty and scientific value. It has the greatest concentration of plains game in Africa and is famous for the annual Great Migration of wildebeest and zebra.",
     description:
-      "The Serengeti National Park is undoubtedly the best-known wildlife sanctuary in the world, unequalled for its natural beauty and scientific value. It has the greatest concentration of plains game in Africa and is famous for the annual Great Migration.",
-    image: "/placeholder.svg?height=400&width=800",
+`
+Tarangire National Park, located in northern Tanzania, is renowned for its large elephant herds and striking landscapes, including iconic baobab trees. The park offers diverse ecosystems, from woodlands to savannahs, and is home to a variety of wildlife such as lions, giraffes, zebras, and over 500 bird species. Often quieter than other Tanzanian parks, Tarangire provides a unique and intimate safari experience, especially during the dry season when animals flock to the Tarangire River for water.
+
+`,    image: "/placeholder.svg?height=400&width=800",
     difficulty: "Easy",
     success_rate: "100%",
     itinerary: [
@@ -1830,41 +1780,8 @@ of Wilderness First Responder or Wilderness First Aid certifications. All our gu
         habitat: "Savannah",
         image: "/assets/images/Frame 60.png",
         description:
-          "Depart from Arusha and drive to Serengeti National Park via Ngorongoro Conservation Area. Enjoy game drive en route and arrive at your accommodation for dinner and overnight.",
-      },
-      {
-        day: 2,
-        title: "Full Day Serengeti Game Drive",
-        altitude: "1500m",
-        distance: "200 Km",
-        time: "8-10 hours",
-        habitat: "Savannah",
-        image: "/assets/images/Frame 60.png",
-        description:
-          "Full day game drive in Serengeti National Park. The park is famous for its annual migration of over 1.5 million white-bearded wildebeest and 250,000 zebra.",
-      },
-      {
-        day: 3,
-        title: "Serengeti to Ngorongoro",
-        altitude: "1500m - 2300m",
-        distance: "145 Km",
-        time: "4-5 hours",
-        habitat: "Highland",
-        image: "/assets/images/Frame 60.png",
-        description:
-          "Morning game drive in Serengeti then drive to Ngorongoro Conservation Area. Arrive at your lodge on the crater rim for dinner and overnight.",
-      },
-      {
-        day: 4,
-        title: "Ngorongoro Crater to Arusha",
-        altitude: "2300m - 1600m - 1400m",
-        distance: "210 Km",
-        time: "6-7 hours",
-        habitat: "Crater Floor",
-        image: "/assets/images/Frame 60.png",
-        description:
-          "Early morning descent into Ngorongoro Crater for game drive. Afternoon drive back to Arusha arriving in the evening.",
-      },
+`Tarangire National Park is about 198 kilometers (approximately 3 hours and 28 minutes) from Moshi and Tarangire National Park is mostly known for its large herds of elephants congregating near the Tarangire River, the area is primary water source, and its profusion of ancient baobabs. We will collect you from your hotel in Arusha and following a 2-3-hour drive, you will arrive at the Tarangire National Park. The order of the day are extensive game drives across the park.`      },
+     
     ],
     pricing: [
       { group: "1 person", price: 1500 },
@@ -1895,12 +1812,11 @@ of Wilderness First Responder or Wilderness First Aid certifications. All our gu
   "lake-manyara-national-park": {
     name: "Lake Manyara National Park",
     hasMultipleDays: false,
-    duration: "4 Days",
+    duration: "1 Day",
     tabDescription:
       "The Serengeti National Park is undoubtedly the best-known wildlife sanctuary in the world, unequalled for its natural beauty and scientific value. It has the greatest concentration of plains game in Africa and is famous for the annual Great Migration of wildebeest and zebra.",
     description:
-      "The Serengeti National Park is undoubtedly the best-known wildlife sanctuary in the world, unequalled for its natural beauty and scientific value. It has the greatest concentration of plains game in Africa and is famous for the annual Great Migration.",
-    image: "/placeholder.svg?height=400&width=800",
+`Lake Manyara National Park, located in northern Tanzania, is renowned for its breathtaking scenery and diverse wildlife. The park is centered around the beautiful Lake Manyara, a shallow soda lake that attracts a wide variety of bird species, including large populations of flamingos. Home to a variety of animals such as elephants, giraffes, zebras, and famous tree-climbing lions, Lake Manyara offers a unique and captivating safari experience, making it a must-visit destination for nature lovers and wildlife enthusiasts.`,    image: "/placeholder.svg?height=400&width=800",
     difficulty: "Easy",
     success_rate: "100%",
     itinerary: [
@@ -1913,41 +1829,8 @@ of Wilderness First Responder or Wilderness First Aid certifications. All our gu
         habitat: "Savannah",
         image: "/assets/images/Frame 60.png",
         description:
-          "Depart from Arusha and drive to Serengeti National Park via Ngorongoro Conservation Area. Enjoy game drive en route and arrive at your accommodation for dinner and overnight.",
-      },
-      {
-        day: 2,
-        title: "Full Day Serengeti Game Drive",
-        altitude: "1500m",
-        distance: "200 Km",
-        time: "8-10 hours",
-        habitat: "Savannah",
-        image: "/assets/images/Frame 60.png",
-        description:
-          "Full day game drive in Serengeti National Park. The park is famous for its annual migration of over 1.5 million white-bearded wildebeest and 250,000 zebra.",
-      },
-      {
-        day: 3,
-        title: "Serengeti to Ngorongoro",
-        altitude: "1500m - 2300m",
-        distance: "145 Km",
-        time: "4-5 hours",
-        habitat: "Highland",
-        image: "/assets/images/Frame 60.png",
-        description:
-          "Morning game drive in Serengeti then drive to Ngorongoro Conservation Area. Arrive at your lodge on the crater rim for dinner and overnight.",
-      },
-      {
-        day: 4,
-        title: "Ngorongoro Crater to Arusha",
-        altitude: "2300m - 1600m - 1400m",
-        distance: "210 Km",
-        time: "6-7 hours",
-        habitat: "Crater Floor",
-        image: "/assets/images/Frame 60.png",
-        description:
-          "Early morning descent into Ngorongoro Crater for game drive. Afternoon drive back to Arusha arriving in the evening.",
-      },
+`At 7 am, we will leave Arusha and start your journey to Lake Manyara National Park. We will travel for 2 hours through Mto Wa Mbu. You will enter Lake Manyara National Park . The park boasts some of the world’s best game watching and is a photographers paradise. Many of Africa’s most famous creatures will be visible, but the tree-climbing lions are a special treat. These arrogant predators nearly ask to be photographed as they relax on acacia trees. With a vast array of species on exhibit in the park, Lake Manyara is a true delight for birdwatchers. You will depart to Arusha, late afternoon.`      },
+    
     ],
     pricing: [
       { group: "1 person", price: 1500 },
@@ -1978,12 +1861,14 @@ of Wilderness First Responder or Wilderness First Aid certifications. All our gu
   "ngorongoro-national-park": {
     name: "Ngorongoro National Park",
     hasMultipleDays: false,
-    duration: "4 Days",
+    duration: "1 Day",
     tabDescription:
       "The Serengeti National Park is undoubtedly the best-known wildlife sanctuary in the world, unequalled for its natural beauty and scientific value. It has the greatest concentration of plains game in Africa and is famous for the annual Great Migration of wildebeest and zebra.",
     description:
-      "The Serengeti National Park is undoubtedly the best-known wildlife sanctuary in the world, unequalled for its natural beauty and scientific value. It has the greatest concentration of plains game in Africa and is famous for the annual Great Migration.",
-    image: "/placeholder.svg?height=400&width=800",
+`
+Ngorongoro Crater, often referred to as the "Garden of Eden," is a UNESCO World Heritage Site located in northern Tanzania. It is the world’s largest inactive volcanic caldera, measuring about 20 kilometers in diameter and 610 meters deep. The crater is home to an extraordinary concentration of wildlife, including the Big Five—lions, elephants, buffalo, leopards, and rhinoceros—making it one of the best places in Africa for game viewing.Ngorongoro offers an awe-inspiring landscape, rich in both natural beauty and wildlife, making it a must-see destination for visitors to Tanzania.
+
+`,    image: "/placeholder.svg?height=400&width=800",
     difficulty: "Easy",
     success_rate: "100%",
     itinerary: [
@@ -1996,41 +1881,9 @@ of Wilderness First Responder or Wilderness First Aid certifications. All our gu
         habitat: "Savannah",
         image: "/assets/images/Frame 60.png",
         description:
-          "Depart from Arusha and drive to Serengeti National Park via Ngorongoro Conservation Area. Enjoy game drive en route and arrive at your accommodation for dinner and overnight.",
-      },
-      {
-        day: 2,
-        title: "Full Day Serengeti Game Drive",
-        altitude: "1500m",
-        distance: "200 Km",
-        time: "8-10 hours",
-        habitat: "Savannah",
-        image: "/assets/images/Frame 60.png",
-        description:
-          "Full day game drive in Serengeti National Park. The park is famous for its annual migration of over 1.5 million white-bearded wildebeest and 250,000 zebra.",
-      },
-      {
-        day: 3,
-        title: "Serengeti to Ngorongoro",
-        altitude: "1500m - 2300m",
-        distance: "145 Km",
-        time: "4-5 hours",
-        habitat: "Highland",
-        image: "/assets/images/Frame 60.png",
-        description:
-          "Morning game drive in Serengeti then drive to Ngorongoro Conservation Area. Arrive at your lodge on the crater rim for dinner and overnight.",
-      },
-      {
-        day: 4,
-        title: "Ngorongoro Crater to Arusha",
-        altitude: "2300m - 1600m - 1400m",
-        distance: "210 Km",
-        time: "6-7 hours",
-        habitat: "Crater Floor",
-        image: "/assets/images/Frame 60.png",
-        description:
-          "Early morning descent into Ngorongoro Crater for game drive. Afternoon drive back to Arusha arriving in the evening.",
-      },
+`Your driving guide will pick up at your hotel or during your stay in Arusha town at 0600 hours. You will then travel 190 kilometers on the tarmac road to the Ngorongoro Conservation entry gate. Drive from the gate to the Crater Rim, where you can spend a few minutes admiring the crater from above,
+and then head down to the crater floor for a day of game drive. One of Africa’s most breathtaking sites is the Ngorongoro Crater, the world’s largest intact crater. This amazing caldera is home to all five of the BIG FIVE: zebras, hippopotamus, wildebeest, hyenas, buffalo, elephants, lions, and leopards.`      },
+     
     ],
     pricing: [
       { group: "1 person", price: 1500 },
@@ -2061,12 +1914,17 @@ of Wilderness First Responder or Wilderness First Aid certifications. All our gu
   "mkomazi-national-park": {
     name: "Mkomazi National Park",
     hasMultipleDays: false,
-    duration: "4 Days",
+    duration: "1 Day",
     tabDescription:
       "The Serengeti National Park is undoubtedly the best-known wildlife sanctuary in the world, unequalled for its natural beauty and scientific value. It has the greatest concentration of plains game in Africa and is famous for the annual Great Migration of wildebeest and zebra.",
     description:
-      "The Serengeti National Park is undoubtedly the best-known wildlife sanctuary in the world, unequalled for its natural beauty and scientific value. It has the greatest concentration of plains game in Africa and is famous for the annual Great Migration.",
-    image: "/placeholder.svg?height=400&width=800",
+`
+
+Mkomazi National Park, located in northeastern Tanzania near the Kenyan border. Mkomazi is home to rare and endangered species, including the African wild dog and the black rhino, which have been successfully reintroduced. The park also supports a variety of other wildlife, such as elephants, giraffes, and zebras, as well as over 400 bird species. Less crowded than other Tanzanian parks, Mkomazi offers an off-the-beaten-path safari experience for those seeking adventure and wildlife conservation efforts in a pristine, wild environment.
+
+
+`
+,    image: "/placeholder.svg?height=400&width=800",
     difficulty: "Easy",
     success_rate: "100%",
     itinerary: [
@@ -2079,41 +1937,9 @@ of Wilderness First Responder or Wilderness First Aid certifications. All our gu
         habitat: "Savannah",
         image: "/assets/images/Frame 60.png",
         description:
-          "Depart from Arusha and drive to Serengeti National Park via Ngorongoro Conservation Area. Enjoy game drive en route and arrive at your accommodation for dinner and overnight.",
-      },
-      {
-        day: 2,
-        title: "Full Day Serengeti Game Drive",
-        altitude: "1500m",
-        distance: "200 Km",
-        time: "8-10 hours",
-        habitat: "Savannah",
-        image: "/assets/images/Frame 60.png",
-        description:
-          "Full day game drive in Serengeti National Park. The park is famous for its annual migration of over 1.5 million white-bearded wildebeest and 250,000 zebra.",
-      },
-      {
-        day: 3,
-        title: "Serengeti to Ngorongoro",
-        altitude: "1500m - 2300m",
-        distance: "145 Km",
-        time: "4-5 hours",
-        habitat: "Highland",
-        image: "/assets/images/Frame 60.png",
-        description:
-          "Morning game drive in Serengeti then drive to Ngorongoro Conservation Area. Arrive at your lodge on the crater rim for dinner and overnight.",
-      },
-      {
-        day: 4,
-        title: "Ngorongoro Crater to Arusha",
-        altitude: "2300m - 1600m - 1400m",
-        distance: "210 Km",
-        time: "6-7 hours",
-        habitat: "Crater Floor",
-        image: "/assets/images/Frame 60.png",
-        description:
-          "Early morning descent into Ngorongoro Crater for game drive. Afternoon drive back to Arusha arriving in the evening.",
-      },
+`You will be picked up at your hotel in Arusha or Moshi with parked lunch boxes and driven to Mkomazi National Park, which is roughly 190 kilometers from Arusha and 120 kilometers from Moshi town. Upon arrival at the park, we will embark on a game drive in search of oryx, gerenuk, lion,
+leopard, hyena, jackal, elephant, buffalo, hartebeest, giraffe, warthog, and crocodiles. A visit to the Mkomazi Rhino Sanctuary can be arranged at an additional expense. Enjoy your picnic lunch boxes at a designated picnic place in the middle of the day before heading out on an afternoon game drive until the evening.`      },
+     
     ],
     pricing: [
       { group: "1 person", price: 1500 },
@@ -2144,12 +1970,12 @@ of Wilderness First Responder or Wilderness First Aid certifications. All our gu
   "saadani-national-park": {
     name: "Saadani National Park",
     hasMultipleDays: false,
-    duration: "4 Days",
+    duration: "1 Day",
     tabDescription:
       "The Serengeti National Park is undoubtedly the best-known wildlife sanctuary in the world, unequalled for its natural beauty and scientific value. It has the greatest concentration of plains game in Africa and is famous for the annual Great Migration of wildebeest and zebra.",
     description:
-      "The Serengeti National Park is undoubtedly the best-known wildlife sanctuary in the world, unequalled for its natural beauty and scientific value. It has the greatest concentration of plains game in Africa and is famous for the annual Great Migration.",
-    image: "/placeholder.svg?height=400&width=800",
+`Saadani National Park is One of Tanzania's most stunning parks, located along the Indian Ocean coast. The park can be reached by road network from Dares-salaam via Bagamoyo to Gama/wami entrance gate (131km). The Park is home to a variable mix of both marine and mainland flora and fauna most notably waterbucks, giraffes, warthogs, hartebeests, elephants, hippos, crocodiles, water birds. Also the superb
+scenic beauty of marine - terrestrial interface and the natural Mafui sandbank. `,    image: "/placeholder.svg?height=400&width=800",
     difficulty: "Easy",
     success_rate: "100%",
     itinerary: [
@@ -2162,41 +1988,8 @@ of Wilderness First Responder or Wilderness First Aid certifications. All our gu
         habitat: "Savannah",
         image: "/assets/images/Frame 60.png",
         description:
-          "Depart from Arusha and drive to Serengeti National Park via Ngorongoro Conservation Area. Enjoy game drive en route and arrive at your accommodation for dinner and overnight.",
-      },
-      {
-        day: 2,
-        title: "Full Day Serengeti Game Drive",
-        altitude: "1500m",
-        distance: "200 Km",
-        time: "8-10 hours",
-        habitat: "Savannah",
-        image: "/assets/images/Frame 60.png",
-        description:
-          "Full day game drive in Serengeti National Park. The park is famous for its annual migration of over 1.5 million white-bearded wildebeest and 250,000 zebra.",
-      },
-      {
-        day: 3,
-        title: "Serengeti to Ngorongoro",
-        altitude: "1500m - 2300m",
-        distance: "145 Km",
-        time: "4-5 hours",
-        habitat: "Highland",
-        image: "/assets/images/Frame 60.png",
-        description:
-          "Morning game drive in Serengeti then drive to Ngorongoro Conservation Area. Arrive at your lodge on the crater rim for dinner and overnight.",
-      },
-      {
-        day: 4,
-        title: "Ngorongoro Crater to Arusha",
-        altitude: "2300m - 1600m - 1400m",
-        distance: "210 Km",
-        time: "6-7 hours",
-        habitat: "Crater Floor",
-        image: "/assets/images/Frame 60.png",
-        description:
-          "Early morning descent into Ngorongoro Crater for game drive. Afternoon drive back to Arusha arriving in the evening.",
-      },
+`At 8 AM, you will be collected from the Dar es Salaam hotel/airport. We will begin a 131 km through Bagamoyo town to Saadani National Park. As soon as we get at Saadani, we'll head directly to the park complete registrations and begin the tour that will take 6 hours. We will start our 3 hour journey back to Dar es Salaam at 4:00 PM, and you will be dropped off at your hotel, airport, or home.`      },
+     
     ],
     pricing: [
       { group: "1 person", price: 1500 },
@@ -2227,7 +2020,7 @@ of Wilderness First Responder or Wilderness First Aid certifications. All our gu
   "nyerere-national-park": {
     name: "Nyerere National Park",
     hasMultipleDays: false,
-    duration: "3 Days",
+    duration: "1 Day",
     tabDescription:
       "The Serengeti National Park is undoubtedly the best-known wildlife sanctuary in the world, unequalled for its natural beauty and scientific value. It has the greatest concentration of plains game in Africa and is famous for the annual Great Migration of wildebeest and zebra.",
     description: `
@@ -2246,28 +2039,9 @@ leopard and hunting dog.
         time: "6-7 hours",
         habitat: "Savannah",
         image: "/assets/images/Frame 60.png",
-        description: `You will be picked up in the morning at 4:30 am from Dar es Salaam and driven by our experienced driver to Selous Game Reserve (Nyerere National Park) via Kisarawe. The trip should take approximately 3 and half hours. When we first arrive to Nyerere National Park, we will depart for sunset boat safari`,
+        description: `Our driver will pick you at 4:30 to 5 am, at your hotel or residence. It will take 5 hours drive from Dar es Salaam to Nyerere National Park. After checking in at Nyerere National Park, you will begin game drives and have a lunch break inside the park. Game drives will continue until approximately 16:00, where your journey back to Dar es Salaam will begin.`,
       },
-      {
-        day: 2,
-        title: " Game Drive at Nyerere N.Park",
-        altitude: "1500m",
-        distance: "200 Km",
-        time: "8-10 hours",
-        habitat: "Savannah",
-        image: "/assets/images/Frame 60.png",
-        description: `After an early breakfast, we will set off on a full-day game drive through the Selous Game Reserve, where you will explore the local wildlife. Elephants, giraffes, lions, buffalo, zebras, and even the uncommon African wild canines are among the many animals that will be seen there. After a midday picnic, head back to the camp or lodge for dinner and the night.`,
-      },
-      {
-        day: 3,
-        title: "Nyerere N.Park to Dar es Salaam",
-        altitude: "1500m - 2300m",
-        distance: "145 Km",
-        time: "4-5 hours",
-        habitat: "Highland",
-        image: "/assets/images/Frame 60.png",
-        description: `Accompanied by an armed ranger, the early morning walking safari often begins at 6 or 6.30 am after the morning tea or coffee and lasts for 2 to 3 hours. Once you've finished your morning breakfast, check out and start driving back to Dar es Salaam to be dropped off at your hotel or airport.`,
-      },
+     
     ],
     pricing: [
       { group: "1 person", price: 1500 },
@@ -2385,8 +2159,8 @@ of Wilderness First Responder or Wilderness First Aid certifications. All our gu
     tabDescription:
       "The Serengeti National Park is undoubtedly the best-known wildlife sanctuary in the world, unequalled for its natural beauty and scientific value. It has the greatest concentration of plains game in Africa and is famous for the annual Great Migration of wildebeest and zebra.",
     description:
-      "The Serengeti National Park is undoubtedly the best-known wildlife sanctuary in the world, unequalled for its natural beauty and scientific value. It has the greatest concentration of plains game in Africa and is famous for the annual Great Migration.",
-    image: "/placeholder.svg?height=400&width=800",
+`Bongoyo Island is uninhabited island located 2.5km north of the Dar es Salaam and is popular snorkeling and sunbathing location for both visitors and Tanzanian inhabitants. The island is near to the Msasani
+Peninsula and reached by boat in 30 minutes from the mainland. Bongoyo Island is also known as a tranquil destination popular with honeymooners and those looking for a day excursion with a picnic.`,    image: "/placeholder.svg?height=400&width=800",
     difficulty: "Easy",
     success_rate: "100%",
     itinerary: [
@@ -2399,41 +2173,8 @@ of Wilderness First Responder or Wilderness First Aid certifications. All our gu
         habitat: "Savannah",
         image: "/assets/images/Frame 60.png",
         description:
-          "Depart from Arusha and drive to Serengeti National Park via Ngorongoro Conservation Area. Enjoy game drive en route and arrive at your accommodation for dinner and overnight.",
-      },
-      {
-        day: 2,
-        title: "Full Day Serengeti Game Drive",
-        altitude: "1500m",
-        distance: "200 Km",
-        time: "8-10 hours",
-        habitat: "Savannah",
-        image: "/assets/images/Frame 60.png",
-        description:
-          "Full day game drive in Serengeti National Park. The park is famous for its annual migration of over 1.5 million white-bearded wildebeest and 250,000 zebra.",
-      },
-      {
-        day: 3,
-        title: "Serengeti to Ngorongoro",
-        altitude: "1500m - 2300m",
-        distance: "145 Km",
-        time: "4-5 hours",
-        habitat: "Highland",
-        image: "/assets/images/Frame 60.png",
-        description:
-          "Morning game drive in Serengeti then drive to Ngorongoro Conservation Area. Arrive at your lodge on the crater rim for dinner and overnight.",
-      },
-      {
-        day: 4,
-        title: "Ngorongoro Crater to Arusha",
-        altitude: "2300m - 1600m - 1400m",
-        distance: "210 Km",
-        time: "6-7 hours",
-        habitat: "Crater Floor",
-        image: "/assets/images/Frame 60.png",
-        description:
-          "Early morning descent into Ngorongoro Crater for game drive. Afternoon drive back to Arusha arriving in the evening.",
-      },
+`Early in the morning at 8 am you will be picked from your hotel/ aiport to the port, where we will board the at 10am for 30 minutes to Bongoyo Island. We will be able to do several activities and having fun including hiking, beach soccer, kayaking and snorkeling. Late evening, we will be boarding the boat back to Dar es Salaam.`      },
+     
     ],
     pricing: [
       { group: "1 person", price: 1500 },
@@ -2464,12 +2205,11 @@ of Wilderness First Responder or Wilderness First Aid certifications. All our gu
   "sinda-island": {
     name: "Sinda Island",
     hasMultipleDays: false,
-    duration: "4 Days",
+    duration: "1 Day",
     tabDescription:
       "The Serengeti National Park is undoubtedly the best-known wildlife sanctuary in the world, unequalled for its natural beauty and scientific value. It has the greatest concentration of plains game in Africa and is famous for the annual Great Migration of wildebeest and zebra.",
     description:
-      "The Serengeti National Park is undoubtedly the best-known wildlife sanctuary in the world, unequalled for its natural beauty and scientific value. It has the greatest concentration of plains game in Africa and is famous for the annual Great Migration.",
-    image: "/placeholder.svg?height=400&width=800",
+`Sinda Island is the unhabitated island, located 5km from Dar es Salaam. It takes 30 minutes to and from Sinda Island. Sinda is really made up of two islands: "Inner" Sinda and "Outer" Sinda, which are part of a larger coral reef formation. Sinda is one of the best snorkeling islands outside Dar es Salaam due to its formation, which is surrounded by patch reefs that are home to a variety of species including tiny clownfish and gigantic moray eels. Sinda Island is also known as a tranquil destination popular with honeymooners and those looking for a day excursion with a picnic.`,    image: "/placeholder.svg?height=400&width=800",
     difficulty: "Easy",
     success_rate: "100%",
     itinerary: [
@@ -2482,41 +2222,9 @@ of Wilderness First Responder or Wilderness First Aid certifications. All our gu
         habitat: "Savannah",
         image: "/assets/images/Frame 60.png",
         description:
-          "Depart from Arusha and drive to Serengeti National Park via Ngorongoro Conservation Area. Enjoy game drive en route and arrive at your accommodation for dinner and overnight.",
-      },
-      {
-        day: 2,
-        title: "Full Day Serengeti Game Drive",
-        altitude: "1500m",
-        distance: "200 Km",
-        time: "8-10 hours",
-        habitat: "Savannah",
-        image: "/assets/images/Frame 60.png",
-        description:
-          "Full day game drive in Serengeti National Park. The park is famous for its annual migration of over 1.5 million white-bearded wildebeest and 250,000 zebra.",
-      },
-      {
-        day: 3,
-        title: "Serengeti to Ngorongoro",
-        altitude: "1500m - 2300m",
-        distance: "145 Km",
-        time: "4-5 hours",
-        habitat: "Highland",
-        image: "/assets/images/Frame 60.png",
-        description:
-          "Morning game drive in Serengeti then drive to Ngorongoro Conservation Area. Arrive at your lodge on the crater rim for dinner and overnight.",
-      },
-      {
-        day: 4,
-        title: "Ngorongoro Crater to Arusha",
-        altitude: "2300m - 1600m - 1400m",
-        distance: "210 Km",
-        time: "6-7 hours",
-        habitat: "Crater Floor",
-        image: "/assets/images/Frame 60.png",
-        description:
-          "Early morning descent into Ngorongoro Crater for game drive. Afternoon drive back to Arusha arriving in the evening.",
-      },
+`Early in the morning at 8 am you will be picked from your hotel/ aiport to the port, where we will board at 10am for 30 minutes to Sinda Island. You will be able to do several activities and having fun including hiking, beach soccer, kayaking and snorkeling. Late evening, we will be boarding the boat back
+to Dar es Salaam.`      },
+      
     ],
     pricing: [
       { group: "1 person", price: 1500 },
@@ -2547,12 +2255,11 @@ of Wilderness First Responder or Wilderness First Aid certifications. All our gu
   "pugu-hills": {
     name: "Pugu Hills",
     hasMultipleDays: false,
-    duration: "4 Days",
+    duration: "1 Day",
     tabDescription:
       "The Serengeti National Park is undoubtedly the best-known wildlife sanctuary in the world, unequalled for its natural beauty and scientific value. It has the greatest concentration of plains game in Africa and is famous for the annual Great Migration of wildebeest and zebra.",
     description:
-      "The Serengeti National Park is undoubtedly the best-known wildlife sanctuary in the world, unequalled for its natural beauty and scientific value. It has the greatest concentration of plains game in Africa and is famous for the annual Great Migration.",
-    image: "/placeholder.svg?height=400&width=800",
+`Pugu hills/nature reserve is the protected area, 10 km from Dar es Salaam. The forest is home to over 100 different tree species, as well as several steep and mild hills. Has an observation deck from where you may enjoy a beautiful view of Dar es Salaam City. It also features a lake named 'Minaki'. This is an excellent area to connect with nature. Small animals such as colobus monkeys, millipedes, and a variety of birds can also be found. It takes about 4 to 5 hours to tour the entire forest. Aside from Dar es Salaam being a busy city, Pugu hills are one of the unique spots to experience nature, a go-to spot for hiking, and a fantastic vacation for nature.`,    image: "/placeholder.svg?height=400&width=800",
     difficulty: "Easy",
     success_rate: "100%",
     itinerary: [
@@ -2565,41 +2272,8 @@ of Wilderness First Responder or Wilderness First Aid certifications. All our gu
         habitat: "Savannah",
         image: "/assets/images/Frame 60.png",
         description:
-          "Depart from Arusha and drive to Serengeti National Park via Ngorongoro Conservation Area. Enjoy game drive en route and arrive at your accommodation for dinner and overnight.",
-      },
-      {
-        day: 2,
-        title: "Full Day Serengeti Game Drive",
-        altitude: "1500m",
-        distance: "200 Km",
-        time: "8-10 hours",
-        habitat: "Savannah",
-        image: "/assets/images/Frame 60.png",
-        description:
-          "Full day game drive in Serengeti National Park. The park is famous for its annual migration of over 1.5 million white-bearded wildebeest and 250,000 zebra.",
-      },
-      {
-        day: 3,
-        title: "Serengeti to Ngorongoro",
-        altitude: "1500m - 2300m",
-        distance: "145 Km",
-        time: "4-5 hours",
-        habitat: "Highland",
-        image: "/assets/images/Frame 60.png",
-        description:
-          "Morning game drive in Serengeti then drive to Ngorongoro Conservation Area. Arrive at your lodge on the crater rim for dinner and overnight.",
-      },
-      {
-        day: 4,
-        title: "Ngorongoro Crater to Arusha",
-        altitude: "2300m - 1600m - 1400m",
-        distance: "210 Km",
-        time: "6-7 hours",
-        habitat: "Crater Floor",
-        image: "/assets/images/Frame 60.png",
-        description:
-          "Early morning descent into Ngorongoro Crater for game drive. Afternoon drive back to Arusha arriving in the evening.",
-      },
+`You will picked from your hotel/airport early in the morning. The drive from Dar to Pugu, takes about 2-3 hours. Upon arrival, we will do the registrations and once done we will begin to explore the beautiful Pugu nature reserve. There you'll get a chance to do walking safari, kayaking, bird watching, and hiking while observing the lake and numerous flora and fauna bushes' intermingled with bamboo woods, followed by a climb that will allow you to see the entire Dar es Salaam. Late Afternoon/ evening drive back to Dar es Salaam.`      },
+     
     ],
     pricing: [
       { group: "1 person", price: 1500 },
