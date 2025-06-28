@@ -2155,7 +2155,7 @@ of Wilderness First Responder or Wilderness First Aid certifications. All our gu
   "bongonyo-island": {
     name: "Bongonyo Island",
     hasMultipleDays: false,
-    duration: "4 Days",
+    duration: "1 Day",
     tabDescription:
       "The Serengeti National Park is undoubtedly the best-known wildlife sanctuary in the world, unequalled for its natural beauty and scientific value. It has the greatest concentration of plains game in Africa and is famous for the annual Great Migration of wildebeest and zebra.",
     description:
