@@ -26,7 +26,7 @@ export const destinations = [
     ],
   },
   {
-    id: "mt-klimanjaro-machame-route",
+    id: "machame-route",
     name: "Mt. Klimanjaro - Machame Route",
     price: 1800,
     days: 7,

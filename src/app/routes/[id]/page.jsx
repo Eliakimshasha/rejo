@@ -1623,17 +1623,23 @@ one of the most strenuous on Kilimanjaro due to its steep ascent and little accl
       { group: "8-10 people", price: 550 },
       { group: "11+ people", price: 500 },
     ],
-    inclusions: [
-      "Transportation in 4WD safari vehicle",
-      "Professional safari guide",
-      "All park fees and government taxes",
-      "Accommodation as specified",
+   inclusions: [
+      "Pick-up and drop-off at Kilimanjaro International Airport",
+      `All park fees collected by the National Park (conservation fees, camping
+fees, crew fees, vehicle fee, rescue fee and all other fees collected by the Tanzania
+National Parks Authority).`,
+      "All accomodations",
+      "All meals",
+      `Professional guides, licensed by Tanzania National Park. All our guides are the holder
+of Wilderness First Responder or Wilderness First Aid certifications. All our guides have
+10+years of successful mountaineering experience.`,
     ],
     exclusions: [
-      "International flights",
+      "Airline tickets",
+      "Accommodation after tour.",
+      "Personal gear rentals",
       "Visa fees",
-      "Travel insurance",
-      "Personal expenses",
+      "Tips",
     ],
   },
 
@@ -1701,17 +1707,23 @@ one of the most strenuous on Kilimanjaro due to its steep ascent and little accl
       { group: "8-10 people", price: 1000 },
       { group: "11+ people", price: 950 },
     ],
-    inclusions: [
-      "Transportation in 4WD safari vehicle",
-      "Professional safari guide",
-      "All park fees and government taxes",
-      "Accommodation as specified",
+   inclusions: [
+      "Pick-up and drop-off at Kilimanjaro International Airport",
+      `All park fees collected by the National Park (conservation fees, camping
+fees, crew fees, vehicle fee, rescue fee and all other fees collected by the Tanzania
+National Parks Authority).`,
+      "All accomodations",
+      "All meals",
+      `Professional guides, licensed by Tanzania National Park. All our guides are the holder
+of Wilderness First Responder or Wilderness First Aid certifications. All our guides have
+10+years of successful mountaineering experience.`,
     ],
     exclusions: [
-      "International flights",
+      "Airline tickets",
+      "Accommodation after tour.",
+      "Personal gear rentals",
       "Visa fees",
-      "Travel insurance",
-      "Personal expenses",
+      "Tips",
     ],
   },
   "arusha-national-park": {
@@ -1778,17 +1790,23 @@ one of the most strenuous on Kilimanjaro due to its steep ascent and little accl
       { group: "8-10 people", price: 1000 },
       { group: "11+ people", price: 950 },
     ],
-    inclusions: [
-      "Transportation in 4WD safari vehicle",
-      "Professional safari guide",
-      "All park fees and government taxes",
-      "Accommodation as specified",
+   inclusions: [
+      "Pick-up and drop-off at Kilimanjaro International Airport",
+      `All park fees collected by the National Park (conservation fees, camping
+fees, crew fees, vehicle fee, rescue fee and all other fees collected by the Tanzania
+National Parks Authority).`,
+      "All accomodations",
+      "All meals",
+      `Professional guides, licensed by Tanzania National Park. All our guides are the holder
+of Wilderness First Responder or Wilderness First Aid certifications. All our guides have
+10+years of successful mountaineering experience.`,
     ],
     exclusions: [
-      "International flights",
+      "Airline tickets",
+      "Accommodation after tour.",
+      "Personal gear rentals",
       "Visa fees",
-      "Travel insurance",
-      "Personal expenses",
+      "Tips",
     ],
   },
   "tarangire-national-park": {
@@ -1855,17 +1873,23 @@ one of the most strenuous on Kilimanjaro due to its steep ascent and little accl
       { group: "8-10 people", price: 1000 },
       { group: "11+ people", price: 950 },
     ],
-    inclusions: [
-      "Transportation in 4WD safari vehicle",
-      "Professional safari guide",
-      "All park fees and government taxes",
-      "Accommodation as specified",
+   inclusions: [
+      "Pick-up and drop-off at Kilimanjaro International Airport",
+      `All park fees collected by the National Park (conservation fees, camping
+fees, crew fees, vehicle fee, rescue fee and all other fees collected by the Tanzania
+National Parks Authority).`,
+      "All accomodations",
+      "All meals",
+      `Professional guides, licensed by Tanzania National Park. All our guides are the holder
+of Wilderness First Responder or Wilderness First Aid certifications. All our guides have
+10+years of successful mountaineering experience.`,
     ],
     exclusions: [
-      "International flights",
+      "Airline tickets",
+      "Accommodation after tour.",
+      "Personal gear rentals",
       "Visa fees",
-      "Travel insurance",
-      "Personal expenses",
+      "Tips",
     ],
   },
   "lake-manyara-national-park": {
@@ -1932,17 +1956,23 @@ one of the most strenuous on Kilimanjaro due to its steep ascent and little accl
       { group: "8-10 people", price: 1000 },
       { group: "11+ people", price: 950 },
     ],
-    inclusions: [
-      "Transportation in 4WD safari vehicle",
-      "Professional safari guide",
-      "All park fees and government taxes",
-      "Accommodation as specified",
+   inclusions: [
+      "Pick-up and drop-off at Kilimanjaro International Airport",
+      `All park fees collected by the National Park (conservation fees, camping
+fees, crew fees, vehicle fee, rescue fee and all other fees collected by the Tanzania
+National Parks Authority).`,
+      "All accomodations",
+      "All meals",
+      `Professional guides, licensed by Tanzania National Park. All our guides are the holder
+of Wilderness First Responder or Wilderness First Aid certifications. All our guides have
+10+years of successful mountaineering experience.`,
     ],
     exclusions: [
-      "International flights",
+      "Airline tickets",
+      "Accommodation after tour.",
+      "Personal gear rentals",
       "Visa fees",
-      "Travel insurance",
-      "Personal expenses",
+      "Tips",
     ],
   },
   "ngorongoro-national-park": {
@@ -2009,17 +2039,23 @@ one of the most strenuous on Kilimanjaro due to its steep ascent and little accl
       { group: "8-10 people", price: 1000 },
       { group: "11+ people", price: 950 },
     ],
-    inclusions: [
-      "Transportation in 4WD safari vehicle",
-      "Professional safari guide",
-      "All park fees and government taxes",
-      "Accommodation as specified",
+   inclusions: [
+      "Pick-up and drop-off at Kilimanjaro International Airport",
+      `All park fees collected by the National Park (conservation fees, camping
+fees, crew fees, vehicle fee, rescue fee and all other fees collected by the Tanzania
+National Parks Authority).`,
+      "All accomodations",
+      "All meals",
+      `Professional guides, licensed by Tanzania National Park. All our guides are the holder
+of Wilderness First Responder or Wilderness First Aid certifications. All our guides have
+10+years of successful mountaineering experience.`,
     ],
     exclusions: [
-      "International flights",
+      "Airline tickets",
+      "Accommodation after tour.",
+      "Personal gear rentals",
       "Visa fees",
-      "Travel insurance",
-      "Personal expenses",
+      "Tips",
     ],
   },
   "mkomazi-national-park": {
@@ -2086,17 +2122,23 @@ one of the most strenuous on Kilimanjaro due to its steep ascent and little accl
       { group: "8-10 people", price: 1000 },
       { group: "11+ people", price: 950 },
     ],
-    inclusions: [
-      "Transportation in 4WD safari vehicle",
-      "Professional safari guide",
-      "All park fees and government taxes",
-      "Accommodation as specified",
+   inclusions: [
+      "Pick-up and drop-off at Kilimanjaro International Airport",
+      `All park fees collected by the National Park (conservation fees, camping
+fees, crew fees, vehicle fee, rescue fee and all other fees collected by the Tanzania
+National Parks Authority).`,
+      "All accomodations",
+      "All meals",
+      `Professional guides, licensed by Tanzania National Park. All our guides are the holder
+of Wilderness First Responder or Wilderness First Aid certifications. All our guides have
+10+years of successful mountaineering experience.`,
     ],
     exclusions: [
-      "International flights",
+      "Airline tickets",
+      "Accommodation after tour.",
+      "Personal gear rentals",
       "Visa fees",
-      "Travel insurance",
-      "Personal expenses",
+      "Tips",
     ],
   },
   "saadani-national-park": {
@@ -2163,74 +2205,68 @@ one of the most strenuous on Kilimanjaro due to its steep ascent and little accl
       { group: "8-10 people", price: 1000 },
       { group: "11+ people", price: 950 },
     ],
-    inclusions: [
-      "Transportation in 4WD safari vehicle",
-      "Professional safari guide",
-      "All park fees and government taxes",
-      "Accommodation as specified",
+   inclusions: [
+      "Pick-up and drop-off at Kilimanjaro International Airport",
+      `All park fees collected by the National Park (conservation fees, camping
+fees, crew fees, vehicle fee, rescue fee and all other fees collected by the Tanzania
+National Parks Authority).`,
+      "All accomodations",
+      "All meals",
+      `Professional guides, licensed by Tanzania National Park. All our guides are the holder
+of Wilderness First Responder or Wilderness First Aid certifications. All our guides have
+10+years of successful mountaineering experience.`,
     ],
     exclusions: [
-      "International flights",
+      "Airline tickets",
+      "Accommodation after tour.",
+      "Personal gear rentals",
       "Visa fees",
-      "Travel insurance",
-      "Personal expenses",
+      "Tips",
     ],
   },
   "nyerere-national-park": {
     name: "Nyerere National Park",
     hasMultipleDays: false,
-    duration: "4 Days",
+    duration: "3 Days",
     tabDescription:
       "The Serengeti National Park is undoubtedly the best-known wildlife sanctuary in the world, unequalled for its natural beauty and scientific value. It has the greatest concentration of plains game in Africa and is famous for the annual Great Migration of wildebeest and zebra.",
-    description:
-      "The Serengeti National Park is undoubtedly the best-known wildlife sanctuary in the world, unequalled for its natural beauty and scientific value. It has the greatest concentration of plains game in Africa and is famous for the annual Great Migration.",
+    description: `
+The Selous is home to the largest concentration of elephants with approximately 110,000 individuals recorded, about 35,000 zebras, 40,000 hippos, 25,000 impalas, 150,000 buffalos and approximately 4,000 lions the highest concentration in Africa. In addition are: rhinos, brindled gnu, Nyasaland gnu, sable antelope, eland, greater kudu, waterbuck, hartebeest, giraffe, reedbuck, warthog, spotted hyena, lion,
+leopard and hunting dog.
+`,
     image: "/placeholder.svg?height=400&width=800",
     difficulty: "Easy",
     success_rate: "100%",
     itinerary: [
       {
         day: 1,
-        title: "Arusha to Serengeti National Park",
+        title: " Dar es Salaam to Nyerere N.Park",
         altitude: "1400m - 1500m",
         distance: "335 Km",
         time: "6-7 hours",
         habitat: "Savannah",
         image: "/assets/images/Frame 60.png",
-        description:
-          "Depart from Arusha and drive to Serengeti National Park via Ngorongoro Conservation Area. Enjoy game drive en route and arrive at your accommodation for dinner and overnight.",
+        description: `You will be picked up in the morning at 4:30 am from Dar es Salaam and driven by our experienced driver to Selous Game Reserve (Nyerere National Park) via Kisarawe. The trip should take approximately 3 and half hours. When we first arrive to Nyerere National Park, we will depart for sunset boat safari`,
       },
       {
         day: 2,
-        title: "Full Day Serengeti Game Drive",
+        title: " Game Drive at Nyerere N.Park",
         altitude: "1500m",
         distance: "200 Km",
         time: "8-10 hours",
         habitat: "Savannah",
         image: "/assets/images/Frame 60.png",
-        description:
-          "Full day game drive in Serengeti National Park. The park is famous for its annual migration of over 1.5 million white-bearded wildebeest and 250,000 zebra.",
+        description: `After an early breakfast, we will set off on a full-day game drive through the Selous Game Reserve, where you will explore the local wildlife. Elephants, giraffes, lions, buffalo, zebras, and even the uncommon African wild canines are among the many animals that will be seen there. After a midday picnic, head back to the camp or lodge for dinner and the night.`,
       },
       {
         day: 3,
-        title: "Serengeti to Ngorongoro",
+        title: "Nyerere N.Park to Dar es Salaam",
         altitude: "1500m - 2300m",
         distance: "145 Km",
         time: "4-5 hours",
         habitat: "Highland",
         image: "/assets/images/Frame 60.png",
-        description:
-          "Morning game drive in Serengeti then drive to Ngorongoro Conservation Area. Arrive at your lodge on the crater rim for dinner and overnight.",
-      },
-      {
-        day: 4,
-        title: "Ngorongoro Crater to Arusha",
-        altitude: "2300m - 1600m - 1400m",
-        distance: "210 Km",
-        time: "6-7 hours",
-        habitat: "Crater Floor",
-        image: "/assets/images/Frame 60.png",
-        description:
-          "Early morning descent into Ngorongoro Crater for game drive. Afternoon drive back to Arusha arriving in the evening.",
+        description: `Accompanied by an armed ranger, the early morning walking safari often begins at 6 or 6.30 am after the morning tea or coffee and lasts for 2 to 3 hours. Once you've finished your morning breakfast, check out and start driving back to Dar es Salaam to be dropped off at your hotel or airport.`,
       },
     ],
     pricing: [
@@ -2240,17 +2276,23 @@ one of the most strenuous on Kilimanjaro due to its steep ascent and little accl
       { group: "8-10 people", price: 1000 },
       { group: "11+ people", price: 950 },
     ],
-    inclusions: [
-      "Transportation in 4WD safari vehicle",
-      "Professional safari guide",
-      "All park fees and government taxes",
-      "Accommodation as specified",
+   inclusions: [
+      "Pick-up and drop-off at Kilimanjaro International Airport",
+      `All park fees collected by the National Park (conservation fees, camping
+fees, crew fees, vehicle fee, rescue fee and all other fees collected by the Tanzania
+National Parks Authority).`,
+      "All accomodations",
+      "All meals",
+      `Professional guides, licensed by Tanzania National Park. All our guides are the holder
+of Wilderness First Responder or Wilderness First Aid certifications. All our guides have
+10+years of successful mountaineering experience.`,
     ],
     exclusions: [
-      "International flights",
+      "Airline tickets",
+      "Accommodation after tour.",
+      "Personal gear rentals",
       "Visa fees",
-      "Travel insurance",
-      "Personal expenses",
+      "Tips",
     ],
   },
   "mount-meru-national-park": {
@@ -2317,17 +2359,23 @@ one of the most strenuous on Kilimanjaro due to its steep ascent and little accl
       { group: "8-10 people", price: 1000 },
       { group: "11+ people", price: 950 },
     ],
-    inclusions: [
-      "Transportation in 4WD safari vehicle",
-      "Professional safari guide",
-      "All park fees and government taxes",
-      "Accommodation as specified",
+   inclusions: [
+      "Pick-up and drop-off at Kilimanjaro International Airport",
+      `All park fees collected by the National Park (conservation fees, camping
+fees, crew fees, vehicle fee, rescue fee and all other fees collected by the Tanzania
+National Parks Authority).`,
+      "All accomodations",
+      "All meals",
+      `Professional guides, licensed by Tanzania National Park. All our guides are the holder
+of Wilderness First Responder or Wilderness First Aid certifications. All our guides have
+10+years of successful mountaineering experience.`,
     ],
     exclusions: [
-      "International flights",
+      "Airline tickets",
+      "Accommodation after tour.",
+      "Personal gear rentals",
       "Visa fees",
-      "Travel insurance",
-      "Personal expenses",
+      "Tips",
     ],
   },
   "bongonyo-island": {
@@ -2394,17 +2442,23 @@ one of the most strenuous on Kilimanjaro due to its steep ascent and little accl
       { group: "8-10 people", price: 1000 },
       { group: "11+ people", price: 950 },
     ],
-    inclusions: [
-      "Transportation in 4WD safari vehicle",
-      "Professional safari guide",
-      "All park fees and government taxes",
-      "Accommodation as specified",
+   inclusions: [
+      "Pick-up and drop-off at Kilimanjaro International Airport",
+      `All park fees collected by the National Park (conservation fees, camping
+fees, crew fees, vehicle fee, rescue fee and all other fees collected by the Tanzania
+National Parks Authority).`,
+      "All accomodations",
+      "All meals",
+      `Professional guides, licensed by Tanzania National Park. All our guides are the holder
+of Wilderness First Responder or Wilderness First Aid certifications. All our guides have
+10+years of successful mountaineering experience.`,
     ],
     exclusions: [
-      "International flights",
+      "Airline tickets",
+      "Accommodation after tour.",
+      "Personal gear rentals",
       "Visa fees",
-      "Travel insurance",
-      "Personal expenses",
+      "Tips",
     ],
   },
   "sinda-island": {
@@ -2471,17 +2525,23 @@ one of the most strenuous on Kilimanjaro due to its steep ascent and little accl
       { group: "8-10 people", price: 1000 },
       { group: "11+ people", price: 950 },
     ],
-    inclusions: [
-      "Transportation in 4WD safari vehicle",
-      "Professional safari guide",
-      "All park fees and government taxes",
-      "Accommodation as specified",
+   inclusions: [
+      "Pick-up and drop-off at Kilimanjaro International Airport",
+      `All park fees collected by the National Park (conservation fees, camping
+fees, crew fees, vehicle fee, rescue fee and all other fees collected by the Tanzania
+National Parks Authority).`,
+      "All accomodations",
+      "All meals",
+      `Professional guides, licensed by Tanzania National Park. All our guides are the holder
+of Wilderness First Responder or Wilderness First Aid certifications. All our guides have
+10+years of successful mountaineering experience.`,
     ],
     exclusions: [
-      "International flights",
+      "Airline tickets",
+      "Accommodation after tour.",
+      "Personal gear rentals",
       "Visa fees",
-      "Travel insurance",
-      "Personal expenses",
+      "Tips",
     ],
   },
   "pugu-hills": {
@@ -2548,17 +2608,23 @@ one of the most strenuous on Kilimanjaro due to its steep ascent and little accl
       { group: "8-10 people", price: 1000 },
       { group: "11+ people", price: 950 },
     ],
-    inclusions: [
-      "Transportation in 4WD safari vehicle",
-      "Professional safari guide",
-      "All park fees and government taxes",
-      "Accommodation as specified",
+   inclusions: [
+      "Pick-up and drop-off at Kilimanjaro International Airport",
+      `All park fees collected by the National Park (conservation fees, camping
+fees, crew fees, vehicle fee, rescue fee and all other fees collected by the Tanzania
+National Parks Authority).`,
+      "All accomodations",
+      "All meals",
+      `Professional guides, licensed by Tanzania National Park. All our guides are the holder
+of Wilderness First Responder or Wilderness First Aid certifications. All our guides have
+10+years of successful mountaineering experience.`,
     ],
     exclusions: [
-      "International flights",
+      "Airline tickets",
+      "Accommodation after tour.",
+      "Personal gear rentals",
       "Visa fees",
-      "Travel insurance",
-      "Personal expenses",
+      "Tips",
     ],
   },
 
@@ -3142,81 +3208,66 @@ of Wilderness First Responder or Wilderness First Aid certifications. All our gu
     name: "Premier Nothern Safari",
     hasMultipleDays: false,
     isEscapeDSM: true,
-    whiteBg: "Serengeti & Ngorongoro",
-    blackBg: "6 Days",
+    whiteBg: " Lake Manyara, Serengeti, Ngorongoro & Tarangire ",
+    blackBg: "5 Days",
     tabDescription:
       "Escape the urban jungle and dive into the real one. From Dar es Salaam's busy streets to the endless plains of Serengeti and the ancient crater of Ngorongoro—witness the Great Migration, spot the Big Five, and discover why Tanzania is the heart of African safari.",
-    description:
-      "Escape the urban jungle and dive into the real one. From Dar es Salaam's busy streets to the endless plains of Serengeti and the ancient crater of Ngorongoro—witness the Great Migration, spot the Big Five, and discover why Tanzania is the heart of African safari.",
+    description: `Discover the magic of Tanzania's northern safari circuit as you explore four of its most celebrated national parks. Witness tree-climbing lions and vibrant birdlife in Lake Manyara, experience the vast wildlife-rich plains of the Serengeti, descend into the spectacular Ngorongoro Crater teeming with the Big Five, and encounter massive herds of elephants in Tarangire. This journey offers an immersive blend of breathtaking landscapes, diverse ecosystems, and unforgettable wildlife experiences.
+`,
     image: "/placeholder.svg?height=400&width=800",
     difficulty: "Easy",
     success_rate: "100%",
     itinerary: [
       {
         day: 1,
-        title: "Dar es Salaam to Arusha",
+        title: "Arusha to Lake Manyara N. Park",
         altitude: "0m - 1400m",
         distance: "650 Km",
         time: "1 hour flight",
         habitat: "Urban to Highland",
         image: "/assets/images/Frame 61.png",
-        description:
-          "Fly from Dar es Salaam to Arusha, leaving behind the coastal humidity for the crisp highland air. Arusha, the safari capital of Tanzania, welcomes you with views of Mount Meru.",
+        description: `Early in the morning we will leave to Lake Manyara National Park. The park draws a vast range of animals, including tree-climbing lions, elephants, buffalos, hippos, antelopes, enormous baboon bands, and flocks of flamingos that decorate the gorgeous lake, as well as more than 400 bird species. We will have a game drive and a picnic lunch at Manyara Park before returning to lodge late evening for dinner and sleep.`,
       },
       {
         day: 2,
-        title: "Arusha to Serengeti National Park",
+        title: "Lake Manyara to Serengeti N.Park",
         altitude: "1400m - 1500m",
         distance: "335 Km",
         time: "6-7 hours",
         habitat: "Highland to Savannah",
         image: "/assets/images/Frame 61 (1).png",
-        description:
-          "Journey through the Ngorongoro Conservation Area to reach the legendary Serengeti. As you crest the crater rim, the endless plains stretch before you—home to the greatest wildlife spectacle on Earth.",
+        description: `After a hearty breakfast, we will go to the Serengeti National Park and journey across the never-ending plain grasslands. The Serengeti is undoubtedly the world's most stunning animal sanctuary. An afternoon wildlife drive through the boundless plains of the Serengeti will provide us with the opportunity to
+observe large herds of wildebeest, zebras, and gazelles, as well as a pride of lions lazing in the shade. A picnic lunch will be served throughout the day-long game drive. The adventurous day concludes with a hearty dinner and a nice night's sleep in our accommodations.`,
       },
       {
         day: 3,
-        title: "Full Day Serengeti Safari",
+        title: "Serengeti  to Ngorongoro Crater",
         altitude: "1500m",
         distance: "200 Km",
         time: "8-10 hours",
         habitat: "Endless Plains",
         image: "/assets/images/Frame 61 (2).png",
-        description:
-          "Immerse yourself in the Serengeti's magic. Follow the Great Migration, watch predators in action, and experience the raw drama of survival in Africa's most famous national park.",
+        description: `After breakfast, we will embark on a morning wildlife drive across Serengeti National Park. Later, head for the Ngorongoro Conservation Area with a picnic lunch. Ngorongoro Crater is the world's largest collapsed volcano crater, spanning fourteen kilometers of solitary natural splendor. Ngorongoro Crater is ringed by a ring of ancient volcanoes, and the bottom, riddled with watering holes, supports over 30,000 animals. The adventurous day concludes with a hearty dinner and a nice night's sleep in our accommodations.`,
       },
       {
         day: 4,
-        title: "Serengeti to Ngorongoro",
+        title: "Ngorongoro to Tarangire N.Park",
         altitude: "1500m - 2300m",
         distance: "145 Km",
         time: "4-5 hours",
         habitat: "Plains to Crater Rim",
         image: "/assets/images/Frame 61 (3).png",
-        description:
-          "Morning game drive in Serengeti before ascending to the Ngorongoro Crater rim. Perched on the edge of this ancient caldera, prepare for tomorrow's descent into the 'Garden of Eden.'",
+        description: `After an early breakfast, descend to the crater floor for a five-hour game drive. Expect to witness lions, elephants, zebras, hippos, flamingos, jackals, rhinos, antelopes, and a variety of birds. Birds spotted here include eagles, vultures, and flamingos at Crater Lake, as well as storks, bats, gigantic vultures, sacred ibis, kori bustards, blacksmith plovers, long-necked herons, and cattle eagles. Following the picnic lunch by the stunning Hippo pool, we  will begin a difficult ascent to the crater’s top exit. The day will end with a two-hour drive to our lodge at Karatu. A freshly prepared, scrumptious dinner is kept ready for you at your chosen lodging.`,
       },
       {
         day: 5,
-        title: "Ngorongoro Crater Safari",
+        title: "Tarangire N.P to Arusha",
         altitude: "2300m - 1700m - 2300m",
         distance: "120 Km",
         time: "8-10 hours",
         habitat: "Crater Floor",
         image: "/assets/images/Frame 61 (4).png",
-        description:
-          "Descend into the Ngorongoro Crater, a UNESCO World Heritage Site. This natural amphitheater hosts an incredible concentration of wildlife, including the rare black rhino.",
-      },
-      {
-        day: 6,
-        title: "Ngorongoro to Dar es Salaam",
-        altitude: "2300m - 1400m - 0m",
-        distance: "650 Km",
-        time: "1 hour flight",
-        habitat: "Highland to Coastal",
-        image: "/assets/images/Frame 60.png",
-        description:
-          "Return to Arusha and fly back to Dar es Salaam, carrying with you the memories of Tanzania's most iconic wildlife destinations and the spirit of the African wilderness.",
+        description: `The final day of our  safari will begin as usual by 8:00 AM after a luscious breakfast. The destination for today is Arusha to Tarangire National Park where we will have a half day game drive. Tanzania’s third largest National park is known for its majestic baobab trees that dot the landscape, dwarfing the animals that feed beneath them. The Tarangire River is the centerpiece of this park which is famous for some of the largest herds of elephants in Africa. Here you may see lion, leopard, cheetah, lesser kudu, buffalo, Oryx, eland, giraffe and zebra. By mid afternoon, we will branch out and head towards Arusha where we will be dropped off to your hotel/preferred location by about 6PM in the evening.`,
       },
     ],
     pricing: [
@@ -3227,200 +3278,200 @@ of Wilderness First Responder or Wilderness First Aid certifications. All our gu
       { group: "11+ people", price: 2100 },
     ],
     inclusions: [
-      "Domestic flights Dar-Arusha-Dar",
-      "Transportation in 4WD safari vehicle",
-      "Professional safari guide",
-      "All park fees and government taxes",
-      "Accommodation as specified",
+      "Pick-up and drop-off at Kilimanjaro International Airport",
+      `All park fees collected by the National Park (conservation fees, camping
+fees, crew fees, vehicle fee, rescue fee and all other fees collected by the Tanzania
+National Parks Authority).`,
+      "All accomodations",
+      "All meals",
+      `Professional guides, licensed by Tanzania National Park. All our guides are the holder
+of Wilderness First Responder or Wilderness First Aid certifications. All our guides have
+10+years of successful mountaineering experience.`,
     ],
     exclusions: [
-      "International flights",
+      "Airline tickets",
+      "Accommodation after tour.",
+      "Personal gear rentals",
       "Visa fees",
-      "Travel insurance",
-      "Personal expenses",
+      "Tips",
     ],
   },
-  "mt-kilimanjaro-to-machame-route": {
-    name: "Mt. Kilimanjaro - Machame Route",
-    hasMultipleDays: false,
-    isEscapeDSM: true,
-    whiteBg: "Serengeti & Ngorongoro",
-    blackBg: "6 Days",
-    tabDescription:
-      "Escape the urban jungle and dive into the real one. From Dar es Salaam's busy streets to the endless plains of Serengeti and the ancient crater of Ngorongoro—witness the Great Migration, spot the Big Five, and discover why Tanzania is the heart of African safari.",
-    description:
-      "Escape the urban jungle and dive into the real one. From Dar es Salaam's busy streets to the endless plains of Serengeti and the ancient crater of Ngorongoro—witness the Great Migration, spot the Big Five, and discover why Tanzania is the heart of African safari.",
-    image: "/placeholder.svg?height=400&width=800",
-    difficulty: "Easy",
-    success_rate: "100%",
-    itinerary: [
-      {
-        day: 1,
-        title: "Dar es Salaam to Arusha",
-        altitude: "0m - 1400m",
-        distance: "650 Km",
-        time: "1 hour flight",
-        habitat: "Urban to Highland",
-        image: "/assets/images/Frame 61.png",
-        description:
-          "Fly from Dar es Salaam to Arusha, leaving behind the coastal humidity for the crisp highland air. Arusha, the safari capital of Tanzania, welcomes you with views of Mount Meru.",
-      },
-      {
-        day: 2,
-        title: "Arusha to Serengeti National Park",
-        altitude: "1400m - 1500m",
-        distance: "335 Km",
-        time: "6-7 hours",
-        habitat: "Highland to Savannah",
-        image: "/assets/images/Frame 61 (1).png",
-        description:
-          "Journey through the Ngorongoro Conservation Area to reach the legendary Serengeti. As you crest the crater rim, the endless plains stretch before you—home to the greatest wildlife spectacle on Earth.",
-      },
-      {
-        day: 3,
-        title: "Full Day Serengeti Safari",
-        altitude: "1500m",
-        distance: "200 Km",
-        time: "8-10 hours",
-        habitat: "Endless Plains",
-        image: "/assets/images/Frame 61 (2).png",
-        description:
-          "Immerse yourself in the Serengeti's magic. Follow the Great Migration, watch predators in action, and experience the raw drama of survival in Africa's most famous national park.",
-      },
-      {
-        day: 4,
-        title: "Serengeti to Ngorongoro",
-        altitude: "1500m - 2300m",
-        distance: "145 Km",
-        time: "4-5 hours",
-        habitat: "Plains to Crater Rim",
-        image: "/assets/images/Frame 61 (3).png",
-        description:
-          "Morning game drive in Serengeti before ascending to the Ngorongoro Crater rim. Perched on the edge of this ancient caldera, prepare for tomorrow's descent into the 'Garden of Eden.'",
-      },
-      {
-        day: 5,
-        title: "Ngorongoro Crater Safari",
-        altitude: "2300m - 1700m - 2300m",
-        distance: "120 Km",
-        time: "8-10 hours",
-        habitat: "Crater Floor",
-        image: "/assets/images/Frame 61 (4).png",
-        description:
-          "Descend into the Ngorongoro Crater, a UNESCO World Heritage Site. This natural amphitheater hosts an incredible concentration of wildlife, including the rare black rhino.",
-      },
-      {
-        day: 6,
-        title: "Ngorongoro to Dar es Salaam",
-        altitude: "2300m - 1400m - 0m",
-        distance: "650 Km",
-        time: "1 hour flight",
-        habitat: "Highland to Coastal",
-        image: "/assets/images/Frame 60.png",
-        description:
-          "Return to Arusha and fly back to Dar es Salaam, carrying with you the memories of Tanzania's most iconic wildlife destinations and the spirit of the African wilderness.",
-      },
-    ],
-    pricing: [
-      { group: "1 person", price: 3000 },
-      { group: "2-4 people", price: 2700 },
-      { group: "5-7 people", price: 2500 },
-      { group: "8-10 people", price: 2300 },
-      { group: "11+ people", price: 2100 },
-    ],
-    inclusions: [
-      "Domestic flights Dar-Arusha-Dar",
-      "Transportation in 4WD safari vehicle",
-      "Professional safari guide",
-      "All park fees and government taxes",
-      "Accommodation as specified",
-    ],
-    exclusions: [
-      "International flights",
-      "Visa fees",
-      "Travel insurance",
-      "Personal expenses",
-    ],
-  },
+  // "mt-kilimanjaro-to-machame-route": {
+  //   name: "Mt. Kilimanjaro - Machame Route",
+  //   hasMultipleDays: false,
+  //   isEscapeDSM: true,
+  //   whiteBg: "Serengeti & Ngorongoro",
+  //   blackBg: "6 Days",
+  //   tabDescription:
+  //     "Escape the urban jungle and dive into the real one. From Dar es Salaam's busy streets to the endless plains of Serengeti and the ancient crater of Ngorongoro—witness the Great Migration, spot the Big Five, and discover why Tanzania is the heart of African safari.",
+  //   description:
+  //     "Escape the urban jungle and dive into the real one. From Dar es Salaam's busy streets to the endless plains of Serengeti and the ancient crater of Ngorongoro—witness the Great Migration, spot the Big Five, and discover why Tanzania is the heart of African safari.",
+  //   image: "/placeholder.svg?height=400&width=800",
+  //   difficulty: "Easy",
+  //   success_rate: "100%",
+  //   itinerary: [
+  //     {
+  //       day: 1,
+  //       title: "Dar es Salaam to Arusha",
+  //       altitude: "0m - 1400m",
+  //       distance: "650 Km",
+  //       time: "1 hour flight",
+  //       habitat: "Urban to Highland",
+  //       image: "/assets/images/Frame 61.png",
+  //       description:
+  //         "Fly from Dar es Salaam to Arusha, leaving behind the coastal humidity for the crisp highland air. Arusha, the safari capital of Tanzania, welcomes you with views of Mount Meru.",
+  //     },
+  //     {
+  //       day: 2,
+  //       title: "Arusha to Serengeti National Park",
+  //       altitude: "1400m - 1500m",
+  //       distance: "335 Km",
+  //       time: "6-7 hours",
+  //       habitat: "Highland to Savannah",
+  //       image: "/assets/images/Frame 61 (1).png",
+  //       description:
+  //         "Journey through the Ngorongoro Conservation Area to reach the legendary Serengeti. As you crest the crater rim, the endless plains stretch before you—home to the greatest wildlife spectacle on Earth.",
+  //     },
+  //     {
+  //       day: 3,
+  //       title: "Full Day Serengeti Safari",
+  //       altitude: "1500m",
+  //       distance: "200 Km",
+  //       time: "8-10 hours",
+  //       habitat: "Endless Plains",
+  //       image: "/assets/images/Frame 61 (2).png",
+  //       description:
+  //         "Immerse yourself in the Serengeti's magic. Follow the Great Migration, watch predators in action, and experience the raw drama of survival in Africa's most famous national park.",
+  //     },
+  //     {
+  //       day: 4,
+  //       title: "Serengeti to Ngorongoro",
+  //       altitude: "1500m - 2300m",
+  //       distance: "145 Km",
+  //       time: "4-5 hours",
+  //       habitat: "Plains to Crater Rim",
+  //       image: "/assets/images/Frame 61 (3).png",
+  //       description:
+  //         "Morning game drive in Serengeti before ascending to the Ngorongoro Crater rim. Perched on the edge of this ancient caldera, prepare for tomorrow's descent into the 'Garden of Eden.'",
+  //     },
+  //     {
+  //       day: 5,
+  //       title: "Ngorongoro Crater Safari",
+  //       altitude: "2300m - 1700m - 2300m",
+  //       distance: "120 Km",
+  //       time: "8-10 hours",
+  //       habitat: "Crater Floor",
+  //       image: "/assets/images/Frame 61 (4).png",
+  //       description:
+  //         "Descend into the Ngorongoro Crater, a UNESCO World Heritage Site. This natural amphitheater hosts an incredible concentration of wildlife, including the rare black rhino.",
+  //     },
+  //     {
+  //       day: 6,
+  //       title: "Ngorongoro to Dar es Salaam",
+  //       altitude: "2300m - 1400m - 0m",
+  //       distance: "650 Km",
+  //       time: "1 hour flight",
+  //       habitat: "Highland to Coastal",
+  //       image: "/assets/images/Frame 60.png",
+  //       description:
+  //         "Return to Arusha and fly back to Dar es Salaam, carrying with you the memories of Tanzania's most iconic wildlife destinations and the spirit of the African wilderness.",
+  //     },
+  //   ],
+  //   pricing: [
+  //     { group: "1 person", price: 3000 },
+  //     { group: "2-4 people", price: 2700 },
+  //     { group: "5-7 people", price: 2500 },
+  //     { group: "8-10 people", price: 2300 },
+  //     { group: "11+ people", price: 2100 },
+  //   ],
+  //   inclusions: [
+  //     "Domestic flights Dar-Arusha-Dar",
+  //     "Transportation in 4WD safari vehicle",
+  //     "Professional safari guide",
+  //     "All park fees and government taxes",
+  //     "Accommodation as specified",
+  //   ],
+  //   exclusions: [
+  //     "International flights",
+  //     "Visa fees",
+  //     "Travel insurance",
+  //     "Personal expenses",
+  //   ],
+  // },
   "ultimate-nothern-tanzania-safari": {
     name: "Ultimate Nothern Tanzania Safari",
     hasMultipleDays: false,
     isEscapeDSM: true,
-    whiteBg: "Serengeti & Ngorongoro",
+    whiteBg: "Arusha,L.Manyara, Serengeti, Ngorongoro, Tarangire ",
     blackBg: "6 Days",
     tabDescription:
       "Escape the urban jungle and dive into the real one. From Dar es Salaam's busy streets to the endless plains of Serengeti and the ancient crater of Ngorongoro—witness the Great Migration, spot the Big Five, and discover why Tanzania is the heart of African safari.",
-    description:
-      "Escape the urban jungle and dive into the real one. From Dar es Salaam's busy streets to the endless plains of Serengeti and the ancient crater of Ngorongoro—witness the Great Migration, spot the Big Five, and discover why Tanzania is the heart of African safari.",
+    description: `Embark on an unforgettable journey through Tanzania’s most iconic national parks. From the lush landscapes of Arusha National Park to the flamingo-filled shores of Lake Manyara, the elephant-rich plains of Tarangire, the breathtaking Ngorongoro Crater, and the endless savannas of Serengeti, this adventure promises unparalleled wildlife encounters and stunning natural beauty.`,
     image: "/placeholder.svg?height=400&width=800",
     difficulty: "Easy",
     success_rate: "100%",
     itinerary: [
       {
         day: 1,
-        title: "Dar es Salaam to Arusha",
+        title: " Arusha to Arusha National Park",
         altitude: "0m - 1400m",
         distance: "650 Km",
         time: "1 hour flight",
         habitat: "Urban to Highland",
         image: "/assets/images/Frame 61.png",
-        description:
-          "Fly from Dar es Salaam to Arusha, leaving behind the coastal humidity for the crisp highland air. Arusha, the safari capital of Tanzania, welcomes you with views of Mount Meru.",
+        description: `Pick up at 8:30 AM from your Hotel in Arusha and  depart for Arusha National Park. Walking with an Armed Ranger, we will have picnic lunch and game drive in the Park. The park is at the base of Mount Meru, which is good for climbing. It has a range of habitats including forest – home to the black and white colobus monkey and is excellent for birding. Several lakes often host flocks of flamingo. The parks appeal is mainly its scenery. The habitat diversity spans from montane (mountain) rain forest to moist savannah to alpine moorland. Post the game drive, we will head back to your camp/lodge where a delicious dinner awaits you.`,
       },
       {
         day: 2,
-        title: "Arusha to Serengeti National Park",
+        title: "Arusha to Lake Manyara N. Park",
         altitude: "1400m - 1500m",
         distance: "335 Km",
         time: "6-7 hours",
         habitat: "Highland to Savannah",
         image: "/assets/images/Frame 61 (1).png",
-        description:
-          "Journey through the Ngorongoro Conservation Area to reach the legendary Serengeti. As you crest the crater rim, the endless plains stretch before you—home to the greatest wildlife spectacle on Earth.",
+        description: `Early in the morning we will leave to Lake Manyara National Park. The park draws a vast range of animals, including tree-climbing lions, elephants, buffalos, hippos, antelopes, enormous baboon bands, and flocks of flamingos that decorate the gorgeous lake, as well as more than 400 bird species. We will have a game drive and a picnic lunch at Manyara Park before returning to lodge late evening for dinner and sleep.`,
       },
       {
         day: 3,
-        title: "Full Day Serengeti Safari",
+        title: "Lake Manyara to Serengeti N.Park",
         altitude: "1500m",
         distance: "200 Km",
         time: "8-10 hours",
         habitat: "Endless Plains",
         image: "/assets/images/Frame 61 (2).png",
-        description:
-          "Immerse yourself in the Serengeti's magic. Follow the Great Migration, watch predators in action, and experience the raw drama of survival in Africa's most famous national park.",
+        description: `After a hearty breakfast, we will go to the Serengeti National Park and journey across the never ending plain grasslands. The Serengeti is undoubtedly the world's most stunning animal sanctuary. An afternoon wildlife drive through the boundless plains of the Serengeti will provide us with the opportunity to observe large herds of wildebeest, zebras, and gazelles, as well as a pride of lions lazing in the shade. A picnic lunch will be served throughout the day long game drive. The adventurous day concludes with a hearty dinner and a nice night's sleep in our accommodations.`,
       },
       {
         day: 4,
-        title: "Serengeti to Ngorongoro",
+        title: "Full Day at Serengeti N.Park",
         altitude: "1500m - 2300m",
         distance: "145 Km",
         time: "4-5 hours",
         habitat: "Plains to Crater Rim",
         image: "/assets/images/Frame 61 (3).png",
-        description:
-          "Morning game drive in Serengeti before ascending to the Ngorongoro Crater rim. Perched on the edge of this ancient caldera, prepare for tomorrow's descent into the 'Garden of Eden.'",
+        description: `We depart around 8:00 AM after breakfast, with packed lunch boxes for full day game drives that last for about 8-9 hours in Central Serengeti. The central park area, known as the Seronera area, one of the richest wildlife habitats in the park, featuring the Seronera River, which provides a valuable water
+source to this area and therefore attracts wildlife well representative of most of the Serengeti species. The long day comes to an end with a good dinner and a good night’s rest in our accommodation.`,
       },
       {
         day: 5,
-        title: "Ngorongoro Crater Safari",
+        title: "Serengeti  to Ngorongoro Crater",
         altitude: "2300m - 1700m - 2300m",
         distance: "120 Km",
         time: "8-10 hours",
         habitat: "Crater Floor",
         image: "/assets/images/Frame 61 (4).png",
-        description:
-          "Descend into the Ngorongoro Crater, a UNESCO World Heritage Site. This natural amphitheater hosts an incredible concentration of wildlife, including the rare black rhino.",
+        description: `After breakfast, we will embark on a morning wildlife drive across Serengeti National Park. Later, head for the Ngorongoro Conservation Area with a picnic lunch. Ngorongoro Crater is the world's largest collapsed volcano crater, spanning fourteen kilometers of solitary natural splendor. Ngorongoro Crater is ringed by a ring of ancient volcanoes, and the bottom, riddled with watering holes, supports over 30,000 animals. The adventurous day concludes with a hearty dinner and a nice night's sleep in your accommodations.`,
       },
       {
         day: 6,
-        title: "Ngorongoro to Dar es Salaam",
+        title: "Full Day at Ngorongoro National Park",
         altitude: "2300m - 1400m - 0m",
         distance: "650 Km",
         time: "1 hour flight",
         habitat: "Highland to Coastal",
         image: "/assets/images/Frame 60.png",
-        description:
-          "Return to Arusha and fly back to Dar es Salaam, carrying with you the memories of Tanzania's most iconic wildlife destinations and the spirit of the African wilderness.",
+        description: `After a quick breakfast, we will descend into the crater bottom at approximately 6:30 a.m. Ngorongoro Crater is the world's biggest inactive, undamaged, and unfilled volcanic caldera. It has a vast floor of over 260 square kilometers and a depth of over 2000 feet. The 5-hour game drive on the crater floor will
+provide plenty of animal action. Having the camera ready is highly advised. African elephants, buffaloes, black rhinos, hippos, hyenas, cheetahs, and lions are abundant. Following the picnic lunch by the stunning Hippo pool, we will begin a difficult ascent to the crater's top exit. `,
       },
     ],
     pricing: [
@@ -3431,17 +3482,22 @@ of Wilderness First Responder or Wilderness First Aid certifications. All our gu
       { group: "11+ people", price: 2100 },
     ],
     inclusions: [
-      "Domestic flights Dar-Arusha-Dar",
-      "Transportation in 4WD safari vehicle",
-      "Professional safari guide",
-      "All park fees and government taxes",
-      "Accommodation as specified",
+      "Pick-up and drop-off at Kilimanjaro International Airport",
+      `All park fees collected by the National Park (conservation fees, camping
+fees, crew fees, vehicle fee, rescue fee and all other fees collected by the Tanzania
+National Parks Authority).`,
+      "All accomodations",
+      "All meals",
+      `Professional guides, licensed by Tanzania National Park. All our guides are the holder
+of Wilderness First Responder or Wilderness First Aid certifications. All our guides have
+10+years of successful mountaineering experience.`,
     ],
     exclusions: [
-      "International flights",
+      "Airline tickets",
+      "Accommodation after tour.",
+      "Personal gear rentals",
       "Visa fees",
-      "Travel insurance",
-      "Personal expenses",
+      "Tips",
     ],
   },
 };

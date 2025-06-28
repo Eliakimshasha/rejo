@@ -68,7 +68,6 @@ export default function ContactForm() {
   const dateInputRef = useRef(null);
 
   return (
-
     <>
       <div className="relative md:h-[90vh] h-[50vh] w-full overflow-hidden">
         <Image

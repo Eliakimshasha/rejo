@@ -1,4 +1,4 @@
-'use client'
+"use client";
 import React from "react";
 import Image from "next/image";
 import frame1 from "../../../public/assets/images/Frame 40.png";
@@ -10,36 +10,37 @@ import curve3 from "../../../public/assets/images/Frame 43.png";
 import { useRouter } from "next/navigation";
 
 const Experience = () => {
-  const router = useRouter()
+  const router = useRouter();
   const experiences = [
     {
-      id: 1,
+      id: "skies-over-the-wild",
       title: "Balloon Experience",
-      description:
-        "You will experience a unique rush when the hot-air balloon safari pilot inflates the enormous balloon for the final time, causing you to start floating upward into the clear early morning. Usually intended for a small group of intrepid travelers, your hot-air balloon expedition surpasses all expectations. The gentle breezes allow for a leisurely, almost sleepy, balloon safari, giving you time to take in the scenery and fauna below.",
+      description: `You will experience a unique rush when the hot-air balloon safari pilot inflates the enormous balloon for
+the final time, causing you to start floating upward into the clear early morning. Usually intended for a small group of intrepid travelers, your hot-air balloon expedition surpasses all expectations. The gentle breezes allow for a leisurely, almost sleepy, balloon safari, giving you time to take in the scenery and fauna below. `,
       image: frame1,
       bgColor: "#F1F9FF",
     },
     {
-      id: 2,
-      title: "Desert Adventure",
-      description:
-        "Embark on an extraordinary desert balloon journey that takes you soaring above golden dunes and ancient landscapes. As the sun rises, casting warm hues across the endless sand, you'll witness the desert come alive with subtle movements and hidden wildlife. This serene flight offers unparalleled views of oasis settlements, nomadic camps, and the breathtaking contrast between civilization and wilderness.",
+      id: "Cultural-Experience",
+      title: "Cultural Experience",
+      description: `Cultural tourism with the Hadzabe and Datoga tribes in Tanzania offers a unique chance to experience the traditional lifestyles of these indigenous groups. The Hadzabe are hunter-gatherers while the Datoga are pastoralists known for cattle herding, metalworking, and intricate beadwork. Visitors can learn about their ancient ways of life, including hunting techniques, crafting, and community rituals.`,
       image: frame2,
       bgColor: "#F3FFF2",
     },
     {
-      id: 3,
-      title: "Mountain Vista",
-      description:
-        "Drift peacefully above majestic mountain ranges in this unforgettable alpine balloon experience. Watch as morning mist clings to valley floors while snow-capped peaks pierce through clouds below. The crisp mountain air and panoramic vistas create a sense of wonder as you glide silently over pristine forests, crystal-clear lakes, and rugged terrain that few have seen from this perspective.",
-      image: frame3,
+      id: "DSM-Experience",
+      title: "DSM Experience",
+      description: `Dar es Salaam, Tanzania, offers a vibrant mix of culture, history, and natural beauty, with activities like soccer, cycling, and relaxing on beautiful beaches. Visitors can explore local markets, historic sites, and enjoy the city’s lively sports scene. With a rich culinary experience and stunning coastal views, Dar es Salaam provides an unforgettable blend of adventure and relaxation.`,
       bgColor: " #FEF6FF",
     },
   ];
-  const navigateToContact = ()=>{
-router.push('/contact')
-  }
+  const navigateToContact = () => {
+    router.push("/contact");
+  };
+
+  const handleBookNow = (routeId) => {
+    router.push(`/routes/${routeId}`);
+  };
 
   return (
     <div className="max-w-7xl mx-auto px-4 py-12 space-y-16">
@@ -91,7 +92,10 @@ router.push('/contact')
                 {experience.description}
               </p>
 
-              <button className="inline-flex items-center gap-3 bg-[#68AC33] hover:bg-[#559426] text-white font-semibold px-8 py-2 rounded-full transition-colors duration-200 ">
+              <button
+                className="inline-flex items-center gap-3 bg-[#68AC33] hover:bg-[#559426] text-white font-semibold px-8 py-2 rounded-full transition-colors duration-200 "
+                onClick={() => handleBookNow(experience.id)}
+              >
                 Book Now
                 <svg
                   width="20"
@@ -127,7 +131,10 @@ router.push('/contact')
               </p>
             </div>
 
-            <button className="inline-flex items-center gap-3  bg-[#68AC33]  hover:bg-[#559426] text-white font-semibold px-8 py-4 rounded-full transition-all duration-300 hover:shadow-sm hover:scale-105" onClick={navigateToContact}>
+            <button
+              className="inline-flex items-center gap-3  bg-[#68AC33]  hover:bg-[#559426] text-white font-semibold px-8 py-4 rounded-full transition-all duration-300 hover:shadow-sm hover:scale-105"
+              onClick={navigateToContact}
+            >
               Customize My Trip
               <svg
                 width="20"
