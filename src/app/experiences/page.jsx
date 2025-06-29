@@ -32,6 +32,8 @@ the final time, causing you to start floating upward into the clear early mornin
       title: "DSM Experience",
       description: `Dar es Salaam, Tanzania, offers a vibrant mix of culture, history, and natural beauty, with activities like soccer, cycling, and relaxing on beautiful beaches. Visitors can explore local markets, historic sites, and enjoy the city’s lively sports scene. With a rich culinary experience and stunning coastal views, Dar es Salaam provides an unforgettable blend of adventure and relaxation.`,
       bgColor: " #FEF6FF",
+      image: frame3,
+
     },
   ];
   const navigateToContact = () => {

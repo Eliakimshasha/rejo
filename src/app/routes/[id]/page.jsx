@@ -3182,7 +3182,7 @@ export default function RouteDetail() {
   const { id } = params;
   const [dayTabValue, setDayTabValue] = useState(0); // For day selection tabs (7 days vs 8 days)
   const [contentTabValue, setContentTabValue] = useState(0); // For content tabs (Description, Itinerary, etc.)
-  const [selectedPeople, setSelectedPeople] = useState("2 people");
+  const [selectedPeople, setSelectedPeople] = useState("1 people");
   const [selectedDate, setSelectedDate] = useState("12-03-2024");
 
   const route = routeData[id];

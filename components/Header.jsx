@@ -31,6 +31,7 @@ const HtmlTooltip = styled(({ className, ...props }) => (
 const Header = () => {
   const param = useParams();
   const [isMenuOpen, setIsMenuOpen] = useState(false);
+  // const [isLargeMenuOpen, setIsLargeMenuOpen] = useState(true);
   const path = usePathname();
   const route = useRouter();
   const { id } = param;
@@ -38,6 +39,9 @@ const Header = () => {
   const toggleMenu = () => {
     setIsMenuOpen(!isMenuOpen);
   };
+  // const toggleMenu2 = () => {
+  //   setIsLargeMenuOpen(!isLargeMenuOpen);
+  // };
 
   const navigateToContact = () => {
     route.push("/contact");
@@ -82,7 +86,7 @@ const Header = () => {
             {/* Center Navigation - Desktop (Hidden by default, shown when toggled) */}
             <nav
               className={`hidden md:flex items-center space-x-12 transition-all duration-300 ${
-                isMenuOpen
+                !isMenuOpen
                   ? "opacity-100 transform translate-x-0"
                   : "opacity-0 transform translate-x-8 pointer-events-none"
               }`}
@@ -92,7 +96,7 @@ const Header = () => {
                   key={index}
                   href={item.link}
                   className={`text-gray-700 hover:text-gray-900 transition-all duration-200 font-normal text-base transform ${
-                    isMenuOpen
+                    !isMenuOpen
                       ? "translate-x-0 opacity-100"
                       : "translate-x-4 opacity-0"
                   }`}
@@ -166,7 +170,17 @@ const Header = () => {
                 <div className="w-[1px] h-4 bg-gray-500"></div>
                 <button
                   onClick={toggleMenu}
-                  className=" text-gray-700 hover:text-gray-900 transition-colors duration-200"
+                  className="hidden md:block text-gray-700 hover:text-gray-900 transition-colors duration-200"
+                >
+                  {!isMenuOpen ? (
+                    <IoIosClose size={24} />
+                  ) : (
+                    <CiMenuFries size={18} color="black" />
+                  )}
+                </button>
+                 <button
+                  onClick={toggleMenu}
+                  className="md:hidden text-gray-700 hover:text-gray-900 transition-colors duration-200"
                 >
                   {isMenuOpen ? (
                     <IoIosClose size={24} />
